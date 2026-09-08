@@ -1,0 +1,787 @@
+{
+ "nodes": [
+  {
+   "id": "home",
+   "type": "file",
+   "file": "00 Home/Home.md",
+   "x": -150,
+   "y": -60,
+   "width": 300,
+   "height": 120,
+   "color": "6"
+  },
+  {
+   "id": "map",
+   "type": "file",
+   "file": "02 Structure/Chapter Map.md",
+   "x": -150,
+   "y": 120,
+   "width": 300,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "ledger",
+   "type": "file",
+   "file": "02 Structure/Competence Ledger.md",
+   "x": -150,
+   "y": 240,
+   "width": 300,
+   "height": 90,
+   "color": "6"
+  },
+  {
+   "id": "narr",
+   "type": "file",
+   "file": "03 Characters/Narrator.md",
+   "x": -150,
+   "y": -300,
+   "width": 300,
+   "height": 100,
+   "color": "6"
+  },
+  {
+   "id": "heart",
+   "type": "file",
+   "file": "06 Threads/HEART.md",
+   "x": -800,
+   "y": -520,
+   "width": 240,
+   "height": 90,
+   "color": "1"
+  },
+  {
+   "id": "ana",
+   "type": "file",
+   "file": "03 Characters/Ana.md",
+   "x": -1180,
+   "y": -720,
+   "width": 220,
+   "height": 80,
+   "color": "1"
+  },
+  {
+   "id": "buddy",
+   "type": "file",
+   "file": "03 Characters/Buddy.md",
+   "x": -1180,
+   "y": -600,
+   "width": 220,
+   "height": 80,
+   "color": "1"
+  },
+  {
+   "id": "mora",
+   "type": "file",
+   "file": "03 Characters/Mora.md",
+   "x": -1180,
+   "y": -480,
+   "width": 220,
+   "height": 80,
+   "color": "1"
+  },
+  {
+   "id": "father",
+   "type": "file",
+   "file": "03 Characters/The Father.md",
+   "x": -1180,
+   "y": -360,
+   "width": 220,
+   "height": 80,
+   "color": "1"
+  },
+  {
+   "id": "corridor",
+   "type": "file",
+   "file": "05 Places/The Hospital Corridor.md",
+   "x": -880,
+   "y": -720,
+   "width": 240,
+   "height": 80,
+   "color": "1"
+  },
+  {
+   "id": "faucet",
+   "type": "file",
+   "file": "04 Concepts/The Faucet.md",
+   "x": -520,
+   "y": -720,
+   "width": 240,
+   "height": 90,
+   "color": "1"
+  },
+  {
+   "id": "golf",
+   "type": "file",
+   "file": "05 Places/The Golf Course.md",
+   "x": -520,
+   "y": -600,
+   "width": 240,
+   "height": 80,
+   "color": "1"
+  },
+  {
+   "id": "inner",
+   "type": "file",
+   "file": "06 Threads/INNER.md",
+   "x": 560,
+   "y": -520,
+   "width": 240,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "keys",
+   "type": "file",
+   "file": "04 Concepts/The Three Keys.md",
+   "x": 930,
+   "y": -720,
+   "width": 240,
+   "height": 80,
+   "color": "5"
+  },
+  {
+   "id": "flashes",
+   "type": "file",
+   "file": "04 Concepts/The Flashes.md",
+   "x": 930,
+   "y": -600,
+   "width": 240,
+   "height": 80,
+   "color": "5"
+  },
+  {
+   "id": "sep",
+   "type": "file",
+   "file": "04 Concepts/The Separation Engine.md",
+   "x": 930,
+   "y": -480,
+   "width": 240,
+   "height": 80,
+   "color": "5"
+  },
+  {
+   "id": "group",
+   "type": "file",
+   "file": "04 Concepts/Group Souls and Individuation.md",
+   "x": 930,
+   "y": -360,
+   "width": 260,
+   "height": 80,
+   "color": "5"
+  },
+  {
+   "id": "ladder",
+   "type": "file",
+   "file": "06 Threads/LADDER.md",
+   "x": -800,
+   "y": 380,
+   "width": 240,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "record",
+   "type": "file",
+   "file": "04 Concepts/The Record.md",
+   "x": -1180,
+   "y": 260,
+   "width": 220,
+   "height": 80,
+   "color": "4"
+  },
+  {
+   "id": "list",
+   "type": "file",
+   "file": "04 Concepts/The List.md",
+   "x": -1180,
+   "y": 380,
+   "width": 220,
+   "height": 80,
+   "color": "4"
+  },
+  {
+   "id": "entries",
+   "type": "file",
+   "file": "09 The List/The List — entries.md",
+   "x": -1180,
+   "y": 500,
+   "width": 240,
+   "height": 80,
+   "color": "4"
+  },
+  {
+   "id": "tres",
+   "type": "file",
+   "file": "03 Characters/Tresidder.md",
+   "x": -880,
+   "y": 560,
+   "width": 220,
+   "height": 80,
+   "color": "4"
+  },
+  {
+   "id": "prof",
+   "type": "file",
+   "file": "03 Characters/The Professor.md",
+   "x": -620,
+   "y": 560,
+   "width": 220,
+   "height": 80,
+   "color": "4"
+  },
+  {
+   "id": "beard",
+   "type": "file",
+   "file": "03 Characters/Beard Man.md",
+   "x": -360,
+   "y": 560,
+   "width": 220,
+   "height": 80,
+   "color": "4"
+  },
+  {
+   "id": "gobekli",
+   "type": "file",
+   "file": "05 Places/Gobekli Tepe.md",
+   "x": -880,
+   "y": 680,
+   "width": 220,
+   "height": 80,
+   "color": "4"
+  },
+  {
+   "id": "urfa",
+   "type": "file",
+   "file": "05 Places/Urfa.md",
+   "x": -620,
+   "y": 680,
+   "width": 220,
+   "height": 80,
+   "color": "4"
+  },
+  {
+   "id": "leiden",
+   "type": "file",
+   "file": "05 Places/Leiden.md",
+   "x": -360,
+   "y": 680,
+   "width": 220,
+   "height": 80,
+   "color": "4"
+  },
+  {
+   "id": "clock",
+   "type": "file",
+   "file": "06 Threads/CLOCK.md",
+   "x": 560,
+   "y": 380,
+   "width": 240,
+   "height": 90,
+   "color": "3"
+  },
+  {
+   "id": "keepers",
+   "type": "file",
+   "file": "03 Characters/The Keepers.md",
+   "x": 930,
+   "y": 260,
+   "width": 240,
+   "height": 80,
+   "color": "3"
+  },
+  {
+   "id": "mask",
+   "type": "file",
+   "file": "04 Concepts/The Gorilla Mask.md",
+   "x": 930,
+   "y": 380,
+   "width": 240,
+   "height": 80,
+   "color": "3"
+  },
+  {
+   "id": "golden",
+   "type": "file",
+   "file": "04 Concepts/Golden-Age Pattern.md",
+   "x": 930,
+   "y": 500,
+   "width": 240,
+   "height": 80,
+   "color": "3"
+  },
+  {
+   "id": "kill",
+   "type": "file",
+   "file": "04 Concepts/The Kill Switch.md",
+   "x": 930,
+   "y": 620,
+   "width": 240,
+   "height": 80,
+   "color": "3"
+  },
+  {
+   "id": "ai",
+   "type": "file",
+   "file": "04 Concepts/The AI Fork.md",
+   "x": 1260,
+   "y": 320,
+   "width": 240,
+   "height": 80,
+   "color": "3"
+  },
+  {
+   "id": "frank",
+   "type": "file",
+   "file": "03 Characters/Frank.md",
+   "x": 1260,
+   "y": 440,
+   "width": 220,
+   "height": 80,
+   "color": "3"
+  },
+  {
+   "id": "switch",
+   "type": "file",
+   "file": "04 Concepts/The Switch.md",
+   "x": 1260,
+   "y": 560,
+   "width": 240,
+   "height": 80,
+   "color": "3"
+  },
+  {
+   "id": "hoard",
+   "type": "file",
+   "file": "04 Concepts/The Hoard.md",
+   "x": 1260,
+   "y": 680,
+   "width": 240,
+   "height": 80,
+   "color": "3"
+  },
+  {
+   "id": "c1",
+   "type": "file",
+   "file": "01 Manuscript/Chapter 01.md",
+   "x": -520,
+   "y": -180,
+   "width": 200,
+   "height": 70,
+   "color": "2"
+  },
+  {
+   "id": "c2",
+   "type": "file",
+   "file": "01 Manuscript/Chapter 02.md",
+   "x": -300,
+   "y": -180,
+   "width": 200,
+   "height": 70,
+   "color": "2"
+  },
+  {
+   "id": "c3",
+   "type": "file",
+   "file": "01 Manuscript/Chapter 03.md",
+   "x": -80,
+   "y": -180,
+   "width": 200,
+   "height": 70,
+   "color": "2"
+  },
+  {
+   "id": "c4",
+   "type": "file",
+   "file": "01 Manuscript/Chapter 04.md",
+   "x": 140,
+   "y": -180,
+   "width": 200,
+   "height": 70,
+   "color": "2"
+  },
+  {
+   "id": "c5",
+   "type": "file",
+   "file": "01 Manuscript/Chapter 05.md",
+   "x": 360,
+   "y": -180,
+   "width": 200,
+   "height": 70,
+   "color": "2"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "heart",
+   "fromSide": "right",
+   "toNode": "home",
+   "toSide": "left"
+  },
+  {
+   "id": "e1",
+   "fromNode": "inner",
+   "fromSide": "right",
+   "toNode": "home",
+   "toSide": "left"
+  },
+  {
+   "id": "e2",
+   "fromNode": "ladder",
+   "fromSide": "right",
+   "toNode": "home",
+   "toSide": "left"
+  },
+  {
+   "id": "e3",
+   "fromNode": "clock",
+   "fromSide": "right",
+   "toNode": "home",
+   "toSide": "left"
+  },
+  {
+   "id": "e4",
+   "fromNode": "home",
+   "fromSide": "right",
+   "toNode": "map",
+   "toSide": "left"
+  },
+  {
+   "id": "e5",
+   "fromNode": "map",
+   "fromSide": "right",
+   "toNode": "ledger",
+   "toSide": "left",
+   "label": "obeys"
+  },
+  {
+   "id": "e6",
+   "fromNode": "narr",
+   "fromSide": "right",
+   "toNode": "home",
+   "toSide": "left"
+  },
+  {
+   "id": "e7",
+   "fromNode": "ana",
+   "fromSide": "right",
+   "toNode": "heart",
+   "toSide": "left"
+  },
+  {
+   "id": "e8",
+   "fromNode": "buddy",
+   "fromSide": "right",
+   "toNode": "heart",
+   "toSide": "left"
+  },
+  {
+   "id": "e9",
+   "fromNode": "mora",
+   "fromSide": "right",
+   "toNode": "heart",
+   "toSide": "left"
+  },
+  {
+   "id": "e10",
+   "fromNode": "father",
+   "fromSide": "right",
+   "toNode": "corridor",
+   "toSide": "left",
+   "label": "died, he was 16"
+  },
+  {
+   "id": "e11",
+   "fromNode": "corridor",
+   "fromSide": "right",
+   "toNode": "narr",
+   "toSide": "left",
+   "label": "opens ch.25"
+  },
+  {
+   "id": "e12",
+   "fromNode": "faucet",
+   "fromSide": "right",
+   "toNode": "ana",
+   "toSide": "left",
+   "label": "charm→silence"
+  },
+  {
+   "id": "e13",
+   "fromNode": "golf",
+   "fromSide": "right",
+   "toNode": "narr",
+   "toSide": "left",
+   "label": "still point"
+  },
+  {
+   "id": "e14",
+   "fromNode": "golf",
+   "fromSide": "right",
+   "toNode": "switch",
+   "toSide": "left",
+   "label": "7am prayer"
+  },
+  {
+   "id": "e15",
+   "fromNode": "keys",
+   "fromSide": "right",
+   "toNode": "inner",
+   "toSide": "left"
+  },
+  {
+   "id": "e16",
+   "fromNode": "flashes",
+   "fromSide": "right",
+   "toNode": "inner",
+   "toSide": "left"
+  },
+  {
+   "id": "e17",
+   "fromNode": "inner",
+   "fromSide": "right",
+   "toNode": "sep",
+   "toSide": "left",
+   "label": "ch.25"
+  },
+  {
+   "id": "e18",
+   "fromNode": "group",
+   "fromSide": "right",
+   "toNode": "sep",
+   "toSide": "left",
+   "label": "love breaks it"
+  },
+  {
+   "id": "e19",
+   "fromNode": "sep",
+   "fromSide": "right",
+   "toNode": "buddy",
+   "toSide": "left",
+   "label": "coda"
+  },
+  {
+   "id": "e20",
+   "fromNode": "record",
+   "fromSide": "right",
+   "toNode": "list",
+   "toSide": "left",
+   "label": "same method"
+  },
+  {
+   "id": "e21",
+   "fromNode": "list",
+   "fromSide": "right",
+   "toNode": "entries",
+   "toSide": "left"
+  },
+  {
+   "id": "e22",
+   "fromNode": "tres",
+   "fromSide": "right",
+   "toNode": "list",
+   "toSide": "left",
+   "label": "#11"
+  },
+  {
+   "id": "e23",
+   "fromNode": "prof",
+   "fromSide": "right",
+   "toNode": "list",
+   "toSide": "left",
+   "label": "two hands"
+  },
+  {
+   "id": "e24",
+   "fromNode": "tres",
+   "fromSide": "right",
+   "toNode": "prof",
+   "toSide": "left",
+   "label": "student→grandson"
+  },
+  {
+   "id": "e25",
+   "fromNode": "beard",
+   "fromSide": "right",
+   "toNode": "prof",
+   "toSide": "left",
+   "label": "the crates"
+  },
+  {
+   "id": "e26",
+   "fromNode": "tres",
+   "fromSide": "right",
+   "toNode": "urfa",
+   "toSide": "left",
+   "label": "vanished 1929"
+  },
+  {
+   "id": "e27",
+   "fromNode": "urfa",
+   "fromSide": "right",
+   "toNode": "gobekli",
+   "toSide": "left",
+   "label": "the hill"
+  },
+  {
+   "id": "e28",
+   "fromNode": "leiden",
+   "fromSide": "right",
+   "toNode": "tres",
+   "toSide": "left",
+   "label": "1931 printed"
+  },
+  {
+   "id": "e29",
+   "fromNode": "list",
+   "fromSide": "right",
+   "toNode": "ladder",
+   "toSide": "left"
+  },
+  {
+   "id": "e30",
+   "fromNode": "gobekli",
+   "fromSide": "right",
+   "toNode": "ladder",
+   "toSide": "left",
+   "label": "rung 2"
+  },
+  {
+   "id": "e31",
+   "fromNode": "keepers",
+   "fromSide": "right",
+   "toNode": "clock",
+   "toSide": "left"
+  },
+  {
+   "id": "e32",
+   "fromNode": "mask",
+   "fromSide": "right",
+   "toNode": "keepers",
+   "toSide": "left",
+   "label": "method"
+  },
+  {
+   "id": "e33",
+   "fromNode": "golden",
+   "fromSide": "right",
+   "toNode": "kill",
+   "toSide": "left",
+   "label": "resolves"
+  },
+  {
+   "id": "e34",
+   "fromNode": "keepers",
+   "fromSide": "right",
+   "toNode": "kill",
+   "toSide": "left",
+   "label": "schedule"
+  },
+  {
+   "id": "e35",
+   "fromNode": "ai",
+   "fromSide": "right",
+   "toNode": "kill",
+   "toSide": "left",
+   "label": "blindness"
+  },
+  {
+   "id": "e36",
+   "fromNode": "frank",
+   "fromSide": "right",
+   "toNode": "ai",
+   "toSide": "left",
+   "label": "operators"
+  },
+  {
+   "id": "e37",
+   "fromNode": "switch",
+   "fromSide": "right",
+   "toNode": "kill",
+   "toSide": "left",
+   "label": "delays: the roster"
+  },
+  {
+   "id": "e38",
+   "fromNode": "hoard",
+   "fromSide": "right",
+   "toNode": "switch",
+   "toSide": "left",
+   "label": "payload"
+  },
+  {
+   "id": "e39",
+   "fromNode": "list",
+   "fromSide": "right",
+   "toNode": "clock",
+   "toSide": "left",
+   "label": "timestamps"
+  },
+  {
+   "id": "e40",
+   "fromNode": "narr",
+   "fromSide": "right",
+   "toNode": "c1",
+   "toSide": "left"
+  },
+  {
+   "id": "e41",
+   "fromNode": "c1",
+   "fromSide": "right",
+   "toNode": "c2",
+   "toSide": "left"
+  },
+  {
+   "id": "e42",
+   "fromNode": "c2",
+   "fromSide": "right",
+   "toNode": "c3",
+   "toSide": "left"
+  },
+  {
+   "id": "e43",
+   "fromNode": "c3",
+   "fromSide": "right",
+   "toNode": "c4",
+   "toSide": "left"
+  },
+  {
+   "id": "e44",
+   "fromNode": "c4",
+   "fromSide": "right",
+   "toNode": "c5",
+   "toSide": "left"
+  },
+  {
+   "id": "e45",
+   "fromNode": "c4",
+   "fromSide": "right",
+   "toNode": "tres",
+   "toSide": "left",
+   "label": "the sentence"
+  },
+  {
+   "id": "e46",
+   "fromNode": "c3",
+   "fromSide": "right",
+   "toNode": "prof",
+   "toSide": "left"
+  },
+  {
+   "id": "e47",
+   "fromNode": "c2",
+   "fromSide": "right",
+   "toNode": "faucet",
+   "toSide": "left"
+  },
+  {
+   "id": "e48",
+   "fromNode": "c5",
+   "fromSide": "right",
+   "toNode": "switch",
+   "toSide": "left",
+   "label": "built"
+  }
+ ]
+}

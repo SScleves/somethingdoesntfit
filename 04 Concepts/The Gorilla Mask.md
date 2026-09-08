@@ -1,0 +1,2 @@
+# The Gorilla Mask
+Show the truth with something absurd attached so witnesses discredit themselves. Active from ch. 3 (the deleted post) and the tinfoil hat; explicit ch. 21 (the P-59 memo: "handle with humor" — entry #31) — and applied to him: his deleted post exists under his name, improved. **The mask is also his armor:** he's alive because he's laughable. Why exposure is pointless and the payload is diffs, not claims.

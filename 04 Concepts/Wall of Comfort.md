@@ -1,0 +1,2 @@
+# The Wall of Comfort
+Inherited phrases nobody checks (*she's in a better place; we always find a way*). Coined ch. 1; reused once ch. 2 (Frank scene). **Cap: these two uses until Act 2B.** No wall of comfort for dogs — *he was a good boy* is the entire theology. Its cousin: the lab coat two sizes too big (explanations working harder than the mystery) — ch. 2, ch. 3, ch. 4 ("there was nobody to wear it").

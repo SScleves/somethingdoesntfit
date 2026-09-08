@@ -1,0 +1,2 @@
+# The Golf Course
+Not a good course — the kind that allows dogs, which is why he chose it. Saturdays the four of them; other mornings Buddy and him, seven a.m., the four retirees on the third hole since 1998 (his only did-you-know fan club). "This is enough. Don't go looking." — on the record; Act 2B collects. The seven a.m. "little morning prayer" on the phone before the first tee = the check-in ([[The Switch]] residue). Deferred beat: strangers minus small talk → ch. 18 the Keeper on the fairway.

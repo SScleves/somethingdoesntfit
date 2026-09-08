@@ -1,0 +1,9 @@
+# Obsidian per-device state (rest of .obsidian/ may be committed for synced settings)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+
+# OS / scratch
+.DS_Store
+*.tmp
+~$*

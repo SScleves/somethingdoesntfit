@@ -1,0 +1,3 @@
+# Hero's Journey (Vogler 12) → Chapter Map
+1. Ordinary World → ch. 1–3 · 2. Call → ch. 4 (the sentence) · 3. Refusal → ch. 5 (am I the error; the golf thought) · 4. Mentor → DEVIATION: the mentor is dead — [[The Professor]]'s shelf and [[The List]]; living mentors don't survive this world · 5. Threshold → ch. 8 ([[Gobekli Tepe]]) · 6. Tests/Allies/Enemies → ch. 10–15 · 7. Approach → ch. 17 · 8. Ordeal → ch. 22–23 · 9. Reward → ch. 24–25 (the Crossing) · 10. Road Back → ch. 26 · 11. Resurrection → ch. 31 LITERALIZED · 12. Return with Elixir → ch. 32–33 LITERALIZED TWICE (payload to the operators; literal rebirth).
+Rule: when a beat drifts in revision, update this or delete it.

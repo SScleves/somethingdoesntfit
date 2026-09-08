@@ -1,0 +1,2 @@
+# The Father
+Died when the narrator was sixteen ([[The Hospital Corridor]]). Grief never happened — not for lack of feeling but for lack of a container. Planted ch. 1 ("Death. My own. My father's."); door opens ch. 25 inside the Crossing, with the shrink history detonating beside it (decades of professionals certified him fine and never found this). The search is this mourning, finally given a shape.

@@ -1,0 +1,2 @@
+# The AI Fork
+Texture in Act 1 ([[Frank]]'s link; "we always find a way"; "based on what?"). ch. 18: the tools arrive; he reads the defaults — whole classes of anomaly pre-classified as noise: the wall of comfort written into the machines that replace the people who used to look. Same hands as page 118. ch. 29: the Keepers were aiming it (replacement + blindness). Flip: the operators stop shipping the blind spot. AI is not how people transcend; it's how the leash dissolves — it buys everyone *time*.
