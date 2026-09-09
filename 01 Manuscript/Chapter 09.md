@@ -78,7 +78,7 @@ So when it all goes wrong later, I'd like it understood that nobody chose it for
 
 Two things happened that week that I only understood much later, and I'll put them here because this is where they happened.
 
-The first took eleven seconds. I was setting up the file where I keep the entries — the shelf list, the photographs, the procedure notes — and when it asked me where to put it, I put it inside the Record, behind the password.
+The first took about nine seconds. I was setting up the file where I keep the entries — the shelf list, the photographs, the procedure notes — and when it asked me where to put it, I put it inside the Record, behind the password.
 
 Nothing dramatic. It's the same password I've used for a decade, which tells you everything about my professional standards.
 

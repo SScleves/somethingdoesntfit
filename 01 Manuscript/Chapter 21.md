@@ -70,7 +70,7 @@ It was about four times as long as I'd written it.
 
 Everything I'd actually said was still in it, word for word, in the right order. The page number, the two printings, the photographs, the flat statement. Untouched.
 
-And around it, before and after, in *my* register — this is the part that keeps me up — three paragraphs I did not write. Not raving. Not capital letters; whoever did this was far too good for capital letters. Three paragraphs of *slightly too much.* A date that's wrong by eleven years, stated with confidence. A sentence connecting the paperback to a thing it has nothing to do with. And, at the end, one clause about which families have known this for a long time.
+And around it, before and after, in *my* register — this is the part that keeps me up — three paragraphs I did not write. Not raving. Not capital letters; whoever did this was far too good for capital letters. Three paragraphs of *slightly too much.* A date that is wrong by fourteen years, stated with confidence. A sentence connecting the paperback to a thing it has nothing to do with. And, at the end, one clause about which families have known this for a long time.
 
 That's it. That's the whole operation. Ninety-eight per cent of it is mine and true and checkable, and about two per cent has been added, and the two per cent is chosen so precisely that no serious person will ever read past it.
 
@@ -78,7 +78,7 @@ I know it's good because I did the test. I sent it — the doctored version, wit
 
 She wrote back: *is this you? the middle bit is fine but who are the families*
 
-That's a woman on my side, reading carefully, in eleven seconds.
+That's a woman on my side, reading carefully, in about the time it takes to read it.
 
 ---
 
@@ -88,13 +88,13 @@ I went to the site. I could not get into the account — the password had gone, 
 
 So I did the other thing. I made a new account and I posted, under my own initials, a correction: that the account had been compromised, that specific paragraphs in specific posts were not mine, that here is what the original said, and here is the photograph, and here is the page.
 
-It got eleven views.
+It got nine views.
 
-Eleven. Over a fortnight.
+Nine. Over a fortnight.
 
 The doctored post has been up since 2019 in a form I didn't write, and by then it had been quoted four times, once by somebody who was being funny about it.
 
-And that's the arithmetic, and it is the only thing I would put on a wall. **A claim and its correction do not travel at the same speed, and they never have, and the gap between those two speeds is where all of this lives.** You don't have to censor a man. You add two per cent, and the man spends the rest of his life at eleven views.
+And that's the arithmetic, and it is the only thing I would put on a wall. **A claim and its correction do not travel at the same speed, and they never have, and the gap between those two speeds is where all of this lives.** You don't have to censor a man. You add two per cent, and the man spends the rest of his life at nine views.
 
 ---
 
@@ -110,7 +110,7 @@ It's the closest thing to peace I'd had in a year. It's also, if you're keeping 
 
 The barbecue was Ana's idea and I would like the record to show that I was against it.
 
-May, first proper weekend of it, the garden, about fourteen people. Her friends from work. The neighbours with the twins. Frank, who came in a shirt so aggressively floral that three separate people photographed it. A man from the forums who I had made the mistake of telling about the market, who found out about the barbecue by a route I have never established and who turned up at four with a bottle of wine and a printout, and who was, I want to say, harmless and lonely and about eleven per cent right about one thing, and Beard Man would have hated him.
+May, first proper weekend of it, the garden, about fourteen people. Her friends from work. The neighbours with the twins. Frank, who came in a shirt so aggressively floral that three separate people photographed it. A man from the forums who I had made the mistake of telling about the market, who found out about the barbecue by a route I have never established and who turned up at four with a bottle of wine and a printout, and who was, I want to say, harmless and lonely and about ten per cent right about one thing, and Beard Man would have hated him.
 
 And Dave, who arrived with a six-pack and an enormous bag of ice, because he is the only man I have ever met who thinks about ice.
 
@@ -130,7 +130,7 @@ Ana said, "Never. Not one. She'd get to the end of a row and pull the whole thin
 
 Dave laughed. And then he said, "She sounds like she was good value," which is exactly the right size of thing to say, and Ana said, "She was the best of us," and drank her wine.
 
-I stood there holding a tray of sausages and felt something I could not name for about two hours and eventually identified, at eleven o'clock that night, doing the washing up, as *gratitude.*
+I stood there holding a tray of sausages and felt something I could not name for about two hours and eventually identified, late that night, doing the washing up, as *gratitude.*
 
 ---
 
@@ -174,6 +174,6 @@ That I had been reading a 1944 memo containing that instruction, in a library, s
 
 That the line is not from anywhere. I have looked. Three years I've looked now. It is not in any book, it is not attributed to anybody, and the only place in the world it exists in that exact form, word for word, in that order, is in the mouth of a man who has been saying it at tables for twenty years to make himself likeable.
 
-And that eleven months before, an account with twelve years of small true facts on it had posted one dull correct thing about page 44 of a paperback, and somebody, somewhere, had read every single word of it.
+And that the previous winter, an account with twelve years of small true facts on it had posted one dull correct thing about page 44 of a paperback, and somebody, somewhere, had read every single word of it.
 
 I laughed, and I went and found the tongs.

@@ -5,7 +5,7 @@
 
 He was there because somebody had to bring the folders up from the car and because the room was on the third floor and there was no lift.
 
-The building was a bank once and is not a bank now. Long table, eleven chairs, a window at one end with a view of a wall, and a sideboard with a coffee machine on it that somebody had brought from home and that was better than anything the building provided.
+The building was a bank once and is not a bank now. Long table, twelve chairs, a window at one end with a view of a wall, and a sideboard with a coffee machine on it that somebody had brought from home and that was better than anything the building provided.
 
 Nine people. He knew two of them by sight and one by name.
 
@@ -27,7 +27,7 @@ He got about half of it, and half is what there is.
 
 There was a set of numbers that everybody in the room could see and he could not, on a screen at the far end, and the discussion was entirely about **bands** — where a band currently sat, whether a band had drifted, and whether the correct response to a drift was to widen the band or to bring something forward.
 
-The man doing most of the talking was in his fifties and had the manner of somebody presenting rather than deciding. He said, at one point, that four of the indicators had been outside their bands for eleven consecutive periods, and that two of those four were the ones that had been outside in 2019 as well, and that the difference this time was the rate.
+The man doing most of the talking was in his fifties and had the manner of somebody presenting rather than deciding. He said, at one point, that four of the indicators had been outside their bands for nine consecutive periods, and that two of those four were the ones that had been outside in 2019 as well, and that the difference this time was the rate.
 
 Somebody asked what the rate was.
 

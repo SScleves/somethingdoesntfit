@@ -96,7 +96,7 @@ And four months later a stranger in a different country used my typo to try to h
 
 I did what I do, because it's all I've got.
 
-I checked the domain. Registered eleven days after my visit to that library. Privacy-shielded, which means nothing, half the internet is. A website with four pages and stock photography and a team page with three faces on it, two of which I found elsewhere selling dental software.
+I checked the domain. Registered nine days after my visit to that library. Privacy-shielded, which means nothing, half the internet is. A website with four pages and stock photography and a team page with three faces on it, two of which I found elsewhere selling dental software.
 
 Then I did the thing I am mildly ashamed of and completely unrepentant about: I replied, politely, interested, and put one small false detail in my own email — a former employer, plausible, adjacent, and entirely invented.
 

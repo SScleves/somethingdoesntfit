@@ -23,7 +23,7 @@ No car in front. The car in front had gone on the Tuesday of the previous week w
 
 He confirmed it.
 
-That took about eleven minutes and he sat there for another fifty.
+That took about ten minutes and he sat there for another fifty.
 
 ---
 

@@ -29,7 +29,7 @@ Ruys turned a pen over on the blotter. Below the window somebody was moving bins
 
 "Both were worse," said Ruys. "That is generally the position one is in by then." He wrote a short word on the blotter and looked at it. "How certain is he?"
 
-"He's certain. He was pleasant about it for eleven minutes and shook my hand, so he'll be certain and quiet, which is the difficult one."
+"He's certain. He was pleasant about it for ten minutes and shook my hand, so he'll be certain and quiet, which is the difficult one."
 
 "And you gave him the boiler."
 
@@ -65,7 +65,7 @@ Then: "The name he gave you in March. The conservator."
 
 "How polite."
 
-"As polite as it takes. She has a business, a lease, an accreditation, and eleven clients who could all be written to. She is not a person one needs to touch." A dry sound that was almost amusement. "In my experience the conservators are the easiest of the lot. They have spent their whole lives being careful with things and it does not occur to them that anybody would be careless with them."
+"As polite as it takes. She has a business, a lease, an accreditation, and nine clients who could all be written to. She is not a person one needs to touch." A dry sound that was almost amusement. "In my experience the conservators are the easiest of the lot. They have spent their whole lives being careful with things and it does not occur to them that anybody would be careless with them."
 
 Below the window the bins stopped.
 

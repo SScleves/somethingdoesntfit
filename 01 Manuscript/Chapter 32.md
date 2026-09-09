@@ -12,7 +12,7 @@ The mats stayed down. We got a ramp for the car, which he hated for about a fort
 
 Ana came home in the November. Not a moment — she was there four nights a week and then five and then her mother's spare room was a spare room again and neither of us ever named the day.
 
-Mora turned nine and slowed by about eleven per cent and remained, in her own assessment, a puppy.
+Mora turned nine and slowed by about a tenth and remained, in her own assessment, a puppy.
 
 I did the eleven-second thing every morning.
 
@@ -64,7 +64,7 @@ And here's the part I actually want to put down, because it is the exact inverse
 
 **Nobody said anything.**
 
-I did not say *he's at peace.* I did not say *he's in a better place*, or *he's running around up there*, or *he's with the other one now*, or any of the eleven sentences that were available to me, all of which I know, all of which I have heard people say about dogs, several of which are lovely.
+I did not say *he's at peace.* I did not say *he's in a better place*, or *he's running around up there*, or *he's with the other one now*, or any of the dozen sentences that were available to me, all of which I know, all of which I have heard people say about dogs, several of which are lovely.
 
 Not one of them came out and I did not go looking for one.
 
@@ -96,7 +96,7 @@ And two pages of the flattest language I have ever read, on a shelf in Anatolia,
 
 Here is what I understand now that I did not understand in that building.
 
-I was twenty-three and my mother told me I was too poor to be depressed, and she was right, and what she meant was *you are about to be too busy for this*. And I was. For eleven years. And what got crowded out was not sadness. Sadness came anyway, sadness always comes. **What got crowded out was the capacity to be with anything.** Anything at all — a question, a grief, a person, a dog. You cannot attend to something while you are calculating whether you can make the rent, and attention is not a luxury version of thinking, it is the *only* thing any of it is made of.
+I was twenty-three and my mother told me I was too poor to be depressed, and she was right, and what she meant was *you are about to be too busy for this*. And I was. For a decade. And what got crowded out was not sadness. Sadness came anyway, sadness always comes. **What got crowded out was the capacity to be with anything.** Anything at all — a question, a grief, a person, a dog. You cannot attend to something while you are calculating whether you can make the rent, and attention is not a luxury version of thinking, it is the *only* thing any of it is made of.
 
 So when I say I had somewhere to put it, in a garden, in March, with a spade, I don't mean I'd found a doctrine.
 

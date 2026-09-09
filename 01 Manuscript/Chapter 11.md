@@ -173,6 +173,6 @@ I stopped with a book half in the bag.
 
 "What was the question at the end?"
 
-Beard Man picked up his box and looked at me with an expression I've never been able to name, out of a face I've been looking at for eleven years and could not describe to a police artist.
+Beard Man picked up his box and looked at me with an expression I've never been able to name, out of a face I have been looking at for a decade and could not describe to a police artist.
 
 "He wanted to know," he said, "if anyone ever came asking about *him*."

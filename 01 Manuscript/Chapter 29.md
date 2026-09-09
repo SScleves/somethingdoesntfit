@@ -22,7 +22,7 @@ While she was doing the photocopy I read the page.
 
 Fourteen entries since the beginning of March. A plumbing contractor twice. Somebody from the provincial directorate. A courier. Two people from a university in Ankara on the same day in April — a joint entry, an hour and forty minutes, *person visiting: A. Pekcan.*
 
-Two months. Fourteen lines. On a hardbound page with columns, in biro, in a building that holds — I now know — about eleven kilometres of shelving.
+Two months. Fourteen lines. On a hardbound page with columns, in biro, in a building that holds — I now know — about nine kilometres of shelving.
 
 That's the whole book, right there, on the desk, in the most boring object in the building. Nobody comes. Nobody has ever come. There is nothing to defend against, because the defence is that there is no reason for anybody to be interested, and that defence has held for twelve years and it held against me too until the day I wrote a four-sentence letter about a dull item.
 
@@ -62,7 +62,7 @@ That's it. That's the entire operation. She sat down, across the table, in a col
 
 I want to be honest about the next hour: it was the best professional conversation of my life and I was there under something that was not quite false pretences and not quite honest ones.
 
-I asked how the 2017 material had come in. She told me — nine consignments, eleven months, one of them a disaster because of a customs delay and a van without proper conditioning, and she is still angry about it. I asked how she catalogues mixed material with three previous numbering systems on it. She got a piece of paper and drew me the concordance structure and it is genuinely elegant. I asked what she does with the old shelfmarks and she said, with feeling, "We keep them. *We keep them.* You would be amazed."
+I asked how the 2017 material had come in. She told me — nine consignments, ten months, one of them a disaster because of a customs delay and a van without proper conditioning, and she is still angry about it. I asked how she catalogues mixed material with three previous numbering systems on it. She got a piece of paper and drew me the concordance structure and it is genuinely elegant. I asked what she does with the old shelfmarks and she said, with feeling, "We keep them. *We keep them.* You would be amazed."
 
 And then I asked the question I had written on the inside of my wrist in biro on the plane, in the specific dull register of a man asking about workflow:
 
@@ -122,13 +122,13 @@ I read what I could in nine minutes, standing up, and I want to say clearly what
 
 It is not a secret document. That is the thing I need you to understand before I tell you what's in it. It is on an open shelf next to the fire procedures because it is **the operations manual for the facility**, and the people who work there need it, and there is no version of running a building like that where the manual is kept somewhere the staff can't reach.
 
-The spine label says: **OPERATING FRAMEWORK — CONSOLIDATED. REV. 11.**
+The spine label says: **OPERATING FRAMEWORK — CONSOLIDATED. REV. 10.**
 
 ---
 
 I'm going to give you the structure, because the structure is the argument.
 
-It opens the way every operations document I have read in twenty years opens: scope, definitions, responsibilities, a revision history on page two with eleven entries going back to a first issue that is dated before I was born.
+It opens the way every operations document I have read in twenty years opens: scope, definitions, responsibilities, a revision history on page two with ten entries going back to a first issue that is dated before I was born.
 
 **§ 1–3** are the building. Environmental parameters. Plant maintenance. Accession and retrieval procedure. It's good. I'd hire whoever wrote it.
 
@@ -190,7 +190,7 @@ I have re-run that conversation more times than any other conversation in my lif
 
 She was right, and she was right in a way neither of us understood.
 
-Not because there's no such thing. Because of what she was actually saying, which is: **you are about to be too busy for this.** And I was. By November I had a job I hated and rent I could barely make and a landlord and a bus timetable, and I did not have one single unallocated hour in which to ask myself what any of it was for, and I was — this is the horrible part — *fine.* Better than fine. I was fine for eleven years.
+Not because there's no such thing. Because of what she was actually saying, which is: **you are about to be too busy for this.** And I was. By November I had a job I hated and rent I could barely make and a landlord and a bus timetable, and I did not have one single unallocated hour in which to ask myself what any of it was for, and I was — this is the horrible part — *fine.* Better than fine. I was fine for a decade.
 
 That's not a cure. Nothing was solved. Nothing was even looked at. What happened is that a large and frightening question got crowded out by a small and urgent one, and a small urgent problem is *survivable* in a way that a large open one is not, and human beings will take that trade every single time, and I took it for over a decade without ever knowing I'd been offered it.
 
@@ -226,7 +226,7 @@ Fifty years. That's the number. That's the whole business model of the thing I h
 
 And the last thing, which is not a section, and which resolved a question I had left open for two years in a spreadsheet with the word *honest* next to it.
 
-Slipped into the front of the volume, inside the cover — not bound in, just tucked there, the way anybody tucks a note into a manual — was a single sheet. A review note. Somebody's comments on Rev. 10, ahead of Rev. 11, in the ordinary language of a person doing a document review.
+Slipped into the front of the volume, inside the cover — not bound in, just tucked there, the way anybody tucks a note into a manual — was a single sheet. A review note. Somebody's comments on Rev. 9, ahead of Rev. 10, in the ordinary language of a person doing a document review.
 
 Four comments. Three of them are about numbering.
 

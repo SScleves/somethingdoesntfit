@@ -16,7 +16,7 @@ I want to be honest that neither of us knew what that meant.
 
 ---
 
-Here is what happened over the following eleven months, and it is the least cinematic account of a resolution you will ever read.
+Here is what happened over the following year, and it is the least cinematic account of a resolution you will ever read.
 
 **Nothing.**
 
@@ -24,9 +24,9 @@ Nobody came to the house. Nobody rang. There was no black car, no envelope, no m
 
 Somewhere between two and four hundred people did a division sum.
 
-I know that because eleven of them wrote to me, and I have every one of them, and they are the strangest correspondence any man has ever received. Six of them told me I was wrong. Two of those six were *right* that I was wrong — one had my air-handling design margin out by a factor that matters and the other pointed out, correctly and rather coldly, that a provisioning schedule can be phased and that I had treated eleven years as a single block when it may be a first tranche. I published both corrections under my own name, in the dullest possible language, in the same place I published the erratum from Ghent. It got about eleven views. It always does.
+I know that because a dozen of them wrote to me, and I have every one of them, and they are the strangest correspondence any man has ever received. Six of them told me I was wrong. Two of those six were *right* that I was wrong — one had my air-handling design margin out by a factor that matters and the other pointed out, correctly and rather coldly, that a provisioning schedule can be phased and that I had treated twelve years as a single block when it may be a first tranche. I published both corrections under my own name, in the dullest possible language, in the same place I published the erratum from Ghent. It got about eleven views. It always does.
 
-Three of the eleven wrote to tell me about their own jobs. I'm not going to say anything else about that.
+Three of the dozen wrote to tell me about their own jobs. I'm not going to say anything else about that.
 
 And two of them — and this is the only part of this whole business that has ever made me cry — wrote to say thank you, and then asked me not to write back.
 
@@ -70,7 +70,7 @@ The payload is not a claim. I understood that on a tram platform four years ago 
 
 So there's no claim in it.
 
-There are **diffs**. Forty of them, minus the one I struck out in Ghent, which is thirty-nine, plus the two that eleven correspondents have since made me qualify, so call it thirty-seven that I would put in front of anybody. Photographs of both pages. The plate blemish at the top of 118. The transfer schedule from annex C. Eleven public documents and four divisions.
+There are **diffs**. Forty of them, minus the one I struck out in Ghent, which is thirty-nine, plus the two that my correspondents have since made me qualify, so call it thirty-seven that I would put in front of anybody. Photographs of both pages. The plate blemish at the top of 118. The transfer schedule from annex C. A dozen public documents and four divisions.
 
 And the arithmetic. Three hundred and forty, and about nine hundred, and the instruction that goes with it, which is six words long and which I have never improved:
 
@@ -108,7 +108,7 @@ Not one word of it. Not the flashes, not the kitchen floor, not the man who fini
 
 Go and do the division.
 
-It's four sums and eleven documents and it will cost you an evening, and if you're right and I'm wrong you should say so loudly and I'd deserve it.
+It is four sums and a dozen documents and it will cost you an evening, and if you're right and I'm wrong you should say so loudly and I'd deserve it.
 
 And if you find you haven't got an evening — if it turns out that this week the boiler's gone and the money's short and the thing with your mother is happening and there is simply, genuinely, no hour in it anywhere —
 

@@ -52,9 +52,9 @@ They built **a lid**.
 
 A perfectly legitimate, publicly funded, professionally staffed conservation depot with a good climate-control specification and a car park, positioned over a hole that was already there.
 
-And I understood, sitting at my kitchen table at eleven at night, why this had taken a hundred years and forty entries and three dead men to find.
+And I understood, sitting at my kitchen table late at night, why this had taken a hundred years and forty entries and three dead men to find.
 
-It isn't hidden. It's the most visible building for eleven kilometres. It has a *sign*.
+It isn't hidden. It's the most visible building for ten kilometres. It has a *sign*.
 
 The concealment is not the location. The concealment is that there is a perfectly good reason for it to be there — and there is no version of looking at it that produces a question, because a conservation depot in a region absolutely stuffed with archaeology is the least remarkable object in the landscape.
 
@@ -92,7 +92,7 @@ Which brings me to the other thing I did that autumn, and it started as housekee
 
 I wanted to know who Dave was. Not for the plot. For Ana — because she'd been sat on a step with him telling him about a blanket, and because there was a version of the next six months in which I was in another country and she was not, and I wanted a name to give somebody if it came to that.
 
-I had a name. Noor had given me one: **Julian Kalder**, consultant, in her department for eleven days in September 2017, overseeing the transfer.
+I had a name. Noor had given me one: **Julian Kalder**, consultant, in her department for nine days in September 2017, overseeing the transfer.
 
 It's an easy name to run. That's not detective work; conservation is a small accredited world and it keeps public registers, because the entire point of accreditation is that you can check it.
 

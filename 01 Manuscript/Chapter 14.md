@@ -6,7 +6,7 @@ I wrote to her. Paper, an actual letter, because an email from a stranger about 
 
 I told her the truth in five sentences: I bought some of her father's books at a market, one of them contains a notebook in his handwriting that I don't think was meant to be sold, I have spent a year reading it, I would like to give it back or at least tell her it exists, and I am not press and I am not selling anything.
 
-She rang me eleven days later at ten past eight in the evening while I was loading the dishwasher.
+She rang me nine days later at ten past eight in the evening while I was loading the dishwasher.
 
 "You're the book man."
 
@@ -198,4 +198,4 @@ I wrote that down too, that night, in the file, because even then some part of m
 
 Then I went and checked that the front door was locked.
 
-I had lived in that house for eleven years and I had never once done that.
+I had lived in that house for twelve years and I had never once done that.

@@ -62,7 +62,7 @@ I drove home. I opened the list. I found entry twenty-two, in the professor's ha
 
 Then — and this took me two days to make myself do — I went to the forum where I'd posted the dull true thing, under the same account, and I posted a correction. Publicly. Saying that a claim of this shape, which I had been pursuing, had turned out to be an ordinary printing accident, and here was the erratum slip, and here was the shop, and if anyone had been persuaded by me they should un-persuade themselves.
 
-Eleven views.
+Nine views.
 
 You want to know why I bothered? Two reasons, and only one of them is noble.
 

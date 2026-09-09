@@ -118,7 +118,7 @@ This is the thing I've never been able to explain to anyone who hasn't lived wit
 
 And I told them all of it.
 
-Out loud. In order. The two printings and the untouched typos and the plate blemish on page 118. The fifty per cent and the fifth change that never existed. The dropped negative on page 140. The eleven euros and the ziggurat on the cover. The eleven thousand years and the men who knelt down and filled it all in on purpose and went away. Entry seventeen and the year 1994. The word *Ask* in shaking ink.
+Out loud. In order. The two printings and the untouched typos and the plate blemish on page 118. The fifty per cent and the fifth change that never existed. The dropped negative on page 140. The nine euros and the ziggurat on the cover. The eleven thousand years and the men who knelt down and filled it all in on purpose and went away. Entry seventeen and the year 1994. The word *Ask* in shaking ink.
 
 It took about forty minutes. Neither of them left.
 
@@ -128,7 +128,7 @@ At the end of it I said the thing I hadn't said upstairs, to the woman it was ac
 
 Buddy sighed through his nose the way old dogs do, which I have decided not to interpret, and put his chin on my ankle.
 
-I want to be honest about what that scene was, because it would be easy to make it warm and leave it there. It was warm. It was also the exact moment the shape of the next two years got set, and I set it, on a kitchen floor, at eleven at night, by choosing an audience that could not ask me a follow-up question.
+I want to be honest about what that scene was, because it would be easy to make it warm and leave it there. It was warm. It was also the exact moment the shape of the next two years got set, and I set it, on a kitchen floor, late on a Thursday, by choosing an audience that could not ask me a follow-up question.
 
 That's what they were for. That's what they'd always been for, and I'd been calling it love.
 

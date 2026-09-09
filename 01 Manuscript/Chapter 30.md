@@ -6,11 +6,11 @@ It took two months and it was the best work I have ever done, and every single d
 
 Here is the whole method in one paragraph, because it isn't clever, it's just patient.
 
-A continuity site — a deep facility built to keep people alive through a period during which the surface does not function — is a building, and buildings have to be provisioned, and provisioning is procurement. You cannot buy eleven years of food, water treatment, medical stores, filtration media and diesel without generating documents, and the documents specify **quantities**, and quantities divide.
+A continuity site — a deep facility built to keep people alive through a period during which the surface does not function — is a building, and buildings have to be provisioned, and provisioning is procurement. You cannot buy twelve years of food, water treatment, medical stores, filtration media and diesel without generating documents, and the documents specify **quantities**, and quantities divide.
 
 That's it. That's the entire trick. **Take what they bought and divide it by how long they bought it for, and you get how many mouths.**
 
-I did it for three sites in two countries over eleven years of awarded contracts and framework agreements, cross-checked against air-handling design capacity, which is filed with building control, and against the water treatment licence, which is filed with the environmental authority, and against the medical stores schedule, which is filed with a pharmaceutical regulator because you cannot warehouse that quantity of anything without telling somebody.
+I did it for three sites in two countries over twelve years of awarded contracts and framework agreements, cross-checked against air-handling design capacity, which is filed with building control, and against the water treatment licence, which is filed with the environmental authority, and against the medical stores schedule, which is filed with a pharmaceutical regulator because you cannot warehouse that quantity of anything without telling somebody.
 
 Four independent sources. They agree to within about eight per cent.
 
@@ -90,7 +90,7 @@ Then she said, "Where is the list?"
 
 "Then this is nothing."
 
-"It's arithmetic," I said. "It's about eleven documents, and all eleven are public, and I have brought the references, and you can do the whole thing yourself tonight. I'm not asking you to believe me about anything. I'm asking you to do a division."
+"It's arithmetic," I said. "It is about a dozen documents, and every one is public, and I have brought the references, and you can do the whole thing yourself tonight. I'm not asking you to believe me about anything. I'm asking you to do a division."
 
 "And what do you imagine happens then?"
 
@@ -180,9 +180,9 @@ She said two things.
 
 And: *That's not depression, it's fear of life. You're scared.*
 
-"I was furious for about eleven years," I said. "And then I understood that she was right, and that she was right in a way that neither of us meant.
+"I was furious for about a decade," I said. "And then I understood that she was right, and that she was right in a way that neither of us meant.
 
-"Because by November I had a job I hated and rent I couldn't make and a landlord and a bus timetable — and I was *fine*. I was fine for eleven years. Nothing was solved. Nothing was even looked at. What happened is that a big frightening question got crowded out by a small urgent one, and a small urgent problem is survivable in a way that a large open one isn't, and I took that trade every day for a decade without knowing I'd been offered it.
+"Because by November I had a job I hated and rent I couldn't make and a landlord and a bus timetable — and I was *fine*. I was fine for a decade. Nothing was solved. Nothing was even looked at. What happened is that a big frightening question got crowded out by a small urgent one, and a small urgent problem is survivable in a way that a large open one isn't, and I took that trade every day for a decade without knowing I'd been offered it.
 
 "So here's my objection, and it's the only one I've got.
 
@@ -202,7 +202,7 @@ He was quiet for a moment and then he said, mildly:
 
 "You've got the number."
 
-"I've got an order of magnitude and eleven public documents and four divisions."
+"I've got an order of magnitude and a dozen public documents and four divisions."
 
 "Mm." He turned the cup. "That's not nothing."
 

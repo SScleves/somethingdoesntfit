@@ -10,7 +10,7 @@ The library thing was already booked. I'd requested the book in October.
 
 Entry seventeen. *Highlands of Anatolia*, 1963, page 212. *Eleven thousand years* → *a much earlier period.*
 
-Three known copies of the 1963 impression anywhere. One in a private collection that doesn't answer letters. One in a university in the United States that will photograph a page for you for sixty dollars and did, beautifully, promptly — and it turned out to be the 1971 reprint miscatalogued, which cost me eleven weeks and sixty dollars and taught me something I'll come back to.
+Three known copies of the 1963 impression anywhere. One in a private collection that doesn't answer letters. One in a university in the United States that will photograph a page for you for sixty dollars and did, beautifully, promptly — and it turned out to be the 1971 reprint miscatalogued, which cost me two months and sixty dollars and taught me something I'll come back to.
 
 And one in a national library, forty minutes away by train.
 

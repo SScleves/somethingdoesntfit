@@ -68,7 +68,7 @@ Ana sat back and looked at me for a second and said, "Okay," and I said "what," 
 
 ---
 
-She stopped me eleven or twelve times. I've never in my life been listened to like that, and I've been married to her for fifteen years, which tells you something about me and not about her.
+She stopped me a dozen times. I've never in my life been listened to like that, and I've been married to her for fifteen years, which tells you something about me and not about her.
 
 She did not ask *is it true* once. Not once, in four hours.
 
@@ -146,7 +146,7 @@ Ana thought about that.
 
 "James —"
 
-"No, listen. That's what I'd have said a year ago and it's wrong, and it's wrong for the same reason everything else I tried was wrong." I turned the transfer schedule round on the table so she could see the annex, six-point type, page two hundred and eleven of a public annual report. "They are defended against theft and they are defended, brilliantly, against publicity. Neither has ever been tried on them successfully and both have been tried.
+"No, listen. That's what I'd have said a year ago and it's wrong, and it's wrong for the same reason everything else I tried was wrong." I turned the transfer schedule round on the table so she could see the annex, six-point type, page two hundred and eight of a public annual report. "They are defended against theft and they are defended, brilliantly, against publicity. Neither has ever been tried on them successfully and both have been tried.
 
 "Nobody has ever asked."
 
@@ -182,7 +182,7 @@ Ana was quiet for a bit.
 
 She stayed. Not moved back — stayed, that night, which is different and we both knew it and neither of us said it.
 
-At about eleven she was in the doorway of the kitchen with the light behind her and she said:
+At about ten she was in the doorway of the kitchen with the light behind her and she said:
 
 "Is there anything else? Anything you haven't told me?"
 

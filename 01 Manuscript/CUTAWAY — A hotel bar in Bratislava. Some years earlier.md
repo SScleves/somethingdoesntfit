@@ -17,7 +17,7 @@ The younger one was about thirty-five and had not touched his drink either.
 
 He could hear about a third of it. Enough.
 
-The younger man had written something. That was clear from the first ten minutes; there was a journal involved, and a submission, and a date, and the older man had opinions about the date. There had been a difficulty with a reviewer. The word *reviewer* came up eleven or twelve times and was, on each occasion, the younger man's word and not the older one's.
+The younger man had written something. That was clear from the first ten minutes; there was a journal involved, and a submission, and a date, and the older man had opinions about the date. There had been a difficulty with a reviewer. The word *reviewer* came up a dozen times and was, on each occasion, the younger man's word and not the older one's.
 
 At about the fifty-minute mark the older man said something with the word *supervisor* in it and the younger man stopped talking for a while.
 
@@ -51,7 +51,7 @@ He put a name in his own phone at that point, and the time, and nothing else.
 
 ---
 
-At eleven they shook hands at the foot of the stairs and the younger man went up first.
+At ten they shook hands at the foot of the stairs and the younger man went up first.
 
 The older man came back to the bar to settle, and stood two metres away waiting for the barman with his card in his hand, and said, into the middle distance, in English, not looking round:
 
@@ -75,7 +75,7 @@ Then, in a completely different voice, the voice of a man remembering he is in a
 
 ---
 
-He waited eleven minutes after the older man had gone. Then he paid for his own beer in cash and went up to the lobby and out into the square, which was cold and empty and had a tram going through it.
+He waited a quarter of an hour after the older man had gone. Then he paid for his own beer in cash and went up to the lobby and out into the square, which was cold and empty and had a tram going through it.
 
 There was nothing for him to do. There had never been anything for him to do; he had been asked to be in the room, which he had been, and to note the time, which he had.
 

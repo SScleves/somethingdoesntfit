@@ -14,7 +14,7 @@ So I did four months at a kitchen table.
 
 Here is the actual method, and it's dull, and dull is the whole point.
 
-**Planning and construction.** Any building of that size in that country generates a file: the application, the geotechnical report, the structural drawings, the environmental screening. Some of it is online, some of it is available on request from the provincial authority, and the request is a form, and the form is in Turkish, and there is a woman in Rotterdam who does technical translation for eleven cents a word and who has never once asked me why.
+**Planning and construction.** Any building of that size in that country generates a file: the application, the geotechnical report, the structural drawings, the environmental screening. Some of it is online, some of it is available on request from the provincial authority, and the request is a form, and the form is in Turkish, and there is a woman in Rotterdam who does technical translation for nine cents a word and who has never once asked me why.
 
 **Utilities.** A water licence, an electrical connection agreement, and — the good one — a fire-suppression certification, because a building with an inert-gas suppression system has to declare the protected volume.
 
@@ -26,9 +26,9 @@ I sat with that for a week and got it wrong twice before I got it right, and the
 
 You do not sleeve pot sherds.
 
-**Staffing.** Job advertisements are public and they are honest, because they have to be, because otherwise the wrong people apply. Over eleven years that place has advertised for: two paper conservators, a photographic technician, a book conservator (twice), a cataloguer with Ottoman and Latin, and a facilities engineer with experience of Class 1 archival environments.
+**Staffing.** Job advertisements are public and they are honest, because they have to be, because otherwise the wrong people apply. Over twelve years that place has advertised for: two paper conservators, a photographic technician, a book conservator (twice), a cataloguer with Ottoman and Latin, and a facilities engineer with experience of Class 1 archival environments.
 
-Not one archaeologist. In eleven years.
+Not one archaeologist. In twelve years.
 
 ---
 
@@ -50,7 +50,7 @@ Seven weeks. I told Ana and she said, "Well, at least you're consistent," which 
 
 ---
 
-The way in was in the collections policy, on page four, in a section headed *Access*, and I had read that document eleven times.
+The way in was in the collections policy, on page four, in a section headed *Access*, and I had read that document a dozen times.
 
 > *4.2 Supervised access to collection items may be arranged for researchers and other bona fide enquirers. Requests should be made in writing, quoting the accession number where known, with an indication of the purpose of the enquiry. Requests are considered by the Keeper of Collections.*
 
@@ -94,7 +94,7 @@ He circled a date three weeks after he died. I've never found out what it was fo
 
 ---
 
-I wrote the letter on the fourth of March and it took eleven days and about forty drafts and it is four sentences long.
+I wrote the letter on the fourth of March and it took nine days and about forty drafts and it is four sentences long.
 
 I'm not going to give you the accession number. It's from the 2017 transfer schedule, annex C, and it is one item, and I chose it because it is dull and because it is *theirs* — it is in their own published list, in their own numbering, on their own paper.
 

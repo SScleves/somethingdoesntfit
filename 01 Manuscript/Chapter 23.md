@@ -26,7 +26,7 @@ She had the photograph printed out, on proper paper, at A4, which tells you some
 
 She put it on the table.
 
-"In September 2017 a man came to the department for eleven days," she said. "He was there for the transfer. When they broke up the special collections there were about forty crates of material that weren't going to the new facility, and somebody has to decide what happens to those, and that somebody is not an academic, it's a consultant, because no academic will sign it." She tapped the paper. "He was called Kalder. Julian Kalder. He was very kind to me."
+"In September 2017 a man came to the department for nine days," she said. "He was there for the transfer. When they broke up the special collections there were about forty crates of material that weren't going to the new facility, and somebody has to decide what happens to those, and that somebody is not an academic, it's a consultant, because no academic will sign it." She tapped the paper. "He was called Kalder. Julian Kalder. He was very kind to me."
 
 "Kind how."
 
@@ -92,7 +92,7 @@ She sat on the edge of the table.
 
 "That's exactly why —"
 
-"And I have," she said, "a workshop. Two rooms. A lease, eleven clients, a machine I paid four years off, and an accreditation that took me six years and that any three people can take away by writing letters about my judgement. That's it. That's the whole thing I've got, and it is *enough*, and it is mine, and it is not a compromise, and I would like you to stop looking at me like that."
+"And I have," she said, "a workshop. Two rooms. A lease, nine clients, a machine I paid four years off, and an accreditation that took me six years and that any three people can take away by writing letters about my judgement. That's it. That's the whole thing I've got, and it is *enough*, and it is mine, and it is not a compromise, and I would like you to stop looking at me like that."
 
 I hadn't known I was.
 
@@ -146,7 +146,7 @@ I put a towel under him and got him up and he could stand, once he was up. He co
 
 ---
 
-The vet was about thirty and had been on since eleven and she was extraordinary, and I have never been able to thank her properly because I didn't get her name.
+The vet was about thirty and had been on since ten and she was extraordinary, and I have never been able to thank her properly because I didn't get her name.
 
 She got down on the floor with him. That was the first thing she did — not the table, the floor, in the corridor, where he was. She spent four minutes just having her hands on him before she did anything that could be called an examination.
 
@@ -168,7 +168,7 @@ Then the part I actually came here to tell you.
 
 I couldn't get him up the stairs and I wasn't going to try, so I brought the duvet down and slept on the kitchen floor next to his blanket.
 
-I did that for eleven nights and the first one was the one that mattered.
+I did that for nine nights and the first one was the one that mattered.
 
 I woke up at about six, in the grey, on lino, with my hip complaining — and he was awake. Head up. Watching me.
 

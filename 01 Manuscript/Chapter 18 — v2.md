@@ -10,7 +10,7 @@ Frank had it running before the pilot officially started because Frank always ha
 
 "Come and look," he said. "James. Come and *look.*"
 
-I looked. It had found, unprompted, in eleven minutes, a thing in a queue that had been drifting for three weeks. The exact class of thing that took me three days and a payment system and a very patient owner in a country I've never been to.
+I looked. It had found, unprompted, in four minutes, a thing in a queue that had been drifting for three weeks. The exact class of thing that took me three days and a payment system and a very patient owner in a country I've never been to.
 
 "That's better than me," I said.
 
@@ -66,9 +66,9 @@ I sat there for a long time and then I did the thing you do, which is: I broke i
 
 It took one line. I changed a single value in a single field on my own copy — turned the third one off — and re-ran the same data Frank had been so pleased about.
 
-Ninety seconds. It found eleven more.
+Ninety seconds. It found seven more.
 
-Nine of them were noise, and that is the honest half: the defaults exist for a *reason*, and without them you get eleven results and nine of them waste your Thursday.
+Five of them were noise, and that is the honest half: the defaults exist for a *reason*, and without them you get seven results and five of them waste your Thursday.
 
 Two of them were real. Two things that had been quietly drifting under a rolling baseline for months, invisible, in a system that a hundred and forty people rely on to be told when something is wrong.
 
@@ -133,7 +133,7 @@ And that was all. He didn't say anything about how they're never with us long en
 
 The second thing is that he was genuinely, catastrophically bad, and he did not care. I have played with a lot of bad golfers. I am a bad golfer. Bad golfers are, as a class, the most tightly wound men in any leisure activity on earth, and every one of them has a paragraph ready about their back, or their new grip, or how they don't get out much. Dave lost three balls in five holes and each time made a small sound of pure delight, like a man watching somebody else's car get a parking ticket.
 
-The third thing is that on the sixth he holed a chip from thirty metres, off a downslope, out of wet rough, and it went in like it had an appointment, and he turned around with his arms out and said, "Now *that's* going to keep me coming back here for another eleven years, and it's the only one I'll hit all season, and I'd like you to know it's ruined my life."
+The third thing is that on the sixth he holed a chip from thirty metres, off a downslope, out of wet rough, and it went in like it had an appointment, and he turned around with his arms out and said, "Now *that's* going to keep me coming back here for another twenty years, and it's the only one I'll hit all season, and I'd like you to know it's ruined my life."
 
 I laughed so hard I had to sit down on the cart.
 
@@ -185,7 +185,7 @@ He asked one other question that morning, on the ninth, walking in.
 
 "Right," he said, and put the club away, and that was that, and we went and had a coffee at the turn and the woman at the counter gave Buddy a sausage and Dave said "you've got a *system* here," delighted, like a man discovering a small good country.
 
-I did not hear that question. I want that on the record. I have replayed it eleven hundred times and I did not hear it, because it was the ninth hole and I was warm and somebody had asked me about my life.
+I did not hear that question. I want that on the record. I have replayed it more times than I can count and I did not hear it, because it was the ninth hole and I was warm and somebody had asked me about my life.
 
 ---
 

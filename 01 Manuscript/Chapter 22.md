@@ -84,7 +84,7 @@ He had called me Jim since the second tee in February. Every time. Twenty-odd ro
 
 He did not call me Jim again after the word Deventer.
 
-Not once. Not for the remaining eleven minutes.
+Not once. Not for the remaining ten minutes or so.
 
 "That'll be it," he said. "Zwolle. Well — it's a shame either way." He put the glass down and looked out at the car park, comfortable, a man letting a subject go. "You spend enough time round old buildings, you get to hear about the ones that don't make it. It's always the same thing — nobody's fault, nothing sinister. Old wiring. A man on his own who isn't as careful as he used to be." He turned back to Ana. "Sorry. That's morbid for a Saturday."
 
@@ -120,9 +120,9 @@ Ana poured the last of the wine into her own glass and said, "Well, he was on fo
 
 And I sat on a terrace under a heater that nobody had turned on, next to the person I love most in the world, and felt — and I have gone over this and I'm not going to dress it up — *sad*.
 
-Not frightened. That came later, in the car, and then for about eleven months.
+Not frightened. That came later, in the car, and then for about a year.
 
-Sad, in the specific way you're sad when a thing you enjoyed turns out not to have been the thing. I had not had a friend since I was thirty-three. I'd had one for five months. I had genuinely, stupidly, at forty-four years of age, been looking forward to Saturdays for a reason that wasn't the dog.
+Sad, in the specific way you're sad when a thing you enjoyed turns out not to have been the thing. I had not had a friend since I was thirty-three. I had had one for five months. I had genuinely, stupidly, at forty-four years of age, been looking forward to Saturdays for a reason that wasn't the dog.
 
 ---
 
@@ -164,7 +164,7 @@ There was a silence of exactly the wrong length.
 
 "Don't," Ana said quietly. "Not tonight."
 
-I have never in my life heard a joke land so badly, and we both heard it, and neither of us said anything for the last eleven kilometres.
+I have never in my life heard a joke land so badly, and we both heard it, and neither of us said anything for the last ten kilometres.
 
 ---
 

@@ -52,7 +52,7 @@ I looked at 17 and 38 and understood neither, so I did what you're supposed to d
 
 ---
 
-Entry three cost me eleven euros and two days of waiting for the post.
+Entry three cost me nine euros and two days of waiting for the post.
 
 *Ancient engineering*, a popular paperback from the seventies, the kind with a painting of a ziggurat on the cover, page 44, first printing against fourth printing.
 
@@ -114,7 +114,7 @@ She turned it round with one finger, the way she does, and read a page upside do
 
 "He's crossed nothing out." She looked up. "Forty pages and he never changed his mind about anything?"
 
-I hadn't noticed that. I want to be exact: I had looked at that list for eleven days and I had not noticed that there is not one crossing-out in it, and my wife noticed in nine seconds, because she wasn't looking at what it said.
+I hadn't noticed that. I want to be exact: I had looked at that list for a fortnight and I had not noticed that there is not one crossing-out in it, and my wife noticed in nine seconds, because she wasn't looking at what it said.
 
 "That's because it's a fair copy," I said slowly. "It's not the working document. This is the version he made *after.*"
 
@@ -128,7 +128,7 @@ She waited to see if I was going to say anything else and I didn't, and she took
 
 I went through all forty-one entries again that night and this time I read the margins instead of the lines.
 
-Most have nothing. Eleven have something. A year. A word. Twice a name. One says only *poor woman.*
+Most have nothing. A dozen have something. A year. A word. Twice a name. One says only *poor woman.*
 
 Entry seventeen says: **1994 — the hill.**
 

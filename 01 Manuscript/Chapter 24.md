@@ -40,7 +40,7 @@ Which is the whole problem, and on the fourth night I understood it.
 
 And here there was one object.
 
-So on the fourth night I stopped trying to get anywhere. That's it. That's the whole technique and it can't be taught and every tradition on earth has spent three thousand years saying it in a way that makes it sound like more than it is. I gave up. I sat in a chair at eleven at night with no intention of any kind, because the intention was the thing in the way, and because after three nights of failure I genuinely no longer cared what happened.
+So on the fourth night I stopped trying to get anywhere. That's it. That's the whole technique and it can't be taught and every tradition on earth has spent three thousand years saying it in a way that makes it sound like more than it is. I gave up. I sat in a chair late at night with no intention of any kind, because the intention was the thing in the way, and because after three nights of failure I genuinely no longer cared what happened.
 
 ---
 

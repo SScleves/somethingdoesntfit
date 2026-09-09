@@ -137,7 +137,7 @@ They're one seam, and I'd been standing on it my whole life.
 
 ---
 
-I rang Ana at half past eleven at night, which we don't do.
+I rang Ana at half past ten at night, which we don't do.
 
 She picked up on the second ring, which told me something.
 

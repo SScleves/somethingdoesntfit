@@ -50,7 +50,7 @@ Mora slept in with her. Buddy stayed with me. He's not loyal, he's just old and 
 
 The message came four days later.
 
-Not on the thread. A private message, on the forum, from an account I'd never seen, sixteen words long, sent at ten past eleven on a Tuesday morning.
+Not on the thread. A private message, on the forum, from an account I'd never seen, sixteen words long, sent at ten past nine on a Tuesday morning.
 
 > **Whoever "corrected" you used a phrase my supervisor showed me on a photocopy in 2009. Who are you?**
 
@@ -62,7 +62,7 @@ So I wrote back one line with a hook in it, and the hook was a mistake I made on
 
 > **Which photocopy? The one with the two columns, deprecated on the left?**
 
-If she was theirs, she'd say yes. There is no photocopy with two columns; I invented it in eleven seconds. Everyone says yes to a detail. Saying yes is how you keep somebody talking.
+If she was theirs, she'd say yes. There is no photocopy with two columns; I invented it on the spot. Everyone says yes to a detail. Saying yes is how you keep somebody talking.
 
 She wrote back in under a minute.
 
@@ -74,7 +74,7 @@ Then, ninety seconds later:
 
 ---
 
-We talked for eleven days before we talked.
+We talked for a fortnight before we talked.
 
 I want to describe what that was like, because it changed the temperature of my whole life and I didn't notice until afterwards.
 
@@ -96,7 +96,7 @@ Our first proper argument was about entry nine, and I lost it in about four exch
 >
 > **HER:** you'll know
 
-I got a desk lamp and lay it on its side on the kitchen table at eleven at night, and Buddy came to see what the new thing was, and I put my cheek almost flat on the table next to a book from 1934, and the whole surface of page 201 lit up sideways.
+I got a desk lamp and lay it on its side on the kitchen table late that night, and Buddy came to see what the new thing was, and I put my cheek almost flat on the table next to a book from 1934, and the whole surface of page 201 lit up sideways.
 
 Two different papers. You could see it like weather. The leaf was a shade smoother and it took the light differently across the grain, and once you'd seen it you could not stop seeing it, and I had been holding that book for two years.
 
@@ -108,7 +108,7 @@ Two different papers. You could see it like weather. The leaf was a shade smooth
 >
 > **HER:** a woman in Ghent who has been dead since 2013 and who would have disliked you enormously.
 
-I laughed out loud in an empty kitchen at eleven at night and the old dog thumped his tail twice, because a laugh is a thing he still recognises.
+I laughed out loud in an empty kitchen at midnight and the old dog thumped his tail twice, because a laugh is a thing he still recognises.
 
 ---
 
@@ -168,7 +168,7 @@ I sent it to Noor.
 
 ---
 
-The thing that isn't a question came out of the same weekend and it took eleven minutes.
+The thing that isn't a question came out of the same weekend and it took about ten minutes.
 
 I've told you about the spreadsheet: forty entries, two columns of years, the year of impression A and the year of the edit. I'd made it in March, looked at it for four seconds, thought *huh*, and gone to bed.
 

@@ -4,7 +4,7 @@
 
 Six days. I know it was six because I counted them, which is not something I'd normally admit.
 
-Sunday came up grey and still and I got there before he'd finished unloading, which I had never done in eleven years, and he clocked that immediately.
+Sunday came up grey and still and I got there before he'd finished unloading, which I had never done in a decade, and he clocked that immediately.
 
 "You're early."
 
@@ -26,7 +26,7 @@ Then he said, "Ask it, then," and I found that my mouth was dry.
 
 He straightened up and looked at me over the tables for a moment.
 
-"You bought eleven books off me," he said. "Twelve. Fourteen months ago. And you've come back every Sunday since and never once asked me his name."
+"You bought a dozen books off me," he said. "Twelve. Fourteen months ago. And you've come back every Sunday since and never once asked me his name."
 
 "I know."
 
@@ -130,7 +130,7 @@ I'm going to stop the scene here for a second because I need to say what that di
 
 It did not make me feel hunted. That came later.
 
-What it did — standing in the cold with my hands in my pockets, in a market I'd been coming to for eleven years — was make me feel *lucky*, and there is no worse feeling available to a man like me.
+What it did — standing in the cold with my hands in my pockets, in a market I'd been coming to for a decade — was make me feel *lucky*, and there is no worse feeling available to a man like me.
 
 Because I run on the assumption that if you look properly, you find. That's the whole religion. Method beats luck; that's why I check the boring corner; that's why I photograph before I read.
 

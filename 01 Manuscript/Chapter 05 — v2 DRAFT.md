@@ -38,7 +38,7 @@ I could not find that mechanism. That is not the same as it not existing, and I 
 
 I'd written weeks earlier to a bookseller three countries away, the sort who lists things with words like *gatherings* and *cancellans* and photographs the gutter. The kind of email where you're careful to seem less interested than you are.
 
-He answered on a Wednesday, eleven days later, and I read it standing in the hall with my coat still on. It opened "Dear Mr Klippe," which nobody has called me since a dentist in 2009, and which I liked more than I want to admit.
+He answered on a Wednesday, nineteen days later, and I read it standing in the hall with my coat still on. It opened "Dear Mr Klippe," which nobody has called me since a dentist in 2009, and which I liked more than I want to admit.
 
 It was a good reply. It was also, and I mean this without complaint, almost entirely useless. He agreed the impressions were what they said they were. He agreed the plate damage indicated no recasting. He said, and I'm quoting because I've read it enough times to have it, *the practice you describe is not unknown, though I would want to see the leaf.* Then he explained, at some length and with obvious pleasure, three ways a man in my position usually turns out to be wrong.
 
@@ -146,9 +146,9 @@ It stopped being nothing on a kitchen floor at four in the morning, and I'd like
 
 **Sunday.** Nothing happened.
 
-I mean it. I want one of these in the book. I did the shopping, I lost eleven balls at the driving range, I watched most of a film with Ana and Mora between us like a draught excluder, and Buddy came and put his chin on my foot at some point and left it there, and I didn't think about 1931 for four consecutive hours.
+I mean it. I want one of these in the book. I did the shopping, I lost nine balls at the driving range, I watched most of a film with Ana and Mora between us like a draught excluder, and Buddy came and put his chin on my foot at some point and left it there, and I didn't think about 1931 for four consecutive hours.
 
-The thin book was on the kitchen table when we went up, where it had been since I'd carried it home in a paper bag with eleven others.
+The thin book was on the kitchen table when we went up, where it had been since I'd carried it home in a paper bag with the other eleven.
 
 Still shut. I'd taken it down and put it back three times by then.
 

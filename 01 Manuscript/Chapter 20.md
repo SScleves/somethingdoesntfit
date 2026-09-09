@@ -59,11 +59,11 @@ It was in its fourth revision.
 
 ---
 
-The coffee happened eleven days later.
+The coffee happened nine days later.
 
 An email, in Dutch, then in English, from an address at a foundation I'd never heard of. Warm, brief, professional. He had seen that I had been in correspondence with a number of institutions about early twentieth-century printing variants. He was in the country the following Thursday. He wondered whether I would be free for a coffee near the station.
 
-I said yes in about ninety seconds, and then spent eleven days working out why I'd said yes so fast.
+I said yes in about ninety seconds, and then spent nine days working out why I'd said yes so fast.
 
 Two reasons. The honest one is that after two years of paper I would have walked into a burning building for a human being who knew what I was talking about.
 
@@ -215,13 +215,13 @@ The last part was about Ana and it was the ugliest thing that has ever been said
 
 ---
 
-I said no. It took me about eleven seconds and it was not a good no. There was no speech. I've replayed it and what I actually said was:
+I said no. It took me a few seconds and it was not a good no. There was no speech. I've replayed it and what I actually said was:
 
 "I don't think so. Thanks for the coffee."
 
 He didn't seem surprised or disappointed. He seemed like a man whose train was in nine minutes.
 
-"Well," he said. "Think about it for longer than eleven seconds."
+"Well," he said. "Think about it for longer than that."
 
 And then, at the door, in the tone of somebody making conversation on the way out, doing up a button:
 
@@ -251,7 +251,7 @@ I drove home and Ana was making something and the radio was on and Mora came ski
 
 She said, "How was your day?"
 
-And I stood in the doorway of my own kitchen with my coat still on and understood that I had not done a did-you-know in eleven weeks.
+And I stood in the doorway of my own kitchen with my coat still on and understood that I had not done a did-you-know in nine weeks.
 
 Not one. Not to her, not to Frank, not to the four men on the third tee. For twenty years I had been a machine that produced them, three or four a week, to fill silence and to be liked and to get out of conversations in under three minutes; it was the single most reliable thing about me; my wife bought me a hat about it every Christmas.
 
@@ -267,7 +267,7 @@ She looked at me for a second too long, the way she does.
 
 ---
 
-I went up at half eleven. Buddy was already on the landing where he sleeps now, at the top, because he can still get up but the down is worse.
+I went up at half past ten. Buddy was already on the landing where he sleeps now, at the top, because he can still get up but the down is worse.
 
 I did the thing I do before bed, which takes eleven seconds and which I have never once described. I did it standing in the bathroom with the door shut and the tap running, and then I put the phone back in the drawer under the spare toothbrushes and closed the drawer and got into bed next to my wife.
 

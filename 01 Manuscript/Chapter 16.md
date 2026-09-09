@@ -36,15 +36,15 @@ The gap is in the ink. The man's abandonment of his life's work is physically pr
 
 The other thing the card showed me was the marginal notes, which I'd always treated as decoration.
 
-Eleven entries have them. Thirty have nothing.
+Twelve entries have them. Twenty-nine have nothing.
 
-I made a list of the eleven and looked at what the notes actually are, and they sort into exactly three kinds:
+I made a list of the twelve and looked at what the notes actually are, and they sort into exactly three kinds:
 
 A **year** (four of them). A **place** (two — one of them *the hill*). And a **person** (five). Of the five people, three are named. Two are described: *poor woman* and *the son, if he answers*.
 
 Thirty entries with no note are edits he verified and filed.
 
-Eleven entries with a note are edits where he knew, or suspected, **who had been standing next to it when it happened.**
+Twelve entries with a note are edits where he knew, or suspected, **who had been standing next to it when it happened.**
 
 That's not a bibliography. That's a witness list, hidden inside a bibliography, by a man who had decided not to write down anything that looked like an accusation.
 
@@ -126,7 +126,7 @@ Forty rows. Two columns of numbers.
 
 Then I sorted by the second column, which is the year the change happened, and I looked at the list of years.
 
-I want to be honest about this moment because it's not dramatic and I nearly missed it. I looked at forty numbers on a screen at half past eleven at night, and I thought *huh*, and I saved the file, and I went to bed.
+I want to be honest about this moment because it's not dramatic and I nearly missed it. I looked at forty numbers on a screen late at night, and I thought *huh*, and I saved the file, and I went to bed.
 
 They're not spread out. They come in bunches, with long quiet stretches between them, and the quiet stretches are getting shorter.
 

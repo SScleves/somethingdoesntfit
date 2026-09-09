@@ -5,7 +5,7 @@
 
 He did the accreditation first because it had a renewal date on it and dates are the only things that generate attention on their own.
 
-It took eleven minutes on a laptop in a car. The professional body's portal accepted a resignation on grounds of retirement, thanked him for thirty-one years of membership, and offered to send a certificate to an address he did not provide. He then wrote to the two clients who had the name on a contract, from the same account, in four lines, saying that ill health had made it necessary to hand over and that his colleague would be in touch.
+It took ten minutes on a laptop in a car. The professional body's portal accepted a resignation on grounds of retirement, thanked him for thirty-one years of membership, and offered to send a certificate to an address he did not provide. He then wrote to the two clients who had the name on a contract, from the same account, in four lines, saying that ill health had made it necessary to hand over and that his colleague would be in touch.
 
 He did not delete anything. Deleting generates a gap and a gap is a shape.
 

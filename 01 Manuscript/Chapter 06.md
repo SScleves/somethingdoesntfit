@@ -68,7 +68,7 @@ Fifty per cent, and a liar.
 
 I'd like to tell you I took that well.
 
-What I actually did was go for a walk at eleven at night in the rain with an old dog who did not want to go, and come back, and sit in the kitchen, and consider, seriously, for about an hour, throwing the whole thing away. Not the book. The hobby. Ten years of it. Because if the instrument is this bad, then every entry in the Record is a coin toss with good handwriting, and the man who wrote them is precisely the kind of person he spends his life laughing at.
+What I actually did was go for a walk at half past ten at night in the rain with an old dog who did not want to go, and come back, and sit in the kitchen, and consider, seriously, for about an hour, throwing the whole thing away. Not the book. The hobby. Ten years of it. Because if the instrument is this bad, then every entry in the Record is a coin toss with good handwriting, and the man who wrote them is precisely the kind of person he spends his life laughing at.
 
 Buddy came and lay against my foot. He does that. He can't do anything about anything and he's never once let that stop him.
 
