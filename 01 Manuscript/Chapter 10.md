@@ -6,7 +6,7 @@ The sleeve was still on the shelf in November.
 
 Half a sleeve, pale green, needles still in it, paused mid-row since March. Nine months. We had both walked past it every day for nine months and neither of us had ever said one word about it out loud, which I think is the single most Dutch thing our marriage has ever done, and neither of us is Dutch.
 
-I dusted around it once. I want that on the record, because it's the closest I came for a long time to being any good at this.
+I dusted around it once. That is the closest I came, for a long time, to being any good at this.
 
 ---
 
@@ -146,7 +146,7 @@ I lay in the dark and thought: *the old woman wasn't being funny. She was checki
 
 And then I thought: *that's not what she was doing either. You've been doing this for six months and now everything is about the thing.*
 
-I want it on the record that I caught it. That was the first time I saw it happen live — the pattern reaching out and eating something that had nothing to do with it, a dead woman's knitting, my wife's favourite story.
+I caught it. That was the first time I saw it happen live — the pattern reaching out and eating something that had nothing to do with it, a dead woman's knitting, my wife's favourite story.
 
 I caught it that night.
 

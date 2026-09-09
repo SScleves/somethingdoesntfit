@@ -4,7 +4,7 @@
 
 The taxi from Şanlıurfa took fifty minutes and cost about what a taxi costs, and the driver talked to me for most of it about a football transfer.
 
-I want to start with that because it sets the register for everything that follows. Nothing in this chapter is dramatic. It is the least dramatic day of my life and it is the day everything actually happened.
+I want to start with that because it sets the register for everything that follows. None of it is dramatic. It is the least dramatic day of my life and it is the day everything actually happened.
 
 The turning off the provincial road is signposted. There is a barrier at the top of the spur, and it was up, and there was nobody in the hut beside it, because it was a Tuesday morning in May and the barrier is for lorries.
 
@@ -26,7 +26,7 @@ Two months. Fourteen lines. On a hardbound page with columns, in biro, in a buil
 
 That's the whole book, right there, on the desk, in the most boring object in the building. Nobody comes. Nobody has ever come. There is nothing to defend against, because the defence is that there is no reason for anybody to be interested, and that defence has held for twelve years and it held against me too until the day I wrote a four-sentence letter about a dull item.
 
-I signed my name and wrote *research* in the purpose column and got a lanyard, and that is how you get into the most important room in this book.
+I signed my name and wrote *research* in the purpose column and got a lanyard, and that is how you get into that room.
 
 ---
 
@@ -76,7 +76,7 @@ And Dr Aylin Pekcan said:
 
 She showed me the stacks.
 
-I did not ask to see the stacks. I want that clearly stated, because I have gone over the ethics of that day more than I have gone over anything else in my life: **I did not ask.** She offered, in the way that any professional offers to show you the good part when you have demonstrated that you can understand it, and I said yes.
+I did not ask to see the stacks. I have gone over the ethics of that day more than I have gone over anything else in my life, so I will be exact: **I did not ask.** She offered, in the way that any professional offers to show you the good part when you have demonstrated that you can understand it, and I said yes.
 
 We went through two sets of doors and down a ramp and it got colder and quieter, and the second set of doors is where the building stops being a building, and past that it is cut rock with a concrete floor and a very good lighting scheme, and it goes back a long way.
 

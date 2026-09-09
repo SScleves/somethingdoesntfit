@@ -112,7 +112,7 @@ Which is the correct question and the only one anybody has ever asked me that I 
 
 Ana nodded slowly.
 
-And then she said the thing that I have thought about more than any other sentence in this book, including all the ones on page 118.
+And then she said the thing I have thought about more than any other sentence, including all the ones on page 118.
 
 "Okay. So — I don't believe it." She said it gently. "I want to be honest with you because we've had about two years of not being. I don't believe there's a — a wheel, or lives, or that you saw anything real in this kitchen. I think you had an experience and I think you're the most honest person I know about what you don't know, and I still don't believe it."
 
@@ -192,4 +192,4 @@ There was one thing. There has always been one thing. Forty minutes at four in t
 
 I'm not going to tell you why I didn't tell her, because I've thought about it for a long time and there are three reasons and only one of them is decent, and I can't separate them.
 
-What I'll say is that it was the fourth time in this book that I have lied to my wife to protect her, and it is the only one of the four where I still think, sitting here now, that I was right.
+What I will say is that it was the fourth time I lied to my wife to protect her, and it is the only one of the four where I still think, sitting here now, that I was right.

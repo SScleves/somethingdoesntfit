@@ -83,7 +83,7 @@ Both of it. First and last, unhurried, and correctly — including the spelling,
 
 ---
 
-I'm going to give you most of this conversation, because it's the most important one in this book and because I have thought about every sentence in it for a very long time.
+I'm going to give you most of this conversation, because it is the most important one I have ever had, and because I have thought about every sentence in it for a very long time.
 
 He began by asking me about myself. Not work, not family. Something about me.
 

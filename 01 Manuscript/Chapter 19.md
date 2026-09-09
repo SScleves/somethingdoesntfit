@@ -236,7 +236,7 @@ I said I'd changed one, in a sandbox, to see what it did.
 
 He wrote that down. He asked why. I told him the truth, which is that I wanted to know what the tool had been told to ignore. He wrote that down too, and asked whether I'd documented it, and I said no, and he said that was the actual finding, and I realised he'd been sent to look for undocumented changes and not for me, and that he was bored, and that he'd be gone in a fortnight.
 
-He was. He was a perfectly nice man doing a dull job, and for about nine days I was certain he was going to end my life, and I want that on the record because of what happens later, and because of who I wasn't looking at while I was looking at him.
+He was. He was a perfectly nice man doing a dull job, and for about nine days I was certain he was going to end my life, and I have kept that, because of what happens later, and because of who I was not looking at while I was looking at him.
 
 Frank walked past my desk after the interview and said, "Sander, yeah? He did us in Rotterdam last year. Absolute machine for a spreadsheet, no personality whatsoever, harmless." And then, "You all right, man? You look rough."
 

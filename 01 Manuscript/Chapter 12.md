@@ -2,7 +2,7 @@
 
 # Chapter Twelve
 
-The market is on Sundays. That is the only reason the next thing in this book is a library and not a man with a beard, and I spent six days walking around with *he wanted to know if anyone ever came asking about him* going round in me like a stone in a washing machine.
+The market is on Sundays. That is the only reason the next thing that happened was a library and not a man with a beard, and I spent six days walking around with *he wanted to know if anyone ever came asking about him* going round in me like a stone in a washing machine.
 
 The library thing was already booked. I'd requested the book in October.
 
@@ -144,7 +144,7 @@ I was going to poke it.
 
 ---
 
-I built it that night and I want it on the record that I built it properly, because it is the single cleverest thing I did in this entire business, and it is also the thing that ended my life as I knew it, and both of those are true at once.
+I built it that night and I built it properly, and it is the single cleverest thing I did in the whole business, and it is also the thing that ended my life as I knew it, and both of those are true at once.
 
 Three posts. Three different forums, three different accounts, three different registers, all within nine days of each other.
 
@@ -161,7 +161,7 @@ And then I did the thing that makes it an experiment instead of a stunt, which i
 *If the false post gets a correction: my method is worthless, because they are correcting things that aren't there.*
 *If the TRUE post — the dull one — is touched, and the other two are not: then something is reading for content, not for volume.*
 
-Then I sat there for a while with the cursor blinking, because I am not, whatever else this book has made me sound like, a brave man.
+Then I sat there for a while with the cursor blinking, because I am not, whatever else I have made myself sound like by now, a brave man.
 
 I thought about Ana asleep upstairs. I thought about the professor sitting on an upturned crate in the rain, asking a bookseller whether anyone had ever come asking about him.
 

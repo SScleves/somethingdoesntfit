@@ -113,7 +113,7 @@ I'm not going to make it beautiful. Most of it was uncomfortable and some of it 
 
 What I'll report is the one thing that survived the next morning, which is my only test for any of it.
 
-It was not a revelation. Nobody told me anything. There was no tunnel, no relative, no light — I'd read enough by then to know exactly what I'd been primed to produce, and I want it on the record that I produced none of it, which is either evidence or the world's least useful anticlimax.
+It was not a revelation. Nobody told me anything. There was no tunnel, no relative, no light — I'd read enough by then to know exactly what I'd been primed to produce, and I produced none of it, which is either evidence or the world's least useful anticlimax.
 
 What there was, was a change in the *aperture.* For a while — an hour, maybe less — it was as if something that is normally almost closed was open by a few degrees, and through it I could see that there was a very great deal on the other side, and that it had been there the whole time, and that under ordinary conditions I have precisely no access to it and never had.
 

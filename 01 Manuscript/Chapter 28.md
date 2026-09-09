@@ -2,7 +2,7 @@
 
 # Chapter Twenty-Eight
 
-I did not go and look at the building. I want that on the record because it was the hardest thing I did all year.
+I did not go and look at the building. I did not go, and it was the hardest thing I did all year.
 
 There is a version of this where a man flies to Turkey with a hire car and sits on a hillside with binoculars for three days, and I thought about it for about a fortnight, and the reason I didn't is that I finally worked out what I'd be doing: I'd be **collecting permission slips.** Same as Antwerp, three years earlier, standing in front of a case of printing plates learning that a thing which had obviously happened could happen. It feels exactly like progress and it is exactly not.
 
@@ -42,7 +42,7 @@ I got as far as an actual conversation, in careful English, with a man called Er
 
 The contract ended in 2019.
 
-It ended in 2019 because it was competitively retendered and they lost, which is public, which was in the award notice I had already read and had skimmed, because I had found the thing I wanted and had stopped looking at the thing in front of me — which is precisely and exactly the failure I have been lecturing this book about for twenty-seven chapters, committed by me, at the last possible moment, on the most important document I had.
+It ended in 2019 because it was competitively retendered and they lost, which is public, which was in the award notice I had already read and had skimmed, because I had found the thing I wanted and had stopped looking at the thing in front of me — which is precisely and exactly the failure I have been lecturing everybody about for three years, committed by me, at the last possible moment, on the most important document I had.
 
 *First few words, last few words, length about right, done.*
 
@@ -58,7 +58,7 @@ Requests should be made in writing.
 
 That's it. That's the door. It's on page four of a PDF that has been on a public website since 2019 and I would put money on the number of people who have read it being under fifty.
 
-Now — I want to lay out why this works, because when I explained it to Ana she said "that can't be it," and she was voicing the correct objection, which is that it is *too easy* and everything in this book has taught us that nothing is easy.
+Now — I want to lay out why this works, because when I explained it to Ana she said "that can't be it," and she was voicing the correct objection, which is that it is *too easy* and nothing in three years had been easy.
 
 It works for exactly the reason everything else failed.
 

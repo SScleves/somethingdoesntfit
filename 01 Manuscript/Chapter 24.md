@@ -18,7 +18,7 @@ Noor was gone. Els Maasen had asked me not to write. Beard Man was Beard Man and
 
 So the month came down to: an old dog, a table, forty ruled lines I had been reading for three years, and the specific silence of a house where somebody else's shoes aren't in the hall.
 
-That's the condition. That's all it was. I didn't go looking for anything. I'd like the record to show that I was not *seeking*; I have read enough of that literature since to know what seeking sounds like and I have no patience for it and I didn't do it.
+That's the condition. That's all it was. I didn't go looking for anything. I was not *seeking*; I have read enough of that literature since to know what seeking sounds like and I have no patience for it and I didn't do it.
 
 I sat down because there was nothing else to do and because I'd been doing it badly for eight months already.
 
@@ -46,7 +46,7 @@ So on the fourth night I stopped trying to get anywhere. That's it. That's the w
 
 I'm going to describe what happened next as flatly as I can, and I want to say in advance that I have no idea what it was.
 
-I'm not going to pretend to certainty I don't have; that would make everything else in this book worthless. What follows is a report of an experience. An experience is not evidence of anything except itself.
+I'm not going to pretend to certainty I don't have; that would make everything else worthless. What follows is a report of an experience. An experience is not evidence of anything except itself.
 
 The wall gave.
 
@@ -94,7 +94,7 @@ And one hand cracked across the knuckles.
 
 Cold mud on my cheek and a low grey sky and a hand reaching, cracked at the knuckles, a hand I *almost* knew, the way you almost know a word in a language you've forgotten.
 
-I have written that sentence once before in this book. It's on page one. It happened in gold light at a graveside on a beautiful day, for less than the length of a camera flash, and I filed it under lack of sleep before it had finished, and I told you at the time that the difference between those two sentences would turn out to matter more than anything else in my life.
+I have written that sentence once before. It was the first thing I put down. It happened in gold light at a graveside on a beautiful day, for less than the length of a camera flash, and I filed it under lack of sleep before it had finished, and I told you at the time that the difference between those two sentences would turn out to matter more than anything else in my life.
 
 ---
 
@@ -110,7 +110,7 @@ Then I sat there at the table and did the audit, and the audit is the actual cha
 
 I wrote both of those down and I have never argued my way out of either.
 
-Here's the one thing I have, and it's small, and it's the only reason this chapter exists.
+Here is the one thing I have, and it is small, and it is the only reason I am putting any of this down.
 
 **The log.**
 
@@ -136,7 +136,7 @@ The wall of comfort isn't out there. Or it isn't only out there. There's one shi
 
 I want to be honest about where that leaves me, because this is the point at which most books of this kind hand you something and I'm not going to.
 
-I do not know what happened in that kitchen. I have no mechanism. I cannot tell you how, and I am not going to pretend, and if you have come this far hoping the last chapters explain it, I'd stop here, with my apologies and my genuine respect.
+I do not know what happened in that kitchen. I have no mechanism. I cannot tell you how, and I am not going to pretend, and if you have come this far hoping the end explains it, I would stop here, with my apologies and my genuine respect.
 
 What I have is this, and it's all I've got, and it's enough to have changed everything I did afterwards:
 

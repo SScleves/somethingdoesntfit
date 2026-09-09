@@ -76,7 +76,7 @@ What is *not* a guess is the physical fact.
 
 Somebody took the most extraordinary thing built for the next six thousand years, and hid it, carefully, thoroughly, and then went away.
 
-And here is the only sentence in this chapter I'd actually fight for. It's not a claim about who or why. It's smaller than that:
+And here is the only sentence I would actually fight for. It's not a claim about who or why. It's smaller than that:
 
 **The first monumental structure we know of was also the first deliberate concealment we know of, and it was the same people, and it was on purpose.**
 
@@ -112,7 +112,7 @@ Thirty-one years before an archaeologist walked up that slope with a wheelbarrow
 
 I want to say clearly what I could and could not do with that.
 
-I could not verify it. That's the whole problem, and it's the next chapter of my life. There are three known copies of the 1963 first impression. One is in a national library. I have never been able to hold both printings of entry seventeen, and by my own rule — held, both, run — it does not count.
+I could not verify it. That is the whole problem, and it is the next two years of my life. There are three known copies of the 1963 first impression. One is in a national library. I have never been able to hold both printings of entry seventeen, and by my own rule — held, both, run — it does not count.
 
 I ordered the 1971 reprint that night for nine euros and it came in a week and page 212 says exactly what the professor said it says. Which proves precisely nothing, since half of the sentence is the half I can't see.
 
@@ -144,7 +144,7 @@ Buddy watched the entire performance from the doorway with the expression of a d
 
 He thumped his tail once.
 
-I want it on the record that I knew what I was starting. I've replayed that evening enough times to be sure of it. I knew, in the ordinary way you know things about yourself that you have no intention of acting on, that a man who clears a shelf for forty-one entries is not going to be the same man when the shelf is full.
+I have replayed that evening enough times to be sure of what I knew. I knew, in the ordinary way you know things about yourself that you have no intention of acting on, that a man who clears a shelf for forty-one entries is not going to be the same man when the shelf is full.
 
 I cleared it anyway. That's the honest version.
 

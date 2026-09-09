@@ -48,7 +48,7 @@ And then I thought about a man at a market with a beard who is right in interest
 
 Two weeks later they did it to me, and it took about ninety minutes, and I never found out who.
 
-I should explain the persona, and I've put it off for twenty chapters because it's the most embarrassing thing in this book.
+I should explain the persona, and I have put it off for three years because it is the most embarrassing thing I own.
 
 I have an account. I've had it since 2013. It doesn't have my name on it and it never has, and I use it on maybe five forums, and it does exactly one thing: it posts small, true, checkable, slightly strange facts. That's it. That's the whole persona. Twelve years of it, a few hundred posts, *did you know that Ethiopia is running seven years behind us and it isn't an error*, *did you know they found a working steam engine in the first century and shelved it as a party trick*, *did you know there is a broadsheet in a Zurich library where a printer in 1561 describes something over Nuremberg and nobody has ever satisfactorily explained it.*
 
@@ -82,7 +82,7 @@ That's a woman on my side, reading carefully, in eleven seconds.
 
 ---
 
-I did the sensible thing. I want it noted that I did the sensible thing.
+I did the sensible thing, which is not always true of me.
 
 I went to the site. I could not get into the account — the password had gone, and the recovery email had gone, and the address it now pointed at was one character different from mine in a way you would not see if you weren't looking for it. I wrote to the moderators. Three of the five forums never replied; two did, and both were kind, and both explained, correctly, that they had no way of knowing which version was the original, because their edit history only goes back ninety days and this had been done to posts from 2014.
 
@@ -94,7 +94,7 @@ Eleven. Over a fortnight.
 
 The doctored post has been up since 2019 in a form I didn't write, and by then it had been quoted four times, once by somebody who was being funny about it.
 
-And that's the arithmetic, and it's the only thing in this book I'd put on a wall. **A claim and its correction do not travel at the same speed, and they never have, and the gap between those two speeds is where all of this lives.** You don't have to censor a man. You add two per cent, and the man spends the rest of his life at eleven views.
+And that's the arithmetic, and it is the only thing I would put on a wall. **A claim and its correction do not travel at the same speed, and they never have, and the gap between those two speeds is where all of this lives.** You don't have to censor a man. You add two per cent, and the man spends the rest of his life at eleven views.
 
 ---
 

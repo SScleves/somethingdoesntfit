@@ -40,7 +40,7 @@ So I put it away. Not the memory. The *grief.* There was no shelf for it, so it 
 
 ---
 
-I'd like to say something about the shrinks, and it's the only score-settling in this book, and it isn't with them.
+I'd like to say something about the shrinks, and it is the only score-settling I am going to do, and it isn't with them.
 
 Four of them, over twenty years. All competent. All decent. Every one of them eventually did the thing: closed the notebook and told me there was nothing here to treat, that I was not unwell, that I thought a great deal and would like company for it and they couldn't in good conscience keep charging me. Fired for being fine, four times.
 
@@ -66,7 +66,7 @@ I have to be careful with the next part, because it's the one that ties the whol
 
 Here it is as plainly as I can put it.
 
-At the graveside, in chapter one, I did some arithmetic that I've never been able to unthink. If the wheel turns and you come back — you don't come back as *you*. You come back a stranger with a stranger's face in another decade, and the person you loved comes back somewhere else on their own schedule, and the two of you could pass each other in an airport and feel nothing.
+At the graveside, on the first morning of all this, I did some arithmetic that I've never been able to unthink. If the wheel turns and you come back — you don't come back as *you*. You come back a stranger with a stranger's face in another decade, and the person you loved comes back somewhere else on their own schedule, and the two of you could pass each other in an airport and feel nothing.
 
 I called it a machine for making sure no one ever finds anyone again.
 
@@ -165,7 +165,7 @@ I stood in the dark for a while.
 
 And then: "Do you want me to come home?"
 
-And here's the thing I did, and I want it on the record, because everything in the last third of this book proceeds from it.
+And here is the thing I did, and everything after it proceeds from it.
 
 I said, "Not yet."
 
@@ -173,4 +173,4 @@ Because I had, by then, a depot in Turkey with a very good climate-control speci
 
 I told myself that was protecting her. I have thought about it a great deal since and I think, on balance, this time, it actually was.
 
-But I'd like it noted that I have used that sentence to mean four different things in this book and that only one of them was true, and that I could not tell them apart at the time and neither could she.
+I have used that sentence to mean four different things. Only one of them was true, and I could not tell them apart at the time, and neither could she.

@@ -182,7 +182,7 @@ I watched them go from the front door. Mora went into that car like it was a res
 
 Then it was me and Buddy in a house.
 
-Here's the thing I have to put down, and it's the worst sentence in this book, and I've written it four different ways trying to make it sound better and it doesn't.
+Here is the thing I have to put down, and it is the worst sentence I have written, and I have done it four different ways trying to make it sound better and it doesn't.
 
 I did not go after her.
 

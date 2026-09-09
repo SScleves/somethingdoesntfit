@@ -68,7 +68,11 @@ That landed somewhere the books hadn't reached. Because she was right, and becau
 
 "I'm on land," I said.
 
-Third lie. But I meant to make it true. I want that on the record.
+Third lie. I meant to make it true.
+
+I opened the file that night and put one line in the notes, where nobody will ever read it:
+
+*Told A. I am on land. Present tense. Review.*
 
 ---
 

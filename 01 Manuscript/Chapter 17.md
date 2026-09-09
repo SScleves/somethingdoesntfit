@@ -46,7 +46,7 @@ That's it. That is genuinely all. Three names on two lists.
 
 And here's the thing I couldn't argue my way out of, then or since. If you showed me that in a work context — the same small group of people controlling both what gets logged and who gets alerted — I would not call it a coincidence. I would not call it sinister either. I would call it *a control problem*, which is a thing that has a name because it happens constantly, and I would write it in a report, and everyone in the meeting would nod, because in my industry that is simply understood to be a bad arrangement regardless of anybody's intentions.
 
-That's all I ever claimed. I want it on the record that this is all I ever claimed.
+That's all I ever claimed. That is all I ever claimed and I wrote it down in exactly those words.
 
 The same hands on the record and on the shelter.
 
@@ -112,7 +112,7 @@ But I'd designed the test in advance, and written down what each answer would me
 
 I stopped replying. Nothing else happened. That's the part nobody tells you about being noticed: it is almost entirely uneventful, and the uneventfulness is the pressure.
 
-And I finally understood something that had been sitting there since the winter, and it is the reason this chapter is where the second half of my life starts.
+And I finally understood something that had been sitting there since the winter, and it is where the second half of my life starts.
 
 *I did this to myself, on a specific night, at a specific hour.*
 

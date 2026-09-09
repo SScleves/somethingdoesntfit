@@ -68,7 +68,7 @@ There were no other changes.
 
 Two hundred and nine pages, first printing against fourth, and one alteration in the entire book — a clause on page 44 that stopped saying we couldn't reconstruct something and started saying it was probably simpler than it looked. Everything else identical. Including, on page 61, *Nebuchadnezzar* spelled two different ways in the same paragraph, in both printings, in a book that had been through four runs and, presumably, at least one person who could spell.
 
-I sat back and did not feel clever. I'd like that on the record too. What I felt was the specific unpleasant sensation of a thing getting bigger while you're holding it.
+I sat back and did not feel clever. What I felt was the specific unpleasant sensation of a thing getting bigger while you're holding it.
 
 Because this was not Tresidder. Different country, different decade, different publisher, different subject, different everything. A 1926 monograph on flood myths and a 1970s paperback about how they cut the stones.
 

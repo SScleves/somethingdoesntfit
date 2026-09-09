@@ -100,7 +100,7 @@ There's a category on that list of forty. The professor never wrote it down as a
 
 And some noticed, and looked at it clearly, and **stopped**, and were never touched at all, and lived.
 
-I had read that as a warning. It's not a warning. It's an option, and it is available to everybody in this book except me.
+I had read that as a warning. It's not a warning. It is an option, and by then it was available to everybody in this except me.
 
 ---
 
@@ -126,7 +126,7 @@ The street was outside. She was already half turned into it.
 
 ---
 
-Buddy went down at ten past three on the Sunday morning and I want to write this part accurately because it is the truest thing in this book.
+Buddy went down at ten past three on the Sunday morning and I want to write this part accurately, because it is the truest thing I know.
 
 I woke up because of the sound, which is a sound I hope you never learn. Not a whine. A scrabble — claws on a hard floor, going nowhere, fast, and then stopping, and then going again.
 

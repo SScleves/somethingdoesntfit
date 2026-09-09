@@ -46,7 +46,7 @@ Not deliberately. Some part of me that has been running in the background since 
 
 I stood on the ninth fairway with my seven iron and a sick, quiet feeling, because there is no version of a man who is measuring his wife's laughing that is a good version, and I knew it, and there was nothing whatsoever I could do about it. That part doesn't take instructions. It never has. It's the same part that counted the fourteen tabs.
 
-I want it on the record because it's the first symptom and I missed it. I thought the disease would be about books.
+It was the first symptom and I missed it. I thought the disease would be about books.
 
 ---
 
@@ -66,7 +66,7 @@ That's the marriage. I'd have signed for another forty years of it right there a
 
 Same thought I'd had on the seventh in the wet grass, months earlier, and had put on the record.
 
-Here's what's different, and it's the reason I'm writing this chapter at all: the first time, it arrived as weather. It just passed through.
+Here is what is different, and it is the reason I have kept this one: the first time, it arrived as weather. It just passed through.
 
 This time it arrived as an offer. There was a version of that afternoon where I put the shelf back, gave the list to a university that would ignore it, and went to the driving range twice a week for the rest of my life.
 

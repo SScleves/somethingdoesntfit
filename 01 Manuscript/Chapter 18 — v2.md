@@ -2,7 +2,7 @@
 
 # Chapter Eighteen
 
-The tools arrived in May and everybody was delighted, including me, which I want said first because it would be very easy to write this chapter as a man who saw it coming.
+The tools arrived in May and everybody was delighted, including me, which I want said first, because it would be very easy to tell this as a man who saw it coming.
 
 They're good. That's the thing nobody in my position ever admits. The new monitoring generation is genuinely, embarrassingly good; it does in four seconds what used to take me a week of asking dull questions in meetings; it does not get tired at half past two in the morning, which is when I have made every mistake of my career.
 
@@ -68,7 +68,7 @@ It took one line. I changed a single value in a single field on my own copy — 
 
 Ninety seconds. It found eleven more.
 
-Nine of them were noise, and I want that on the record because it's the honest half: the defaults exist for a *reason*, and without them you get eleven results and nine of them waste your Thursday.
+Nine of them were noise, and that is the honest half: the defaults exist for a *reason*, and without them you get eleven results and nine of them waste your Thursday.
 
 Two of them were real. Two things that had been quietly drifting under a rolling baseline for months, invisible, in a system that a hundred and forty people rely on to be told when something is wrong.
 
@@ -86,7 +86,7 @@ Same operation as page 118. Not a lie. A **preference**, installed once, in a pl
 
 ---
 
-I wrote one line in the file that night and it's the closest thing this book has to a thesis, so I'll put it where you can find it.
+I wrote one line in the file that night and it is the nearest thing I have to a thesis, so I will put it where you can find it.
 
 *They have never once had to hide anything. They only ever had to be boring in the right place.*
 

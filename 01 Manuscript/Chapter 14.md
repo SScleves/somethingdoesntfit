@@ -180,7 +180,7 @@ But I had run an experiment with the results written down in advance, and one of
 
 Ana was in bed when I got in. I stood in the kitchen with my coat on for a while.
 
-Then I did three things, in this order, and I'd like them on the record because they're the three that mattered.
+Then I did three things, in this order, and they are the three that mattered.
 
 I made copies of the list. All forty-one pages, photographed properly, and then — I'm not going to say where.
 
