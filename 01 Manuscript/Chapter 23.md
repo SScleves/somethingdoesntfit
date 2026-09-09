@@ -42,21 +42,29 @@ I sat in a chair in a workshop in Leiden and did not say anything.
 
 ---
 
-I'd been braced for the argument. It's a coincidence, it's a common face, it's eight years and a bad photograph. I had four of them ready and I don't think much of any of them now, and it turned out not to matter, because she got up and went to the second room and came back with a loupe and put it on the print.
+I had the arguments ready. It's a coincidence. It's a common face. It's eight years and a bad photograph taken from the side by my wife, of a man holding tongs.
 
-"Look at the watch," she said.
+I didn't get to use any of them, because Noor did no detection whatsoever.
 
-I looked at the watch.
+She just looked at it again, and then put it face down on the table, which I noticed at the time and have thought about since.
 
-"Now look at the one in Deventer."
+"I sat across a canteen table from that man for an hour," she said. "He had the fish. He asked me whether I'd read a paper of Wachter's, and he *had* read it, which nobody had, and we argued about it. Then in the afternoon he signed for forty crates."
 
-I didn't have one in Deventer. I've never photographed anything in Deventer. What she meant was the description Beard Man gave me on a wet Sunday at a market — *fifties, coat, polite, didn't haggle, had a van* — and the recruiter's consultancy with three faces on a team page, two of which sell dental software, and the third of which I had looked at for nine seconds in February and never gone back to.
+"You're sure."
 
-I went back to it that evening, in a car park, on my phone.
+"No," she said. "I'm as sure as anybody is about a face, which is not evidence, and you're the one who taught me that, so don't make me say it twice." She pushed the print away from her with one finger. "I'm not going to swear to it and I'm not going to be talked out of it. Those are both true and I've stopped finding that uncomfortable."
 
-It's him. It's a bad corporate headshot from the shoulders up and it is unmistakably him, and the name under it is not Kalder, and the biography under that is four lines about asset integrity, and I had looked straight at it in February and seen a stock photo, because in February I had never met the man.
+---
 
-That's not detection. I want that clear. That is a man being handed something twice and only understanding it the second time because somebody else did the work.
+The rest of it I did myself, that evening, in a car park, on a phone, and it took nine minutes and it is the least impressive piece of work in this entire business.
+
+Because I already had it. That's the part I've never got over.
+
+Beard Man, on a wet Sunday, four years ago: *fifties, coat, polite, Dutch or good enough, didn't haggle, had a van.* And the recruiter's consultancy from February, with four pages and a team page and three faces on it, two of which turned out to be selling dental software, and the third of which I had looked at for about nine seconds and closed.
+
+I'd looked straight at him in February. A bad corporate headshot from the shoulders up, under a name that is not Kalder, over four lines about asset integrity.
+
+And I had seen a stock photo, because in February I had never met the man, and because I was looking for a company and not for a person, and because that is how it works — you are only ever handed the thing twice, and the first time it is not information, it's furniture.
 
 ---
 
