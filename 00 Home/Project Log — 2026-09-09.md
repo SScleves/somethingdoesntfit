@@ -124,3 +124,13 @@ The Netherlands. Home: an unnamed Dutch city (Utrecht-shaped). Real geography is
 - Revision Pass Checklist (dialogue pass; coined-phrase caps; faucet audit; switch-residue audit; not-Langdon audit; Ana-offstage audit; fact-audit for ch. 3 NDE/DMT claims; length).
 - Killer-line pass on ch. 3–4 (flatten/cut list in §2).
 - GitHub connector optional; `git clone` works for reading the public repo.
+
+
+---
+
+## Addendum — 10 Sep 2026
+
+- Narrator named: **James Klippe** (9 Sep). Name rules in `03 Characters/Narrator.md`.
+- Santi's Gemini/NotebookLM conversation of 9 Sep adjudicated; decisions and disagreements recorded in `02 Structure/HANDOFF — Beat Sheet v4 + drafting instructions for Opus.md`, which now supersedes Beat Sheet v3 and the Chapter Map from ch. 18 on.
+- New structural elements: four real-history interludes (Down House 1860; Gondar 1770; Jerusalem 1991; Nuremberg 1561) and four operative cutaways (the only Keeper-POV exception). An operative with three names (golf / institutional / none); an ally who is Maasen's last student. Golf stays; Frank stays innocent; the ch. 5 redaction stays.
+- Drafts on disk: ch. 5–18 (ch. 18 fairway half flagged for rewrite). Opus continues from ch. 19 per the HANDOFF §12.
