@@ -10,7 +10,13 @@ The turning off the provincial road is signposted. There is a barrier at the top
 
 The car park has thirty marked bays and there were nine cars in it. The trees along the eastern side, which somebody has been watering for a decade, are now about six metres tall and give shade to the bays nearest the building, and there is a bicycle rack, and there was one bicycle in it.
 
-I was seven minutes early. I sat on a low wall for six of them.
+I was seven minutes early. I sat on a low wall for six of them and thought about ringing Ana, and worked out that it was half past six in the morning at home, and didn't.
+
+So I sat on a wall in Anatolia and thought about the boiler.
+
+That is what I had been doing, on and off, for three days — in two airports and a hotel room and now on a wall: a man two thousand kilometres from his own house, thinking about a boiler that has been serviced twice since a pleasant man mentioned it on a terrace in July. I had it done in August. I had it done again in October, by a different firm, and I have both certificates in a drawer, and it has not helped in the slightest.
+
+That's the whole economy of a sentence like that. It doesn't have to be true, and it doesn't have to be a threat, and nobody has to mean it. It only has to be *cheap*, and it has to be about your house, and then you carry it around for the rest of your life at no further cost to anybody.
 
 ---
 

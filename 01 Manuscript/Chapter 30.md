@@ -239,3 +239,19 @@ He walked me out to the taxi. He was perfectly pleasant. At the door he said som
 Then: "He'd have been sixty-nine this year. No — I'm wrong. He *was* sixty-nine."
 
 And he did up a button and went back inside, and I got in a taxi and went to the airport.
+
+---
+
+I rang Ana from the gate.
+
+"Is it done?"
+
+"It's done."
+
+"Are you all right?"
+
+I stood at a window watching a plane being refuelled and found that I did not know, and said so, which is a thing I have got better at.
+
+"Come home," she said. And then, in exactly the tone you'd use for the shopping: "The boiler's fine, by the way. I had him back out. He thinks we're mad."
+
+Which is how I found out that she had been thinking about it too, for four months, and had not said anything, for precisely the same reason I hadn't.
