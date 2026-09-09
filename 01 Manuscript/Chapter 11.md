@@ -120,7 +120,7 @@ He thought about it. He actually thought about it, for longer than I expected, s
 
 Here's what I did with that, and here's where I have to hold my own line.
 
-That evening I sat at the kitchen table with the list and six verified entries and a notepad, and I wrote out, in two columns, what the six edits actually did.
+That evening I sat at the kitchen table with the list and six verified entries and a notepad, and Buddy came in wet from the garden and lay down on my feet without drying himself off first, which is a thing he does when he suspects I might leave, and I wrote out, in two columns, what the six edits actually did.
 
 *we have not yet reconstructed* → *doubtless simpler than they appear*
 *transmitted to the early* → *arisen among the first*

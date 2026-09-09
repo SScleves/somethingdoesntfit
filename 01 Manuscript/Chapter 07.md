@@ -126,7 +126,7 @@ She waited to see if I was going to say anything else and I didn't, and she took
 
 ---
 
-I went through all forty-one entries again that night and this time I read the margins instead of the lines.
+I went through all forty-one entries again that night, on the floor, with my back against the cupboard and an old dog against my leg, and this time I read the margins instead of the lines.
 
 Most have nothing. A dozen have something. A year. A word. Twice a name. One says only *poor woman.*
 
