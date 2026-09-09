@@ -44,14 +44,13 @@ There was nothing to say to that. I've gone over it and there was nothing.
 
 "Okay," she said, and stood up, and took the pages with her, which I hadn't expected, and put them on the shelf next to the sleeve. Then she went upstairs and slept in the spare room, and in the morning she was normal, and made coffee, and asked what time I'd be back, and that was worse than a fight by a distance I can't measure.
 
-Mora slept in with her. Buddy stayed with me. He's not loyal, he's just old and the stairs are the stairs.
-
+Mora slept in with her. Buddy stayed with me. He is not loyal, he is just old and the stairs are the stairs.
 
 ---
 
-Noor had been in my life for about three months by then, and we had settled into the thing we do, which is that I send her a pattern and she tells me it isn't one.
+Noor had been in my life for five months by then and we had settled into the thing we do.
 
-What she cannot do — and this is the part that made us work — is see a pattern to save her life.
+She is better than me at every part of this except one, and the exception is the part that makes us work: she cannot see a pattern to save her life, she knows it, and she is not in the least bothered about it.
 
 > **HER:** so you have nine of these
 >

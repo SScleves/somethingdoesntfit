@@ -10,21 +10,17 @@ At work, when somebody hands me a system and says *find the problem*, the amateu
 
 What I do instead is look at how the thing is *kept*. Which files are backed up and which aren't. What somebody bothered to write a script for. Where the copies are. What's been left running that nobody uses. A system's filing tells you what the people who built it were afraid of losing, and it tells you before you open anything, and it doesn't lie, because nobody edits their filing to fool you. They don't think of it as speech.
 
-And I would like to say that I thought of doing it to the list myself.
-
-I didn't. Ana thought of it, fourteen months earlier, standing at that table with a cup of tea in her hand, when she turned the thing round with one finger and said *he's crossed nothing out* — and then went to bed, and never mentioned it again, and does not know to this day that she said anything at all.
-
-She read the object. I had been reading the content for two years. It took her about nine seconds and it took me until March, and the only difference between us is that I had decided in advance what kind of thing I was holding and she hadn't.
-
-So one Saturday in March I put the list on the table and covered the two right-hand columns — the *before* and the *after*, the actual content, the part I'd spent two years on — with a strip of card.
-
-And I looked at what was left.
-
 ---
-We talked for a fortnight before we talked.
+
+I had not worked any of that out on my own either, and I should say where it came from, because it came from a woman in Leiden with a lamp.
+
+By March, Noor and I had been talking for three months and had never once met.
 
 I want to describe what that was like, because it changed the temperature of my whole life and I didn't notice until afterwards.
 
+I had been alone in this for two years. Not lonely — I had a wife and two dogs and a job and four retirees on the third tee — *alone*, in the specific sense that every single thing I found, I had to test by myself, argue with by myself, and believe or disbelieve by myself, at a kitchen table, at one in the morning, with nothing to push against but a dog.
+
+And then there was a person who knew what a tipped-in leaf was.
 I had been alone in this for two years. Not lonely — I had a wife and two dogs and a job and four retirees on the third tee — *alone*, in the specific sense that every single thing I found, I had to test by myself, argue with by myself, and believe or disbelieve by myself, at a kitchen table, at one in the morning, with nothing to push against but a dog.
 
 And then there was a person who knew what a tipped-in leaf was.
@@ -57,6 +53,12 @@ Two different papers. You could see it like weather. The leaf was a shade smooth
 
 I laughed out loud in an empty kitchen at midnight and the old dog thumped his tail twice, because a laugh is a thing he still recognises.
 
+And that is the whole of it, and it took me until March to understand that she had handed me a general instruction and not a tip about leaves.
+
+*Don't hunt for the thing that was taken out. Look at the material it was taken out of.*
+
+She meant paper. But I had spent two years doing the identical stupid thing to the list — going through it line by line for the removed thing, the stub, the smoking clause — and had never once looked at the object it was written on.
+
 ---
 
 She's better than me. I want that written down plainly.
@@ -64,6 +66,17 @@ She's better than me. I want that written down plainly.
 She's a paper conservator. She spent four years doing a doctorate under Maasen and then, in 2017, her university reorganised its special collections under a grant and the department she'd been promised became two rooms and a scanner, and she left and learned a trade. She can date a paper by feel, and I mean by *feel*, in the dark; she has done it for me twice since as a party trick and been right both times.
 
 ---
+
+And I would like to say that when I finally did it to the list, I thought of that myself.
+
+I didn't, and not even Noor gets the credit. Ana had already done it — fourteen months earlier, standing at that table with a cup of tea in her hand, when she turned the thing round with one finger and said *he's crossed nothing out*, and then went to bed, and never mentioned it again, and does not know to this day that she said anything at all.
+
+She read the object. It took her about nine seconds. It took me a woman in Leiden with a lamp, and then another three months, and I had been holding the thing the entire time.
+
+So one Saturday in March I put the list on the table and covered the two right-hand columns — the *before* and the *after*, the actual content, the part I'd spent two years on — with a strip of card.
+
+And I looked at what was left.
+
 
 Here's what was left.
 

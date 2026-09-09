@@ -60,20 +60,6 @@ I drove home. I opened the list. I found entry twenty-two, in the professor's ha
 
 *FALSE. Production error. Erratum slip located, Ghent, 14 Feb. Struck.*
 
-Then — and this took me two days to make myself do — I went to the forum where I'd posted the dull true thing, under the same account, and I posted a correction. Publicly. Saying that a claim of this shape, which I had been pursuing, had turned out to be an ordinary printing accident, and here was the erratum slip, and here was the shop, and if anyone had been persuaded by me they should un-persuade themselves.
-
-Nine views.
-
-You want to know why I bothered? Two reasons, and only one of them is noble.
-
-The noble one: if I don't publish the ones that die, I'm not doing this, I'm just decorating.
-
-The other one is that the professor never struck anything out. Forty-one entries and not one correction. Which either means the man was right forty-one times in a row, or it means he stopped writing down the ones that failed — and if it's the second one, then his list is not a record, it's a case, and a case is a thing you can dismiss.
-
-I needed mine to be a record. Even at nine entries. Even at eight.
-
-I crossed one out so that the other eight would be worth something, and I have never regretted a single thing in this business more or less than that.
-
 I told Noor before I told the forum, because by then I told Noor most things.
 
 > **ME:** 22 is dead. erratum slip, tipped into a copy in ghent, 1997. production error. it was never anything.
@@ -91,6 +77,20 @@ Then, about a minute later, because she is who she is:
 > **ME:** yes
 >
 > **HER:** ok. then I will stop worrying about you for a bit.
+
+Then — and this took me two days to make myself do — I went to the forum where I'd posted the dull true thing, under the same account, and I posted a correction. Publicly. Saying that a claim of this shape, which I had been pursuing, had turned out to be an ordinary printing accident, and here was the erratum slip, and here was the shop, and if anyone had been persuaded by me they should un-persuade themselves.
+
+Nine views.
+
+You want to know why I bothered? Two reasons, and only one of them is noble.
+
+The noble one: if I don't publish the ones that die, I'm not doing this, I'm just decorating.
+
+The other one is that the professor never struck anything out. Forty-one entries and not one correction. Which either means the man was right forty-one times in a row, or it means he stopped writing down the ones that failed — and if it's the second one, then his list is not a record, it's a case, and a case is a thing you can dismiss.
+
+I needed mine to be a record. Even at nine entries. Even at eight.
+
+I crossed one out so that the other eight would be worth something, and I have never regretted a single thing in this business more or less than that.
 
 
 ---
