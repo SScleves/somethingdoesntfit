@@ -26,11 +26,11 @@ I did what I could, which was logistics. Coffee appeared. Paperwork got handled.
 
 She looked at me for a second.
 
-"That's sad. And maybe not the best week for it. You're such a dick."
+"Now I feel sad for them, you're such a dick, read the room"
 
 "No — that doesn't mean they're *sad.* It just —" I looked at Buddy on his blanket, waiting for nobody in particular. "Never mind."
 
-She was right. It wasn't a did-you-know. I'd been doing it long enough to know the difference and I'd done it anyway.
+She was right. It wasn't a good did-you-know. I'd been doing it long enough to know the difference.
 
 If love were measured in solved errands, I'd be up for husband of the month. Some nights she fell asleep on my chest at nine and I'd lie there under her, one arm dead, watching the ceiling, thinking about the flash in the cemetery for exactly four seconds before filing it — again — under lack of sleep. I was sleeping fine by then. I filed it anyway. The filing system doesn't ask questions. That's what it's for.
 
