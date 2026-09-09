@@ -108,7 +108,7 @@ I've told you about the spreadsheet: forty entries, two columns of years, the ye
 
 I opened it again because I wanted to lay the edits against the chart and see whether the edits landed near anybody's peak. They don't, particularly, and that idea went in the bin where it belonged.
 
-But when you sort forty numbers by the second column and just *look at them* — not as data, as a list, the way you'd look at a bus timetable — you can see it with your eyes, and I want to be clear that no statistics were harmed in the making of this observation, because that's exactly why I trust it.
+But when you sort forty numbers by the second column and just *look at them* — not as data, as a list, the way you'd look at a bus timetable — you can see it with your eyes, and no statistics were harmed in the making of this observation, because that's exactly why I trust it.
 
 They come in bunches.
 

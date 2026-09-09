@@ -42,7 +42,7 @@ She laughed. She had a nice laugh; she'd clearly had this conversation before. "
 
 ---
 
-I want to be fair about what happened next, because when I've told this story since I've noticed how easy it is to make her sound sinister, and she wasn't. She was good at her job and she gave me twenty minutes she didn't have.
+When I have told this story since I have noticed how easy it is to make her sound sinister, and she wasn't. She was good at her job and she gave me twenty minutes she didn't have.
 
 "There's a scan," she said.
 
@@ -160,6 +160,8 @@ And then I did the thing that makes it an experiment instead of a stunt, which i
 *If the crank post gets attention and the others don't: the world is normal, and loudness attracts noise.*
 *If the false post gets a correction: my method is worthless, because they are correcting things that aren't there.*
 *If the TRUE post — the dull one — is touched, and the other two are not: then something is reading for content, not for volume.*
+
+Buddy was under the table with his chin across my foot, which is where he goes when I am up at that hour, and which he had been doing for so long that I had stopped noticing it happening.
 
 Then I sat there for a while with the cursor blinking, because I am not, whatever else I have made myself sound like by now, a brave man.
 

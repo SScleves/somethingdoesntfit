@@ -92,6 +92,22 @@ At the point where I got to the barbecue she got up and walked to the window and
 
 "I want you to know that I liked him more than I like most of my friends," she said, still at the window. "I want that said out loud in this kitchen. Because otherwise in about six months I'm going to start pretending I always thought there was something off about him, and I didn't. I thought he was great."
 
+Then, after a while, still not turning round:
+
+"Can I say the other thing?"
+
+"Yes."
+
+"You can tell me exactly why you ask strangers that question. The one about themselves. Not work, not family." She turned round. "You can tell me who you stole it from and what you changed and how many minutes it buys you and why you needed it in the first place. You've explained it to me twice, and you were right both times."
+
+"Yes."
+
+"And you sat next to one of them for three months and you couldn't tell."
+
+I didn't say anything.
+
+"I'm not having a go," Ana said. "I'm saying it because I don't think anybody has ever said it to you, and I think you should hear it out loud once, from somebody who isn't trying to win." She came back to the table and sat down. "You have the most accurate map of yourself of anybody I have ever met. And it stops at the front door."
+
 ---
 
 Then the flashes, and the kitchen floor in August, and the corridor.

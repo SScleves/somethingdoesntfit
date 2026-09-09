@@ -1,4 +1,4 @@
-> Status: 🟢 v1 — first draft. Placement: immediately after Chapter 04. Third person. **Every fact here is real and checkable; no invented letters, no invented dialogue.** Inference is marked in the prose.
+> Status: 🟢 v1 — first draft. Placement: after Chapter 06 (moved 10 Sep — after ch. 4 it stalled the reader at "where else?"; after 6 it lands, because he has just proved his method and Darwin proves the phenomenon at scale). Third person. **Every fact here is real and checkable; no invented letters, no invented dialogue.** Inference is marked in the prose.
 
 # Down House, Kent
 ### January 1860

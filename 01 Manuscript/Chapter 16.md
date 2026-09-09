@@ -188,7 +188,7 @@ Forty rows. Two columns of numbers.
 
 Then I sorted by the second column, which is the year the change happened, and I looked at the list of years.
 
-I want to be honest about this moment because it's not dramatic and I nearly missed it. I looked at forty numbers on a screen late at night, and I thought *huh*, and I saved the file, and I went to bed.
+It is not a dramatic moment and I nearly missed it. I looked at forty numbers on a screen late at night, and I thought *huh*, and I saved the file, and I went to bed.
 
 They're not spread out. They come in bunches, with long quiet stretches between them, and the quiet stretches are getting shorter.
 

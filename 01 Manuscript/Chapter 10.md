@@ -128,7 +128,7 @@ At the end of it I said the thing I hadn't said upstairs, to the woman it was ac
 
 Buddy sighed through his nose the way old dogs do, which I have decided not to interpret, and put his chin on my ankle.
 
-I want to be honest about what that scene was, because it would be easy to make it warm and leave it there. It was warm. It was also the exact moment the shape of the next two years got set, and I set it, on a kitchen floor, late on a Thursday, by choosing an audience that could not ask me a follow-up question.
+It would be easy to make that scene warm and leave it there. It was warm. It was also the exact moment the shape of the next two years got set, and I set it, on a kitchen floor, late on a Thursday, by choosing an audience that could not ask me a follow-up question.
 
 That's what they were for. That's what they'd always been for, and I'd been calling it love.
 

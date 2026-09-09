@@ -139,7 +139,7 @@ So I stopped, and looked around for the other instrument, and found the one that
 
 I started sitting.
 
-I was terrible at it. I want to be accurate about the register here, because I know what the word *meditation* does to people, and it did the same thing to me: I pictured a man in linen trousers being calm about his breathing, and I have never in my life wanted to be that man.
+I was terrible at it. The register matters here, because I know what the word *meditation* does to people, and it did the same thing to me: I pictured a man in linen trousers being calm about his breathing, and I have never in my life wanted to be that man.
 
 What it actually was, for the first four months, was: a kitchen chair, twenty minutes, a timer, and an old dog watching me with visible concern. Nothing happened. My legs hurt. My head produced, in order: the shopping, a work thing, a golf swing, an argument I lost in 2011, the shopping again.
 
@@ -161,7 +161,7 @@ Here's what I got, eventually, and it wasn't peace.
 
 Somewhere in the fifth month, in that dull grey twenty minutes, things started coming up that had no business being there.
 
-Not visions. I want to be extremely careful. Nothing announced itself, nothing spoke, nothing glowed.
+Not visions. I want to be extremely careful about this. Nothing announced itself, nothing spoke, nothing glowed.
 
 What happened was that I would be sitting there, bored, and there would be a *face*. For less than a second. Perfectly specific — an actual face, with a jaw and an expression and a weather to it — belonging to nobody I have ever met, and gone before I could look at it.
 
@@ -181,7 +181,7 @@ I have never once, in my entire life, kept a record of the anomalies in my own h
 
 The one system I never instrumented was me.
 
-I want to be honest that at the time I did not think this had anything whatsoever to do with page 118, a list of forty-one entries, or a man who walked east out of Urfa in 1929. I thought it was a separate hobby that I was ashamed of in a different way.
+At the time I did not think this had anything whatsoever to do with page 118, a list of forty-one entries, or a man who walked east out of Urfa in 1929. I thought it was a separate hobby that I was ashamed of in a different way.
 
 I logged it in a different file.
 

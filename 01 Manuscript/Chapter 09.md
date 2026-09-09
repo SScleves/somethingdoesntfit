@@ -62,7 +62,7 @@ Ana said, "Your hands smell of old paper."
 
 "Take it," she said. "There's not much coming."
 
-That's the marriage. I'd have signed for another forty years of it right there at that plastic table, and I want to be clear that I *knew* that at the time. It wasn't hindsight. I sat there in the smell of coffee and wet dog and thought, in these words: *this is enough. This is the whole thing. Don't go looking.*
+That's the marriage. I'd have signed for another forty years of it right there at that plastic table, and I *knew* it at the time. It wasn't hindsight. I sat there in the smell of coffee and wet dog and thought, in these words: *this is enough. This is the whole thing. Don't go looking.*
 
 Same thought I'd had on the seventh in the wet grass, months earlier, and had put on the record.
 

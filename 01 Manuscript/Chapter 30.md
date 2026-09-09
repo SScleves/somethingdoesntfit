@@ -14,6 +14,8 @@ I did it for three sites in two countries over twelve years of awarded contracts
 
 Four independent sources. They agree to within about eight per cent.
 
+Two months of it, at that table, with an old dog on my feet who by then needed a run-up to get off a flat floor, and who stayed under there anyway, every night, for the whole of it.
+
 The three sites are provisioned, in total, for approximately **three hundred and forty people.**
 
 ---

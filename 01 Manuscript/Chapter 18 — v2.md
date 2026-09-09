@@ -26,7 +26,7 @@ And I heard myself say — flatly, out of nothing, in a way that made Frank turn
 
 Everything ships with defaults. Every tool, every system, every product any of us has ever bought or installed. There is always a file somewhere that says what *normal* is, because otherwise the thing would alert on everything and be useless within a day.
 
-Nobody reads that file. I want to be clear that this is not a failing of stupid people. It is a feature of *all* people. There are four hundred settings; you have a job; the vendor has been doing this for fifteen years and you have not; and the entire commercial proposition is *you don't have to think about this.* So you don't. You take the defaults, and so does everybody else, and within three years the defaults are what the whole industry believes normal looks like.
+Nobody reads that file. That is not a failing of stupid people. It is a feature of *all* people. There are four hundred settings; you have a job; the vendor has been doing this for fifteen years and you have not; and the entire commercial proposition is *you don't have to think about this.* So you don't. You take the defaults, and so does everybody else, and within three years the defaults are what the whole industry believes normal looks like.
 
 I asked Frank to send me the config bundle, and he did, delighted, because Frank interprets any interest as conversion.
 
@@ -139,7 +139,7 @@ I laughed so hard I had to sit down on the cart.
 
 ---
 
-Then, on the seventh, he was rude to me, and that's the bit I want to be exact about, because it's the bit that worked.
+Then, on the seventh, he was rude to me, and that is the bit to be exact about, because it is the bit that worked.
 
 We were walking and he said, "Can I ask you something without you thinking I'm being funny?"
 

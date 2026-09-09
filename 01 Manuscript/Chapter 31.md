@@ -12,7 +12,7 @@ What she said was: "So that's it, then."
 
 And I said, "That's it."
 
-I want to be honest that neither of us knew what that meant.
+Neither of us knew what that meant.
 
 ---
 

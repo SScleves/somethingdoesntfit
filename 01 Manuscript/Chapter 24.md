@@ -134,7 +134,7 @@ The wall of comfort isn't out there. Or it isn't only out there. There's one shi
 
 ---
 
-I want to be honest about where that leaves me, because this is the point at which most books of this kind hand you something and I'm not going to.
+This is the point at which most books of this kind hand you something, and I am not going to.
 
 I do not know what happened in that kitchen. I have no mechanism. I cannot tell you how, and I am not going to pretend, and if you have come this far hoping the end explains it, I would stop here, with my apologies and my genuine respect.
 

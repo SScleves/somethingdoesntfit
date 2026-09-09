@@ -2,7 +2,7 @@
 
 # Chapter Eleven
 
-I'd verified six entries by December and I want to be clear that six is not exciting. Six is two afternoons a week for three months, forty euros of postage, and a lot of standing at a kitchen table with a finger on a line.
+I'd verified six entries by December, and six is not exciting. Six is two afternoons a week for three months, forty euros of postage, and a lot of standing at a kitchen table with a finger on a line.
 
 But six is enough to see something, and what I saw made no sense to me, so I did a thing I had never done in eleven years.
 

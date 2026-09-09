@@ -32,7 +32,7 @@ He straightened up and looked at me over the tables for a moment.
 
 "Why now?"
 
-And here is where I had to make a decision, standing in a wet market at nine in the morning, and I want to be honest that I didn't make it well. I made it fast, which is different.
+And here is where I had to make a decision, standing in a wet market at nine in the morning, and I didn't make it well. I made it fast, which is different.
 
 "Because there's a notebook in with them," I said, "in his handwriting, and I've spent a year on it, and I need to know who he was."
 

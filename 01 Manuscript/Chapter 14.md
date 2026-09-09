@@ -207,7 +207,9 @@ I sat at my desk in an open-plan office with about forty people in it and did no
 
 ---
 
-Ana was in bed when I got in. I stood in the kitchen with my coat on for a while.
+Ana was in bed when I got in. Buddy came off the blanket and got as far as the kitchen door and then reconsidered the rest of it and lay down there instead, in the doorway, which was new.
+
+I stood in the kitchen with my coat on for a while.
 
 Then I did three things, in this order, and they are the three that mattered.
 

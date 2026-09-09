@@ -98,7 +98,7 @@ And that's the arithmetic, and it is the only thing I would put on a wall. **A c
 
 ---
 
-I stopped, after that. I want to be clear about what I stopped.
+I stopped, after that. Not the thing you would assume.
 
 I did not stop looking. I have never once stopped looking.
 

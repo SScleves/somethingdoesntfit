@@ -100,9 +100,9 @@ Almost every chapter I wrote has the same shape: observation → hedge → findi
 You were right to ask: as placed, **three of them clashed** (two non-James pieces back to back in three separate places). Fixed order, spaced evenly, each one earning its position:
 
 ```
-Ch 1 – 4
+Ch 1 – 6
    ▸ INTERLUDE I — Down House, Kent. January 1860
-Ch 5 – 8
+Ch 7 – 8
    ▸ CUTAWAY — A hotel bar in Bratislava. Some years earlier
 Ch 9 – 11
    ▸ INTERLUDE II — Gondar, Ethiopia. 1770

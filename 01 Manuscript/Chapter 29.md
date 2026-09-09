@@ -66,7 +66,7 @@ She sat down.
 
 That's it. That's the entire operation. She sat down, across the table, in a cold reading room, on a Tuesday morning in May, because a man had asked her a question about her own paperwork and nobody had ever done that.
 
-I want to be honest about the next hour: it was the best professional conversation of my life and I was there under something that was not quite false pretences and not quite honest ones.
+The next hour was the best professional conversation of my life and I was there under something that was not quite false pretences and not quite honest ones.
 
 I asked how the 2017 material had come in. She told me — nine consignments, ten months, one of them a disaster because of a customs delay and a van without proper conditioning, and she is still angry about it. I asked how she catalogues mixed material with three previous numbering systems on it. She got a piece of paper and drew me the concordance structure and it is genuinely elegant. I asked what she does with the old shelfmarks and she said, with feeling, "We keep them. *We keep them.* You would be amazed."
 

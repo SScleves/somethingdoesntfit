@@ -15,9 +15,10 @@ Nothing of yours was overwritten. Ch. 1–4 are your files, with your 9 Sep tone
 | 2 | Chapter 02 (or **02 — v4 RETRO**) | 2,800 |
 | 3 | Chapter 03 (or **03 — v4 RETRO**) | 2,300 |
 | 4 | Chapter 04 (or **04 — v4 RETRO**) | 3,500 |
-| — | **INTERLUDE I — Down House, Kent. January 1860** | 1,400 |
 | 5 | **Chapter 05 — v2 DRAFT** *(read the v2, not Chapter 05.md)* | 2,000 |
-| 6–11 | Chapters 06–11 | ~11,700 |
+| 6 | Chapter 06 | 2,300 |
+| — | **INTERLUDE I — Down House, Kent. January 1860** | 1,400 |
+| 7–11 | Chapters 07–11 | ~9,400 |
 | — | **INTERLUDE II — Gondar, Ethiopia. 1770** | 1,350 |
 | 12–13 | Chapters 12–13 | 3,800 |
 | — | **CUTAWAY — A hotel bar in Bratislava. Some years earlier** | 900 |
