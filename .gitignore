@@ -7,3 +7,6 @@
 .DS_Store
 *.tmp
 ~$*
+
+# Plugin data files — obsidian-git stores the GitHub PAT here. Never commit.
+.obsidian/plugins/*/data.json
