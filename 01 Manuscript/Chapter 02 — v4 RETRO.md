@@ -1,4 +1,4 @@
-> RETRO PASS v4 — the original Chapter 02.md is untouched. ONE insert: after the margins paragraph, the job named ('knowing what matters and what can be ignored') and the metadata habit (he reads how a thing is kept before he reads it). Pays off in ch. 16 (the list's dates) and ch. 29 (the runbook).
+> RETRO PASS v4 — rebuilt from Santi's updated Chapter 02.md (9 Sep tone pass included). Original untouched. ONE insert: the job named ('knowing what matters and what can be ignored') plus the metadata habit.
 
 # Chapter Two
 
@@ -20,17 +20,17 @@ Grief, it turns out, doesn't move in. It visits.
 
 For the next few weeks Ana was fine at dinner and destroyed by a drawer. She'd laugh at something on TV — actually laugh — and twenty minutes later I'd find her in the bedroom holding a knitting needle she'd found in a bag. Not crying. Just standing, somewhere I couldn't follow. Her grandmother had left a project unfinished: half a sleeve of something, pale green, needles still in it, paused mid-row. Ana couldn't decide what to do with it. Finishing it felt wrong. Unraveling it felt worse. So it sat on the shelf in the living room, and nobody touched it, and we both looked at it every day and said nothing. Our first haunted object. Very low-budget haunting. Extremely effective.
 
-I did what I could, which was logistics. Coffee appeared. Paperwork got handled. The car got gas without anyone asking. And the occasional did-you-know, the safe kind, the ones that let her laugh without having to talk. Except the night I got it wrong.
+I did what I could, which was logistics. Coffee appeared. Paperwork got handled. The car got gas without anyone asking. And the occasional did-you-know, the safe kind, the ones that let her laugh without having to talk. Except sometimes I get them wrong.
 
 "Did you know dogs only have two states at home? With you. Or waiting for you."
 
 She looked at me for a second.
 
-"Now I feel sad for them, you're such a dick, read the room"
+"Now I feel sad for them, you’re such a dick, read the room"
 
 "No — that doesn't mean they're *sad.* It just —" I looked at Buddy on his blanket, waiting for nobody in particular. "Never mind."
 
-She was right. It wasn't a good did-you-know. I'd been doing it long enough to know the difference.
+She was right. It wasn’t a good did-you-know. I’d been doing it long enough to know the difference.
 
 If love were measured in solved errands, I'd be up for husband of the month. Some nights she fell asleep on my chest at nine and I'd lie there under her, one arm dead, watching the ceiling, thinking about the flash in the cemetery for exactly four seconds before filing it — again — under lack of sleep. I was sleeping fine by then. I filed it anyway. The filing system doesn't ask questions. That's what it's for.
 

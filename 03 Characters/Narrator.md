@@ -23,3 +23,18 @@ Can't stop asking *how do we know.* Ana calls it a quality. Made his career, cau
 
 ## Arc
 Funeral hypocrisy (the 85% yes) → the sentence → the list → the grammar → the timestamps (suppression has a heartbeat) → the crossing → the offer (one, not a hundred) → holding the door → the wake.
+
+---
+
+## NAME — decided 9 Sep 2026 by Santi
+
+**James Klippe.**
+
+Rules for using it, so it doesn't get wasted:
+
+- He never uses it about himself. First-person narrators don't. It arrives from other mouths and other paper.
+- **First appearance: ch. 5**, in the antiquarian dealer's reply — *Dear Mr Klippe* — which is exactly right for this book: the reader learns his name off a document, the way he learns everything.
+- Ana almost never says it. She has Mulder and Scully. When she does use it — ch. 22, and once in ch. 26 — it should land like a slap, because it means she has stopped being playful.
+- Frank uses "James" constantly and cheerfully. Frank is the only person in the book who says it casually.
+- **The Keeper, ch. 20, says both names.** *James Klippe.* Full, unhurried, and correct — including the spelling that only exists on one form he ever filled in (ch. 17 pings). That's the moment the name stops being his.
+- The roster in ch. 29–30: he looks for his own name on it. He is not on it. Neither are the guards.

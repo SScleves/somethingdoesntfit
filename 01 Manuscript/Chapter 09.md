@@ -114,7 +114,7 @@ Then I stopped, because I'd been talking for a while.
 
 Frank was looking at me with his eyebrows up and a small delighted expression, and he said, "Okay, that's the most words you've ever said."
 
-Then he laughed, and I laughed, and I put a joke on it — something about my swing — and we went back to our desks.
+"Okay," he said again. "Okay, James." Then he laughed, and I laughed, and I put a joke on it — something about my swing — and we went back to our desks.
 
 But he'd looked at me for about a second and a half before the laugh. I saw it. It was the same look Ana does over a ruler at midnight.
 

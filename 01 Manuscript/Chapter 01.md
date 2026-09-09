@@ -32,7 +32,7 @@ I want to be clear about something, because this matters for everything that cam
 
 But I couldn't stop asking that stupid, out-of-place question. I never can. Ana calls it a quality, but Ana loves me, and love is a terrible auditor. Some days I can't decide if I like or hate the constant monologue in here — I catch myself asking the weirdest shit in the world, then asking whether other people ask themselves these things, then working out the reasons they might not. Okay. It's clearly a defect. But hey — it pays the bills.
 
-I work in IT. If I say it right, and I'm lucky enough to have Ana or someone I care about next to me, I can "use" them — divert the attention, let them carry the table. But if I say it wrong and I'm alone, it's small-talk time. It's either that or get shit in the car on the way home for sitting alone at a table like a man quietly finishing his manifesto.
+I work in IT. If I say it right, and I'm lucky enough to have Ana or someone I care about next to me, I can "use" them — divert the attention, let them carry the table. But if I say it wrong and I'm alone, it's small-talk time. It's either that or get shit in the car on the way home for sitting alone at a table like a man quietly finishing his manifesto. Her words, not mine.
 
 So I've become great at it. For two, maybe three solid minutes.
 
