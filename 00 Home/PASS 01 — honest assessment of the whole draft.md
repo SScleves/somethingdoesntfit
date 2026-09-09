@@ -63,13 +63,17 @@ They contain good material — the ink clusters, the unsent letter, *history is 
 
 **Fix:** Aylin stays. He reads §4 and §7 *while she is talking to a man about a chiller six metres away*, and the horror is that she's cheerful. And at least one section should be discovered by asking her a question rather than by reading a spine.
 
-### ⑤ James is too self-aware to be in danger.
+### ⑤ ~~James is too self-aware to be in danger.~~ **WITHDRAWN — Santi was right, and I was wrong about the book I wrote.**
 
-Gemini flagged this and was right, and I didn't fix it. He pre-empts every objection the reader could raise. He names his own bias, flags his own excitement, diagnoses his own deflections, and grades his own work — often in the same paragraph.
+*Santi, 10 Sep:* "He's very self-aware, period. That doesn't mean he can't be in danger. He's self-aware but he's not aware of things he doesn't — the villain tricks him for a looong time and never notices."
 
-The effect is that he becomes unassailable, and an unassailable narrator cannot be *surprised*, and a character who cannot be surprised cannot be in a thriller.
+Correct, and the draft already proves it. He is fooled by the polite forum correction for months. He looks straight at the operative's photo on a consultancy team page in February and files it as stock. He plays twenty-two rounds of golf with him, has him at a barbecue, watches him sit on a step while Ana talks about the blanket — and needs Noor to point at a watch. The name he finally gets belongs to a man dead since 2011. And in ch. 22 he **deliberately leaves the question unchecked for nine weeks because he wants a friend**, and says so. That isn't a lapse in the self-awareness. It's the self-awareness *failing to protect him* — which is far more frightening than not having it, and it's the actual horror of the character: the best method in the genre, and the thing that got him wasn't a method problem, it was loneliness.
 
-**Fix:** he needs to be wrong about *himself*, at least twice, in a way he doesn't catch and Ana does. There's one (ch. 22: *right, now there's time*) and it's the best character beat in the book. There should be three more.
+**Self-knowledge and blindness to the room are different axes.** Oedipus. The whole tragic structure. I collapsed them. The character stays exactly as he is — he was built that way in your ch. 1 and it's right.
+
+**What survives, much narrower, and it's about prose not character:** in perhaps fifteen places the *narration* reaches the reader's objection before the reader has had a chance to form it, which steals their move. The identical sentence a page later is honesty; a page early it's defence. That's a timing edit, not a rewrite.
+
+**And the better note your pushback surfaces:** the gap between what he knows about himself and what he can't see in the room should be **shaped**, not just present. Right now the irony is in the book — a man who can explain the exact mechanism by which he deflects at parties cannot tell that his only friend is a professional — but nobody ever *says* it. Ana should, once, out loud. Probably in ch. 26, in her mother's kitchen: *"You can tell me why you ask strangers that question and you couldn't tell he was one."*
 
 ### ⑥ "Eleven." One hundred and twenty-four times.
 
@@ -141,7 +145,7 @@ Ch 31 – 33
 4. **Rewrite ch. 29 with Aylin in the room.** The biggest single upgrade available.
 5. **Buddy under the table** in 12, 14, 15, 16, 17, 27, 30.
 6. **A humour pass on 24–31.** Not jokes — dryness. He can be funny and wrecked at once; that's the register of your chapter 1.
-7. **Three more places where he's wrong about himself and doesn't notice.**
+7. **One line from Ana that names the gap** — he can explain his own deflections and could not see a professional across a table. Ch. 26. Plus the ~15 timing fixes where the narration pre-empts the reader.
 
 That's maybe 6,000 new words and two days of surgical editing, and at the end of it I think it's genuinely good rather than promising.
 
