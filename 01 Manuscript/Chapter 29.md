@@ -122,9 +122,9 @@ Fourteen names in a visitor book in two months.
 
 The reference section is at the end of the second chamber, near the plant room, on ordinary open shelving, spine out, at eye level. Standards, conservation manuals, a run of a journal, three ring binders of environmental logs, the fire procedures in a red folder, and — this is not hidden, it is the fourth item from the left — a bound A4 volume about four centimetres thick with a printed spine label.
 
-Dr Pekcan was six metres away at the plant-room door talking to a man about a chiller. She had left me looking at a stack, which is what you do with a visitor who has demonstrated they can be left, and I was left for about nine minutes.
+Dr Pekcan was six metres away at the plant-room door talking to a man about a chiller. She had left me looking at a stack, which is what you do with a visitor who has demonstrated they can be left, and the chiller argument ran, on and off, for about twenty minutes.
 
-I read what I could in nine minutes, standing up, and I want to say clearly what I did and didn't do. I did not take it. I did not photograph it; there is no phone in that building, they hold your bag. I read it, standing at a shelf, at eye level, and I have a memory that has been professionally trained for twenty years to hold configuration parameters, and I wrote the whole thing down four hours later in a hotel room in Şanlıurfa in a notebook I still have.
+I read what I could in that twenty minutes, standing up, and I want to say clearly what I did and didn't do. I did not take it. I did not photograph it; there is no phone in that building, they hold your bag. I read it, standing at a shelf, at eye level, and I have a memory that has been professionally trained for twenty years to hold configuration parameters, and I wrote the whole thing down four hours later in a hotel room in Şanlıurfa in a notebook I still have.
 
 It is not a secret document. That is the thing I need you to understand before I tell you what's in it. It is on an open shelf next to the fire procedures because it is **the operations manual for the facility**, and the people who work there need it, and there is no version of running a building like that where the manual is kept somewhere the staff can't reach.
 
@@ -144,9 +144,33 @@ And here is where I stopped breathing properly, because I know this document. I 
 
 It's a list of indicators with acceptable ranges. Not temperature — the indicators aren't about the building. They're about the world outside it. About thirty of them, in categories, each with a definition, a source, a reporting interval and a **normal band**.
 
-I'm not going to reproduce the list because I only had nine minutes and I will not invent the parts I didn't read. What I can tell you is the *shape* of the ones I did read, and the shape is unmistakable: they are measures of how much spare attention a population has. Not wealth. Not stability. **Slack.** Discretionary time. Discretionary money. The proportion of people whose next twelve months are not accounted for.
+I'm not going to reproduce the list, because I did not read all of it and I will not invent the parts I missed. What I can tell you is the *shape* of the ones I did read, and the shape is unmistakable: they are measures of how much spare attention a population has. Not wealth. Not stability. **Slack.** Discretionary time. Discretionary money. The proportion of people whose next twelve months are not accounted for.
 
 Each one has a band. Each band has an upper limit.
+
+---
+
+I want to put down what was happening in that chamber while I read it, because it is the part I have never been able to shake.
+
+Six metres away, in the doorway of the plant room, Dr Aylin Pekcan was having an argument about a chiller.
+
+I could hear about half of it. The man was maintaining that the unit was performing to specification, and she was maintaining that performing to specification at ten in the morning in May was not the same thing as performing to specification in August, and she was right, and she was enjoying herself enormously.
+
+At one point she called down the aisle to me without turning round.
+
+"Mr Klippe. You are British?"
+
+"No."
+
+"Good. He says the British units are better." A short noise of pure contempt. "They are not."
+
+I said something. I have no idea what I said.
+
+And I need to be exact here, because when I have tried to tell this since, people assume there must have been a moment — that she must have seen my face, or that something in the room changed.
+
+Nothing changed. A woman who loves her building was winning an argument about a chiller, six metres from a manual that sets out, in section seven, the conditions under which the population outside it is to be kept — a manual she has read, and signed for, and which is not a secret from her in any way whatsoever.
+
+Because nobody reads section four. Section four is not her job. Her job is sections one to three, and sections one to three are excellent.
 
 **§ 5 — Escalation.**
 
@@ -163,6 +187,34 @@ I have read that document before. I read it at my own kitchen table in May, out 
 Not the same words. The same three ideas, in the same order, as a **deliverable**, with a version number and a review date, in a manual on a shelf in Anatolia — and shipped, four years later, as the factory settings of the tools that watch a large fraction of everything.
 
 Nobody hacked anything. Somebody was in the room on the day the defaults were agreed, and was no cleverer than anybody else in it, and sounded entirely reasonable.
+
+---
+
+She came over while I still had it open, and I did the one intelligent thing I did in that building, which is that I asked her about the *object* and not about the content.
+
+"Is this yours? Do you write this?"
+
+"Ha." She took it off me. Took it, straight out of my hands, without a flicker, because it is a manual and I am a visitor and that is simply what you do. "No. This comes from the foundation. Every facility has one. We write sections one to three — our part, the building, the local part — and we send it up, and then it comes back like this." She flapped the block of it against her palm. "Consolidated."
+
+"How often?"
+
+"Too often now." She put it back on the shelf, spine out, exactly in its place, fourth from the left, because she is who she is. "It was Rev. 8 when I came here. Rev. 8 for six years and I liked Rev. 8, it was a good document, you could find things in it. Then 9. Then 10. And there is another one coming, they told us in March." She made a face. "And every time, everybody signs. Every person, every site. It is a whole morning."
+
+"So that's three revisions in four years."
+
+"Four in five, if you count the one coming." She was already turning away. "It is fashion. Somebody in an office decides the format is tired."
+
+And she went back to the plant room to finish an argument she was winning, and I stood in a rock chamber in Anatolia and did the arithmetic she had just handed me for nothing.
+
+1931. Then 1949 to 1952. Then 1970 to 1972. Then 1988. Then 1994 to 1996.
+
+And then 2019 to 2023 — seven entries in six years, and the gaps not gaps any more.
+
+I had that curve in a spreadsheet at home. I had been looking at it for a year and I had never had anything to lay it against.
+
+Here it was in a completely different substance. Not the edits. The *document that governs the edits*, revised on the same accelerating curve, in the same years — and described to me cheerfully, as a nuisance, as a question of format, by a woman who has signed for every copy.
+
+I took it down off the shelf again. I want that noted, because it was a decision and it took me a second and a half.
 
 **§ 7 — Population Phase.**
 
@@ -212,7 +264,7 @@ That is § 7. That's all it is. Two pages of flat language about maintaining ord
 
 Site provisioning, dependency schedules, and a subsection headed *authorisation dependency* that describes, in the same flat register, an arrangement in which the operation of certain systems — access, stores, environmental — is contingent on the presence and the continued biological function of an authorised principal.
 
-I read it twice in the nine minutes because I did not believe I was reading it.
+I read it twice, standing there, because I did not believe I was reading it.
 
 It's a dead man's switch. Not a metaphor, not an insurance clause. A hard dependency, so that the people who hold the doors and the guns cannot outlive their usefulness to the people who hold the keys, because the doors and the air and the stores are keyed to a pulse.
 
@@ -236,7 +288,7 @@ Slipped into the front of the volume, inside the cover — not bound in, just tu
 
 Four comments. Three of them are about numbering.
 
-The fourth says — and this is the one sentence from that entire building that I would put my hand on a Bible about, because I read it four times in nine minutes and it is why I stopped being able to say *I don't know*:
+The fourth says — and this is the one sentence from that entire building that I would put my hand on a Bible about, because I read it four times standing at that shelf and it is why I stopped being able to say *I don't know*:
 
 > *§4 and §7 should not be presented as separate functions. We do not forecast the band and then maintain it; maintaining it is how it is forecast. Suggest merging at next revision.*
 
