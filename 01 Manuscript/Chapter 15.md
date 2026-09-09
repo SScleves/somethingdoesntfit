@@ -74,6 +74,25 @@ I needed mine to be a record. Even at nine entries. Even at eight.
 
 I crossed one out so that the other eight would be worth something, and I have never regretted a single thing in this business more or less than that.
 
+I told Noor before I told the forum, because by then I told Noor most things.
+
+> **ME:** 22 is dead. erratum slip, tipped into a copy in ghent, 1997. production error. it was never anything.
+>
+> **HER:** good
+>
+> **ME:** good?
+>
+> **HER:** you have been carrying that one around like it was the best thing you had. now you are carrying eight things that are all better than it. that is a promotion.
+
+Then, about a minute later, because she is who she is:
+
+> **HER:** are you going to publish it
+>
+> **ME:** yes
+>
+> **HER:** ok. then I will stop worrying about you for a bit.
+
+
 ---
 
 Now the thing that came out of the failure, which I would never have found if twenty-two had held.

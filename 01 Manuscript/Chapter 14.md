@@ -178,6 +178,35 @@ But I had run an experiment with the results written down in advance, and one of
 
 ---
 
+And then, at twenty past nine the next morning, at my desk, pretending to read a ticket, I got a message that was not part of the experiment at all.
+
+Not on the thread. A private message, from an account I had never seen, sixteen words long.
+
+> **Whoever "corrected" you used a phrase my supervisor showed me on a photocopy in 2009. Who are you?**
+
+I read it about forty times.
+
+Here's what I did, and I'd defend it: nothing, for two days. Because the single most likely explanation for a stranger appearing at the exact moment you need one is that somebody sent them — and I had been politely corrected in public four days earlier by an expert with a real name and a fifteen-year history, and it had cost me a night's sleep and a permanent change in the way I read kindness.
+
+So I wrote back one line with a hook in it, and the hook was a mistake I made on purpose.
+
+> **Which photocopy? The one with the two columns, deprecated on the left?**
+
+If she was theirs, she'd say yes. There is no photocopy with two columns; I invented it on the spot. Everybody says yes to a detail. Saying yes is how you keep somebody talking.
+
+She wrote back in under a minute.
+
+> **No. Nothing like that. It was a single page from a house style sheet, no columns, and I only saw it once, and I have thought about it for sixteen years. If you are going to test me please do it better than that, it's insulting.**
+
+Then, ninety seconds later:
+
+> **Sorry. That was rude. You were right to test me. My name is Noor Haverkamp. Hendrik Maasen was my supervisor. He is dead and I would like to know why a stranger is posting his findings on a bibliography forum.**
+
+I sat at my desk in an open-plan office with about forty people in it and did not move for a while.
+
+
+---
+
 Ana was in bed when I got in. I stood in the kitchen with my coat on for a while.
 
 Then I did three things, in this order, and they are the three that mattered.

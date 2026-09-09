@@ -46,75 +46,10 @@ There was nothing to say to that. I've gone over it and there was nothing.
 
 Mora slept in with her. Buddy stayed with me. He's not loyal, he's just old and the stairs are the stairs.
 
----
-
-The message came four days later.
-
-Not on the thread. A private message, on the forum, from an account I'd never seen, sixteen words long, sent at ten past nine on a Tuesday morning.
-
-> **Whoever "corrected" you used a phrase my supervisor showed me on a photocopy in 2009. Who are you?**
-
-I read it about forty times.
-
-Here's what I did, and I'd defend it: nothing, for two days. Because the single most likely explanation for a stranger appearing at the exact moment you need one is that somebody sent them. I'd been polite-corrected in public four months earlier by an expert with a fifteen-year history and a real name, and it had cost me a night's sleep and a permanent change in how I read kindness.
-
-So I wrote back one line with a hook in it, and the hook was a mistake I made on purpose.
-
-> **Which photocopy? The one with the two columns, deprecated on the left?**
-
-If she was theirs, she'd say yes. There is no photocopy with two columns; I invented it on the spot. Everyone says yes to a detail. Saying yes is how you keep somebody talking.
-
-She wrote back in under a minute.
-
-> **No. Nothing like that. It was a single page from a house style sheet, no columns, and I only saw it once, and I have thought about it for sixteen years. If you are going to test me please do it better than that, it's insulting.**
-
-Then, ninety seconds later:
-
-> **Sorry. That was rude. You were right to test me. My name is Noor Haverkamp. Hendrik Maasen was my supervisor. He is dead and I would like to know why a stranger is posting his findings on a bibliography forum.**
 
 ---
 
-We talked for a fortnight before we talked.
-
-I want to describe what that was like, because it changed the temperature of my whole life and I didn't notice until afterwards.
-
-I had been alone in this for two years. Not lonely — I had a wife and two dogs and a job and four retirees on the third tee — *alone*, in the specific sense that every single thing I found, I had to test by myself, argue with by myself, and believe or disbelieve by myself, at a kitchen table, at one in the morning, with nothing to push against but a dog.
-
-And then there was a person who knew what a tipped-in leaf was.
-
-Our first proper argument was about entry nine, and I lost it in about four exchanges.
-
-> **ME:** the leaf isn't a cancel. no stub in the gutter, no glue shadow, the gathering is intact. I've been over it with a loupe twice.
->
-> **HER:** with a loupe under what light
->
-> **ME:** desk lamp
->
-> **HER:** ok. so you have been looking at it wrong for two years. put the lamp on the table not above it. almost flat, so the light runs across the paper instead of into it. then look at the page from the side, at the same angle as the light. don't look for a stub. look for the *paper*.
->
-> **ME:** what am I looking for
->
-> **HER:** you'll know
-
-I got a desk lamp and lay it on its side on the kitchen table late that night, and Buddy came to see what the new thing was, and I put my cheek almost flat on the table next to a book from 1934, and the whole surface of page 201 lit up sideways.
-
-Two different papers. You could see it like weather. The leaf was a shade smoother and it took the light differently across the grain, and once you'd seen it you could not stop seeing it, and I had been holding that book for two years.
-
-> **ME:** two papers. how did I not
->
-> **HER:** because you were looking for a stub. everybody looks for a stub. the stub is what a forger removes. the paper is what he can't.
->
-> **ME:** who taught you that
->
-> **HER:** a woman in Ghent who has been dead since 2013 and who would have disliked you enormously.
-
-I laughed out loud in an empty kitchen at midnight and the old dog thumped his tail twice, because a laugh is a thing he still recognises.
-
----
-
-She's better than me. I want that written down plainly.
-
-She's a paper conservator. She spent four years doing a doctorate under Maasen and then, in 2017, her university reorganised its special collections under a grant and the department she'd been promised became two rooms and a scanner, and she left and learned a trade. She can date a paper by feel, and I mean by *feel*, in the dark; she has done it for me twice since as a party trick and been right both times.
+Noor had been in my life for about three months by then, and we had settled into the thing we do, which is that I send her a pattern and she tells me it isn't one.
 
 What she cannot do — and this is the part that made us work — is see a pattern to save her life.
 

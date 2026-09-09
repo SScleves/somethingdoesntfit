@@ -21,6 +21,49 @@ So one Saturday in March I put the list on the table and covered the two right-h
 And I looked at what was left.
 
 ---
+We talked for a fortnight before we talked.
+
+I want to describe what that was like, because it changed the temperature of my whole life and I didn't notice until afterwards.
+
+I had been alone in this for two years. Not lonely — I had a wife and two dogs and a job and four retirees on the third tee — *alone*, in the specific sense that every single thing I found, I had to test by myself, argue with by myself, and believe or disbelieve by myself, at a kitchen table, at one in the morning, with nothing to push against but a dog.
+
+And then there was a person who knew what a tipped-in leaf was.
+
+Our first proper argument was about entry nine, and I lost it in about four exchanges.
+
+> **ME:** the leaf isn't a cancel. no stub in the gutter, no glue shadow, the gathering is intact. I've been over it with a loupe twice.
+>
+> **HER:** with a loupe under what light
+>
+> **ME:** desk lamp
+>
+> **HER:** ok. so you have been looking at it wrong for two years. put the lamp on the table not above it. almost flat, so the light runs across the paper instead of into it. then look at the page from the side, at the same angle as the light. don't look for a stub. look for the *paper*.
+>
+> **ME:** what am I looking for
+>
+> **HER:** you'll know
+
+I got a desk lamp and lay it on its side on the kitchen table late that night, and Buddy came to see what the new thing was, and I put my cheek almost flat on the table next to a book from 1934, and the whole surface of page 201 lit up sideways.
+
+Two different papers. You could see it like weather. The leaf was a shade smoother and it took the light differently across the grain, and once you'd seen it you could not stop seeing it, and I had been holding that book for two years.
+
+> **ME:** two papers. how did I not
+>
+> **HER:** because you were looking for a stub. everybody looks for a stub. the stub is what a forger removes. the paper is what he can't.
+>
+> **ME:** who taught you that
+>
+> **HER:** a woman in Ghent who has been dead since 2013 and who would have disliked you enormously.
+
+I laughed out loud in an empty kitchen at midnight and the old dog thumped his tail twice, because a laugh is a thing he still recognises.
+
+---
+
+She's better than me. I want that written down plainly.
+
+She's a paper conservator. She spent four years doing a doctorate under Maasen and then, in 2017, her university reorganised its special collections under a grant and the department she'd been promised became two rooms and a scanner, and she left and learned a trade. She can date a paper by feel, and I mean by *feel*, in the dark; she has done it for me twice since as a party trick and been right both times.
+
+---
 
 Here's what was left.
 
