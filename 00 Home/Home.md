@@ -5,6 +5,7 @@
 **Thesis line (once, last page):** *The revolution is that he finally has time to love a dog.*
 
 ## Start here
+**[[Project Log — 2026-09-09]]** ← full decision record through 9 Sep; supersedes memory — when it and a note disagree, fix the note
 [[Chapter Map]] · [[Beat Sheet v2]] · [[Competence Ledger]] · [[Reveal Rules]] · [[Voice Rules]] · [[Open Decisions]]
 
 ## Threads
