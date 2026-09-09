@@ -10,6 +10,12 @@ At work, when somebody hands me a system and says *find the problem*, the amateu
 
 What I do instead is look at how the thing is *kept*. Which files are backed up and which aren't. What somebody bothered to write a script for. Where the copies are. What's been left running that nobody uses. A system's filing tells you what the people who built it were afraid of losing, and it tells you before you open anything, and it doesn't lie, because nobody edits their filing to fool you. They don't think of it as speech.
 
+And I would like to say that I thought of doing it to the list myself.
+
+I didn't. Ana thought of it, fourteen months earlier, standing at that table with a cup of tea in her hand, when she turned the thing round with one finger and said *he's crossed nothing out* — and then went to bed, and never mentioned it again, and does not know to this day that she said anything at all.
+
+She read the object. I had been reading the content for two years. It took her about nine seconds and it took me until March, and the only difference between us is that I had decided in advance what kind of thing I was holding and she hadn't.
+
 So one Saturday in March I put the list on the table and covered the two right-hand columns — the *before* and the *after*, the actual content, the part I'd spent two years on — with a strip of card.
 
 And I looked at what was left.

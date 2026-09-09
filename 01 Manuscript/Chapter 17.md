@@ -78,9 +78,17 @@ The email mentioned, warmly, in the last paragraph, that they understood I was a
 
 I have never put golf on anything. It is not on my professional profile. It is not on my company page. It is on nothing, anywhere, that a recruiter could read, because I have spent twenty years constructing a public self that is as boring as a bus timetable.
 
+I didn't tell Ana.
+
+I'd like that to sit on its own for a second, because of everything it isn't. It isn't sinister. Nobody instructed me. I didn't decide anything. A headhunter had offered me forty per cent more money, which is the single most tellable thing that can happen to a man in an ordinary week — it isn't even a decision, it's a *story*. You bring it home. You read the ridiculous phrasing out at the table in the voice. She says something about the boat you're clearly going to buy. You both enjoy it enormously and then you don't take the job.
+
+I read it twice, and deleted it, and said nothing, and the reason I said nothing was the last paragraph, because there is no short way to explain why a stranger knowing I play golf had gone through me like cold water. It would have needed twenty minutes and a page number and a man who walked east out of a town in 1929.
+
+That's the whole mechanism, and there's nothing dramatic in it. Not a lie. A thing that needs too much context, so it becomes a thing you don't mention. And after enough of those you are a man whose wife does not know what he does.
+
 **Two.** A conference invitation. A small, real, unglamorous bibliography conference in a real university, inviting me to submit an abstract on *"variant states in interwar academic printing."*
 
-I have never published anything. I am not an academic. I have posted, in my entire life, four times on two forums, under two names, neither of which is mine.
+I have never published anything. I am not an academic. I have never in my life put my own name on anything about any of this.
 
 **Three**, and this is the one that made me sit down on the stairs.
 

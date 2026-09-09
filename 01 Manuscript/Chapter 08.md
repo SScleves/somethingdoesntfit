@@ -100,6 +100,18 @@ They asked me twice more that month to tell it again. It's the only material I'v
 
 ---
 
+I told Ana that Friday over the dishes. All of it — the date, the pillars, the sixteen tonnes, the burial. She listened properly, which she does, and she dried the same plate for most of it.
+
+Then she said, "That's the most excited I've heard you in about a year."
+
+"It's a good one."
+
+"No, I know it's a good one. I'm not —" She put the plate down. "I'm just saying it out loud so it's been said. That's the most excited I've heard you in about a year, and it's about a hole in the ground in Turkey."
+
+I said something. I don't remember what; the persona handles the small stuff. And we finished the dishes and watched something and went to bed, and I did not think about that sentence again for two years, at which point I thought about very little else.
+
+---
+
 So: entry seventeen.
 
 *Highlands of Anatolia*, 1963, page 212. First impression: *eleven thousand years.* The 1971 reprint: *a much earlier period.*

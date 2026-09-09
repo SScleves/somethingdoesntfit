@@ -139,7 +139,25 @@ I sat with that for a long time and then I wrote down the objection, because tha
 
 *Objection: I have been looking for edits that fit this shape. I found them. Of course I did. Somewhere out there is a book where the second impression put a giver IN, and I have never once gone looking for it, because it wouldn't be interesting.*
 
-So I went looking for it. Three weeks. I'm going to give you the result flat, because I promised myself I'd report the negative ones with the same face as the positive ones.
+So I went looking for it.
+
+Three weeks, which Ana noticed, because three weeks is a length of time.
+
+"What is it now?"
+
+"I'm trying to find one that goes the other way round."
+
+She had the fridge door open and she stopped with it open, which she does, and which costs us a fortune.
+
+"So you're trying to prove yourself wrong."
+
+"That's the job."
+
+"Mm." She got the milk out and shut the door with her hip. "I like this one. Do more of this one."
+
+And she went through to the other room, and I sat there at the table feeling absurdly pleased with myself, and it did not occur to me for about another year that the version of me she liked was simply the version that could still be talked to.
+
+I'm going to give you the result flat, because I promised myself I'd report the negative ones with the same face as the positive ones.
 
 I found no counter-examples.
 
