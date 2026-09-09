@@ -46,9 +46,35 @@ That's it. That is genuinely all. Three names on two lists.
 
 And here's the thing I couldn't argue my way out of, then or since. If you showed me that in a work context — the same small group of people controlling both what gets logged and who gets alerted — I would not call it a coincidence. I would not call it sinister either. I would call it *a control problem*, which is a thing that has a name because it happens constantly, and I would write it in a report, and everyone in the meeting would nod, because in my industry that is simply understood to be a bad arrangement regardless of anybody's intentions.
 
-That's all I ever claimed. That is all I ever claimed and I wrote it down in exactly those words.
+That is all I ever claimed, and I wrote it down that night in exactly those words.
 
 The same hands on the record and on the shelter.
+
+---
+
+I sent it to Noor that night, because she was the only person I could send it to, and she did the thing nobody else in this entire business ever did, which is that she got there before me.
+
+> **ME:** three of the seven sit on the board of a continuity consortium in zug. long-lease sites, three countries. it's all public. it's in the filings.
+>
+> **HER:** stop
+>
+> **ME:** stop what
+>
+> **HER:** stop sending me this
+
+I looked at that for a while.
+
+> **ME:** you don't believe it
+>
+> **HER:** I believe all of it. that is not the problem. the problem is that everything you have sent me for five months has been about books, and this is not about books, and you have not noticed that you crossed over.
+>
+> **ME:** it's three names on two public registers
+>
+> **HER:** James. I know what it is. That is why I am telling you to stop.
+
+I did not stop. I want that here, at the point where somebody who is better at this than I am told me to, in writing, for free, five months in.
+
+I told her she was probably right and that I'd be careful, which are the two sentences a man says when he is going to do it anyway, and she knew that, because she had watched somebody do it before for forty years.
 
 ---
 
