@@ -40,7 +40,7 @@ That's it. One word. I looked at it under a lamp for a long time and the only th
 
 Entry eleven is Tresidder. I've told you that.
 
-What I haven't told you is what it did to me to see it, because I want to be honest about the sequence: I did not feel vindicated. I felt caught.
+What I haven't told you is what it did to me to see it, and the sequence matters: I did not feel vindicated. I felt caught.
 
 For six weeks I had been a man alone in a kitchen with a private, ridiculous, faintly shameful idea. Then I opened a book I'd bought for almost nothing from a man with a beard, and found my idea in it, written down before I was born, by somebody I will never meet, as line eleven of forty-one.
 

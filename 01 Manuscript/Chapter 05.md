@@ -30,7 +30,7 @@ When I was a kid — nine, ten — I read something in a book. I don't even reme
 
 You misremembered.
 
-I want to be careful here, because it would be easy to make this into more than it was. It wasn't trauma. Nobody hit me. It was smaller and it lasted longer than trauma: it was the first time I understood that my own certainty was not admissible evidence. That I could be sure — completely, cleanly sure — and be the only one, and being the only one is the same as being wrong, socially, functionally, in every way that pays. So I learned to distrust myself first, before anyone else could do it for me. I built a whole personality on getting to *you misremembered* before the room did. The Record is that personality with a filing system. I don't trust my memory. I photograph everything. I keep the receipts because once, when I was ten, I couldn't produce one.
+It would be easy to make this into more than it was. It wasn't trauma. Nobody hit me. It was smaller and it lasted longer than trauma: it was the first time I understood that my own certainty was not admissible evidence. That I could be sure — completely, cleanly sure — and be the only one, and being the only one is the same as being wrong, socially, functionally, in every way that pays. So I learned to distrust myself first, before anyone else could do it for me. I built a whole personality on getting to *you misremembered* before the room did. The Record is that personality with a filing system. I don't trust my memory. I photograph everything. I keep the receipts because once, when I was ten, I couldn't produce one.
 
 You see why the two books did what they did to me.
 

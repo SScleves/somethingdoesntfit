@@ -16,7 +16,7 @@ I got back in the car at four in the afternoon feeling like I'd won something, a
 
 Because *possible* isn't *evidence*. I'd driven a hundred and forty kilometres to establish that a thing which had obviously happened could happen. That's not investigation. That's a man collecting permission slips.
 
-I want to be accurate about the shape of that day, because I did it again later, several times, and I'd rather you see the move early: when I can't move the case forward, I go and learn something adjacent, and the learning feels exactly like progress. It isn't. It's the difference between reading about a fire and going to the fire.
+I did that again later, several times, and I'd rather you saw the move early: when I can't move the case forward, I go and learn something adjacent, and the learning feels exactly like progress. It isn't. It's the difference between reading about a fire and going to the fire.
 
 ---
 
@@ -72,19 +72,17 @@ It didn't help. But I want it on the record that I knew.
 
 ---
 
-**Friday.** The thing I'm not going to tell you about.
+**Friday.** Four in the morning.
 
-I'm going to be straight with you once, here, and then not raise it again for a long time.
+I had read, for the second time, that the man who wrote the book walked out of a town in southeastern Turkey in 1929 and was never seen again. Then I got up and went downstairs and spent forty minutes building something.
 
-At about four in the morning on that Friday — after I'd read for the second time that the man who wrote the book had walked out of a town in southeastern Turkey in 1929 and never been seen again — I got up, went downstairs, and spent forty minutes building something.
+It isn't clever. It is the most ordinary thing in the world — it is, more or less, what I do for a living, turned round and pointed at me. It took forty minutes because I had to look up two things I should have known.
 
-It is not clever. It is the most ordinary thing in the world; it is, more or less, what I do for a living, turned around and pointed at me. It took forty minutes because I had to look up two things I should have known.
+That's all I'm going to say about it, and the reason isn't suspense. It's that the entire value of the thing is that nobody knows it's there.
 
-I am not going to describe it. Not out of drama — because the whole value of the thing is that nobody knows it's there, and I am not sure yet who is going to read this.
+When I'd finished I sat in a dark kitchen with the laptop shut and felt completely ridiculous. A man in his forties in a dressing gown, in a quiet country, with a mortgage and two sleeping dogs and a wife asleep upstairs, taking precautions against a publishing decision made in 1931.
 
-What I will tell you is that when I finished, I sat in the dark kitchen with the laptop shut and felt, for about ten seconds, absolutely ridiculous. A man in his forties in a dressing gown, in a house in a quiet country, with two sleeping dogs and a wife upstairs and a mortgage and a good job, taking precautions against a publishing decision made in 1931.
-
-The most ridiculous act of my adult life, easily. I have never regretted it.
+The most ridiculous act of my adult life. I have never regretted it.
 
 Then I went back to bed and lay there until it got light.
 
