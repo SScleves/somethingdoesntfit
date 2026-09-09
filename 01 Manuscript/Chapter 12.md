@@ -146,7 +146,7 @@ I was going to poke it.
 
 I built it that night and I built it properly, and it is the single cleverest thing I did in the whole business, and it is also the thing that ended my life as I knew it, and both of those are true at once.
 
-Three posts. Three different forums, three different accounts, three different registers, all within nine days of each other.
+Three posts. Three different forums, three different registers, all within nine days of each other. Two of them under fresh accounts. The dull true one under the handle I had been posting small harmless facts from for twelve years, because a dull true thing needs a dull true history behind it, and I had one.
 
 **Post one — true.** Entry three. The ancient-engineering paperback, first printing against fourth, *techniques we have not yet reconstructed* → *doubtless simpler than they appear.* Stated flatly, with page numbers and printing statements and two photographs, no theory attached, no adjectives. A dull man reporting a dull fact. Posted in a bibliography forum where dull is the house style.
 

@@ -138,11 +138,11 @@ And somebody has been walking around inside his professional life ever since —
 
 I don't know who the man in my garden is.
 
-That's the actual result of ninety minutes of good work. I know less than I did on Tuesday. On Tuesday I had a name and a photograph of a stranger and a story about a corridor in 2017. Now I have a dead man's paperwork and a face I have played twenty-two rounds of golf with.
+That's the actual result of ninety minutes of good work. I know less than I did on Tuesday. On Tuesday I had a name and a photograph of a stranger and a story about a corridor in 2017. Now I have a dead man's paperwork and a face I have played a dozen rounds of golf with.
 
 I went and checked the club, of course. Because that's what I do.
 
-There is no Dave. There is no membership, because he was never a member — he came as a visitor, twenty-two times over ten months, and every time he paid the green fee in cash at the counter, and the woman who has given my dog a sausage for nine years remembers him perfectly and liked him very much and wrote his first name in a book because that is all anybody writes.
+There is no Dave. There is no membership, because he was never a member — he came as a visitor, fourteen times over three months, and every time he paid the green fee in cash at the counter, and the woman who has given my dog a sausage for nine years remembers him perfectly and liked him very much and wrote his first name in a book because that is all anybody writes.
 
 That is the whole of it. Every single thing I know about that man is something he handed me: a first name, a job description that was three words long and boring on purpose, a nickname he used for me, and an opinion about my marriage that turned out to be correct.
 

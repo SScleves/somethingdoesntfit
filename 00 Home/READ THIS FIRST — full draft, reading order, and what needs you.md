@@ -24,7 +24,7 @@ Nothing of yours was overwritten. Ch. 1–4 are your files, with your 9 Sep tone
 | 14–17 | Chapters 14–17 | 7,900 |
 | 18 | **Chapter 18 — v2** *(the fairway half is rewritten — Dave. Read v2, not Chapter 18.md)* | 2,450 |
 | 19–20 | Chapters 19–20 | 6,350 |
-| — | **CUTAWAY — A room with a long table. March** | 1,150 |
+| — | **CUTAWAY — A room with a long table. April** | 1,150 |
 | — | **INTERLUDE III — Jerusalem. 1978 and 1991** | 1,300 |
 | 21–22 | Chapters 21–22 | 5,450 |
 | — | **CUTAWAY — An office above a courtyard. Monday** | 900 |

@@ -80,7 +80,7 @@ Ana said, "Who's the professor?"
 
 Now the other one, which I did not consciously register at the table and which came up out of me at three the following morning like something surfacing in a lake.
 
-He had called me Jim since the second tee in February. Every time. Twenty-odd rounds of golf, three coffees, one barbecue, a hundred texts about tee times. Nobody else in my life has ever called me Jim — not my wife, not my mother, not one person at work in eleven years. It had become the thing I liked most about him, if I'm honest, because a private name is what you have with people you've known thirty years and I'd got one in a fortnight.
+He had called me Jim since the second tee in May. Every time. A dozen rounds of golf, three coffees, one barbecue, a hundred texts about tee times. Nobody else in my life has ever called me Jim — not my wife, not my mother, not one person at work in eleven years. It had become the thing I liked most about him, if I'm honest, because a private name is what you have with people you've known thirty years and I'd got one in a fortnight.
 
 He did not call me Jim again after the word Deventer.
 
@@ -122,7 +122,7 @@ And I sat on a terrace under a heater that nobody had turned on, next to the per
 
 Not frightened. That came later, in the car, and then for about a year.
 
-Sad, in the specific way you're sad when a thing you enjoyed turns out not to have been the thing. I had not had a friend since I was thirty-three. I had had one for five months. I had genuinely, stupidly, at forty-four years of age, been looking forward to Saturdays for a reason that wasn't the dog.
+Sad, in the specific way you're sad when a thing you enjoyed turns out not to have been the thing. I had not had a friend since I was thirty-three. I had had one for three months. I had genuinely, stupidly, at forty-four years of age, been looking forward to Saturdays for a reason that wasn't the dog.
 
 ---
 

@@ -109,7 +109,7 @@ Ch 9 – 11
 Ch 12 – 16
    ▸ INTERLUDE III — The Rockefeller Museum, Jerusalem. 1978 and 1991
 Ch 17 – 20
-   ▸ CUTAWAY — A room with a long table. March
+   ▸ CUTAWAY — A room with a long table. April
 Ch 21 – 22
    ▸ CUTAWAY — Kastanjelaan. A Thursday in August
 Ch 23 – 25

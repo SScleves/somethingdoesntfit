@@ -1,7 +1,7 @@
 > Status: 🟢 v1 — first draft. Placement: after Chapter 20 (or after Interlude III). **This is Santi's brief exactly: he is a POV in a meeting where important things are decided and he is just there.** The plan is glimpsed and never explained. He says eleven words in the whole chapter.
 
 # A room with a long table
-### March
+### April
 
 He was there because somebody had to bring the folders up from the car and because the room was on the third floor and there was no lift.
 
@@ -81,7 +81,7 @@ She took her cup.
 
 After the break there was a third item and it was seven minutes long and it was a list of what the room called *open positions*, which he understood to mean people.
 
-Names went past. Most of them meant nothing. Two got a sentence each. One of them was a woman in Leiden, and what was said about her was that she had stopped, which was noted with approval and no further comment.
+Names went past. Most of them meant nothing. Two got a sentence each.
 
 Then there was a name he knew because it had been in an envelope, and the man presenting said that the position was static and was being handled and would not be affected by the review point.
 
