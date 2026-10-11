@@ -231,9 +231,9 @@ Alternatives, one line each:
 
 ---
 
-## 13. Drafting order and what's in `01 Manuscript/v6/`
+## 13. The draft: `01 Manuscript/v6/`
 
-Proposal files, in Santi's voice, in English, inspiration applied and not copied. Each carries a status line. None overwrite anything.
+**Done, 11 Oct 2026.** The whole book is drafted in that folder, in reading order, thirty-two pieces, Santi's four unchanged as blocks. `README — v6 draft, read this first.md` in that folder has the table, the decisions I made, and where it wants Santi's hand first. The list below was the plan; the folder is the result.
 
 1. `I — Cold open.md` [J]: the table, from the middle, four hundred words, ending on a question. Then the funeral.
 2. `I — Leave it.md` [J]: standup, the ownerless service, the manager.
