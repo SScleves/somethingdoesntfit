@@ -78,7 +78,7 @@ Coordinates. Two numbers, lat and long, in the shaky hand, and I knew without lo
 
 *Ask.*
 
-The date was the previous March. I checked it against the dealer's letter, against what Beard Man had said about the estate, against the little I'd found online about a retired reader in comparative religion from Deventer who'd died at home. The circled date was three weeks after the professor's funeral.
+The date was that April. I checked it against the dealer's letter, against what Beard Man had said about the estate, against the little I'd found online about a retired reader in comparative religion from Deventer who'd died at home. The circled date was three weeks after the professor's funeral.
 
 He'd written down a day he wasn't going to see. And a word. And then, I suppose, he'd sat in his chair.
 
