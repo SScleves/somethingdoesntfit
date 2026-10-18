@@ -1,5 +1,5 @@
 # ONE-PAGER v7.1 — every piece, plainly
-> **Superseded on Kalder, Frank, the pub and the hobby by `TREATMENT v7.2` (19 Oct, after Santi's answers). Where this page and the treatment differ, the treatment wins. This page is still the short read.**
+> **Superseded by `TREATMENT v7.3` (20 Oct): James never changes jobs; his company is a financial institution from page one and he is moved onto its continuity programme; the seats are a real recovery-seat contract; the depot sits on top of the house's recovery site. Everything from "The money" on is rebuilt there. Where this page and the treatment differ, the treatment wins.**
 ### Updated 19 October 2026 with Santi's notes applied up to "Meerwijk". No numbers: pieces are named, not numbered, and any of them can move. Each piece: who, what happens, what it establishes, one line of intent. `⚠ DISCUSS` marks the points Santi asked to talk through; the options are in the reply and at the bottom of this file.
 
 **Tracks:** J = James, first person · K = Keepers now · K-past = Keepers before · J-past = James before · L = interlude, real events only · V = villain alone, third person.

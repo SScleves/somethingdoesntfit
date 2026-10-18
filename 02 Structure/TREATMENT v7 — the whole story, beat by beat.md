@@ -1,7 +1,7 @@
-# TREATMENT v7.2 — the whole story, beat by beat
-### Rebuilt 19 October 2026 from Santi's notes (18–19 Oct) and his answers on Kalder, the pub, the hobby and Frank (Frank is the friend, not in it). This is the single source for drafting. No numbers anywhere: pieces are named, and any piece can move. Each beat: what happens, the clue, the turn, what the reader knows that James doesn't.
+# TREATMENT v7.3 — the whole story, beat by beat
+### Rebuilt 20 October 2026. The company is a financial institution from page one; James never changes jobs; he is moved onto its continuity programme, where the stakes live. Everything from "The money" on is rebuilt on that. Up to the corporate day the story and pace are Santi's, as marked. No numbers anywhere.
 
-> **How to use this.** Read §0 first and argue with it; everything below obeys it. Then the beats. Mark ✅ / ✏️ (with a note) / ❌ beside any beat. The remaining open points are marked `⚠` and collected at the end. The short version of each piece is in `ONE-PAGER v7`.
+> **How to use this.** §0 is the decisions; argue there first. §1 is the back half attacked from every angle before it was rebuilt, so you can see where the ideas come from. Then the beats. Mark ✅ / ✏️ / ❌. Open points marked `⚠` and collected at the end.
 > **Status.** Proposal. Nothing locked.
 
 ---
@@ -9,30 +9,51 @@
 ## 0. The decisions this draft is built on
 
 **The people**
-1. **James.** His hobby is not a method; it's a nose. He is always onto something (reddit, 4chan, mIRC, discord, the deep web; aliens one week, mole people the next, rich men in robes the week after), he doesn't know what he's looking for, it has always been there, and when he sees the thing he *knows*. The Record (books that change between printings) is not how he hunts; it's how he checks once the nose has stopped. He reads people the way he reads systems: out-of-placeness, a pause before a sentence, a feeling that doesn't belong in a room; he avoids sad films and conflict because he feels them, which is also why he doesn't eat animals. None of this is explained; it's mentioned, lightly, and the reader assembles him. He is lonely in a specific way: he thinks all day the things nobody says, and suspects everyone else does too and was taught to stop asking. That suspicion is the book.
-2. **Kalder.** A machine. Handsome, funny, a very good golfer, good company, and he *likes James*, which is what catches James off guard ("the cool guy likes me"). He is a psychopath and the book never softens him: no turn, no confession at a window, no second reason. His own chapters show what he does when nobody James knows is watching: brutal, short, almost no speech, no explanation. "Kills through favours" is literal. He is met twice before anyone knows he matters.
-3. **Frank.** Not in it. The one friend, and the book needs one: the skeptic who teases, the person who predates everything, and at the end the only other man who reads the defaults. He genuinely forgot the stand-up (it was fifteen seconds at the end of a meeting); Pieter did not. Frank's function later: he is who James shows the band to, and he is the one who notices page 212 has gone from the new revision.
-4. **Ana.** Unchanged. The reader's permission to not believe and stay. She can be told everything by James; what she can never be given is *confirmation*, because a Steward who confirms to an unseated person must file her. At the table the forbidden word is **yes**.
-5. **Bram.** The one who talks. Decent, sincere, has never had the thing he counts. Makes the offer with the wife present.
-6. **Noor.** Quiet because the professor told her to be, in his own words: *I'm fairly sure I'm already being watched. Until we're a hundred per cent: never publish, never ask, always hide. If anything happens to me, know that I was right.* She kept the rule. He broke it, at the end, with one word.
+1. **James.** Works in IT monitoring at a large financial institution and has for eleven years. His hobby is a nose, not a method: always onto something (reddit, 4chan, mIRC, discord, the deep web; aliens one week, mole people the next), he doesn't know what he's looking for, and when he sees the thing he knows. The Record is how he checks once the nose has stopped. He reads people the way he reads systems: out-of-placeness, the pause before a sentence; he avoids sad films and conflict because he feels them, which is also why he doesn't eat animals. Mentioned lightly, never explained. He is lonely in a specific way: he thinks all day the things nobody says and suspects everyone else does too and was taught to stop asking. That suspicion is the book.
+2. **Kalder.** A machine. Handsome, funny, a very good golfer, good company, and he likes James, which is the hook. A psychopath; no turn. His own chapters show what he does when nobody James knows is watching. In the world he is "corporate relationships, lobbying mostly," and specifically he is the vendor who sells the house its **continuity**: recovery sites, recovery seats, "insurance for things that can't be insured." He said so the first morning and James thought it was small talk.
+3. **Frank.** Not in it. The one friend. He forgot the stand-up honestly; Pieter didn't. At the end Frank is the first person shown the band who doesn't laugh, and in the coda the one who reads the new defaults.
+4. **Pieter.** James's manager. Told tier: told the job is a security honeypot, told to say "leave it," told later to put James on continuity because "they want the person who reads things." He never learns what any of it is for. His name is on the seat list.
+5. **Ana, Bram, Noor.** As before. The forbidden word at the table is *yes*. Noor's rule is the professor's own words; he broke it once, with one word, and died.
 
 **The machine**
-7. **The index.** The nightly job counts *reporters*: it sweeps the systems of every house that pays for it for people who have, this week, reported the thing (a ticket about a job with no owner, a forum post, a letter to a dealer, a search from a work machine) and outputs a list of identifiers: the left column. The right column, *hands*, is filled by handlers who have themselves crossed, because only a person who has had the thing can see it in someone else. The review is triggered by the right column. The house pays per flagged person in its own population. The job can't be argued with; the pen can.
-8. **The review.** Not a bomb. The quarter's field schedule: a population's records deaccessioned, its reporters visited one address at a time, each resolution plausible (a retirement, a short illness, a car on a canal road, a child moved school). One past review shown (Utrecht, 1994), one running (the eleven addresses), and the big one only implied in Bram's story.
-9. **The pub, and what the win is for.** James catches a slip nobody catches and gives Kalder nothing. What he wins is *time*: the weeks he needs to prepare before anyone is sure of anything. Whether Kalder acts on his doubt is something the reader watches happen (the dog, the schedule), never something James computes. The organisation seats people who do the arithmetic and stay quiet, and a man who can do that to its best handler is worth a seat: that is why the offer comes instead of a visit. **Writers' shorthand, never prose:** "99%", "1%", "the arrangement" are how we talk about the scene at this table. In the book nobody says a number. The reader sees James show nothing, sees Kalder's face stay exactly where it was, and understands.
-10. **Private ask versus public ask.** The professor asked privately: a letter to a post box, a visit at home, tea, a chair. James asks publicly: his own name, a published catalogue, a reading room with a woman at the desk. The book says once why the second is survivable: nobody comes to a reading room to make you comfortable.
-11. **The dog.** Kalder does it. The reader knows; James never does for certain.
-12. **Leaks.** The machine doesn't prevent them; it makes them worthless. Disclosure hearings run on a bar TV all book and nobody looks up.
+6. **The index.** The nightly job counts *reporters* (the left column); the right column, *hands*, is filled by handlers who have crossed. The house pays the foundation per flagged person in its own population. The job can't be argued with; the pen can.
+7. **The review.** The quarter's field schedule, run through the house's continuity programme: records deaccessioned, reporters visited one address at a time. One past review shown (Utrecht 1994), one running (the eleven addresses).
+8. **The seats are real paperwork.** Financial institutions buy *recovery seats* at a disaster-recovery site: a contract that names which staff get a desk, a bed and a badge when the building is gone. The organisation's seats hide inside that contract. The seat list is an annex to the house's business-continuity plan: names, dependants "per allocation," and one line that will be read aloud at the table: *companion animals are not accommodated.* "It's a budgeting thing" is literally true.
+9. **The depot and the recovery site are one building.** The foundation's conservation depot (reading room, catalogue, the woman at the desk) sits on top of the house's recovery site (the lower floor, the seats). James has been inside it before, on a Tuesday, with a lanyard and a sandwich, for a continuity drill. He keeps the professor's appointment upstairs in a building he has already slept in downstairs.
+10. **The pub.** James catches a slip nobody catches and gives Kalder nothing. What he wins is time to prepare. Whether Kalder acts on his doubt is shown later by what happens, never computed. Percentages are our shorthand at this table, never prose.
+11. **Why an offer and not a visit.** The house's continuity programme is where the organisation finds out whether a man who has noticed will take a seat or needs a visit. Putting James on it is the audition. His win at the pub is why the one who talks comes in person.
+12. **Private ask versus public ask.** The professor asked privately (a letter, tea at home). James asks publicly (his own name, a published catalogue, a reading room). The book says once why the second is survivable: nobody comes to a reading room to make you comfortable.
+13. **The dog.** Kalder does it.
+14. **Leaks** are made worthless, not prevented. The hearings run on a bar TV all book.
 
 **The book**
-13. **No new job.** Meerwijk is cut. Everything it supplied is found where James already works and in public: the payment through his own company's invoices (his monitoring role sees them), the foundation's grants in its published annual accounts, the field schedule in the same records, page 212 in the tools his own company buys. The "test" survives smaller: Pieter moves him onto the company's "continuity" project, which is the machine letting him explore, and the offer at the end is what that leads to. `⚠` if Santi would rather keep the new job as the test, see the end.
-14. **The pub is the first coded conversation; the table is the second.**
-15. **Interludes** every six or seven pieces, real only, told as stories, each ending with where the object is today. **Villain chapters** show the monster.
-16. **Spelling:** American throughout (Santi's). British idiom out. The narrator stays an expat of unstated origin.
-17. **Real documents** quoted only in their real words; no invented sentence in a real memo.
-18. **Length:** 85–90k. Additions are events.
+15. Interludes every six or seven pieces, real only. Villain chapters show the monster. The pub is the first coded conversation, the table the second.
+16. American spelling. Real documents quoted only in their real words.
+17. Length 85–90k. Up to the corporate day: Santi's pace and story as marked on 19 Oct.
 
-**Clocks the reader can always see:** the review date (end of year → end of quarter → three weeks → two → "returned"); the sum on the invoice (steps up, then one step down); the eleven addresses (how many resolved); the second of December; Buddy.
+**Clocks:** the review date; the sum on the invoice; the eleven addresses; the second of December; the seat list; Buddy.
+
+---
+
+## 1. The back half, attacked before it was rebuilt
+
+**As the editor.** The old back half moved James to a new company to find documents. That broke two things: plausibility (why let him in) and motion (a month of settling in). Keeping him where he is and moving him *inside* the company onto continuity fixes both: he is where the documents are because that's his job now, and the reason he's been put there is the plot (the audition), not convenience. Passivity, the critics' biggest note, is answered by the same move: continuity gives him legitimate reasons to go and get things (the seat list, the invoices, the schedule, the recovery site), and each costs him something because each is watched.
+
+**As the reader.** The stakes were abstract ("a date moves"). Now they are a list with his colleagues' names on it. Pieter is on it. Frank isn't. He isn't. Neither is Ana. The line *companion animals are not accommodated* is the most frightening sentence in the book and it's from a real genre of document. A reader can hold that.
+
+**As the consumer who wants a page-turner.** Every beat after the corporate day now has an object the reader wants James to open: the invoice, page 212, the seat annex, the field schedule, the foundation's accounts, the 1931 ledger, the two-column sheet. And a building. The old draft's climax was three conversations; this one has a building the reader has seen twice, upstairs and downstairs.
+
+**As the writer, for voice.** James already talks continuity: "what's the copy," "the job's the copy," "the night shift of the night shift." Putting him on the continuity programme gives him his own vocabulary for the whole conspiracy, which keeps the IT metaphors in narration honest and out of other people's mouths. Kalder's first-morning line, "insurance for things that can't be insured," was his job description and James took it as small talk; that's the kind of thing the reader gets to re-read.
+
+**As the man with the film rights.** One location that does three jobs: the depot's reading room above, the recovery site below, a car park with a sign. A drill scene in the spring that the audience will remember in December. A seat list on a screen with names scrolling. A dog at a window. It cuts.
+
+**As the producer who has to defend the budget.** No new cast (Saskia is gone; Pieter and Frank carry it), no new building to establish (the recovery site is seen early as routine), and the biggest set piece is a reading room.
+
+**As the lawyer.** Recovery seats, work-area recovery, business-continuity plans, DR sites, foundations' published accounts: all real practices, no real company named. The 1953 panel in its own words only. The professor's list, the style guide, the foundation, the depot: invented.
+
+**As the reader of our own library.** Howey: the number that's wrong by a clean multiple in a procurement line, and "bunks." Rushkoff: the bunker as a logistics question asked by men who've solved everything else; "you have a seat." The brief: the Housed are tasked, never told; a capacity reservation signed by a man who does the arithmetic. le Carré: proof is two columns, never a confession. All of it already in the vault; this draft finally uses it.
+
+**What this does to the first half.** Almost nothing. Three plants: the company is a house with four hundred years of records (one line in "The good life"); the corporate golf day is the house's, and Kalder is there as a vendor guest; "Leave it" ends with Pieter saying, three weeks later, "they want you on continuity." Everything up to the corporate day stays as Santi marked it.
 
 ---
 
@@ -40,160 +61,140 @@
 *Question: is there anything there, or is grief making patterns?* ≈ 21k.
 
 **Cold open** [J] · 500w · `⚠ cold open`
-Months ahead of the story. A kitchen that isn't his. Every object he has found laid out on a tablecloth: the two books, the thin book, the three pages, the printed list, the field schedule, the slip with the shelfmark, page 212, the two-column sheet, a dog lead, keys, tea things. A man in a jumper making an offer in code (*recall*, *seats*, *a budgeting thing*) and never saying *yes*. Ana's hand on James's, not squeezing. The schedule on the table carries their address and tomorrow's date. "One of the two men at that table was afraid. The sheet said which." → *Eight months earlier.* Rewritten from the finished table scene so every prop and line matches. Options for Ana-present or James-alone at the end.
+Months ahead. A kitchen that isn't his. Every object on a tablecloth: the two books, the thin book, the three pages, the printed list, the field schedule, the slip with the shelfmark, page 212, the two-column sheet, a seat annex with names on it, a dog lead, keys, tea. A man in a jumper making an offer in code and never saying *yes*. Ana's hand, not squeezing. The schedule carries their address and tomorrow's date. "One of the two men at that table was afraid. The sheet said which." → *Eight months earlier.*
 
 **The funeral** [J, Santi's] · unchanged.
-**The good life** [J, Santi's] · one expansion: the hobby as a nose (decision 1), in his own words; the Record kept as the checking branch. Plant the persona handle.
-**Reading with a pen** [J, Santi's] · one expansion: the loneliness theme (thinks all day what nobody says; football; politics and the two-puppets joke, paraphrased, his own; Zoolander; "people either forgot to ask or are embarrassed; somebody taught us to forget"). And the crate: **Beard Man sells the whole lot or nothing**; James takes forty-odd books in two bags, a thin one with no title among them.
-**The sentence** [J, Santi's, reworked ending] · In the lot, a copy of a 1926 book he already owns, and it's a first impression. Thrilled, then scandalised: the professor annotated it. Checking the abuse against his own copy, he finds page 118 is different, and then two more edits further in, all the same kind (*given → arose; remembered → imagined; taught → developed*). Typos and blemish untouched. The fetch game: the original has a hand in it. Author vanished 1929, edits 1931. *Doesn't fit.* "If it was worth doing here, where else?"
 
-**Down House, Kent. January 1860** [L] · Darwin adds "by the Creator" to the second edition and regrets it in a letter for the rest of his life. *The letter is in the Darwin Correspondence Project.*
+**The good life** [J, Santi's] · the hobby as a nose, in his words; the Record kept as the checking branch; one line that the ten thousand systems belong to a house that has kept records since people wore wigs and has never thrown one away. Plant the persona handle.
 
-**A round with a stranger** [J] · 2k · NEW
-A Wednesday alone with the dogs. Why golf and never team sports; what the dogs are; the four hours when the mind shuts up. The starter pairs him with a man playing alone: handsome, easy, a swing James would pay for, and he *likes James*: asks about Buddy first, knows the word foreman, laughs at James's jokes before the end of them, notices Mora's duck-poop ritual. Dozens of small connections. James drives home a little giddy, "like a schoolgirl, the cool guy likes me," and concludes that a stranger can be fun without being a friend and that maybe he doesn't have to be alone. *Reader learns much later: this was Kalder taking a measure.*
+**Reading with a pen** [J, Santi's] · the loneliness theme (football, politics, the two-puppets joke paraphrased, Zoolander, "somebody taught us to forget"). Beard Man sells the whole lot or nothing; forty-odd books, a thin one with no title.
 
-**Utrecht. A phone call. 1993** [K-past] · 1k
-Koster reports Verhoef's paper (two shielded rooms; something moved). One line on how Koster was approached: a lunch, a second lunch, a question about the children's schooling, a mention of colleagues who'd declined the lunch and whose departments were smaller now. "Recall." Reclassify as instrumentation. Seats confirmed; not his mother; "it's a budgeting thing, Wim." Two kind hours with his friend. *Closing: the department restructured the next year; Verhoef retired early, kept his copy, died in 1995 in a car on a canal road.*
+**The sentence** [J, Santi's, reworked ending] · a duplicate in the lot, a first impression, the professor's annotations, three edits of the same kind, typos left in, the fetch game, 1929/1931, *doesn't fit*, "where else?"
+
+**Down House, Kent. January 1860** [L] · Darwin's "by the Creator."
+
+**A round with a stranger** [J] · 2k
+Alone with the dogs; why golf; the four quiet hours. Paired with a man playing alone: handsome, easy, a swing James would pay for, and he likes James. "How old?" to the cart first. "Foreman." A dozen small connections. "I'm in continuity, for my sins. Insurance for things that can't be insured. If your building burns down, who does your payroll on Monday." James: "What's the copy." The man looks at him a second longer than a man looks at you over a cup. James drives home giddy, "the cool guy likes me," and concludes a stranger can be fun without being a friend. *Kalder taking a measure; learned much later.*
+
+**Utrecht. A phone call. 1993** [K-past] · 1k · as before: how Koster was approached; Verhoef retired early, kept his copy, died in 1995 in a car on a canal road.
 
 **Leave it** [J] · 2.5k
-The job: `rcl-agg`, 02:14, nine seconds, forty kilobytes, an address that exists for nine seconds. Stand-up: Pieter is **surprised**, visibly, for a moment, and then knows what to say ("diagnostic artefact from the migration; leave it"). James did the migration. What James reads is the moment before the sentence; the reading skill shown, not explained. The dealer's letter: *Dear Mr Klippe… be plain about one's reasons.* He opens a ticket.
+`rcl-agg`, 02:14, nine seconds, forty kilobytes. Stand-up: Pieter surprised, a visible moment, then "diagnostic artefact from the migration; leave it." James did the migration. He reads the pause. The dealer's letter. He opens a ticket. **Close:** three weeks later Pieter stops by his desk: "Good news. Continuity want you. The programme. They asked for 'the person who reads things.' It's a step up." James says thank you and doesn't ask who *they* are, and notices that he didn't.
 
-**The payload** [J] · 1.8k · `⚠ payload` (option a)
-He captures the forty kilobytes. A list of 112 employee IDs with a two-word reason beside each (*posted (forum)*, *searched (term)*, *wrote (dealer)*). His isn't there. The night after stand-up: 113, and his says *asked (job)*. The job counts people who ask. Asking put him on it.
+**The payload** [J] · 1.8k · `⚠ payload`
+The forty kilobytes captured: 112 employee IDs of the house, a two-word reason beside each. His isn't there. The night after stand-up: 113, *asked (job)*.
 
-**The control case** [J] · 2.3k
-A third copy (the run). It's expensive; he lies to Ana about the price and feels bad. Nine books from the lot checked against other copies: nothing (the control). The itch that stays: the shelf has a pattern of *subject*: *VALIS*, *Blindsight*, *Ubik*: a man's conclusions, not his taste. The thin book: two hands, forty-one entries, book, page, printing, before, after. Entry 11 is page 118. The last page: a shelfmark, a date, *Ask*. **The date is the second of December, still to come.** The professor died in March with an appointment in his diary.
+**The control case** [J] · 2.3k · as before; the expensive copy and the lie to Ana; the control; the shelf's pattern of subject; the thin book; the last page: a shelfmark, the second of December, *Ask*.
 
-**The week it vanished** [J] · 2.5k
-Beard Man on the death (chair, bin, curtains, a polite man in a van). The ticket closed as a duplicate of a ticket that never existed. The job gone from the list and every backup. Frank blank, honestly: fifteen seconds at the end of a meeting two weeks ago. Pieter blank, and not honestly. The screenshot alone. The four key-holders; one is Pieter; James says nothing.
+**The week it vanished** [J] · 2.5k · as before; Frank blank honestly, Pieter blank and not; the four key-holders.
 
-**A pension visit. Zwolle** [V] · 1.1k
-A man we are not shown clearly visits a retired engineer who has started saying strange things about his father. Learns he loves the old car and the canal road. Borrows the car to move a box. Returns it washed. Three days later the canal. *We see him wash it.* No coat, no name, nothing that links him to the golfer yet.
+**A pension visit. Zwolle** [V] · 1.1k · the car, the box, washed; the canal.
 
-**Groningen** [J] · 1.8k
-The dealer in person. "Be plain: who sent you?" He was visited in 2011 and told to telephone if anyone asked for that title. He telephoned about James three weeks ago, before the ticket. Verhoef's grandson bought from him in 2015. He is frightened and sorry.
+**Groningen** [J] · 1.8k · the dealer; "who sent you"; telephoned three weeks ago; Verhoef's grandson.
 
 ## MOVEMENT II — THE MACHINE
 *Question: what shape is it, and who is in it?* ≈ 24k.
 
-**Deventer. A Thursday in March** [V/K-past] · 1.1k
-The professor wrote to the post box asking someone to come, breaking his own rule. Somebody came. Tea, the blue chair, "forty-one, always the same edit." The visitor says nothing, makes him comfortable, photographs every page while he sleeps. From the car: "I'd rather wait; a body's a fingerprint." Eleven days later the bin. June: the furniture; the books already gone to the market, whole lot. The one kind mistake.
+**Deventer. A Thursday in March** [V/K-past] · 1.1k · the professor's ask; the photographs; "a body's a fingerprint"; the lot gone to market.
 
-**Gondar, Ethiopia. 1770** [L] · Bruce is handed Enoch and is called a liar in London for the rest of his life.
+**Gondar, Ethiopia. 1770** [L] · Bruce and Enoch.
 
-**Frank's kitchen** [J] · 2.3k
-Friendly, teasing debunking. Flat earth, the full-moon video, phantom time on tree rings; James's point about ridicule aimed at bad theories training people to dismiss good ones. Frank's two-column list; the real 1953 recommendation read in its real words; James says what it implies. "The memo's the table." The stairs: Frank half-remembers the orphan job for one second, and the beer takes it back. *Frank is exactly what he looks like: the friend.*
+**Frank's kitchen** [J] · 2.3k · the friendly round; flat earth, the moon video, phantom time; the 1953 text in its real words; "the memo's the table"; the staircase.
 
-**The math** [J] · 2.8k
-Els refuses him. On the way out James says one thing (placeholder; a line her father used to say about checking) that stays with her. A week later she rings: "why did you say that?" The folder from under the dresser's lining paper: *Preferred Formulations, fourth revision*; the columns; the dates page; *When a reader notices*. She never gave it to anyone else; it felt personal. The arithmetic (one in five hundred, one small thing once). He withdraws. Breakfast: Ana catches the join; "reading"; a day's silence.
+**The math** [J] · 2.8k · Els refuses; the one line; she calls; the folder; *When a reader notices*; the arithmetic; the withdrawal; breakfast.
 
 **The corporate day** [J] · 2.2k
-His company's golf day. Two yuppies with a crass line about the cart girl. The stranger from the spring on the practice green, and James is honestly glad. He's in "corporate relationships, lobbying mostly," nondescript and a little dodgy; "I know the organiser," and they're paired. First tee: a 320-yard draw. James, a little impressed, a little giddy. Scene ends there.
+The house's golf day. Two yuppies and the cart girl. The stranger from the spring on the practice green, wearing a vendor's lanyard; honestly glad. "Corporate relationships, lobbying mostly. We do your continuity. The recovery seats. Boring." "I know the organiser." Paired. First tee: a 320-yard draw. *Kalder sells the house the seats. James hears it as a product.*
 
-**A car park. Thursday** [K] · 800w · `⚠ car park` (option a: anonymised)
-*A* handler reports that the subject "has stopped asking." "Out loud. That's worse." The review moves from end of year to end of quarter because of a verb. "Near enough to know what he loves." Nothing identifies the golfer.
+**A car park. Thursday** [K] · 800w · `⚠ car park` · anonymised: a handler reports "stopped asking"; "out loud; that's worse"; the review moved by a verb.
 
-**Leiden** [J] · 2.4k
-Noor's message, kitchen, glass over a 400-year-old page. The template. Entry 26. The professor's rule, in his words. The French report's last chapter, half a page. "You're counting the wrong column." "Find the money." The shelfmark is the depot's format; the appointment is real and it's in December.
+**Leiden** [J] · 2.4k · Noor; the template; entry 26; the professor's rule in his words; the French report's last chapter; "wrong column"; "find the money"; the shelfmark is the depot's format and the appointment is in December.
 
-**Fullerton, California. February 1974** [L] · PKD, the delivery girl's fish pendant, the pink light, the son's hernia confirmed, the Exegesis, *VALIS*. Documented only. *The book on the professor's shelf, explained by its author's life.*
+**Fullerton, California. February 1974** [L] · PKD.
+
+**The drill** [J] · 2k · NEW
+His first week on continuity. A business-continuity test: forty named staff bussed to the recovery site on a Tuesday, lanyards, a sandwich, a desk with his name on it in a low building behind a car park with a sign. Upstairs, through a glass door he isn't badged for, a reading room: a foundation's conservation depot, the house's "archive partner." He notes the shelfmark format on a spine and doesn't connect it. He notes that the desks downstairs are numbered and that the numbering starts at one and that his is forty. He notes Pieter is twelve. He is good at the drill. Kalder is in the car park talking to the site manager and waves.
+*Intent:* the ark, seen as routine; the professor's shelfmark format seen and filed; the seat numbers planted.
 
 **The money** [J] · 2.4k
-"Find the money," where his monitoring role can see it: his own company's invoices. A monthly payment for years to a foundation at a post box: *continuity reconciliation (recall index)*, billed per flagged person. The sum stepped up in clean multiples; the last step the week of his ticket. Then the other half in public: the foundation's annual accounts, published as Dutch law requires: heritage grants, and in certain years a documentary company, a publisher, a retreat centre, a festival, a library's "digitisation." He doesn't yet see the pattern against the years. Pieter moves him onto the "continuity" project: more access, not less. *The test.*
+"Find the money," where continuity can see it: the programme's own invoices. A monthly line to the foundation at a post box, *continuity reconciliation (recall index)*, billed per flagged person; the steps up in clean multiples; the last step the week of his ticket. A second contract, through Kalder's consultancy: *work-area recovery, seats, annual*. And the annex to the continuity plan, which he now has the role to open: the **seat list**. Names. Pieter. The head of risk. A man from the brewery account. Not Frank. Not him. Dependants per allocation. And the line: *companion animals are not accommodated.* He reads it twice and closes the document and goes to get Buddy from the car.
 
-**Enjoy it while it lasts** [J] · 2k
-The AI tools arrive. Page 212: the one class of job the watcher is told never to see. *Rev. 4*, review date end of quarter. His access narrowed by exactly one shape. Kalder, on the next round: "ask the person who'd be embarrassed." "Julian K." fixes it in eleven minutes with the same phrase. James notices; files it.
+**Enjoy it while it lasts** [J] · 2k · the AI tools; page 212; *Rev. 4*; access narrowed by one shape; "ask the person who'd be embarrassed"; Julian K., eleven minutes, the same phrase; filed.
 
-**A room with a long table** [K] · 1.4k
-Bram and the handler. The weekly: left column *reporting* (the job), right column *hands* (handlers who have crossed). The index counts fear leaving. "When he gets to the floor, I'd like to know the week." "The wife will find the schedule. Let her."
+**A room with a long table** [K] · 1.4k · Bram and the handler; the two columns; what the index counts; "when he gets to the floor"; "the wife will find the schedule."
 
-**Leiden, nine years ago** [V] · 1.1k
-Kalder with a clipboard. Noor's twenty minutes of silence; it goes through him. Zwolle; files his own crossing; watches the date move; asks for more names. The seat is a promotion he wanted. *The reader now knows the golfer is the handler and has hands.*
+**Leiden, nine years ago** [V] · 1.1k · Kalder's own crossing; the seat as a promotion.
 
 ## MOVEMENT III — THE SHIFT
 *Question: what does crossing cost, and what does being seen crossing cost?* ≈ 23k.
 
-**The gorilla mask** [J] · 2.6k
-The barbecue. Frank's 1943 story. The persona burned: three sentences in a hundred, bloodlines, the deleted question posted; the correction reaches eleven. Kalder wonderful with everyone and with Ana's grandmother; finishes James's private line. "He's kind. Keep him." "Do you mind him not coming over?" "Nobody's ever asked me that." Buddy keeps away four hours. James decides to stop trying to be believed.
+**The gorilla mask** [J] · 2.6k · the barbecue; the persona burned; eleven people; Kalder with Ana's grandmother; the private line finished; "keep him"; "do you mind him not coming over?"; Buddy's four hours.
 
-**On land** [J] · 2.2k · the first coded conversation
-The pub, Ana present. The slip: "that professor's place near Deventer." One hard knock. **Kalder is the one outplayed.** James tests him with a wrong town; Kalder accepts the correction and nothing leaves his face. James plays it perfectly: gives nothing, keeps Ana out ("a book thing"), answers jokes with jokes, and hears every threat Kalder makes as a joke to Ana's face (how fast nice houses burn, good street, dogs, home insurance) and gives nothing back. "Good game, Jim. Let's not play another." James is sad; he'd had a friend for nine weeks. In the car Ana catches *James*: "you did the thing with the town; you do that to me." The hat held up; the laugh doesn't come. *What James has won is time to prepare. No numbers in the prose; the reader sees two faces and understands. Whether Kalder moves on his doubt is shown later by what happens, not said.*
+**On land** [J] · 2.2k · the pub; the slip; Kalder outplayed; the threats as jokes; nothing given back; "let's not play another"; the car; the hat. *James wins time.*
 
-**The schedule** [J] · 2k
-From the continuity project's records, the foundation's quarterly field schedule: records "for conservation," a *Visit* column, eleven addresses, dated, accelerating toward the end of the quarter: Noor's street, the dealer's shop, the curtain shop, their house in eleven days, *companion* in the notes. Ana reads it upside down. "It's the dog." "James." "I'm leaving the address." Mora goes; Buddy stays; nine o'clock every night.
+**The schedule** [J] · 2k · from the continuity programme's records, the foundation's quarterly field schedule; the *Visit* column; eleven addresses; theirs; *companion*. Ana reads it upside down. "It's the dog." "James." "I'm leaving the address."
 
-**The Rockefeller Museum, Jerusalem. September 1991** [L] · "conservation" as a lock, broken by a copy.
+**The Rockefeller Museum, Jerusalem. 1991** [L].
 
-**A street. Night** [V] · 900w
-Twice up the street. No Doberman. The old dog at the window: "hello, foreman." Eleven minutes. The back lane, the fourth gate, the bowl. He does what he does. Report: *the old dog is not a problem.*
+**A street. Night** [V] · 900w · the gate; the bowl; "not a problem."
 
-**The vet** [J] · 2.4k
-Buddy at two. "Not tonight." The floor. The honest version to Ana. Noor rings about the photo: "Kalder. He oversaw the transfer nine years ago." A full minute to connect six pieces of paper. Leiden with a speech; "No. That's the rule, and it's what killed him." The shelfmark, the same number as the thin book's. *There's a van on my street.* Then nothing.
+**The vet** [J] · 2.4k · Buddy; "not tonight"; the floor; Noor rings: "Kalder"; the full minute; Leiden; "no, that's the rule, and it's what killed him"; the shelfmark; "there's a van on my street."
 
-**Leiden. Friday** [V] · 1k
-How you make a person quiet in an afternoon with a clipboard. First names. She makes him tea again.
+**Leiden. Friday** [V] · 1k · how you make a person quiet.
 
-**A corridor. He is sixteen** [J-past] · 1k · unchanged.
+**A corridor. He is sixteen** [J-past] · 1k.
 
-**The floor** [J] · 2.8k · unchanged in shape; the *Blindsight* note cashed; the fear since sixteen, the flashes since six.
+**The floor** [J] · 2.8k.
 
-**Nuremberg. Dawn, 14 April 1561** [L] · the printer and the shapes.
+**Nuremberg. 1561** [L].
 
-**The long table, again** [K] · 1.2k
-"You've got the week." "He said *soul* to the dog." "You'd know." Nine years; Leiden; the seat. "James has hands." Review to two weeks. The handler to the depot on a transfer; Bram to make the offer himself, with the wife. "The dog." "Yes." "I'd rather you hadn't." "It was efficient." *No turn. The reader has seen the gate.* Bram, at the door: "You've never once asked whether I've got them." "You'd have told me. It's how you seat them."
+**The long table, again** [K] · 1.2k · "James has hands"; review to two weeks; the handler to the recovery site on a transfer; "the dog." "Yes." "I'd rather you hadn't." "It was efficient."
 
 ## MOVEMENT IV — THE INSTRUMENT
-*Question: can a man who watches systems do anything to one?* ≈ 22k.
+*Question: can a man who watches systems do anything to one?* ≈ 23k.
 
-**Twenty minutes** [J] · 1.9k
-The tablecloth; the objects in order; the hand flat on the cloth for the floor. "You said I don't know six times." "I believe you." The plan is hers: stay, all four; she'll open the door; she's the only one not in.
+**Twenty minutes** [J] · 1.9k · the objects; "I believe you"; the plan is hers.
 
-**The other ten** [J] · 2.2k
-The other addresses checked. Three resolved this quarter, plausibly; four gone quiet. Zwolle, the widow: "a man came about the pension; he brought a flask." He tells her nothing. *The review is running.*
+**The other ten** [J] · 2.2k · three resolved, four quiet; Zwolle, the widow, the flask.
 
-**The band** [J] · 2k
-Three a.m. The engineer's question. The foundation's public accounts against the index: every grant to noise in a cold year. A band, not a floor. A calm man isn't on the dial.
+**The band** [J] · 2k · the foundation's published accounts against the index; every grant to noise in a cold year.
 
 **A river town, before paper** [L, optional].
 
-**Leiden. A printer's shop. 1931** [K-past] · 1.1k · three lines, the typos left.
+**Leiden. A printer's shop. 1931** [K-past] · 1.1k.
 
-**The appointment** [J] · 3.2k · the depot
-He writes beforehand under his own name citing the late Maasen's appointment and the shelfmark; they say yes. The second of December. Car park, sign, reading room, a tray: the foundation's own 1931 first revision, in the professor's five-field format; entry one is page 118. The handler walks in with a transfer box. Across the table, in whispers: "You were very good. At the pub. I've thought about it." Then: Bram is coming Sunday, bring the old dog, the date is two weeks, "I moved it, with one true line." A threat dressed as a favour: a frightened man takes a seat. He doesn't use his badge for the lower floor. *James says the line about private ask and public ask, once, to himself, on the way out: nobody comes to a reading room to make you comfortable.*
+**The appointment** [J] · 3.2k
+He writes beforehand under his own name citing the late Maasen's appointment and the shelfmark; they say yes. The second of December. The car park with the sign. He has been here with a lanyard and a sandwich. Upstairs this time, through the glass door: the reading room, a tray, the foundation's own 1931 first revision in the professor's five-field format, entry one page 118. Through the floor, faintly, a generator test. Kalder comes in with a transfer box. "You were very good at the pub. I've thought about it." Then: Bram on Sunday, bring the old dog, two weeks, "I moved it with one true line." A threat dressed as a favour. "You've got a seat downstairs, you know. Forty. I've seen the list." "So have I." He leaves. James, on the way out, past the door to the lower floor he is badged for and doesn't open: nobody comes to a reading room to make you comfortable.
 
-**The table** [J] · 3.2k · the second coded conversation · `⚠ cold open`
-Bram, tea, the objects. "Nobody has ever got the band. And nobody has ever done to him what you did at the pub. That's why I'm here and not somebody else." Bram's story (hands, fires, the giver removed; "it's not cruelty, it's capacity"), with one real example. Five seats; companions not seated. The two-column sheet: James's code and, in the same class, one nine years old, matched to the handler reference on the schedule. The reveal that hurts: it didn't make him good. Ana asks Bram straight; "I'm not able to answer that in this room"; James: "don't"; she understands. "I'm not in. I don't believe it, and I believe you." The squeeze. "I've never seen what happens to a man who just sits there." The hat: "careful with that; it works."
+**The table** [J] · 3.2k · `⚠ cold open`
+Bram; tea; the objects. "Nobody has ever got the band. And nobody has done to him what you did at the pub." Bram's story. Five seats; "companions aren't seated," and James puts the annex on the table with the line on it and Bram has the grace to look at it. The two-column sheet; the handler's code nine years old; the schedule's margin. It didn't make him good. Ana asks straight; "I'm not able to answer that in this room"; "don't." "I'm not in. I don't believe it, and I believe you." The squeeze. "I've never seen what happens to a man who just sits there."
 
-**The depot. Monday** [V] · 900w
-*Hands confirmed* → *reporting ceased*, one word, same pen, nothing else touched. For himself. Reading down by one. Review returned. Flask on a table in a flat with the wrong name on the bell.
+**The depot. Monday** [V] · 900w · *hands confirmed* → *reporting ceased*, for himself.
 
 **Leave it** [J] · 1.8k
-Nothing happens. Home. The committee's "leave it." The sum steps down. "I'll never know which." **Frank**, by the coffee machine: he has made a third column on his list, "the table," with one thing in it. "You've ruined my document." "Based on what?" "Based on a staircase." James shows him the band, the foundation's accounts against the years, and Frank is the first person who sees it and doesn't laugh. A repaired page from Leiden for Ana. A full flask on the bench by the sixth; Buddy gets out of the cart.
+Nothing happens. Home. His report goes to the continuity steering committee; Pieter brings the answer, uncomfortable, kind: "They've decided to leave it. That's a direct quote." The sum steps down. Frank's third column; James shows him the band and Frank doesn't laugh. A repaired page from Leiden. The full flask on the bench; Buddy gets out of the cart.
 
-**A market. Sunday** [V] · 500w · "Chap took the lot." The next name.
+**A market. Sunday** [V] · 500w.
 
-**Coda** [J] · 1.4k · unchanged: the garden; Ida at the stairs; Ana's hands dream; page 212 gone; "Check."
+**Coda** [J] · 1.4k · the garden; Ida; Ana's hands dream; Frank and page 212; "Check."
 
 ---
 
 ## ⚠ Open points (Santi decides)
+1. **Cold open:** Ana at the table with the schedule's tomorrow date as the clock (my pick); or James alone; or the pub slip itself.
+2. **The payload:** IDs with a two-word reason (my pick); a plain-text digest; an empty heartbeat.
+3. **The car park:** anonymised (my pick); cut; or the golfer identifiable from here.
+4. **The line James says to Els.** Found in drafting.
+5. **The gorilla mask** as its own interlude as well as Frank's telling.
 
-1. **Cold open:** Ana at the table with the schedule's tomorrow date as the clock (my pick), or James alone with Bram and Ana already gone somewhere he doesn't know, or the pub slip itself cut before James answers.
-2. **The payload:** option (a) above (IDs with a two-word reason), or a plain-text digest quoting his stand-up question back, or an empty heartbeat that is the receipt, not the message.
-3. **The car park:** anonymised (my pick), cut, or kept with the golfer identifiable from here.
-4. **Meerwijk:** cut (my pick, applied above), or kept as the test, with a new building, a new boss, and a reason to leave a job he likes.
-5. **The placeholder line James says to Els.** Something her father used to say about checking. We find it in drafting.
-6. **The gorilla mask** as its own interlude in addition to Frank's telling, or not.
+## What the "financial institution from page one" decision changed
 
-## What Santi's answers changed downstream (all applied above)
-
-| Answer | Consequence |
+| Before | Now |
 |---|---|
-| Kalder is a psychopath, no turn | The glass-wall confession is gone; "the dog was the van" is gone; the long table has "Yes. It was efficient."; the pen is self-interest; the flask on the bench is a reminder, not a farewell. |
-| Kalder is outplayed; the win buys James time | The pub keeps the threats and loses Kalder's certainty; James uses the weeks to prepare; whether Kalder moves on his doubt is shown by events, never computed in the prose; the win is why a seat is offered instead of a visit. |
-| Frank is the friend, not in it | Frank's kitchen is friendship; his blankness in "the week it vanished" is honest and Pieter's isn't; at the end he is the first person shown the band, and in the coda he is the one who reads the new defaults. |
-| Hobby is a nose | The good life's expansion is written as detection, not filing; the Record stays the checking branch. |
-| Kalder met twice before the pub, handsome, funny, great golfer, likes James | The seventh tee is gone; "A round with a stranger" and "The corporate day" carry the liking; the pub's loss is a real loss. |
-| The appointment is in the future | The depot piece is "he keeps a dead man's date"; the second of December is a clock from Movement I. |
-| Noor's rule is the professor's | "Ask" killed him; James's public ask is said, once, to be the opposite act. |
-| No new job | Everything Meerwijk supplied is found in his own company and in public accounts; the continuity project is the test. |
+| James recruited to a new company by email, takes it "because somebody made me laugh" | No move. Pieter puts him on the house's continuity programme: "they want the person who reads things." |
+| Saskia, a new boss, a new building | Gone. Pieter and the steering committee. |
+| The money found in a stranger's ledger | Found in his own programme's invoices and in the foundation's published accounts. |
+| Seats an abstraction Bram offers | A real annex to a real kind of plan, with colleagues' names on it, a number for him, and the line about companion animals. |
+| The depot a place he visits once | The recovery site he drilled in, with the depot upstairs; seen in spring, kept as an appointment in December. |
+| Kalder's job vague | Kalder sells the house its continuity: the seats are his product. |
+| Climax three conversations | Two conversations and a building the reader knows. |
