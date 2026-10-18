@@ -74,7 +74,9 @@
 
 **A street, night** (villain alone). Kalder at the back gate. The bowl. "The old dog is not a problem."
 
-**The vet.** Buddy at two in the morning. "Not tonight." Noor rings: the man in the barbecue photo is Kalder. James finally connects the paper to a face. Noor refuses to be a witness and gives him the reference number instead. Then she goes quiet.
+# The dog was poisoned because the nigh befoire Kalder needed to get into the house and steal the professors book.. mora as always asleep and somewhat oblivious.. but not buddy, when Kalder was just starting to approach the house he noticed buddy fully alert and checking him on the window.... a dog who s old and tired and always resting... here was aware and standing like a 2 year old guard dog basically... Kalder knew he had to deal with him before returning.
+
+**The vet.** Buddy at two in the morning. "Not tonight." Noor rings: the man in the barbecue photo is Kalder. James finally connects the paper to a face. Noor refuses to be a witness and gives him the reference number instead. Then she goes quiet by this point James thogth he know... but this was the nail...
 
 **Leiden, Friday** (villain alone). Kalder makes Noor quiet in one afternoon.
 
@@ -100,13 +102,36 @@
 
 **The dinner** (second coded scene, Ana present). Ana opens the door to Kalder. James tells him, in his own job's words, that he caught the slip at the pub and has been addressing the doubt ever since. Kalder, to Ana: "I hope Buddy's okay now," which James never told him. James, to Ana: "Have you ever seen *Burn Notice*? I thought when a spy gets found out he just gets fired. No. His own side burns him." Kalder understands: if James goes silent, he's the one who's burned.
 
+# this is a surprise visit, Anna welcomes him, invites him, buddy this time growls like he s possesed, no need for hiding naymore for Kalder he comes to reinforce the offer... and makes threats, and asks if buddy recoivered well.... that hurst and pisses james off
+James counter is the threat of reveal.... but not only reveal... explains how he was outplayed... all in code... and how the organization will treat a burned agent who not only is burned ... but has been played for months....
+
+
 **The depot, Monday** (villain alone). Kalder changes one word beside James's name, to save himself.
+
+
+
+# this part... we need a better use of Kalder.... something with high stakes.... in the book we mention the organisation is maaassive... and yes the upper upper layer is bad... but not everyone under... James needs to use this... and he uses Kalder for this.... or Kalder reveals this.... i still don t know we can piut a pin and placeholder for this part... and then they part ways.... Kalder seems cool, suave, and says too bad i liked you... James no, he did at some point.... but messing with his dog and threatening Anna was a line to not be crossed
 
 **The turning.** James goes to the people the house's part of the machine can't run without and gives each one document and one question. Pieter and the seat list. The head of risk who signed the contract. The woman at the depot desk. The brewery man with five seats. Each stops doing their one small thing. The house stalls; re-accommodating it takes a generation.
 
+# in the final showdown, i want james to sell thus, he s learned the bunkers are not ready... so the continuity machine is not ready yet.... all this time he s gathered, info, allies and mechanism.... in a way during all those long nights.... what he was building after learning the truth... was a net... this goes back to the first chapters.... YES there is people like him... and he was not wrong... it s thousands....
+and now they also know.... 
+so wgat is the catch... destroying the machine means destrying society... and destryog him means the world know and the billionaires and the machines are destoeyd,,, in a way a mexican stand off....  so what he asks is more time.... and the full promise that things will be different.
+
+some of the powerful people he turned now second this... and the heads of the sankes the real evl ones.... those are gone....  now somewhat good but gray area biollionaires are in charge,,,,, and their warning is... we will change our ways.... but don t remember not everyone is good.... we won t help the collapse but we wont risk our plans if the wirld collapses... continuity needs to be guaranteed.... and for that we also need your secrecy....
+
+James agrees.... he saves the woirld by not letting it be destroyed, but now the world has to save itself from destroy it itself.... and James now understands this... 
+James asks for one last thing thoug.... which is not mentiuoned
+
+
+
 **Leave it.** The date passes. The committee's answer is "leave it," and now it means leave James. The payment steps down. He files one dull ticket against page 212. He shows Frank the money and Frank doesn't laugh. A repaired page from Noor. A full flask on the bench; Buddy sits beside it; James drinks it and never forgives him.
 
-**A market, Sunday** (villain alone). The next name.
+**A market, Sunday** (villain alone). The next name. but when Kalder arrives, he notices his colleagues expecting him, he tries to go other way, another colleague, he goes aniother way... more of them... Kalder notices he is surrounded... phone rings, new leadership (a woman) she tells him his services are not needed anymore....
+Kalder looses it, says this can t be, he s their best asset... he knows things...
+the woman replies, exactly he knows things, and can t be trusted, and kalder mentions he s always been loyal... and Woman replies until you were played by an IT nerd, until you helped the IT nerd.... The woman exlains this is not personal, but and angry dog owner made this part of the deal.... Kalder semi smiles.... he knows he fucked up, he shouldn t have messed with the dog...
+
+
 
 **Coda.** Four years on. Buddy dies at home. They bury him in the garden, and this time James says "he's in a better place; I'll see him soon," and knows what he means by it. Page 212 is gone from the new tools. The new dog sits at the bottom of the stairs the way only Buddy did.
 
