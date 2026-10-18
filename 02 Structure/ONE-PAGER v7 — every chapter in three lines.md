@@ -11,7 +11,7 @@
 ## MOVEMENT I — NOTHING FITS
 
 **Cold open** (J) ⚠ DISCUSS
-We are dropped into the climax, months ahead of the story. Everything James has found is laid out on a kitchen table as objects, and a man from the organisation is making him an offer. *Santi: the objects stay; decide whether Ana is at the table or James is alone, and either way the stakes must be higher than "an offer."* Options at the bottom. What is fixed: this is not the first coded conversation. The first one is with Kalder, at the pub, where Kalder makes a slip so subtle that nobody in a thousand would catch it, James catches it, Kalder is 99% sure he did, and James plays along so perfectly that Kalder never gets the last 1%. This table is the second.
+We are dropped into the climax, months ahead of the story. Everything James has found is laid out on a kitchen table as objects, and a man from the organisation is making him an offer. *Santi: the objects stay; decide whether Ana is at the table or James is alone, and either way the stakes must be higher than "an offer."* Options at the bottom. What is fixed: this is not the first coded conversation. The first one is with Kalder, at the pub, where Kalder makes a slip so subtle that nobody in a thousand would catch it, James catches it, and plays along so perfectly that Kalder can never be sure. What James wins is time. This table is the second.
 *Intent:* open with the stakes already high and the question "what is this room and how did he get here."
 
 **The funeral** (J, Santi's)
@@ -121,7 +121,7 @@ Ana insists on a barbecue so she can meet "golf man." Frank tells the 1943 goril
 *Intent:* the mask applied to James; the friendship at its warmest with the reader knowing the canal.
 
 **On land** (J) — the first coded conversation
-After eighteen holes, the pub, Ana present. Kalder makes the slip: "that professor's place near Deventer," a town James has never said or written anywhere. One hard knock of the heart. James tests him with a wrong town; Kalder accepts the correction; nothing leaves his face. Kalder is outplayed: he is 99% sure James caught it and can't get the last 1%, because nobody ever catches it. James plays it perfectly: defends himself, gives nothing, keeps Ana out of it ("it's a book thing"), and hears every threat without returning anything. Kalder makes a threat as a joke about how fast nice houses burn, "good street, dogs," and leaves: "Good game, Jim. Let's not play another." James is sad, not frightened. In the car the tinfoil joke doesn't land; the jokes stop.
+After eighteen holes, the pub, Ana present. Kalder makes the slip: "that professor's place near Deventer," a town James has never said or written anywhere. One hard knock of the heart. James tests him with a wrong town; Kalder accepts the correction; nothing leaves his face. Kalder is outplayed: he can't be sure James caught it, because nobody ever catches it. James plays it perfectly: defends himself, gives nothing, keeps Ana out of it ("it's a book thing"), and hears every threat without returning anything. What he wins is time to prepare. (No percentages in the prose; that's our shorthand.) Kalder makes a threat as a joke about how fast nice houses burn, "good street, dogs," and leaves: "Good game, Jim. Let's not play another." James is sad, not frightened. In the car the tinfoil joke doesn't land; the jokes stop.
 *Intent:* the handler reveals himself by one word; James outplays him and loses the friend; the marriage loses its joke.
 
 **The schedule** (J)
