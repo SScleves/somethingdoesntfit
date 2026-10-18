@@ -225,3 +225,59 @@ Four years on. Buddy dies at home on the blankets; nobody says *better place*; t
 1. **The depot item.** I've made it the foundation's own 1931 first revision, with page 118 as entry one. Alternatives: Tresidder's 1929 field notebook (he carried it into the hills; they have it); or Verhoef's original paper. Pick the one that hurts most.
 2. **Kalder's second reason.** I've made it the dog (his line overridden). Alternative: his own seat is downgraded in the transfer and he reads it on the form. Both can be true.
 3. **How much of the big review Bram implies.** Right now: one sentence of story and one real example. More, and it becomes lore; less, and the dread has no ceiling.
+
+---
+
+# ADDENDUM — 18 October 2026. Two things Santi asked for that v6 and v7 dropped
+
+Santi, 18 Oct: the Sekret Machines method (a standalone lore chapter every so often: the Hills, the origin of writing) and villain-only chapters that show the monster, Mr Mercedes style, so that every scene where James stands near him carries dread. Neither survived into v6. Both go back in. Tick or strike each one.
+
+## 5. The interludes (the Sekret Machines method)
+
+Rules, unchanged from v4 and the Reality rule: real events only, real public figures doing only documented things, private witnesses may be invented, no invented documents, no invented quotes. Third person. 900–1,400 words. Each is told as a *story*, not a dossier. Each ends with one italic line saying where the object is today. Each sits after a [J] beat and answers, sideways, the question that beat just asked. One every six or seven beats, so the reader learns to expect them and to read them as the book breathing.
+
+| # | Interlude | After | What it does for the book |
+|---|---|---|---|
+| L1 | **Down House, Kent. January 1860.** A sick man at a desk with galleys adds three words to the last sentence of the most famous book alive, *by the Creator*, and regrets it in a letter for the rest of his life. | I.4 (the sentence) | Books change between printings, and the world's most famous one did it first. *The letter to Hooker is in the Darwin Correspondence Project.* |
+| L2 | **Gondar, Ethiopia. 1770.** A Scot in a highland court is handed a book Europe says doesn't exist, the Book of Enoch, in which the Watchers *taught* metalwork and astronomy, and the reader knows he'll be called a liar for it in London. | II.1 (Deventer) | The text survived in one place; a man walked out with it and was laughed at. Tresidder's mirror. *Bruce's manuscripts are in the Bodleian and the Bibliothèque nationale.* |
+| L3 | **Portsmouth, New Hampshire. September 1961.** Betty and Barney Hill drive home from Montreal; two hours are missing; the dress, the shoes, the dreams, the doctor in 1964, the star map, the way the story was told back to them by the country until they were a joke. Told straight, with the real dates, and with no verdict. | II.6 (Leiden) | The first report that was laughed at in a specific, organised way. The gorilla mask on two real people. *Betty Hill's dress is in a museum in New Hampshire.* |
+| L4 | **The Rockefeller Museum, Jerusalem. September 1991.** An invented graduate student outside a locked room in 1985, and the morning in 1991 when a concordance and a library in California broke a forty-year monopoly on a text. | III.3 (the schedule, "for conservation") | *Conservation* as a lock, and how a lock breaks: not by force, by a copy. *The Huntington's announcement is in the New York Times of 22 September 1991.* |
+| L5 | **Nuremberg. Dawn, 14 April 1561.** A printer interviewing witnesses and cutting a block, choosing words for shapes he has no words for. No verdict on what they saw. | III.7 (the floor) | Folklore and the phenomenon are the same report in different vocabularies; the outer world doing what James just did. *The broadsheet is in the Zentralbibliothek Zürich.* |
+| L6 | **A river town. Before paper.** The fiction one, the Sekret Machines "writing" chapter: two men and the first list of words that are to be said one way and not another. Invented men, invented text, a real place. Short. Optional, because IV.4 (the 1931 printer) already does this job; keep only if you want the machine to feel older than printing. | IV.3 (the band) | The reader recognises the same machine, far back. |
+
+Word cost: about 7k. They don't count against the thriller's pace because they are the pace: the reader gets a breath, and comes back to James with more dread than before, because every interlude is a real person being handled.
+
+## 6. The monster (the Mr Mercedes method)
+
+**The problem in v6.** Kalder's chapters make him the most humane person in the book. The reader pities him. Standing next to him costs nothing. King does the opposite: Brady's chapters are repellent, so Hodges and Holly in the same room as him is unbearable.
+
+**The fix, recommended.** Kalder stays exactly what Santi asked for, a relentless man who blends in, and his own chapters now show what that man *does* when nobody James knows is watching. Brutal, short, almost no speech, no explanation, no interiority beyond the task. Dramatic irony does the rest: the reader has watched him end a life with a flask of coffee before he ever crouches for Buddy on the sixth green.
+
+What changes in the people around him: nothing. Bram stays the one who talks. The van man is cut; Kalder does his own work. "Kills through favours" becomes literal.
+
+The villain-only chapters (third person, ≤1,200 words each, replacing or hardening the K pieces in §III–IV):
+
+| # | Chapter | Where | What the reader watches him do |
+|---|---|---|---|
+| V1 | **A pension visit. Zwolle.** | after I.9 | A retired man who has "started saying strange things about his father." Kalder spends an afternoon with him. Learns what he loves: driving, the old car, the canal road. Asks to borrow the car to move a box. Returns it washed. Three days later the man drives into the canal. We never see what he did to the car. We see him wash it. *The widow is the one James sits with in IV.2.* |
+| V2 | **Deventer. A Thursday in March.** | II.1, hardened | As drafted, but colder: he makes the tea, he reads the notebook while the old man sleeps, he photographs every page, and the call from the car is "the item is on the side table; I'd say weeks; I'd rather wait," and the reader now knows what *wait* means. The one kind mistake is still the crate. |
+| V3 | **Leiden, nine years ago.** | II.10, reframed | He crosses in Noor's kitchen and his first act is to file it, his second is to ask for more names. The seat isn't sad. It's a promotion he wanted. |
+| V4 | **A street. Night.** | III.4, rewritten | He does the gate himself. The bowl. No second car. In the morning, *the old dog is not a problem* means *handled.* The book stops being coy: he poisoned the dog, and Buddy lives only because the vet was unhurried. |
+| V5 | **Leiden. Friday.** | after III.5 | How you make a person quiet in an afternoon with a clipboard: her clients, her mother's care-home placement, her phone contract, her forum account, her bank's "security review." He uses her first name. She makes him tea again. She never raises her voice. This is the chapter that makes Noor's parcel in IV.8 land. |
+| V6 | **The depot. Monday.** | IV.7, motive changed | He still changes the one word. The reason is his seat: a subject marked *hands confirmed* under his name makes him the handler of the most recent crossing on file, and handlers of recent crossings are *reviewed.* A subject marked *reporting ceased* makes him finished with, and moved on. Self-preservation, not grace. The reader knows this. James never does. The ending keeps its ambiguity for James and loses it for us, which is King's trade and the right one. |
+| V7 | **A market. Sunday.** | after IV.9, last page of the book or just before the coda | A stall, two crates, a man in a good coat kneeling on the cobbles, going through them spine by spine, the way James does. Beard Man, mid-sentence. "Chap took twelve." He thanks him and buys a condensed Hemingway. The next name. |
+
+What this does to the James scenes, all of which get *worse* for him and better for the book:
+- II.4 the seventh tee: the reader has seen the canal. "How old?" is now the most frightening line in the book.
+- III.1 the barbecue: "He's kind. Keep him," from Ana, with the reader knowing V1.
+- III.2 the pub: "Good street. Dogs." is no longer a joke about insurance.
+- III.5 the vet: the reader knows what the bowl was. James never does.
+- IV.5 the depot: the window confession goes. He tells James the date because a frightened man is a man you can seat; it's a threat dressed as a favour, which is his only register. "Because you asked about the dog" is cut, or becomes the one lie he tells that James believes.
+- IV.6 the table: the reveal that hurts is now stronger, not softer. *Awakening doesn't make you good.* The man with hands uses them to hunt.
+- IV.8 the flask on the bench: not a farewell. A reminder that he can still reach the sixth green at seven in the morning.
+
+**Alternative, if you'd rather keep the Kalder of v6.** Keep him sympathetic and give the monster to a second handler, the van man, with his own chapters. I don't recommend it: two villains splits the dread, and the book's own thesis ("the one who talks" and "the one who does") already lives in Bram and Kalder.
+
+**Cost:** about 7k words for the V chapters, mostly replacing existing K pieces, so net +4k. The book reaches 85–90k with both addenda.
+
+**Santi decides:** §6 recommended fix, or the alternative. Everything in §5 is a tick-or-strike per row.
