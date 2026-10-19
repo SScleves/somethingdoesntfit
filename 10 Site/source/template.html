@@ -1,0 +1,1458 @@
+<title>Something Doesn't Fit Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Layout: a reading desk. One column of ledger-ruled chapter cards under a sticky tab rail; diagrams and the pinboard sit in their own scrolling frames. */
+:root{
+  --paper:#E3E6DF; --sheet:#F3F4EF; --sheet2:#E9EBE4; --ink:#17202A; --muted:#55616B; --rule:#C3C9BF; --rule2:#D6DAD1;
+  --verdigris:#226B61; --verdigris-soft:#D2E2DC; --string:#B0382A; --string-soft:#F2DAD5; --focus:#226B61;
+  --k-james:#2E4E73; --k-santi:#6A5A8B; --k-real:#226B61; --k-villain:#B0382A; --k-org:#8F6210; --k-coded:#A24E28; --k-past:#5C6871;
+  --s-holds:#2C7A4D; --s-work:#B07316; --s-rethink:#B0382A; --s-cut:#6B7280;
+  --t-idea:#ECE5C8; --t-question:#D7E3EE; --t-theme:#E5D9EA; --t-problem:#F2DAD5; --t-object:#D9E6DC; --t-person:#EDE3D3;
+  --board:#D5D0C2; --board-dot:rgba(23,32,42,.10);
+  --shadow:0 1px 0 rgba(23,32,42,.05),0 8px 20px -14px rgba(23,32,42,.45);
+  --display:"IM Fell English","Iowan Old Style",Palatino,Georgia,serif;
+  --body:"Source Serif 4","Iowan Old Style",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0D1316; --sheet:#151C21; --sheet2:#1A242A; --ink:#E1E5DE; --muted:#93A0A6; --rule:#2A363D; --rule2:#222D33;
+  --verdigris:#6CC0B0; --verdigris-soft:#163029; --string:#E5664F; --string-soft:#3A1F1A; --focus:#6CC0B0;
+  --k-james:#88A9D3; --k-santi:#B2A2D5; --k-real:#6CC0B0; --k-villain:#E5664F; --k-org:#D8A548; --k-coded:#E08A5C; --k-past:#9AA7B0;
+  --s-holds:#5CC48A; --s-work:#E1A84B; --s-rethink:#E5664F; --s-cut:#9AA3AF;
+  --t-idea:#2D2A1C; --t-question:#1B2732; --t-theme:#292132; --t-problem:#391E19; --t-object:#1B2922; --t-person:#2D271E;
+  --board:#141B1F; --board-dot:rgba(225,229,222,.07);
+  --shadow:0 1px 0 rgba(0,0,0,.3),0 10px 24px -14px rgba(0,0,0,.8); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0D1316; --sheet:#151C21; --sheet2:#1A242A; --ink:#E1E5DE; --muted:#93A0A6; --rule:#2A363D; --rule2:#222D33;
+  --verdigris:#6CC0B0; --verdigris-soft:#163029; --string:#E5664F; --string-soft:#3A1F1A; --focus:#6CC0B0;
+  --k-james:#88A9D3; --k-santi:#B2A2D5; --k-real:#6CC0B0; --k-villain:#E5664F; --k-org:#D8A548; --k-coded:#E08A5C; --k-past:#9AA7B0;
+  --s-holds:#5CC48A; --s-work:#E1A84B; --s-rethink:#E5664F; --s-cut:#9AA3AF;
+  --t-idea:#2D2A1C; --t-question:#1B2732; --t-theme:#292132; --t-problem:#391E19; --t-object:#1B2922; --t-person:#2D271E;
+  --board:#141B1F; --board-dot:rgba(225,229,222,.07);
+  --shadow:0 1px 0 rgba(0,0,0,.3),0 10px 24px -14px rgba(0,0,0,.8); color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+button,input,textarea,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.wrap{max-width:980px;margin:0 auto}
+.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1,h2,h3{font-weight:400;text-wrap:balance;margin:0}
+a{color:var(--verdigris)}
+
+/* masthead */
+.mast{padding-block:28px 14px;display:grid;grid-template-columns:1fr auto;gap:12px 24px;align-items:end}
+.mast h1{font-family:var(--display);font-size:clamp(34px,6vw,54px);line-height:1;letter-spacing:.005em}
+.mast .ledger{font-family:var(--display);font-style:italic;font-size:18px;color:var(--muted);margin-top:8px}
+.mast .ledger s{text-decoration-color:var(--string);text-decoration-thickness:1.5px;color:var(--muted)}
+.mast .ledger ins{text-decoration:none;color:var(--string)}
+.mast .log{font-family:var(--mono);font-size:11.5px;color:var(--muted);text-align:right;line-height:1.7}
+.mast .log b{color:var(--ink);font-weight:500}
+@media (max-width:640px){.mast{grid-template-columns:1fr}.mast .log{text-align:left}}
+
+/* rail */
+.rail{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border-bottom:1px solid var(--rule);
+  margin-left:calc(-1 * max(16px,env(safe-area-inset-left,0px)));margin-right:calc(-1 * max(16px,env(safe-area-inset-right,0px)));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.rail-in{max-width:980px;margin:0 auto;display:flex;gap:10px;align-items:center}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:12px 10px 10px;font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--string)}
+.search{position:relative;flex:0 0 220px}
+.search input{width:100%;background:var(--sheet);border:1px solid var(--rule);border-radius:3px;padding:6px 10px;font-size:14px}
+.search input::placeholder{color:var(--muted)}
+#sres{position:absolute;right:0;top:calc(100% + 6px);width:min(440px,calc(100vw - 32px));max-height:60vh;overflow:auto;background:var(--sheet);border:1px solid var(--rule);border-radius:4px;box-shadow:var(--shadow);z-index:40}
+#sres button{display:block;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--rule2);padding:10px 12px}
+#sres button:hover,#sres button:focus-visible{background:var(--sheet2)}
+#sres .st{display:block;font-size:15px}
+#sres .ss{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+#sres .sk{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--verdigris)}
+@media (max-width:640px){.rail-in{flex-wrap:wrap;padding-top:8px}.search{flex:1 1 100%;order:-1}}
+
+#dbnote{font-family:var(--mono);font-size:12px;color:var(--muted);padding:8px 0 0}
+section.tab{padding-block:22px 80px}
+.tab-intro{max-width:66ch;color:var(--muted);margin:0 0 18px}
+.tab-h{font-family:var(--display);font-size:30px;margin-bottom:6px}
+
+/* chips & buttons */
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px}
+.chip{background:var(--sheet);border:1px solid var(--rule);border-radius:999px;padding:4px 11px;font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.chip[aria-pressed="true"]{color:var(--ink);border-color:var(--ink);background:var(--sheet2)}
+.chip i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:0}
+.btn{background:var(--sheet);border:1px solid var(--rule);border-radius:3px;padding:6px 12px;font-family:var(--mono);font-size:12px}
+.btn:hover{border-color:var(--muted)}
+.btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn.on{border-color:var(--string);color:var(--string)}
+.linkchip{background:none;border:1px solid var(--rule);border-radius:3px;padding:2px 8px;font-size:13.5px;margin:2px 4px 2px 0;color:var(--ink)}
+.linkchip:hover{border-color:var(--verdigris);color:var(--verdigris)}
+
+/* kinds */
+.k-james{--k:var(--k-james)}.k-santi{--k:var(--k-santi)}.k-real{--k:var(--k-real)}.k-villain{--k:var(--k-villain)}.k-org{--k:var(--k-org)}.k-coded{--k:var(--k-coded)}.k-past{--k:var(--k-past)}
+
+/* foundations */
+.found{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:18px 20px;margin-bottom:28px}
+.found p{margin:0 0 10px;max-width:70ch}
+.found details summary{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--verdigris);cursor:pointer;margin-top:4px}
+.found ol{margin:6px 0 12px;padding-left:22px;max-width:70ch}
+.found ol li{margin-bottom:6px}
+
+/* parts and chapters */
+.part{margin-bottom:34px}
+.part-head{display:grid;gap:4px;margin:0 0 12px;padding-top:6px;border-top:2px solid var(--ink)}
+.part-head .lbl{color:var(--string)}
+.part-head h2{font-family:var(--display);font-size:28px}
+.part-sum{color:var(--muted);font-style:italic;max-width:68ch;margin:2px 0 0}
+.movement{margin:18px 0 8px;padding:10px 0 2px;border-top:1px dashed var(--rule);font-family:var(--display);font-style:italic;font-size:19px}
+.movement .lbl{display:block;font-style:normal;margin-bottom:2px}
+.ch{background:var(--sheet);border:1px solid var(--rule2);border-left:3px solid var(--k);border-radius:3px;margin-bottom:6px}
+.ch-head{display:grid;grid-template-columns:1fr auto auto auto 14px;gap:12px;align-items:baseline;width:100%;text-align:left;background:none;border:0;padding:11px 14px}
+.ch-title{font-size:17px;min-width:0}
+.ch-kind{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--k);white-space:nowrap}
+.ch-words{font-family:var(--mono);font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:52px;text-align:right}
+.dot{width:10px;height:10px;border-radius:50%;border:1.5px solid var(--rule);align-self:center}
+.dot.has{border-color:var(--muted);background:var(--muted)}
+.dot.holds{border-color:var(--s-holds);background:var(--s-holds)}
+.dot.work{border-color:var(--s-work);background:var(--s-work)}
+.dot.rethink{border-color:var(--s-rethink);background:var(--s-rethink)}
+.dot.cut{border-color:var(--s-cut);background:transparent}
+.ch-body{padding:2px 16px 16px;border-top:1px solid var(--rule2)}
+.ch-text{max-width:68ch;margin:12px 0}
+.ch-why{max-width:68ch;color:var(--muted);margin:0 0 12px}
+.beats{background:var(--sheet2);border-radius:3px;padding:10px 14px;margin:6px 0 14px;max-width:72ch}
+.beats ul{margin:6px 0 0;padding-left:18px}
+.beats li{margin:3px 0;font-size:15px}
+.ch.flash,.stage.flash,.dec.flash{animation:flash 1.6s ease-out}
+@keyframes flash{0%{box-shadow:0 0 0 3px var(--string)}100%{box-shadow:0 0 0 0 transparent}}
+@media (max-width:560px){.ch-head{grid-template-columns:1fr auto auto 14px}.ch-words{display:none}}
+
+/* notes */
+.notes{border-top:1px solid var(--rule);padding-top:12px;margin-top:6px}
+.notes-top{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin-bottom:10px}
+.status{display:flex;flex-wrap:wrap;gap:4px}
+.status button{background:none;border:1px solid var(--rule);border-radius:999px;padding:2px 10px;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.status button[aria-pressed="true"][data-v=""]{color:var(--ink);border-color:var(--ink)}
+.status button[aria-pressed="true"][data-v="holds"]{color:var(--s-holds);border-color:var(--s-holds)}
+.status button[aria-pressed="true"][data-v="work"]{color:var(--s-work);border-color:var(--s-work)}
+.status button[aria-pressed="true"][data-v="rethink"]{color:var(--s-rethink);border-color:var(--s-rethink)}
+.status button[aria-pressed="true"][data-v="cut"]{color:var(--s-cut);border-color:var(--s-cut)}
+.saved{font-family:var(--mono);font-size:11px;color:var(--muted);margin-left:auto}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 14px}
+.fields.one{grid-template-columns:1fr}
+.field{display:grid;gap:3px;min-width:0}
+.field .fn{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink)}
+.field .fh{font-size:13px;color:var(--muted);line-height:1.35}
+.field textarea{width:100%;min-height:58px;resize:vertical;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 9px;font-size:15px;line-height:1.5}
+.field textarea:disabled{opacity:.6}
+@media (max-width:640px){.fields{grid-template-columns:1fr}}
+
+/* journey */
+.jgrid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:22px;align-items:start}
+@media (max-width:860px){.jgrid{grid-template-columns:1fr}}
+.frame{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:10px;overflow-x:auto}
+svg text{font-family:var(--mono)}
+.wheel .seg{cursor:pointer;stroke:var(--sheet);stroke-width:2}
+.wheel .seg:hover{opacity:.85}
+.stage{background:var(--sheet);border:1px solid var(--rule2);border-radius:3px;padding:14px 16px;margin-bottom:8px}
+.stage[aria-current="true"]{border-color:var(--string)}
+.stage h3{font-family:var(--display);font-size:22px}
+.stage .gen{color:var(--muted);font-style:italic;margin:2px 0 8px}
+.stage p{margin:0 0 8px;max-width:66ch}
+.stage .world{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--verdigris)}
+
+/* structure */
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-family:var(--mono);font-size:11px;color:var(--muted);margin:10px 0}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:12px;height:12px;border-radius:2px;background:var(--k)}
+#structDetail{min-height:52px;margin-top:10px;padding:10px 14px;background:var(--sheet2);border-radius:3px;font-size:15px}
+.qlist{margin:16px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+.qlist li{background:var(--sheet);border:1px solid var(--rule2);border-radius:3px;padding:10px 14px}
+.qlist .lbl{display:block}
+.qlist q{font-family:var(--display);font-style:italic;font-size:19px;quotes:none}
+table.tbl{border-collapse:collapse;width:100%;font-size:14px;margin-top:16px;font-variant-numeric:tabular-nums}
+.tbl th,.tbl td{border-bottom:1px solid var(--rule);padding:7px 8px;text-align:left}
+.tbl th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:400}
+.tbl td.n{text-align:right;font-family:var(--mono);font-size:13px}
+
+/* map */
+.mapgrid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:900px){.mapgrid{grid-template-columns:1fr}}
+#mapsvg{width:100%;height:auto;display:block;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
+#mapsvg .ln{fill:none;stroke:var(--rule);stroke-width:1}
+#mapsvg .nd{cursor:pointer}
+#mapsvg .nd text{font-size:11px;fill:var(--ink)}
+#mapsvg .nd circle{stroke:var(--sheet);stroke-width:1.5}
+#mapsvg.dim .nd:not(.on) text{fill:var(--muted);opacity:.35}
+#mapsvg.dim .ln:not(.on){opacity:.25}
+#mapsvg .ln.on{stroke:var(--ink)}
+#mapsvg .br text{font-size:13px;font-weight:500}
+#mapsvg .sel circle{stroke:var(--string);stroke-width:3}
+.mapctl{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+#mapside{position:sticky;top:64px}
+.side{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:16px}
+.side h3{font-family:var(--display);font-size:24px}
+.side p{margin:8px 0}
+.mlist h3{font-family:var(--display);font-size:22px;margin:22px 0 8px}
+.mcard{background:var(--sheet);border:1px solid var(--rule2);border-radius:3px;padding:12px 14px;margin-bottom:6px}
+.mcard b{font-weight:600}
+
+/* reveals */
+.rv{display:grid;grid-template-columns:150px minmax(0,1fr);gap:0 22px;margin-bottom:24px}
+.rv-when{border-right:2px solid var(--ink);padding-right:14px;text-align:right}
+.rv-when h3{font-family:var(--display);font-size:22px}
+.rv-when .lbl{display:block}
+.rv ol,.rv ul{margin:0;padding-left:20px}
+.rv li{margin:0 0 8px;max-width:66ch}
+.rv .note{color:var(--muted);font-style:italic;margin:0 0 8px;max-width:66ch}
+@media (max-width:640px){.rv{grid-template-columns:1fr}.rv-when{border-right:0;border-bottom:2px solid var(--ink);text-align:left;margin-bottom:10px;padding-bottom:6px}}
+
+/* recall */
+.rc{max-width:720px}
+.flash-card{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:26px 26px 20px;min-height:250px;display:grid;align-content:start;gap:12px;box-shadow:var(--shadow)}
+.flash-card .q{font-family:var(--display);font-size:clamp(22px,3.4vw,28px);line-height:1.25}
+.flash-card .a{border-top:1px dashed var(--rule);padding-top:12px;font-size:17px;max-width:62ch}
+.rc-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
+.rc-bar .grow{flex:1}
+.meter{height:6px;background:var(--sheet2);border-radius:3px;overflow:hidden;margin:6px 0 16px}
+.meter i{display:block;height:100%;background:var(--verdigris);width:0;transition:width .3s}
+kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--rule);border-radius:3px;padding:0 4px;color:var(--muted)}
+
+/* board */
+.btool{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+#tiehint{font-family:var(--mono);font-size:12px;color:var(--string)}
+#boardWrap{position:relative;height:min(72vh,760px);overflow:auto;border:1px solid var(--rule);border-radius:4px;background:var(--board);
+  background-image:radial-gradient(var(--board-dot) 1px,transparent 1.2px);background-size:22px 22px;overscroll-behavior:contain}
+#boardCanvas{position:relative;width:2200px;height:1400px}
+#strings{position:absolute;inset:0;width:2200px;height:1400px;pointer-events:none}
+#strings path{fill:none;stroke:var(--string);stroke-width:1.6;opacity:.85}
+.bcard{position:absolute;width:220px;background:var(--t-idea);border-radius:2px;padding:20px 14px 12px;box-shadow:var(--shadow);cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none}
+.bcard:active{cursor:grabbing}
+.bcard[data-tone="question"]{background:var(--t-question)}.bcard[data-tone="theme"]{background:var(--t-theme)}.bcard[data-tone="problem"]{background:var(--t-problem)}.bcard[data-tone="object"]{background:var(--t-object)}.bcard[data-tone="person"]{background:var(--t-person)}
+.bcard .pin{position:absolute;top:6px;left:50%;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:var(--string);box-shadow:0 1px 2px rgba(0,0,0,.35)}
+.bcard .bt{font-family:var(--display);font-size:19px;line-height:1.15;margin-bottom:6px;overflow-wrap:anywhere}
+.bcard .bb{font-size:13.5px;line-height:1.45;white-space:pre-wrap;overflow-wrap:anywhere}
+.bcard .bk{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+.bcard.picked{outline:2px solid var(--string);outline-offset:3px}
+#boardEmpty{position:absolute;left:24px;top:24px;max-width:380px;background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:16px}
+.tone-legend{display:flex;gap:6px;flex-wrap:wrap;font-family:var(--mono);font-size:11px;color:var(--muted)}
+.tone-legend span{padding:2px 8px;border-radius:2px}
+#editor{position:fixed;z-index:50;right:max(16px,env(safe-area-inset-right,0px));top:calc(80px + env(safe-area-inset-top,0px));width:min(380px,calc(100vw - 32px));max-height:calc(100vh - 120px);overflow:auto;background:var(--sheet);border:1px solid var(--rule);border-radius:6px;box-shadow:var(--shadow);padding:16px;display:grid;gap:10px}
+@media (max-width:640px){#editor{left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));top:auto;bottom:calc(12px + env(safe-area-inset-bottom,0px));width:auto;max-height:70vh}}
+#editor input,#editor textarea{width:100%;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 9px}
+#editor textarea{min-height:120px;resize:vertical}
+.tones{display:flex;flex-wrap:wrap;gap:6px}
+.tones button{border:1px solid var(--rule);border-radius:2px;padding:3px 9px;font-family:var(--mono);font-size:11px}
+.tones button[aria-pressed="true"]{border-color:var(--ink);outline:1px solid var(--ink)}
+.ed-links{font-size:14px}
+.ed-links button{background:none;border:0;color:var(--string);font-family:var(--mono);font-size:11px}
+.ed-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ed-row .grow{flex:1}
+
+/* notes overview & decisions */
+.counts{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+.count{background:var(--sheet);border:1px solid var(--rule2);border-radius:3px;padding:8px 14px;min-width:110px}
+.count b{display:block;font-family:var(--display);font-size:28px;font-weight:400;line-height:1.1}
+.nitem{background:var(--sheet);border:1px solid var(--rule2);border-radius:3px;padding:12px 16px;margin-bottom:8px}
+.nitem h4{margin:0 0 6px;font-weight:600;font-size:16px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.nitem dl{margin:0;display:grid;grid-template-columns:130px minmax(0,1fr);gap:4px 14px}
+.nitem dt{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.nitem dd{margin:0;white-space:pre-wrap;overflow-wrap:anywhere}
+@media (max-width:560px){.nitem dl{grid-template-columns:1fr}}
+.dec{background:var(--sheet);border:1px solid var(--rule2);border-radius:3px;padding:14px 16px;margin-bottom:10px}
+.dec h3{font-family:var(--display);font-size:22px}
+.dec .dn{font-family:var(--mono);font-size:11px;color:var(--string);letter-spacing:.1em}
+.ph{margin:0;padding-left:20px}
+.ph li{margin-bottom:8px;max-width:70ch}
+.rules{background:var(--sheet2);border-radius:3px;padding:14px 18px;max-width:72ch}
+/* blocks drawer */
+#dtoggle{position:fixed;z-index:35;right:env(safe-area-inset-right,0px);top:50%;transform:translateY(-50%);writing-mode:vertical-rl;background:var(--ink);color:var(--paper);border:0;border-radius:5px 0 0 5px;padding:16px 9px;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;box-shadow:var(--shadow)}
+body.dopen #dtoggle{display:none}
+#drawer{position:fixed;z-index:36;top:0;right:0;bottom:0;width:390px;background:var(--sheet);border-left:1px solid var(--rule);box-shadow:var(--shadow);display:flex;flex-direction:column;gap:8px;
+  padding:calc(12px + env(safe-area-inset-top,0px)) calc(14px + env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) 14px}
+@media (min-width:900px){body.dopen{padding-right:calc(406px + env(safe-area-inset-right,0px))}}
+@media (max-width:899px){
+  #dtoggle{writing-mode:horizontal-tb;top:auto;transform:none;bottom:calc(14px + env(safe-area-inset-bottom,0px));right:calc(14px + env(safe-area-inset-right,0px));border-radius:999px;padding:10px 16px}
+  #drawer{top:auto;left:0;width:auto;height:80vh;border-left:0;border-top:1px solid var(--rule);border-radius:12px 12px 0 0;padding-left:calc(14px + env(safe-area-inset-left,0px))}}
+.dhead{display:flex;align-items:baseline;gap:10px}
+.dhead h2{font-family:var(--display);font-size:25px;flex:1}
+.dhint{font-size:13.5px;color:var(--muted);margin:0;line-height:1.4}
+#dq{width:100%;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:6px 10px;font-size:14px}
+#drawer .chips{margin:0}
+#drawer .chip{font-size:10.5px;padding:3px 9px}
+#dsrc{flex:1;min-width:0;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:4px 6px;font-size:13px}
+#dlist{flex:1;overflow:auto;padding:2px 2px 8px 0;border-radius:3px;min-height:80px}
+.blk{background:var(--paper);border:1px solid var(--rule2);border-radius:3px;padding:9px 11px;margin-bottom:6px;cursor:grab}
+.blk[draggable="false"]{cursor:default}
+.blk.dragging,.pblk.dragging{opacity:.45}
+.blk .bt{font-weight:600;font-size:15px;line-height:1.3;cursor:pointer}
+.blk .bs{font-size:13.5px;line-height:1.45;margin:4px 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer}
+.blk.open .bs{display:block}
+.blk .fit{font-size:12.5px;color:var(--verdigris);margin-top:5px;display:none}
+.blk.open .fit{display:block}
+.blk .bm{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.blk.placed{opacity:.62}
+.tag{border:1px solid var(--rule);border-radius:2px;padding:0 5px;text-transform:uppercase;letter-spacing:.06em;font-family:var(--mono);font-size:10px;color:var(--muted);white-space:nowrap}
+.tag.documented{color:var(--s-holds);border-color:var(--s-holds)}.tag.contested{color:var(--s-work);border-color:var(--s-work)}.tag.invented{color:var(--k-santi);border-color:var(--k-santi)}
+.placesel{font-size:12px;max-width:100%;background:var(--sheet);border:1px solid var(--rule);border-radius:3px;padding:2px 4px}
+.drop{outline:2px dashed var(--string)!important;outline-offset:2px}
+rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
+#dlist.drop{background:var(--string-soft)}
+.bcount{font-family:var(--mono);font-size:10.5px;color:var(--string);white-space:nowrap}
+.placed-list:empty{display:none}
+.placed-list{margin:4px 0 14px}
+.pblk{border:1px solid var(--rule2);border-left:3px solid var(--string);border-radius:3px;padding:9px 12px;margin:6px 0;background:var(--paper);cursor:grab}
+.pblk .ph-h{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:baseline}
+.pblk .ph-h b{flex:1;min-width:12ch}
+.pblk p{margin:4px 0;font-size:14.5px;max-width:70ch}
+.pblk textarea{width:100%;min-height:42px;font-size:14px;background:var(--sheet);border:1px solid var(--rule);border-radius:3px;padding:5px 8px;resize:vertical}
+.pblk .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px}
+#dadd summary{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--verdigris);cursor:pointer}
+#dadd .f{display:grid;gap:6px;margin-top:8px}
+#dadd input,#dadd textarea,#dadd select{width:100%;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:6px 8px;font-size:14px}
+#toast{position:fixed;z-index:60;left:max(16px,env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));max-width:min(440px,calc(100vw - 32px));background:var(--ink);color:var(--paper);border-radius:4px;padding:9px 14px;font-size:14px;box-shadow:var(--shadow)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <h1>Something Doesn't Fit</h1>
+      <div class="ledger">knowledge was <s>given</s> <ins>arose</ins> &nbsp;·&nbsp; the book, mapped</div>
+    </div>
+    <div class="log" id="mastlog"></div>
+  </header>
+</div>
+<nav class="rail" aria-label="Sections">
+  <div class="rail-in">
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div class="search"><input id="q" type="search" placeholder="Search the book  ( / )" autocomplete="off"><div id="sres" hidden></div></div>
+  </div>
+</nav>
+<main class="wrap">
+  <div id="dbnote" aria-live="polite">Connecting your notes…</div>
+
+  <section class="tab" id="tab-story" hidden>
+    <h2 class="tab-h">The story, chapter by chapter</h2>
+    <p class="tab-intro">Every chapter from THE BOOK in plain sentences, with its beats. Open a chapter to write what it should feel like, what it says, where it sits, what it adds and what to fix. A dot on the right shows where you've written, colored by the verdict you gave it.</p>
+    <div class="found" id="found"></div>
+    <div class="chips" id="kindchips"></div>
+    <div id="storyParts"></div>
+  </section>
+
+  <section class="tab" id="tab-journey" hidden>
+    <h2 class="tab-h">The hero's journey</h2>
+    <p class="tab-intro">The twelve stages of the journey, laid over this book. The line across the wheel is the threshold: above it is James's ordinary world, below it is the world he can't un-see. Tap a stage to read how the book does it, which chapters carry it, and to leave a note on whether it lands.</p>
+    <div class="jgrid">
+      <div class="frame"><svg class="wheel" id="wheel" viewBox="-410 -300 820 600" role="img" aria-label="Hero's journey wheel"></svg></div>
+      <div id="stages"></div>
+    </div>
+  </section>
+
+  <section class="tab" id="tab-structure" hidden>
+    <h2 class="tab-h">Structure and pacing</h2>
+    <p class="tab-intro">The whole book as one strip, read left to right. Each block is a chapter, its width is its planned length, and its color is whose chapter it is. Underneath, the arcs of the main lines show where each one turns. Tap anything to see what it is. Santi's four chapters have no planned length yet, so they're drawn at a nominal width with a hatch.</p>
+    <div class="legend" id="kindlegend"></div>
+    <div class="frame"><svg id="pace" role="img" aria-label="Pacing strip and arcs"></svg></div>
+    <div id="structDetail">Tap a chapter or an arc point.</div>
+    <h3 class="tab-h" style="font-size:24px;margin-top:26px">What each stretch asks</h3>
+    <ul class="qlist" id="qlist"></ul>
+    <table class="tbl" id="parttable"></table>
+  </section>
+
+  <section class="tab" id="tab-map" hidden>
+    <h2 class="tab-h">Mind map</h2>
+    <p class="tab-intro">Everything the story is made of, around one center: the three truths, the machine, the people, the objects the reveals arrive as, the places, the real stories, the final reveals and the themes. Tap a node for the plain explanation, the chapters it lives in, and your notes. Drag to move, use the buttons or the wheel to zoom.</p>
+    <div class="mapctl">
+      <button class="btn" id="mapmode">Show as list</button>
+      <button class="btn" id="zin" aria-label="Zoom in">+</button><button class="btn" id="zout" aria-label="Zoom out">−</button><button class="btn" id="zreset">Reset view</button>
+    </div>
+    <div class="mapgrid" id="mapgrid">
+      <div class="frame" id="mapframe"><svg id="mapsvg" viewBox="-640 -640 1280 1280" role="img" aria-label="Mind map of the book"></svg></div>
+      <div id="mapside"><div class="side" id="mapdetail"></div></div>
+    </div>
+    <div class="mlist" id="maplist" hidden></div>
+  </section>
+
+  <section class="tab" id="tab-reveals" hidden>
+    <h2 class="tab-h">Where every reveal goes</h2>
+    <p class="tab-intro">The order the reader learns things in. The opening hooks with a conspiracy and a machine; the old stuff and the method fill the middle; the outrageous things and the truth come at the end, from the villain's own mouth. Each line links to the chapter where it lands.</p>
+    <div id="reveals"></div>
+  </section>
+
+  <section class="tab" id="tab-recall" hidden>
+    <h2 class="tab-h">Recall</h2>
+    <p class="tab-intro">Cards to keep the book in your head while you write: the machine, the people, the reveals, the rules, and the order of the chapters. Cards you get right come back less often. Your progress stays in this browser.</p>
+    <div class="rc">
+      <div class="chips" id="rcchips"></div>
+      <div class="lbl" id="rcstat"></div>
+      <div class="meter"><i id="rcmeter"></i></div>
+      <div class="flash-card" id="rccard"></div>
+      <div class="rc-bar">
+        <button class="btn primary" id="rcflip">Show answer <kbd>space</kbd></button>
+        <button class="btn" id="rcagain" hidden>Again <kbd>1</kbd></button>
+        <button class="btn" id="rcgot" hidden>Got it <kbd>2</kbd></button>
+        <span class="grow"></span>
+        <button class="btn" id="rcskip">Skip</button>
+        <button class="btn" id="rcreset">Reset progress</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="tab" id="tab-board" hidden>
+    <h2 class="tab-h">Concept board</h2>
+    <p class="tab-intro">A pinboard for ideas, questions, images and problems. Drag cards anywhere, tap one to edit it, and tie red string between cards that belong together. It starts with the book's core concepts pinned up; change, move or remove anything.</p>
+    <div class="btool">
+      <button class="btn primary" id="bnew">New card</button>
+      <button class="btn" id="btie" aria-pressed="false">Tie a string</button>
+      <span id="tiehint"></span>
+      <span style="flex:1"></span>
+      <div class="tone-legend" id="tonelegend"></div>
+    </div>
+    <div id="boardWrap"><div id="boardCanvas"><svg id="strings" viewBox="0 0 2200 1400"></svg><div id="boardEmpty" hidden></div></div></div>
+  </section>
+
+  <section class="tab" id="tab-notes" hidden>
+    <h2 class="tab-h">All your notes</h2>
+    <p class="tab-intro">Everything you've written, in book order: chapters first, then the journey, the map and the decisions. Use Copy all to paste it anywhere, or just tell Claude to read the notes; they're saved with the page.</p>
+    <div class="counts" id="ncounts"></div>
+    <div class="ed-row" style="margin-bottom:16px"><button class="btn primary" id="ncopy">Copy all notes as text</button><span class="lbl" id="ncopied"></span></div>
+    <div id="nlist"></div>
+  </section>
+
+  <section class="tab" id="tab-decisions" hidden>
+    <h2 class="tab-h">Decisions that are yours</h2>
+    <p class="tab-intro">The eight open questions from THE BOOK, each with the chapters it touches and a place for your answer. Below them, every placeholder still sitting in the beats, and the rules for the writing.</p>
+    <div id="decs"></div>
+    <h3 class="tab-h" style="font-size:24px;margin-top:28px">Placeholders in the beats</h3>
+    <ul class="ph" id="phs"></ul>
+    <h3 class="tab-h" style="font-size:24px;margin-top:28px">Rules for the writing</h3>
+    <div class="rules" id="rules"></div>
+  </section>
+</main>
+
+<button id="dtoggle" type="button" aria-controls="drawer" aria-expanded="false">Blocks · <span id="dleft">0</span> left</button>
+<aside id="drawer" hidden aria-label="Story blocks">
+  <div class="dhead"><h2>Story blocks</h2><span class="lbl" id="dcount"></span><button class="btn" id="dclose" type="button">Close</button></div>
+  <p class="dhint">Every conspiracy, case and story you could use. Drag one onto a chapter, a chapter name on any tab, or a block in the pacing strip. On a phone, use the chapter picker. A placed block leaves this list; drag it back here or press Return to free it.</p>
+  <input id="dq" type="search" placeholder="Filter blocks" autocomplete="off">
+  <div class="chips" id="dkinds"></div>
+  <div class="ed-row"><select id="dsrc" aria-label="Source"></select><label class="lbl" style="white-space:nowrap"><input type="checkbox" id="dplaced"> Show placed</label></div>
+  <div id="dlist"></div>
+  <details id="dadd"><summary>Add your own block</summary>
+    <div class="f">
+      <input id="natitle" type="text" placeholder="Title" maxlength="120">
+      <select id="nakind"></select>
+      <textarea id="nasum" rows="3" placeholder="What it is, in plain sentences."></textarea>
+      <div class="ed-row"><button class="btn primary" id="naadd" type="button">Add block</button><span class="lbl" id="namsg"></span></div>
+    </div>
+  </details>
+</aside>
+<div id="toast" hidden aria-live="polite"></div>
+
+<div id="editor" hidden role="dialog" aria-label="Edit card">
+  <div class="ed-row"><span class="lbl grow">Card</span><button class="btn" id="edclose">Done</button></div>
+  <input id="edtitle" type="text" placeholder="Title" maxlength="120">
+  <textarea id="edbody" placeholder="What is it? Write it plainly."></textarea>
+  <div class="lbl">Kind</div>
+  <div class="tones" id="edtones"></div>
+  <div class="lbl">Strings</div>
+  <div class="ed-links" id="edlinks"></div>
+  <div class="ed-row"><span class="grow lbl" id="edsaved"></span><button class="btn" id="eddel">Delete card</button></div>
+</div>
+
+<script>
+const BOOK = /*BOOK_DATA*/null;
+const BLOCKS = /*BLOCK_DATA*/[];
+
+/* ---------- hand-made layers ---------- */
+const KIND = {james:"James",santi:"Santi's chapter",real:"Real story",villain:"Villain alone",org:"The organisation",coded:"Coded scene",past:"James's past"};
+const STATUS = [["","Not reviewed"],["holds","Holds"],["work","Needs work"],["rethink","Rethink"],["cut","Cut?"]];
+const CH_FIELDS = [
+ ["sentiment","Sentiment","What should the reader feel here?"],
+ ["message","Message","What is this chapter saying, in a sentence or two?"],
+ ["structure","Structure","Where it sits and why. What it picks up, what it sets up."],
+ ["adds","What it adds","What would the book lose if this chapter were cut?"],
+ ["improve","What to improve","What is weak, missing, slow or too neat?"],
+ ["free","Other notes","Lines, images, research, questions."]];
+const GEN_FIELDS = [["free","Notes","What works, what doesn't, what to change."]];
+const DEC_FIELDS = [["answer","Your answer","What you've decided, or the options you're weighing."],["free","Notes","Why, and what it changes elsewhere."]];
+
+const STAGES = [
+ {id:"ordinary",name:"The ordinary world",gen:"Who the hero is before the story touches him.",up:1,
+  b:"James before anything: a monitoring engineer at a four-hundred-year-old bank, a wife, two dogs, golf on Wednesdays, and a habit of checking old books. The funeral gives him the small lie that starts everything. The opening chapter sits in front of all of this as a promise of where he ends up.",
+  ch:["the-reading-room-the-opening","the-funeral","the-good-life","reading-with-a-pen"]},
+ {id:"call",name:"The call",gen:"Something arrives that the hero can't un-see.",up:1,
+  b:"Page 118 is different in the professor's copy, and two more sentences further in, all changed the same way: something given now arose by itself. He asks the question that drives the book: if it was worth doing here, where else? The same season, a stranger on the golf course likes him.",
+  ch:["the-sentence","down-house-1860","a-round-with-a-stranger"]},
+ {id:"refusal",name:"The refusal",gen:"The hero tries to go back to normal.",up:1,
+  b:"James doesn't refuse out loud. He tries to kill his own finding: a second copy, nine other books checked, nothing. His manager refuses for him with “leave it.” Utrecht shows what refusing looks like when you're paid for it.",
+  ch:["utrecht-1993","leave-it","the-control-case"]},
+ {id:"mentor",name:"The mentor",gen:"Someone who has been there gives the hero what he needs.",up:1,
+  b:"The mentor is dead. The professor speaks through the thin book: forty-one edits, a date, and the word Ask. Later Noor gives the professor's rule in his own words, and Beard Man gives the bucket theory that nobody takes seriously and that turns out to be right.",
+  ch:["reading-with-a-pen","the-control-case","leiden"]},
+ {id:"threshold",name:"The threshold",gen:"The point of no return.",up:1,
+  b:"The payload has his name on it the night after he asked. Then the job vanishes from every backup. There is no version of normal left in which it was nothing. In Groningen he turns the first helper, by accident, with one question.",
+  ch:["the-payload","the-week-it-vanished","a-pension-visit-zwolle","groningen"]},
+ {id:"tests",name:"Tests, allies, enemies",gen:"The hero learns the rules of the new world and who is who.",up:0,
+  b:"The long middle. Frank debunks and then can't place the 1953 memo. Els gives him the style guide. Noor gives him the rule and tells him to find the money. The drill, the invoice and the seat list. Kalder becomes a friend at the corporate day, and at the pub a word from a margin gives him away.",
+  ch:["deventer-march","frank-s-kitchen","the-math","the-corporate-day","a-car-park","leiden","the-drill","the-money","enjoy-it-while-it-lasts","a-room-with-a-long-table","leiden-nine-years-ago","on-land","the-gorilla-mask"]},
+ {id:"approach",name:"The inmost cave",gen:"Danger comes close and the hero gets ready.",up:0,
+  b:"The promise on the kitchen floor. Then the schedule with their own address and the word “companion” in the notes. Ana leaves the address, not him. A house with one old dog in it is a target, and James knows it.",
+  ch:["the-promise","the-schedule","washington-1953","a-street-night"]},
+ {id:"ordeal",name:"The ordeal",gen:"The hero faces death, literally or not.",up:0,
+  b:"Buddy on the floor at two in the morning, the thin book gone, Noor made quiet. James goes back to the hospital corridor at sixteen, then sits on the kitchen floor for four nights until the fear goes. This is the book's death and rebirth.",
+  ch:["the-vet","leiden-friday","a-corridor-sixteen","the-night-he-stops-being-afraid"]},
+ {id:"reward",name:"The reward",gen:"The hero comes out holding something new.",up:0,
+  b:"He isn't afraid any more, and that makes him dangerous: the organisation counts exactly that. Ana believes him without believing it. The other addresses, the band of grants in cold years, and Frank loosening give him the shape of the machine.",
+  ch:["urfa-1994","the-long-table-again","twenty-minutes","the-other-ten","the-band","frank-loose","leiden-1931"]},
+ {id:"road",name:"The road back",gen:"The hero turns the reward into action, and the enemy gives chase.",up:0,
+  b:"He says no to five seats without the dog. Then the dinner: Kalder's threats in code, the promise sentence, Ana's pills, the phone unlocked with a sleeping thumb. The phone shows the tiers, and James sees the compartments.",
+  ch:["the-reading-room-continued","the-dinner","what-was-on-the-phone","compartments"]},
+ {id:"resurrection",name:"Resurrection",gen:"The final test, where everything learned is used at once.",up:0,
+  b:"The sheets, one page per person. The leak brings the review to Monday. Twelve envelopes in one night. The board votes. Then the final conversation, where the old man offers him the neat story and James notices it is too neat.",
+  ch:["the-sheets","the-leak","the-night-before","monday","the-final-conversation"]},
+ {id:"return",name:"The return",gen:"The hero brings something home that helps others.",up:1,
+  b:"Kalder found by his clubs. The invoice steps down for the first time in thirty-one years. A book that claims nothing and asks the reader to look. Four years on, Buddy dies at home, and James can say “I'll see him soon” and mean it.",
+  ch:["a-market-sunday","leave-it-2","epilogue"]}
+];
+
+const ARCS = [
+ {id:"james",name:"James",pts:[
+  ["the-funeral","Says yes to “a better place” without believing it."],
+  ["the-payload","Finds out that asking put him on a list."],
+  ["the-math","Withdraws from everyone; lies to Ana about where he was."],
+  ["the-night-he-stops-being-afraid","The fear he has carried since the corridor is gone."],
+  ["the-reading-room-continued","Says no to the one man who could save him."],
+  ["compartments","Sees that the weak point is the people who don't know."],
+  ["the-final-conversation","Notices the neat story is the method, used on him."],
+  ["epilogue","Says the funeral sentence again and means it."]]},
+ {id:"ana",name:"Ana",pts:[
+  ["the-funeral","Needs James to say her grandmother is somewhere."],
+  ["the-math","Catches the join between what he says and what he doesn't."],
+  ["the-promise","“Run where? I've got a Doberman.” Then: okay."],
+  ["the-schedule","Leaves the address, not him."],
+  ["twenty-minutes","Doesn't believe it and believes him. Comes home."],
+  ["the-dinner","Hears the sentence, pretends not to, and drugs Kalder. Her plan."],
+  ["epilogue","“You said it.”"]]},
+ {id:"kalder",name:"Kalder",pts:[
+  ["a-round-with-a-stranger","Asks about Buddy before he asks James's name."],
+  ["the-corporate-day","Sells the bank its seats. A 320-yard draw."],
+  ["leiden-nine-years-ago","Crosses in Noor's kitchen and takes his seat."],
+  ["on-land","Uses a word from the professor's margin; knows a book that doesn't exist."],
+  ["a-street-night","The fourth gate, the water bowl."],
+  ["the-long-table-again","“James has hands.”"],
+  ["the-dinner","“I hope Buddy's okay now.” Burned."],
+  ["a-market-sunday","Found by his clubs. Half-smiles."]]},
+ {id:"org",name:"The organisation",pts:[
+  ["utrecht-1993","A paper filed under instrumentation."],
+  ["a-car-park","“Stopped asking out loud, which is worse.”"],
+  ["a-room-with-a-long-table","Bram explains the two columns."],
+  ["the-long-table-again","The review is brought forward."],
+  ["leiden-1931","A clean plate is a confession."],
+  ["the-leak","The review moves to Monday."],
+  ["monday","The trustees are voted out."],
+  ["the-final-conversation","The old man, defeated and talking."]]},
+ {id:"buddy",name:"Buddy",pts:[
+  ["a-round-with-a-stranger","Kalder asks about him first."],
+  ["the-gorilla-mask","Stays away from Kalder for four hours."],
+  ["a-street-night","Stands at the window like a two-year-old guard dog."],
+  ["the-vet","Poisoned. Not tonight."],
+  ["the-night-he-stops-being-afraid","James tells him he thinks he's got a soul."],
+  ["monday","In the cart on the sixth green."],
+  ["epilogue","Dies at home at a quarter past two. Buried by the gate."]]}
+];
+
+const MAP = {root:{id:"root",label:"Something Doesn't Fit",b:"",ch:[]},branches:[
+ {id:"truths",label:"Three truths",nodes:[
+  ["truth1","What they did to the world","They changed history: every book that said knowledge was given now says it arose. They killed people who noticed. They buried science, sat on inventions and ancient knowledge, and fund nonsense when too few people are asking. This is the thriller.",["utrecht-1993","a-pension-visit-zwolle","deventer-march","the-band"]],
+  ["truth2","What happens when we die","The deleted sentences are instructions: how to die without fear, how to keep what you are across the gap, how to find the people and the dog you loved. This is the philosophy, and it arrives in rooms with people, never as a lecture.",["the-night-he-stops-being-afraid","croton-530-bc","the-final-conversation"]],
+  ["truth3","What ordinary people did, and were promised","Every manager who said “leave it,” every clerk who catalogued, every executive who signed a seat contract was told a small believable reason and promised they'd be saved. Nobody asked from what. This is how James wins.",["compartments","the-sheets","monday"]]]},
+ {id:"machine",label:"The machine",nodes:[
+  ["editing","Editing","Every text that says something was given to humanity is quietly changed between printings so that it arose by itself. Typos are left in so nobody checks.",["the-sentence","the-control-case","leiden-1931"]],
+  ["counting","The count","A nightly job in the systems of companies that pay for it lists everyone who reported something that week: asked about a job, posted a question, wrote to a dealer. That is the left column.",["leave-it","the-payload","a-room-with-a-long-table"]],
+  ["rightcol","The right column","Filled only by handlers who have had the experience themselves, because only they can see it in someone else. It counts people whose fear of dying is leaving them.",["a-room-with-a-long-table","the-long-table-again"]],
+  ["review","The review","When too many people in a population stop being afraid, records are moved “for conservation” and people are visited at home, one address at a time, each ending plausible.",["the-schedule","the-other-ten","the-leak"]],
+  ["pressure","Pressure","Enough ordinary load that nobody has a spare hour.",["the-good-life","enjoy-it-while-it-lasts"]],
+  ["thermostat","The thermostat","When too few people ask, the foundation funds documentaries, footnoted nonsense and retreats, so the real question always has a gorilla standing next to it.",["the-band","frank-s-kitchen","the-gorilla-mask"]],
+  ["seats","The seats","Banks buy recovery seats at a disaster-recovery site. The organisation hides its own seats inside that contract: names, “dependants per allocation,” and “companion animals are not accommodated.” Kalder sells it.",["the-reading-room-the-opening","the-money","the-reading-room-continued"]],
+  ["building","The building","The foundation's archive, with its reading room and Aylin at the desk, sits on top of the bank's recovery site, where the seats are. James drills there with a lanyard and a sandwich.",["the-drill","the-reading-room-the-opening","the-night-before"]],
+  ["compartments","Compartments","A few hundred professionals standing on millions of helpers who each know one small believable reason. Its strength is that so few need to know anything. Its weakness is the same fact.",["what-was-on-the-phone","compartments","the-sheets"]]]},
+ {id:"people",label:"People",nodes:[
+  ["james","James","Monitoring engineer at a big financial house, eleven years. His hobby is a nose, not a method: always onto something, doesn't know what he's looking for, knows it when he sees it. Reads people's pauses. Funny about what frightens him. Lonely in a specific way: thinks all day what nobody says.",["the-good-life","leave-it","the-night-he-stops-being-afraid"]],
+  ["ana","Ana","Believes her grandmother is okay now, and the book never proves her wrong. James tells her everything once. She leaves the house when it's on a list, because he asks. She comes back and ends the game herself, with her mother's sleeping pills, improvising.",["the-funeral","the-schedule","twenty-minutes","the-dinner"]],
+  ["buddy","Buddy","The old dog, under every table. Poisoned at the gate so Kalder can take the thin book. Lives. Dies at home four years on and is buried by the gate.",["the-vet","a-street-night","epilogue"]],
+  ["mora","Mora","The Doberman. Goes with Ana when she leaves the address, which is why the house has only one old dog in it.",["the-schedule","the-night-before"]],
+  ["frank","Frank","The friend. Not in it. A skeptic who teases, then loosens: “I still don't believe it; I believe the invoice.” Files the last ticket with James.",["frank-s-kitchen","frank-loose","leave-it-2"]],
+  ["pieter","Pieter","James's manager. A helper. Told the orphan job is a security test. Says “leave it.” His name and his children are on the seat list.",["leave-it","the-week-it-vanished","the-sheets","the-leak"]],
+  ["kalder","Kalder","Handsome, funny, a very good golfer, great company, likes James. Sells the bank its continuity. A handler who crossed nine years ago and took his seat. Loyal only to himself. Poisons the dog to get into the house. Never changes. Used, burned, found.",["a-round-with-a-stranger","on-land","the-dinner","a-market-sunday"]],
+  ["bram","Bram","The one who talks, in the handler scenes. Sincere, decent, believes the story he tells, and has never had the experience he counts.",["a-room-with-a-long-table","the-long-table-again"]],
+  ["oldhead","The old head","The bad one. Walks into the reading room on page three and talks about the seats as if they were nothing. Defeated and talking at the end.",["the-reading-room-the-opening","the-reading-room-continued","the-final-conversation"]],
+  ["anneke","Anneke de Wit","The bank's head of risk. In the reading room on page three, silent, watching. On the seat list. Reads the invoice she approved thirty times and asks for the rest. Takes the chair.",["the-reading-room-the-opening","the-sheets","monday","the-final-conversation"]],
+  ["noor","Noor","The professor's last student, a paper conservator in Leiden. Quiet because the professor told her to be. The kitchen where Kalder crossed. Made quiet again with a clipboard and a kind voice.",["leiden","the-vet","leiden-friday"]],
+  ["professor","The professor","A dead man who kept the thin book with his father: forty-one edits in forty-one books. His rule: never publish, never ask, always hide. Died in March in a blue chair with an appointment in his diary.",["the-control-case","the-week-it-vanished","deventer-march"]],
+  ["beard","Beard Man","The market dealer. Mostly nonsense. One of his nonsense theories, the bucket, is the one that turns out to be right.",["reading-with-a-pen","the-week-it-vanished"]],
+  ["els","Els","The professor's daughter, at her curtain shop. Refuses James, then rings a week later because of what he said. Gives him the style guide.",["the-math","the-sheets"]],
+  ["aylin","Aylin","The woman at the depot desk: “we were expecting you.” Shows James the visitor book and lets him in at midnight.",["the-reading-room-the-opening","the-sheets","the-night-before"]],
+  ["helpers","The helpers","The Groningen dealer who telephoned, the widow in Zwolle whose husband drove into the canal, the brewery man who likes his seats and refuses. The people James goes to, one at a time.",["groningen","the-other-ten","the-sheets","the-leak"]],
+  ["ida","Ida","The new dog in the epilogue, who sits at the bottom of the stairs the way only Buddy did.",["epilogue"]]]},
+ {id:"objects",label:"Objects",nodes:[
+  ["p118","Page 118","A sentence in the dry 1926 book that is different in the professor's first impression, and two more further in, all the same kind of change. The reader sees the struck line on page three before James finds it.",["the-reading-room-the-opening","the-sentence"]],
+  ["thinbook","The thin book","A notebook in two hands: forty-one edits in forty-one books. James's sentence is number eleven. The last page holds a reference number, the second of December, and the word Ask. Stolen the night Buddy is poisoned.",["reading-with-a-pen","the-control-case","the-vet"]],
+  ["job","The job at 02:14","A scheduled job with no owner that runs every night at fourteen minutes past two and sends forty kilobytes to an address that exists for nine seconds.",["leave-it","the-payload","the-week-it-vanished"]],
+  ["payload","The payload","Employee IDs with a two-word reason beside each. The night after James asks, there is one more entry, and it's him: asked (job).",["the-payload"]],
+  ["styleguide","Preferred Formulations","Three photocopied pages from under the lining paper of a dresser: deprecated words on the left, preferred words on the right, and a page called When a Reader Notices.",["the-math","leiden"]],
+  ["invoice","The invoice","A monthly line to the foundation, “continuity reconciliation (recall index),” billed per flagged person and stepping up for thirty-one years. The last step was the week James opened his ticket.",["the-money","the-reading-room-continued","leave-it-2"]],
+  ["seatlist","The seat list","The annex to the bank's continuity plan. Pieter is on it, Anneke is on it, a brewery executive is on it. Frank isn't. James isn't.",["the-money","the-sheets"]],
+  ["p212","Page 212","A rule in the AI monitoring tools' default settings that tells them never to report jobs like the one James found. Gone from the new version in the epilogue.",["enjoy-it-while-it-lasts","the-reading-room-continued","leave-it-2","epilogue"]],
+  ["schedule","The field schedule","Records moved for conservation, a column headed Visit, eleven addresses, and theirs, with a date eleven days off and the word “companion” in the notes.",["the-schedule","the-other-ten"]],
+  ["phone","Kalder's phone","Unlocked with his thumb while he sleeps: the handlers in the region, the next schedule, seat allocations for four companies, and what each helper was told, by tier.",["the-dinner","what-was-on-the-phone"]],
+  ["sheets","The sheets","One page per person: what they contributed to, in their own documents, and whether they're on the list.",["the-sheets","the-night-before"]],
+  ["visitorbook","The visitor book","What Aylin shows James when he asks what she thinks she's conserving. He copies it at midnight.",["the-sheets","the-night-before"]],
+  ["clubs","Kalder's clubs","A copper Miura set, an Olson putter, seven wedges. Forty bags like that in the world, three places that fit them. That is how he's found.",["the-corporate-day","a-market-sunday"]]]},
+ {id:"real",label:"Real stories",nodes:[
+  ["downhouse","Down House, 1860","Darwin, sick at his desk, adds “by the Creator” to the second edition under public pressure and later writes that he regrets it. The most famous book alive changed between printings, by its own author.",["down-house-1860"]],
+  ["croton","Croton, 530 BC","Pythagoras stops a man beating a dog: it's the soul of a friend, he knew the voice. The oldest recorded version of the thing the book ends on.",["croton-530-bc"]],
+  ["mexico","Mexico City, 1994","The scientist who published the two-rooms experiment disappears without trace. Facts only.",["mexico-city-1994"]],
+  ["washington","Washington, 1953","Five scientists, one weekend, and a recommendation to debunk through mass media. Real words only.",["washington-1953","frank-s-kitchen"]],
+  ["urfa","Urfa, 1994","An archaeologist climbs a hill the farmers call Potbelly and finds worked stone. The date of civilisation moves by six thousand years.",["urfa-1994"]],
+  ["generals","The generals' report, 1999","A real report by French generals whose last chapter imagines managing a population through sacred texts, films and suitable sects. Noor shows it to James.",["leiden"]]]},
+ {id:"final",label:"Final reveals",nodes:[
+  ["fr1","Soft disclosure was a mask","Men in Black ridicules whoever finds the agency. I Origins discredits tracking a soul by the eye. The moon as a soul collector, because sometimes they have fun. Inception covers the authors they inspire. Dracula and Walt Disney make “we don't die” sound like a children's story.",["the-final-conversation"]],
+  ["fr2","Philip K. Dick","Handed a true thing, saved his son with it, and spent eight years trying to prove himself wrong.",["the-final-conversation"]],
+  ["fr3","Doubt is cheaper","The internet frightened them in the nineties and became theirs; social media the same. AI is the crown jewel: it doesn't make people believe the wrong thing, it makes them doubt everything.",["the-final-conversation"]],
+  ["fr4","The bunkers are fuel","You promise middle management a seat and they keep the machine running. Freezing is meaningless.",["the-final-conversation","the-money"]],
+  ["fr5","The Dalai Lama search","Real, confirmed, and the ceremony that makes the real thing unthinkable.",["the-final-conversation"]],
+  ["fr6","They remember","Nobody is frozen. Some of them simply remember, across lives. It's the one thing they took out of every book and kept.",["the-final-conversation"]],
+  ["fr7","Remembering is for leaving","James's answer: remembering was for leaving the cycle, not for staying in it. The old man agrees. They chose to stay, and every cycle costs them more.",["the-final-conversation","epilogue"]],
+  ["fr8","Why it can't come out","Anneke: the world would collapse, they made sure of that, and after a cataclysm without continuity, killers and savages run what's left.",["the-final-conversation"]],
+  ["fr9","The deal","They help as they see fit, they don't help the collapse, continuity stays, James keeps his silence, and he may publish a book that claims nothing.",["monday","the-final-conversation","leave-it-2"]]]},
+ {id:"themes",label:"Themes",nodes:[
+  ["betterplace","A better place","The small lie at the funeral starts the book. The same words, meant, end it.",["the-funeral","a-corridor-sixteen","epilogue"]],
+  ["fear","Fear scatters, love individualises","Fear is what scatters you back into the pool. Love is what makes you an individual who can't be dissolved. The deleted sentences were instructions for this.",["reading-with-a-pen","the-night-he-stops-being-afraid","epilogue"]],
+  ["leaveit","Leave it","The phrase every helper is given and passes on: the manager, the doctor in the corridor, the vending machine. The last chapter has the same name.",["leave-it","a-corridor-sixteen","leave-it-2"]],
+  ["nose","A nose, not a method","James doesn't know what he's looking for and knows it when he sees it. He reads pauses the way he reads logs.",["the-good-life","leave-it","on-land"]],
+  ["dog","A dog under every table","The organisation's seats don't take companions, and that one line tells James which side he's on.",["the-money","the-reading-room-continued","epilogue"]],
+  ["funny","Funny to the end","Beard Man, Frank, the gorilla mask, the toaster story. Jokes are how James handles what frightens him.",["frank-s-kitchen","the-gorilla-mask","on-land"]],
+  ["neat","Too neat","The method is a story that's too neat. James notices the old man doing it to him and decides what to believe later, in a garden.",["the-final-conversation"]]]},
+ {id:"places",label:"Places",nodes:[
+  ["depot","The reading room","A low building behind a car park with a sign on it. The archive upstairs, the recovery site below, a generator under the floor.",["the-reading-room-the-opening","the-drill","the-reading-room-continued","the-final-conversation"]],
+  ["bank","The bank","Ten thousand systems and four hundred years of records. James never changes jobs; he's moved onto the continuity programme.",["the-good-life","leave-it","monday"]],
+  ["golf","The course and the pub","Golf is James's sanctuary, and where Kalder finds him. The pub is the first coded scene.",["a-round-with-a-stranger","the-corporate-day","on-land","monday"]],
+  ["floor","The kitchen floor","Four in the morning. Fetch, the promise, four nights with Buddy.",["the-sentence","the-promise","the-night-he-stops-being-afraid"]],
+  ["leidenp","Leiden","Noor's kitchen, the 1931 printer, the library transfer where Kalder crossed.",["leiden","leiden-nine-years-ago","leiden-1931","leiden-friday"]],
+  ["groningenp","Groningen","The dealer who telephoned.",["groningen"]],
+  ["zwolle","Zwolle and the canal road","The pension visit, the washed car, the widow with the flask story.",["a-pension-visit-zwolle","the-other-ten"]],
+  ["deventer","Deventer","The blue chair, the bin not put out, the furniture bought by a polite man in a van.",["deventer-march","the-week-it-vanished"]],
+  ["mothers","Ana's mother's house","Where Ana goes, and where James lays every object on the tablecloth for twenty minutes.",["the-schedule","twenty-minutes"]]]}
+]};
+
+const REVEALS = [
+ {when:"The opening",sub:"December · the reading room",note:"Hints, not explanations. The reader gets a conspiracy and a machine on page three; the villain later shrugs at both.",items:[
+  ["The seats: “You found the seats. Everyone who gets this far finds the seats. A bank's disaster plan, names, dependants per allocation, no dogs. We leave them findable.”","the-reading-room-the-opening"],
+  ["The count: “And you were counted the night you asked. Everyone who asks is counted.”","the-reading-room-the-opening"],
+  ["The ledger open at page 118: one line struck out, one written beside it. Four chapters later James finds it on his kitchen floor.","the-sentence"],
+  ["A generator under the floor. Aylin: “we were expecting you.” Cut. Eight months earlier.","the-reading-room-the-opening"]]},
+ {when:"Part One",sub:"Nothing fits",note:"The ordinary world, then two big things.",items:[
+  ["The method, found: one edited sentence.","the-sentence"],
+  ["The job at work, found and erased.","the-week-it-vanished"],
+  ["The thin book, with forty-one edits and a date still to come.","the-control-case"],
+  ["James on the machine's own list.","the-payload"]]},
+ {when:"Part Two",sub:"The machine has always been there",note:"The old stuff, proof it has always been there, and the people.",items:[
+  ["Method: the style guide, the 1931 printer, the 1953 panel.","the-math"],
+  ["Religion and the old truths, through Noor, the shelf and Beard Man: the knowledge-bringers punished in every tradition; the old gods rewritten as demons; “within” turned into “through us”; the mechanism edited, never the message.","leiden"],
+  ["The afterlife layer, lightly: the reports rhyme; the bucket theory; Pythagoras and the dog; the names as passwords.","croton-530-bc"],
+  ["The modern paperwork: the invoice, the seat contract, the drill, the seat list.","the-money"],
+  ["James assumes the seats are to save the organisation, probably by freezing. He's wrong until Part Three.","the-money"],
+  ["Part Two ends at the reading-room table: James lays down page 212, the grants in cold years, the forums farmed, the invoice, the eleven addresses. The old man confirms only the method in general and offers five seats, no dogs. James says no.","the-reading-room-continued"]]},
+ {when:"Part Three",sub:"The instrument",note:"The dinner, the phone, the compartments, the sheets, the leak, the night before, Monday. Then the final conversation, the old man defeated and talking, in this order:",ordered:true,items:[
+  ["Soft disclosure was never disclosure: Men in Black, I Origins, the moon as a soul collector, Inception, Dracula and Walt Disney.","the-final-conversation"],
+  ["Philip K. Dick, handed a true thing and spending his life disproving it.","the-final-conversation"],
+  ["The internet in the nineties, social media, AI as the crown jewel: doubt is cheaper than belief.","the-final-conversation"],
+  ["The bunkers are fuel; freezing is meaningless.","the-final-conversation"],
+  ["The Dalai Lama search confirmed: the ceremony that makes the real thing unthinkable.","the-final-conversation"],
+  ["They remember: the one thing they took out of every book and kept.","the-final-conversation"],
+  ["James's answer: remembering was for leaving the cycle, not for staying. The old man agrees. They chose to stay.","the-final-conversation"],
+  ["Why the truth can't come out: collapse, and after it, killers and savages.","the-final-conversation"],
+  ["The deal with the new management; the one last thing; the market; leave it; the book he's allowed to publish.","leave-it-2"]]},
+ {when:"Epilogue",sub:"Four years on",note:"",items:[
+  ["Buddy, the garden, “I'll see him soon.” Ida at the stairs.","epilogue"],
+  ["The far-future scene: still parked, and still yours to decide.","epilogue"]]}
+];
+
+const DEC_LINKS = {1:["the-reading-room-the-opening","the-sentence"],2:["on-land"],3:["the-promise","the-dinner"],4:["a-car-park"],5:["the-math"],6:["the-night-before"],7:["the-final-conversation","the-reading-room-the-opening"],8:["epilogue"]};
+
+const CARDS = [
+ ["c","What are the parts of the machine?","Editing, counting and pressure, plus a thermostat that funds nonsense when too few people are asking."],
+ ["c","What does the left column count?","Everyone who reported something that week: asked about a job, posted a question, wrote to a dealer."],
+ ["c","Who fills the right column, and what does it measure?","Handlers who have had the experience themselves. It measures people whose fear of dying is leaving them."],
+ ["c","What is a review?","When too many people in a population stop being afraid: records moved for conservation, and people visited at home, one address at a time, each ending plausible."],
+ ["c","Where are the organisation's seats hidden?","Inside the bank's recovery-seat contract, as an annex to the continuity plan. Dependants per allocation. Companion animals are not accommodated."],
+ ["c","What is the organisation's strength, and its weakness?","The same fact: so few people need to know anything. It runs on helpers who don't know, and the moment they know, they stop."],
+ ["c","What kind of change do all the edits make?","Something that was given now arose by itself. The forty-one edits are one edit: they take out the thing that passes between people."],
+ ["c","Why are the typos left in?","A clean plate is a confession and a dirty one is just a printer. Nobody checks a book that still has its misprints."],
+ ["c","What did the deleted sentences actually contain?","Instructions: how to die without fear, how to keep what you are across the gap, how to find the people and the dog you loved."],
+ ["c","Fear and love, in the book's metaphysics?","Fear scatters you back into the pool. Love makes you an individual who can't be dissolved."],
+ ["c","What is every helper promised?","That they'd be saved, in a word they never examined. Nobody asked from what."],
+ ["c","How does James win?","He breaks the compartments: one sheet per person showing what they contributed to and that they're not on the list. The bank votes the foundation's trustees out."],
+ ["c","Why don't they kill James at the end?","They have killed before and it was cheap. Now two hundred people hold their own names, and a body would confirm every envelope."],
+ ["c","What is the building?","The foundation's archive sits on top of the bank's recovery site: the reading room upstairs, the seats below."],
+ ["c","What does the thermostat do?","When too few people ask, it funds documentaries, nonsense and retreats, so the real question always has a gorilla next to it."],
+ ["p","Who is Kalder, really?","A handler who crossed nine years ago in Noor's kitchen and took his seat. Sells the bank its continuity. Charming, likes James, loyal only to himself. Poisons Buddy."],
+ ["p","What gives Kalder away at the pub?","He uses a word James read in the professor's margin that week. James mentions a book that doesn't exist, and Kalder says he knows it."],
+ ["p","How is Kalder found at the end?","By his clubs: a copper Miura set, an Olson putter, seven wedges. Forty bags like that in the world."],
+ ["p","What is Ana's arc, in four moves?","She believes her grandmother is okay; leaves the address because James asks; comes back after Twenty minutes; ends the dinner herself with her mother's sleeping pills."],
+ ["p","What does Ana say to the promise?","“Run where? I've got a Doberman.” Then, in the other voice: okay."],
+ ["p","What is the professor's rule?","I'm fairly sure I'm already being watched. Until we're a hundred per cent: never publish, never ask, always hide. If anything happens to me, know I was right."],
+ ["p","Who is Bram?","The one who talks in the handler scenes. Sincere, decent, believes the story, and has never had the experience he counts."],
+ ["p","Who is Anneke de Wit?","The bank's head of risk. The silent observer in the opening, on the seat list, asks for the rest after reading her invoice, takes the chair."],
+ ["p","Who is Pieter?","James's manager. Told the job is a security test. Says “leave it.” On the seat list with his children per allocation."],
+ ["p","What is Beard Man's bucket theory?","Puppies share one cup of water, and a dog that's been loved can't be poured back in the bucket."],
+ ["p","What is Frank's verdict when he loosens?","“I still don't believe it; I believe the invoice.”"],
+ ["p","What does Noor tell James on her doorstep?","He's counting the wrong column: not how many run it, how many have noticed and stayed quiet. And: paper doesn't pay for itself, find the money."],
+ ["p","Who is Els, and what does she give James?","The professor's daughter at her curtain shop. She refuses him, rings a week later, and gives him the style guide."],
+ ["r","What two hints does the opening give?","The seats (“we leave them findable”) and the count (“you were counted the night you asked”)."],
+ ["r","What page is the ledger open at in the opening?","Page 118: one line struck out, one written beside it. James finds it four chapters later."],
+ ["r","What does James wrongly think the seats are for?","Saving the organisation itself, probably by freezing. The old man tells him the bunkers are fuel."],
+ ["r","What does the old man offer when the reading room picks up again?","Five seats: himself, Ana, three. Companions not accommodated. James says no."],
+ ["r","What is the biggest reveal of the final conversation?","Some of them remember, across lives. It's the one thing they took out of every book and kept."],
+ ["r","What is James's answer to the remembering?","Remembering was for leaving the cycle, not for staying in it. They chose to stay."],
+ ["r","Why is AI the crown jewel?","It doesn't make people believe the wrong thing. It makes them doubt everything, and doubt is cheaper."],
+ ["r","What is James allowed to publish?","A book under his own name that claims nothing, names nobody and asks the reader to look. It gets filed as fiction."],
+ ["w","What is the reality rule?","Real anomalies may be real. Edits, people and companies are invented. No invented edit attached to a real book. Real documents only in their real words."],
+ ["w","How do reveals arrive?","As objects in James's hands, never as speeches."],
+ ["w","Which spelling?","American."],
+ ["w","What is under every table?","A dog."]
+];
+const CARD_CATS = {all:"All",c:"The machine",p:"People",r:"Reveals",w:"Rules",o:"Chapter order"};
+const TONES = [["idea","Idea"],["question","Question"],["theme","Theme"],["problem","Problem"],["object","Object"],["person","Person"]];
+
+/* ---------- utilities ---------- */
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const strip=h=>String(h||"").replace(/<[^>]+>/g,"");
+const fmt=n=>n.toLocaleString("en-US");
+const lsGet=k=>{try{return JSON.parse(localStorage.getItem(k)||"null")}catch(e){return null}};
+const lsSet=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+const NS="http://www.w3.org/2000/svg";
+/* theme variables can't be relied on inside SVG presentation attributes, so move them into inline styles */
+function svgVars(root){root.querySelectorAll("[fill^='var('],[stroke^='var(']").forEach(el=>["fill","stroke"].forEach(a=>{const v=el.getAttribute(a);if(v&&v.startsWith("var(")){el.style.setProperty(a,v);el.removeAttribute(a)}}))}
+
+const CH=[]; BOOK.parts.forEach((p,pi)=>p.chapters.forEach(c=>{c.part=pi;c.order=CH.length;CH.push(c)}));
+const CHMAP=Object.fromEntries(CH.map(c=>[c.id,c]));
+const cid=s=>"ch-"+s;
+const chTitle=id=>(CHMAP[id]||{}).title||id;
+const partName=p=>{const s=(p.name.split("—")[1]||p.name).trim().toLowerCase();return s.charAt(0).toUpperCase()+s.slice(1)};
+const PARTNO=["One","Two","Three"];
+const NODEMAP={}; MAP.branches.forEach(b=>b.nodes.forEach(n=>{NODEMAP["mm-"+n[0]]={id:"mm-"+n[0],label:n[1],b:n[2],ch:n[3],branch:b}}));
+const chipsFor=list=>list.filter(x=>CHMAP[cid(x)]).map(x=>`<button class="linkchip" data-act="goch" data-id="${cid(x)}">${esc(chTitle(cid(x)))}</button>`).join("");
+
+/* ---------- state ---------- */
+const S={db:null,canWrite:false,ready:false,notes:{},board:{}};
+const LOCAL={};      // working copies of notes being edited
+const PANELS={};     // mounted note panels by id
+
+/* ---------- tabs ---------- */
+const TABS=[["story","Story"],["journey","Journey"],["structure","Structure"],["map","Mind map"],["reveals","Reveals"],["recall","Recall"],["board","Board"],["notes","Notes"],["decisions","Decisions"]];
+const rendered={};
+function showTab(t,noScroll){
+  if(!TABS.some(x=>x[0]===t)) t="story";
+  $$("#tabs button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.tab===t)));
+  $$("section.tab").forEach(s=>s.hidden=s.id!=="tab-"+t);
+  if(!rendered[t]){rendered[t]=true;(RENDER[t]||(()=>{}))()}
+  if(t==="notes") renderNotesTab();
+  if(t==="board") renderBoard();
+  try{history.replaceState(null,"","#"+t)}catch(e){}
+  lsSet("sdf-tab",t);
+  if(!noScroll) window.scrollTo({top:0});
+  const b=$(`#tabs button[data-tab="${t}"]`); if(b) b.scrollIntoView({block:"nearest",inline:"nearest"});
+}
+$("#tabs").innerHTML=TABS.map(([k,l])=>`<button role="tab" data-tab="${k}" aria-selected="false">${l}</button>`).join("");
+$("#tabs").addEventListener("click",e=>{const b=e.target.closest("button[data-tab]");if(b)showTab(b.dataset.tab)});
+window.addEventListener("hashchange",()=>showTab(location.hash.slice(1),true));
+
+function flash(el){if(!el)return;el.classList.remove("flash");void el.offsetWidth;el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),1700)}
+function goChapter(id){
+  showTab("story",true);
+  $$("#kindchips .chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.k==="all")));applyKindFilter("all");
+  const el=document.getElementById(id); if(!el) return;
+  openChapter(el,true);
+  setTimeout(()=>{el.scrollIntoView({behavior:"smooth",block:"start"});flash(el)},40);
+}
+document.addEventListener("click",e=>{
+  const a=e.target.closest("[data-act]"); if(!a) return;
+  const act=a.dataset.act;
+  if(act==="goch") goChapter(a.dataset.id);
+  else if(act==="gostage"){showTab("journey",true);selectStage(a.dataset.id,true)}
+  else if(act==="gonode"){showTab("map",true);selectNode(a.dataset.id,true)}
+  else if(act==="godec"){showTab("decisions",true);const el=document.getElementById(a.dataset.id);if(el){el.scrollIntoView({behavior:"smooth",block:"center"});flash(el)}}
+});
+
+/* ---------- masthead ---------- */
+(function(){
+  const words=CH.reduce((s,c)=>s+c.words,0);
+  $("#mastlog").innerHTML=`<b>${esc(BOOK.version.replace(/\s*—.*$/,""))}</b><br>${CH.length} chapters · ${BOOK.parts.length} parts<br>about ${fmt(Math.round(words/1000)*1000)} words planned in the beats<br>job runs 02:14 · 40 KB · 9 s`;
+})();
+
+/* ---------- notes panels ---------- */
+function fieldsFor(kind){return kind==="chapter"?CH_FIELDS:kind==="decision"?DEC_FIELDS:GEN_FIELDS}
+function hasText(n){return n&&Object.keys(n).some(k=>!["item","kind","title","status","updated"].includes(k)&&String(n[k]||"").trim())}
+function dotClass(id){const n=S.notes[id];if(!n)return"";return n.status||(hasText(n)?"has":"")}
+function refreshDots(id){$$(`[data-dot="${id}"]`).forEach(d=>{d.className="dot "+dotClass(id)})}
+function mountNotes(slot){
+  if(slot.dataset.mounted) return; slot.dataset.mounted="1";
+  const id=slot.dataset.note, kind=slot.dataset.nkind, title=slot.dataset.ntitle||id;
+  const F=fieldsFor(kind);
+  LOCAL[id]=Object.assign({},S.notes[id]||{});
+  slot.innerHTML=`<div class="notes">
+    <div class="notes-top"><span class="lbl">Your notes</span>
+      <div class="status">${STATUS.map(([v,l])=>`<button type="button" data-v="${v}" aria-pressed="${(LOCAL[id].status||"")===v}">${l}</button>`).join("")}</div>
+      <span class="saved"></span></div>
+    <div class="fields ${F.length===1?"one":""}">${F.map(([k,n,h])=>`<label class="field"><span class="fn">${n}</span><span class="fh">${h}</span><textarea id="n-${id}-${k}" data-f="${k}" rows="2"></textarea></label>`).join("")}</div></div>`;
+  const P={id,kind,title,saved:$(".saved",slot),tas:{},status:$(".status",slot)};
+  $$("textarea",slot).forEach(ta=>{
+    P.tas[ta.dataset.f]=ta; ta.value=LOCAL[id][ta.dataset.f]||""; grow(ta);
+    if(!S.canWrite){ta.disabled=true;ta.placeholder=S.ready?"This view can't save notes.":"Notes save when the page is open in claude.ai."}
+    ta.addEventListener("input",()=>{grow(ta);LOCAL[id][ta.dataset.f]=ta.value;P.saved.textContent="Editing…";saveNoteSoon(id)});
+  });
+  P.status.addEventListener("click",e=>{const b=e.target.closest("button[data-v]");if(!b||!S.canWrite)return;
+    LOCAL[id].status=b.dataset.v;$$("button",P.status).forEach(x=>x.setAttribute("aria-pressed",String(x===b)));saveNote(id)});
+  PANELS[id]=P;
+}
+function grow(ta){ta.style.height="auto";ta.style.height=Math.min(ta.scrollHeight+2,420)+"px"}
+const noteTimers={};
+function saveNoteSoon(id){clearTimeout(noteTimers[id]);noteTimers[id]=setTimeout(()=>saveNote(id),700)}
+function noteBody(id){
+  const P=PANELS[id], L=LOCAL[id]||{}, F=fieldsFor(P?P.kind:"generic");
+  const body={item:id,kind:P?P.kind:"generic",title:P?P.title:id,status:L.status||""};
+  F.forEach(([k])=>body[k]=String(L[k]||""));
+  if(!body.status&&!F.some(([k])=>body[k].trim())) return null;
+  body.updated=new Date().toISOString(); return body;
+}
+function saveNote(id){
+  clearTimeout(noteTimers[id]);
+  if(!S.db||!S.canWrite) return;
+  const P=PANELS[id];
+  persist("notes/"+id,()=>noteBody(id)).then(ok=>{
+    if(P) P.saved.textContent=ok?"Saved "+new Date().toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"}):"Not saved";
+  });
+  const b=noteBody(id); if(b) S.notes[id]=b; else delete S.notes[id]; refreshDots(id);
+}
+/* one write at a time per document, always sending the newest body */
+const W={};
+function persist(path,getBody){
+  const st=W[path]||(W[path]={busy:false,again:false,get:null,p:null});
+  st.get=getBody;
+  if(st.busy){st.again=true;return st.p}
+  st.busy=true;
+  st.p=(async()=>{let ok=true;do{st.again=false;const body=st.get();
+      try{ if(body===null) await S.db.doc(path).delete(); else await S.db.doc(path).set(body); ok=true }
+      catch(e){ ok=false; dbError(e) }
+    }while(st.again);st.busy=false;return ok})();
+  return st.p;
+}
+function dbError(e){
+  const code=e&&e.code;
+  if(code==="invalid_argument"&&!S.writeFailed){S.writeFailed=true;S.canWrite=false;setDbNote("This view can read your notes but can't save them.")}
+  else if(code==="quota_exceeded") setDbNote("The page's storage is full. Delete a few notes or cards to save new ones.");
+  else if(code==="revoked") setDbNote("Saving stopped for this visit. Reload the page to reconnect.");
+  else if(code) setDbNote("A save didn't go through ("+code+"). It will try again on your next change.");
+}
+function setDbNote(t){const n=$("#dbnote");n.textContent=t;n.hidden=!t}
+function onNoteSnapshot(id){
+  refreshDots(id);
+  const P=PANELS[id]; if(!P) return;
+  const n=S.notes[id]||{};
+  if(noteTimers[id]||(W["notes/"+id]&&W["notes/"+id].busy)) return;
+  Object.entries(P.tas).forEach(([k,ta])=>{if(document.activeElement!==ta&&ta.value!==(n[k]||"")){ta.value=n[k]||"";LOCAL[id][k]=ta.value;grow(ta)}});
+  if((LOCAL[id].status||"")!==(n.status||"")){LOCAL[id].status=n.status||"";$$("button",P.status).forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.v===(n.status||""))))}
+}
+function enableWriting(){
+  Object.values(PANELS).forEach(P=>Object.values(P.tas).forEach(ta=>{ta.disabled=!S.canWrite;ta.placeholder=""}));
+  CHOPTS=null; renderDrawer(); $$(".placed-list").forEach(el=>renderPlacedList(el.dataset.pl));
+}
+
+/* ---------- STORY ---------- */
+function renderFoundations(){
+  let html="",skip=false,inOl=false;
+  const close=()=>{if(inOl){html+="</ol>";inOl=false}};
+  BOOK.part0.forEach(line=>{
+    if(line.startsWith("<b>WHERE EVERY")||line.startsWith("<b>The people.")||line.startsWith("<b>Rules")){skip=true;close();return}
+    if(line.startsWith("<b>How the organisation")) skip=false;
+    if(skip) return;
+    const m=line.match(/^\d+\.\s(.*)$/);
+    if(m){if(!inOl){html+="<ol>";inOl=true}html+=`<li>${m[1]}</li>`;return}
+    close(); html+=`<p>${line}</p>`;
+  });
+  close();
+  const first=html.indexOf("</p>")+4;
+  $("#found").innerHTML=`<div class="lbl" style="margin-bottom:8px">What the story is built on</div>${html.slice(0,first)}<details><summary>The three truths, the organisation, the machine, the seats, the building</summary>${html.slice(first)}</details>`;
+}
+function chapterCard(c){
+  return `<article class="ch k-${c.kind}" id="${c.id}" data-kind="${c.kind}">
+    <button class="ch-head" type="button" aria-expanded="false"><span class="ch-title">${esc(c.title)}</span><span class="ch-kind">${KIND[c.kind]}</span><span class="bcount" data-bcount="${c.id}"></span><span class="ch-words">${c.words?fmt(c.words)+" w":"length tbd"}</span><span class="dot ${dotClass(c.id)}" data-dot="${c.id}" aria-hidden="true"></span></button>
+    <div class="ch-body" hidden>
+      <p class="ch-text">${c.text}</p>
+      ${c.why?`<p class="ch-why"><b>Why it's here.</b> ${c.why}</p>`:""}
+      ${c.beats.length?`<div class="beats"><div class="lbl">Beats${c.meta?" · "+esc(c.meta):""}</div><ul>${c.beats.map(b=>`<li>${b}</li>`).join("")}</ul></div>`:""}
+      ${c.farFuture?`<p class="ch-why">${esc(c.farFuture)}</p>`:""}
+      <div class="placed-list" data-pl="${c.id}"></div>
+      <div data-note="${c.id}" data-nkind="chapter" data-ntitle="${esc(c.title)}"></div>
+    </div></article>`;
+}
+function openChapter(el,force){
+  const head=$(".ch-head",el), body=$(".ch-body",el);
+  const open=force?true:body.hidden;
+  body.hidden=!open; head.setAttribute("aria-expanded",String(open));
+  if(open){mountNotes($("[data-note]",body));renderPlacedList(el.id)}
+}
+function applyKindFilter(k){
+  $$("#storyParts .ch").forEach(el=>{
+    let show=true;
+    if(k==="noted") show=!!S.notes[el.id];
+    else if(k==="blocks") show=Object.values(S.place).some(p=>p.chapter===el.id);
+    else if(k!=="all") show=el.dataset.kind===k;
+    el.hidden=!show;
+  });
+  $$("#storyParts .movement").forEach(m=>m.hidden=k!=="all");
+}
+function renderStory(){
+  renderFoundations();
+  const kinds=["all",...Object.keys(KIND).filter(k=>CH.some(c=>c.kind===k)),"noted","blocks"];
+  $("#kindchips").innerHTML=kinds.map(k=>`<button class="chip ${k in KIND?"k-"+k:""}" data-k="${k}" aria-pressed="${k==="all"}">${k in KIND?'<i style="background:var(--k)"></i>'+KIND[k]:k==="all"?"All chapters":k==="noted"?"With notes":"With blocks"}</button>`).join("")
+    +`<button class="chip" id="expandAll" aria-pressed="false">Open all</button>`;
+  $("#kindchips").addEventListener("click",e=>{
+    const b=e.target.closest("button"); if(!b) return;
+    if(b.id==="expandAll"){const on=b.getAttribute("aria-pressed")!=="true";b.setAttribute("aria-pressed",String(on));b.textContent=on?"Close all":"Open all";
+      $$("#storyParts .ch").forEach(el=>{if(on)openChapter(el,true);else{$(".ch-body",el).hidden=true;$(".ch-head",el).setAttribute("aria-expanded","false")}});return}
+    $$("#kindchips .chip[data-k]").forEach(c=>c.setAttribute("aria-pressed",String(c===b)));applyKindFilter(b.dataset.k);
+  });
+  let html="";
+  BOOK.parts.forEach((p,pi)=>{
+    html+=`<section class="part"><header class="part-head"><span class="lbl">Part ${PARTNO[pi]}</span><h2>${esc(partName(p))}</h2>${p.summary?`<p class="part-sum">${p.summary}</p>`:""}</header>`;
+    p.chapters.forEach(c=>{if(c.movement)html+=`<div class="movement"><span class="lbl">What this stretch asks</span>${esc(c.movement)}</div>`;html+=chapterCard(c)});
+    html+="</section>";
+  });
+  $("#storyParts").innerHTML=html;
+  $("#storyParts").addEventListener("click",e=>{const h=e.target.closest(".ch-head");if(h)openChapter(h.closest(".ch"))});
+  refreshBadges();
+}
+
+/* ---------- JOURNEY ---------- */
+let curStage=null;
+function renderJourney(){
+  const svg=$("#wheel"); let s="";
+  const r0=104,r1=170,r2=236,rad=d=>d*Math.PI/180;
+  const P=(r,a)=>[r*Math.cos(rad(a)),r*Math.sin(rad(a))];
+  s+=`<circle r="${r1-6}" fill="none" stroke="var(--rule)" stroke-dasharray="2 4"/>`;
+  s+=`<line x1="-330" y1="0" x2="330" y2="0" stroke="var(--string)" stroke-width="1" stroke-dasharray="6 5"/>`;
+  s+=`<text x="-330" y="-10" font-size="11" fill="var(--muted)">THE ORDINARY WORLD</text><text x="-330" y="20" font-size="11" fill="var(--muted)">THE WORLD HE CAN'T UN-SEE</text>`;
+  STAGES.forEach((st,i)=>{
+    const a0=-150+30*i+1.2,a1=-120+30*i-1.2,ac=-135+30*i;
+    const [x0,y0]=P(r1,a0),[x1,y1]=P(r2,a0),[x2,y2]=P(r2,a1),[x3,y3]=P(r1,a1);
+    s+=`<path class="seg" data-stage="${st.id}" d="M${x0},${y0}L${x1},${y1}A${r2},${r2} 0 0 1 ${x2},${y2}L${x3},${y3}A${r1},${r1} 0 0 0 ${x0},${y0}Z" fill="${st.up?"var(--verdigris-soft)":"var(--string-soft)"}"><title>${esc(st.name)}</title></path>`;
+    const [nx,ny]=P((r1+r2)/2,ac);
+    s+=`<text x="${nx}" y="${ny+4}" text-anchor="middle" font-size="12" fill="var(--ink)" pointer-events="none">${i+1}</text>`;
+    const [lx,ly]=P(r2+16,ac), cs=Math.cos(rad(ac));
+    s+=`<text x="${lx}" y="${ly+4}" font-size="12" text-anchor="${cs>0.2?"start":cs<-0.2?"end":"middle"}" fill="var(--ink)" data-stagelbl="${st.id}" style="cursor:pointer">${esc(st.name)}</text>`;
+    const n=st.ch.length;
+    st.ch.forEach((c,j)=>{const a=a0+3+(a1-a0-6)*(n===1?.5:j/(n-1));const rr=r0+((j%2)?22:44);const [cx,cy]=P(rr,a);const k=(CHMAP[cid(c)]||{}).kind||"james";
+      s+=`<circle cx="${cx}" cy="${cy}" r="5" class="k-${k}" fill="var(--k)" data-act="goch" data-id="${cid(c)}" style="cursor:pointer"><title>${esc(chTitle(cid(c)))}</title></circle>`});
+  });
+  s+=`<text x="0" y="-6" text-anchor="middle" font-size="20" fill="var(--ink)" style="font-family:var(--display)">James</text><text x="0" y="16" text-anchor="middle" font-size="10" fill="var(--muted)">TAP A STAGE</text>`;
+  svg.innerHTML=s; svgVars(svg);
+  svg.addEventListener("click",e=>{const t=e.target.closest("[data-stage],[data-stagelbl]");if(t)selectStage(t.dataset.stage||t.dataset.stagelbl,true)});
+  $("#stages").innerHTML=STAGES.map((st,i)=>`<article class="stage" id="hj-${st.id}"><div class="world">Stage ${i+1} · ${st.up?"the ordinary world":"the world he can't un-see"}</div><h3>${esc(st.name)}</h3><p class="gen">${esc(st.gen)}</p><p>${esc(st.b)}</p><div>${chipsFor(st.ch)}</div><div data-note="hj-${st.id}" data-nkind="stage" data-ntitle="Journey: ${esc(st.name)}"></div></article>`).join("");
+  $$("#stages [data-note]").forEach(mountNotes);
+}
+function selectStage(id,scroll){
+  curStage=id;
+  $$("#wheel .seg").forEach(p=>{const on=p.dataset.stage===id;p.style.opacity=on?"1":".55";p.style.stroke=on?"var(--string)":"var(--sheet)";p.style.strokeWidth=on?"3":"2"});
+  $$("#stages .stage").forEach(s=>s.setAttribute("aria-current",String(s.id==="hj-"+id)));
+  const el=document.getElementById("hj-"+id);
+  if(el&&scroll){el.scrollIntoView({behavior:"smooth",block:"center"});flash(el)}
+}
+
+/* ---------- STRUCTURE ---------- */
+function renderStructure(){
+  $("#kindlegend").innerHTML=Object.keys(KIND).map(k=>`<span class="k-${k}"><i></i>${KIND[k]}</span>`).join("");
+  const NOM=2000, W=1200, L=104, R=1188, top=34, sh=30;
+  const ws=CH.map(c=>c.words||NOM), tot=ws.reduce((a,b)=>a+b,0);
+  let acc=0; const xs=CH.map((c,i)=>{const x0=L+(R-L)*acc/tot;acc+=ws[i];return [x0,L+(R-L)*acc/tot]});
+  const rows=ARCS.length, rowH=40, H=top+sh+46+rows*rowH+10;
+  const svg=$("#pace"); svg.setAttribute("viewBox",`0 0 ${W} ${H}`); svg.style.minWidth="900px"; svg.style.width="100%";
+  let s=`<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="var(--k-santi)"/><line x1="0" y1="0" x2="0" y2="6" stroke="var(--sheet)" stroke-width="2.5"/></pattern></defs>`;
+  // parts
+  let pStart=0;
+  BOOK.parts.forEach((p,pi)=>{const n=p.chapters.length;const x0=xs[pStart][0],x1=xs[pStart+n-1][1];
+    s+=`<text x="${x0+2}" y="${top-12}" font-size="11" fill="var(--string)">PART ${PARTNO[pi].toUpperCase()}</text>`;
+    if(pi>0) s+=`<line x1="${x0}" y1="${top-24}" x2="${x0}" y2="${H-4}" stroke="var(--ink)" stroke-width="1.2"/>`;
+    pStart+=n});
+  // strip
+  CH.forEach((c,i)=>{const [x0,x1]=xs[i];const fill=c.words?"var(--k)":"url(#hatch)";
+    s+=`<rect class="k-${c.kind}" x="${x0}" y="${top}" width="${Math.max(1,x1-x0-1)}" height="${sh}" fill="${fill}" data-ci="${i}" style="cursor:pointer"><title>${esc(c.title)}</title></rect>`;
+    if(c.movement) s+=`<path d="M${x0},${top+sh+2}l5,8h-10z" fill="var(--ink)"/><text x="${x0+8}" y="${top+sh+12}" font-size="10" fill="var(--muted)">?</text>`;
+  });
+  s+=`<text x="${L-10}" y="${top+20}" text-anchor="end" font-size="11" fill="var(--muted)">CHAPTERS</text>`;
+  // arcs
+  ARCS.forEach((a,ai)=>{const y=top+sh+46+ai*rowH;
+    s+=`<text x="${L-10}" y="${y+4}" text-anchor="end" font-size="11" fill="var(--ink)">${esc(a.name.toUpperCase())}</text>`;
+    s+=`<line x1="${L}" y1="${y}" x2="${R}" y2="${y}" stroke="var(--rule2)"/>`;
+    const pts=a.pts.map(([c,t])=>{const i=(CHMAP[cid(c)]||{}).order;return i==null?null:[(xs[i][0]+xs[i][1])/2,c,t]}).filter(Boolean);
+    if(pts.length>1) s+=`<polyline points="${pts.map(p=>p[0]+","+y).join(" ")}" fill="none" stroke="var(--ink)" stroke-width="1.5"/>`;
+    pts.forEach((p,pi2)=>s+=`<circle cx="${p[0]}" cy="${y}" r="6" fill="var(--sheet)" stroke="var(--string)" stroke-width="2" data-arc="${ai}" data-pt="${pi2}" style="cursor:pointer"><title>${esc(a.name+": "+p[2])}</title></circle>`);
+  });
+  svg.innerHTML=s; svgVars(svg);
+  svg.addEventListener("click",e=>{
+    const r=e.target.closest("[data-ci]"), c=e.target.closest("[data-arc]"), d=$("#structDetail");
+    if(r){const ch=CH[+r.dataset.ci];d.innerHTML=`<span class="lbl">${KIND[ch.kind]} · Part ${PARTNO[ch.part]} · ${ch.words?fmt(ch.words)+" words":"length not set"}</span><br><b>${esc(ch.title)}</b> &nbsp;<button class="linkchip" data-act="goch" data-id="${ch.id}">Open chapter</button>`}
+    else if(c){const a=ARCS[+c.dataset.arc];const p=a.pts.filter(([x])=>CHMAP[cid(x)])[+c.dataset.pt];d.innerHTML=`<span class="lbl">${esc(a.name)}</span><br>${esc(p[1])} &nbsp;<button class="linkchip" data-act="goch" data-id="${cid(p[0])}">${esc(chTitle(cid(p[0])))}</button>`}
+  });
+  // questions
+  const qs=[];BOOK.parts.forEach((p,pi)=>p.chapters.forEach(c=>{if(c.movement)qs.push([pi,c])}));
+  $("#qlist").innerHTML=qs.map(([pi,c])=>`<li><span class="lbl">Part ${PARTNO[pi]} · from ${esc(c.title)}</span><q>${esc(c.movement.charAt(0).toUpperCase()+c.movement.slice(1))}</q></li>`).join("");
+  // table
+  const inter=k=>["real","villain","org","past"].includes(k);
+  let t=`<thead><tr><th>Part</th><th class="n">Chapters</th><th class="n">Planned words</th><th class="n">James on the page</th><th class="n">Away from James</th></tr></thead><tbody>`;
+  BOOK.parts.forEach((p,pi)=>{const cs=p.chapters;t+=`<tr><td>${PARTNO[pi]} · ${esc(partName(p))}</td><td class="n">${cs.length}</td><td class="n">${fmt(cs.reduce((a,c)=>a+c.words,0))}</td><td class="n">${cs.filter(c=>!inter(c.kind)).length}</td><td class="n">${cs.filter(c=>inter(c.kind)).length}</td></tr>`});
+  t+=`</tbody>`; $("#parttable").innerHTML=t;
+}
+
+/* ---------- MIND MAP ---------- */
+let mapSel=null; const VB0=[-640,-640,1280,1280]; let VB=[...VB0];
+function renderMap(){
+  const svg=$("#mapsvg"), B=MAP.branches, GAP=1.6;
+  const N=B.reduce((a,b)=>a+b.nodes.length,0)+GAP*B.length; const step=360/N;
+  let pos=0,s="",links="",nodes="";
+  const rad=d=>d*Math.PI/180, P=(r,a)=>[r*Math.cos(rad(a)),r*Math.sin(rad(a))];
+  const hues=["--k-james","--k-villain","--k-santi","--k-org","--k-real","--k-coded","--verdigris","--k-past"];
+  B.forEach((b,bi)=>{
+    pos+=GAP/2; const a0=pos*step-90; const angs=b.nodes.map((n,i)=>(pos+i+.5)*step-90); pos+=b.nodes.length+GAP/2;
+    const ba=(angs[0]+angs[angs.length-1])/2, [bx,by]=P(170,ba), col=`var(${hues[bi%hues.length]})`;
+    links+=`<path class="ln" data-b="${b.id}" d="M0,0 L${bx},${by}"/>`;
+    b.nodes.forEach((n,i)=>{const a=angs[i],[x,y]=P(340,a),[cx,cy]=P(255,a),id="mm-"+n[0];
+      links+=`<path class="ln" data-b="${b.id}" data-n="${id}" d="M${bx},${by} Q${cx},${cy} ${x},${y}"/>`;
+      const flip=a>90&&a<270, rot=flip?a+180:a;
+      nodes+=`<g class="nd" data-id="${id}" data-b="${b.id}" transform="translate(${x},${y})"><circle r="6" fill="${col}"/><text transform="rotate(${rot})" x="${flip?-11:11}" y="4" text-anchor="${flip?"end":"start"}">${esc(n[1])}</text><title>${esc(n[1])}</title></g>`});
+    nodes+=`<g class="nd br" data-id="br-${b.id}" data-b="${b.id}" transform="translate(${bx},${by})"><circle r="11" fill="${col}"/><text x="0" y="${by<0?-18:28}" text-anchor="middle" style="font-weight:500">${esc(b.label)}</text></g>`;
+  });
+  s=links+`<g class="nd" data-id="root"><circle r="30" fill="var(--ink)"/><text x="0" y="52" text-anchor="middle" font-size="16" style="font-family:var(--display);font-size:20px">Something Doesn't Fit</text></g>`+nodes;
+  svg.innerHTML=s; svgVars(svg);
+  mapDetailRoot();
+  // list mode
+  $("#maplist").innerHTML=MAP.branches.map(b=>`<h3>${esc(b.label)}</h3>`+b.nodes.map(n=>`<div class="mcard"><b>${esc(n[1])}.</b> ${esc(n[2])}<div>${chipsFor(n[3])}</div><div data-note="mm-${n[0]}" data-nkind="node" data-ntitle="Map: ${esc(n[1])}"></div></div>`).join("")).join("");
+  // interaction
+  let drag=null;
+  svg.addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY,vb:[...VB],moved:false,id:e.pointerId}});
+  svg.addEventListener("pointermove",e=>{if(!drag||drag.id!==e.pointerId)return;const r=svg.getBoundingClientRect();const dx=(e.clientX-drag.x)/r.width*VB[2],dy=(e.clientY-drag.y)/r.height*VB[3];
+    if(!drag.moved&&Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<5)return;
+    if(!drag.moved){drag.moved=true;try{svg.setPointerCapture(e.pointerId)}catch(_){}}
+    VB=[drag.vb[0]-dx,drag.vb[1]-dy,VB[2],VB[3]];setMapVB()});
+  svg.addEventListener("pointerup",e=>{const d=drag;drag=null;if(d&&d.moved)return;const g=e.target.closest(".nd");if(!g)return;const id=g.dataset.id;
+    if(id==="root"){selectNode(null);mapDetailRoot()}else if(id.startsWith("br-")){selectBranch(g.dataset.b)}else selectNode(id)});
+  svg.addEventListener("pointercancel",()=>{drag=null});
+  svg.addEventListener("wheel",e=>{e.preventDefault();const r=svg.getBoundingClientRect();zoomMap(e.deltaY>0?1.15:.87,(e.clientX-r.left)/r.width,(e.clientY-r.top)/r.height)},{passive:false});
+  $("#zin").onclick=()=>zoomMap(.75);$("#zout").onclick=()=>zoomMap(1.33);$("#zreset").onclick=()=>{VB=[...VB0];setMapVB()};
+  $("#mapmode").onclick=()=>setMapMode(!$("#maplist").hidden?"map":"list");
+  if(window.matchMedia&&matchMedia("(max-width:640px)").matches) setMapMode("list");
+}
+function setMapMode(m){
+  const list=m==="list"; $("#maplist").hidden=!list; $("#mapgrid").hidden=list;
+  ["zin","zout","zreset"].forEach(i=>$("#"+i).hidden=list);
+  $("#mapmode").textContent=list?"Show as map":"Show as list";
+  if(list) $$("#maplist [data-note]").forEach(mountNotes);
+}
+function setMapVB(){$("#mapsvg").setAttribute("viewBox",VB.join(" "))}
+function zoomMap(f,cx=.5,cy=.5){const w=Math.min(Math.max(VB[2]*f,260),1600);const d=w-VB[2];VB=[VB[0]-d*cx,VB[1]-d*cy,w,w];setMapVB()}
+function mapDetailRoot(){
+  $("#mapdetail").innerHTML=`<div class="lbl">The center</div><h3>Something Doesn't Fit</h3><p>${BOOK.part0[0].replace(/^<b>[^<]*<\/b>\s*/,"")}</p><p class="lbl">Tap any node or branch</p>`;
+}
+function selectBranch(bid){
+  const svg=$("#mapsvg");svg.classList.add("dim");
+  $$(".nd,.ln",svg).forEach(el=>el.classList.toggle("on",el.dataset.b===bid||el.dataset.id==="root"));
+  const b=MAP.branches.find(x=>x.id===bid);
+  $("#mapdetail").innerHTML=`<div class="lbl">Branch</div><h3>${esc(b.label)}</h3><div>${b.nodes.map(n=>`<button class="linkchip" data-act="gonode" data-id="mm-${n[0]}">${esc(n[1])}</button>`).join("")}</div>`;
+}
+function selectNode(id,fromOutside){
+  const svg=$("#mapsvg"); if(!svg.innerHTML) return;
+  $$(".nd",svg).forEach(g=>g.classList.toggle("sel",g.dataset.id===id));
+  if(!id){svg.classList.remove("dim");$$(".on",svg).forEach(x=>x.classList.remove("on"));return}
+  const n=NODEMAP[id]; if(!n) return;
+  if(!$("#maplist").hidden&&fromOutside) setMapMode("map");
+  svg.classList.add("dim");
+  $$(".nd,.ln",svg).forEach(el=>el.classList.toggle("on",el.dataset.id===id||el.dataset.n===id||el.dataset.id==="br-"+n.branch.id||el.dataset.id==="root"||(el.classList.contains("ln")&&!el.dataset.n&&el.dataset.b===n.branch.id)));
+  $("#mapdetail").innerHTML=`<div class="lbl">${esc(n.branch.label)}</div><h3>${esc(n.label)}</h3><p>${esc(n.b)}</p><div class="lbl" style="margin-top:10px">Where it lives</div><div>${chipsFor(n.ch)}</div><div data-note="${id}" data-nkind="node" data-ntitle="Map: ${esc(n.label)}"></div>`;
+  delete PANELS[id]; mountNotes($("#mapdetail [data-note]"));
+  if(fromOutside) $("#mapdetail").scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+/* ---------- REVEALS ---------- */
+function renderReveals(){
+  $("#reveals").innerHTML=REVEALS.map(r=>{const tag=r.ordered?"ol":"ul";
+    return `<div class="rv"><div class="rv-when"><span class="lbl">${esc(r.sub)}</span><h3>${esc(r.when)}</h3></div><div>${r.note?`<p class="note">${esc(r.note)}</p>`:""}<${tag}>${r.items.map(([t,c])=>`<li>${esc(t)} <button class="linkchip" data-act="goch" data-id="${cid(c)}">${esc(chTitle(cid(c)))}</button></li>`).join("")}</${tag}></div></div>`}).join("");
+}
+
+/* ---------- RECALL ---------- */
+const DECK=CARDS.map((c,i)=>({id:"k"+i,cat:c[0],q:c[1],a:c[2]}));
+CH.forEach((c,i)=>{const n=CH[i+1];if(!n)return;const first=strip(n.text).split(/(?<=\.)\s/)[0];DECK.push({id:"o-"+c.id,cat:"o",q:`What comes after “${c.title}”?`,a:`${n.title}. ${first}`,ch:n.id})});
+let RP=lsGet("sdf-recall")||{}, rFilter="all", rCur=null, rShown=false;
+function rPool(){return DECK.filter(c=>rFilter==="all"||c.cat===rFilter)}
+function rNext(){
+  const pool=rPool(); const min=Math.min(...pool.map(c=>RP[c.id]||0));
+  const cand=pool.filter(c=>(RP[c.id]||0)===min&&c!==rCur);
+  rCur=(cand.length?cand:pool)[Math.floor(Math.random()*(cand.length||pool.length))]; rShown=false; rDraw();
+}
+function rDraw(){
+  const pool=rPool(), known=pool.filter(c=>(RP[c.id]||0)>=2).length;
+  $("#rcstat").textContent=`${known} of ${pool.length} known · ${CARD_CATS[rCur.cat]}`;
+  $("#rcmeter").style.width=(pool.length?100*known/pool.length:0)+"%";
+  $("#rccard").innerHTML=`<div class="lbl">${CARD_CATS[rCur.cat]}</div><div class="q">${esc(rCur.q)}</div>${rShown?`<div class="a">${esc(rCur.a)}${rCur.ch?` <button class="linkchip" data-act="goch" data-id="${rCur.ch}">Open it</button>`:""}</div>`:""}`;
+  $("#rcflip").hidden=rShown; $("#rcagain").hidden=!rShown; $("#rcgot").hidden=!rShown;
+}
+function rMark(ok){RP[rCur.id]=ok?Math.min((RP[rCur.id]||0)+1,3):0;lsSet("sdf-recall",RP);rNext()}
+function renderRecall(){
+  $("#rcchips").innerHTML=Object.entries(CARD_CATS).map(([k,l])=>`<button class="chip" data-c="${k}" aria-pressed="${k==="all"}">${l}</button>`).join("");
+  $("#rcchips").onclick=e=>{const b=e.target.closest("[data-c]");if(!b)return;rFilter=b.dataset.c;$$("#rcchips .chip").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));rNext()};
+  $("#rcflip").onclick=()=>{rShown=true;rDraw()};$("#rcagain").onclick=()=>rMark(false);$("#rcgot").onclick=()=>rMark(true);$("#rcskip").onclick=rNext;
+  let armed=false;$("#rcreset").onclick=()=>{const b=$("#rcreset");if(!armed){armed=true;b.textContent="Tap again to reset";setTimeout(()=>{armed=false;b.textContent="Reset progress"},3000);return}RP={};lsSet("sdf-recall",RP);armed=false;b.textContent="Reset progress";rNext()};
+  document.addEventListener("keydown",e=>{if($("#tab-recall").hidden||/INPUT|TEXTAREA/.test(document.activeElement.tagName))return;
+    if(e.code==="Space"){e.preventDefault();if(!rShown){rShown=true;rDraw()}}else if(e.key==="1"&&rShown)rMark(false);else if(e.key==="2"&&rShown)rMark(true)});
+  rNext();
+}
+
+/* ---------- BOARD ---------- */
+let tie=null, tieOn=false, edId=null, bdrag=null;
+const BW=2200,BH=1400;
+function cardsArr(){return Object.entries(S.board).map(([id,c])=>Object.assign({id},c))}
+function renderBoard(){
+  if(!rendered.board) return;
+  const canvas=$("#boardCanvas");
+  $$(".bcard",canvas).forEach(el=>{if(!S.board[el.dataset.id])el.remove()});
+  cardsArr().forEach(c=>{
+    let el=canvas.querySelector(`.bcard[data-id="${c.id}"]`);
+    if(!el){el=document.createElement("div");el.className="bcard";el.dataset.id=c.id;el.tabIndex=0;el.innerHTML='<div class="pin"></div><div class="bt"></div><div class="bb"></div><div class="bk"></div>';canvas.appendChild(el)}
+    if(!bdrag||bdrag.id!==c.id){el.style.left=(c.x||40)+"px";el.style.top=(c.y||40)+"px"}
+    el.dataset.tone=c.tone||"idea";
+    $(".bt",el).textContent=c.title||"Untitled";$(".bb",el).textContent=c.body||"";
+    $(".bk",el).textContent=(TONES.find(t=>t[0]===(c.tone||"idea"))||TONES[0])[1];
+    el.classList.toggle("picked",tie===c.id);
+  });
+  drawStrings();
+  const empty=$("#boardEmpty"), n=Object.keys(S.board).length;
+  empty.hidden=n>0;
+  if(!n) empty.innerHTML=S.db?`<div class="lbl">The board is empty</div><p>Add your first card with New card. Cards, positions and strings save as you go.</p>`:`<div class="lbl">The board lives in claude.ai</div><p>Cards and strings save to this page's own storage, which works when the page is open in claude.ai. Open it there to see and pin cards.</p>`;
+  $("#bnew").disabled=!S.canWrite; $("#btie").disabled=!S.canWrite;
+}
+function drawStrings(){
+  const canvas=$("#boardCanvas"); let s="";
+  const ctr=id=>{const el=canvas.querySelector(`.bcard[data-id="${id}"]`);return el?[el.offsetLeft+el.offsetWidth/2,el.offsetTop+11]:null};
+  cardsArr().forEach(c=>(c.links||[]).forEach(l=>{const a=ctr(c.id),b=ctr(l);if(!a||!b)return;const mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2+24+Math.hypot(b[0]-a[0],b[1]-a[1])*.08;s+=`<path d="M${a[0]},${a[1]} Q${mx},${my} ${b[0]},${b[1]}"/>`}));
+  $("#strings").innerHTML=s;
+}
+function boardSave(id){persist("board/"+id,()=>{const c=S.board[id];if(!c)return null;const o={title:c.title||"",body:c.body||"",tone:c.tone||"idea",x:Math.round(c.x||0),y:Math.round(c.y||0),links:(c.links||[]).filter(l=>S.board[l]),updated:new Date().toISOString()};if(c.source)o.source=c.source;return o})}
+const bTimers={};
+function boardSaveSoon(id){clearTimeout(bTimers[id]);bTimers[id]=setTimeout(()=>{delete bTimers[id];boardSave(id)},600)}
+function setCard(id,patch){S.board[id]=Object.assign({},S.board[id]||{},patch)}
+function renderBoardTab(){
+  $("#tonelegend").innerHTML=TONES.map(([k,l])=>`<span style="background:var(--t-${k})">${l}</span>`).join("");
+  const canvas=$("#boardCanvas"), wrap=$("#boardWrap");
+  canvas.addEventListener("pointerdown",e=>{
+    const el=e.target.closest(".bcard"); if(!el||!S.canWrite) return;
+    const c=S.board[el.dataset.id]; if(!c) return;
+    bdrag={id:el.dataset.id,el,sx:e.clientX,sy:e.clientY,ox:c.x||0,oy:c.y||0,moved:false,pid:e.pointerId};
+  });
+  canvas.addEventListener("pointermove",e=>{
+    if(!bdrag||bdrag.pid!==e.pointerId) return;
+    const dx=e.clientX-bdrag.sx, dy=e.clientY-bdrag.sy;
+    if(!bdrag.moved&&Math.hypot(dx,dy)<5) return;
+    if(!bdrag.moved){bdrag.moved=true;try{bdrag.el.setPointerCapture(e.pointerId)}catch(_){}}
+    e.preventDefault();
+    const x=Math.min(Math.max(bdrag.ox+dx,0),BW-230), y=Math.min(Math.max(bdrag.oy+dy,0),BH-60);
+    bdrag.el.style.left=x+"px";bdrag.el.style.top=y+"px";bdrag.nx=x;bdrag.ny=y;drawStrings();
+  });
+  const end=e=>{
+    const d=bdrag; bdrag=null; if(!d) return;
+    if(d.moved){setCard(d.id,{x:d.nx,y:d.ny});boardSave(d.id);return}
+    if(tieOn) tieClick(d.id); else openEditor(d.id);
+  };
+  canvas.addEventListener("pointerup",end); canvas.addEventListener("pointercancel",()=>{bdrag=null});
+  canvas.addEventListener("keydown",e=>{const el=e.target.closest(".bcard");if(el&&(e.key==="Enter"||e.key===" ")){e.preventDefault();tieOn?tieClick(el.dataset.id):openEditor(el.dataset.id)}});
+  $("#bnew").onclick=()=>{
+    if(!S.canWrite) return;
+    const id="c"+Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+    const x=Math.round(Math.min(Math.max(wrap.scrollLeft+wrap.clientWidth/2-110+(Math.random()*40-20),0),BW-230));
+    const y=Math.round(Math.min(Math.max(wrap.scrollTop+wrap.clientHeight/2-60+(Math.random()*40-20),0),BH-80));
+    setCard(id,{title:"",body:"",tone:"idea",x,y,links:[]});renderBoard();boardSave(id);openEditor(id);setTimeout(()=>$("#edtitle").focus(),30);
+  };
+  $("#btie").onclick=()=>{tieOn=!tieOn;tie=null;$("#btie").setAttribute("aria-pressed",String(tieOn));$("#btie").classList.toggle("on",tieOn);$("#tiehint").textContent=tieOn?"Tap the first card.":"";renderBoard()};
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"){if(tieOn)$("#btie").click();if(!$("#editor").hidden)closeEditor()}});
+  $("#edtones").innerHTML=TONES.map(([k,l])=>`<button type="button" data-t="${k}" style="background:var(--t-${k})">${l}</button>`).join("");
+  $("#edtones").onclick=e=>{const b=e.target.closest("[data-t]");if(!b||!edId)return;setCard(edId,{tone:b.dataset.t});edDraw();renderBoard();boardSave(edId)};
+  $("#edtitle").oninput=()=>{if(!edId)return;setCard(edId,{title:$("#edtitle").value});renderBoard();boardSaveSoon(edId);$("#edsaved").textContent="Editing…"};
+  $("#edbody").oninput=()=>{if(!edId)return;setCard(edId,{body:$("#edbody").value});renderBoard();boardSaveSoon(edId);$("#edsaved").textContent="Editing…"};
+  $("#edclose").onclick=closeEditor;
+  let armed=false;
+  $("#eddel").onclick=()=>{const b=$("#eddel");if(!edId)return;if(!armed){armed=true;b.textContent="Tap again to delete";setTimeout(()=>{armed=false;b.textContent="Delete card"},3000);return}
+    armed=false;b.textContent="Delete card";const id=edId;closeEditor();
+    Object.entries(S.board).forEach(([oid,c])=>{if((c.links||[]).includes(id)){setCard(oid,{links:c.links.filter(l=>l!==id)});boardSave(oid)}});
+    delete S.board[id];persist("board/"+id,()=>null);renderBoard()};
+  $("#edlinks").onclick=e=>{const b=e.target.closest("[data-un]");if(!b||!edId)return;const [a,z]=b.dataset.un.split("|");setCard(a,{links:(S.board[a].links||[]).filter(l=>l!==z)});boardSave(a);edDraw();renderBoard()};
+  renderBoard();
+}
+function tieClick(id){
+  if(!tie){tie=id;$("#tiehint").textContent="Now tap the card to tie it to. Tap a tied pair again to untie.";renderBoard();return}
+  if(tie===id){tie=null;$("#tiehint").textContent="Tap the first card.";renderBoard();return}
+  const a=S.board[tie], b=S.board[id];
+  if((a.links||[]).includes(id)){setCard(tie,{links:a.links.filter(l=>l!==id)});boardSave(tie);$("#tiehint").textContent="Untied. Tap the first card."}
+  else if((b.links||[]).includes(tie)){setCard(id,{links:b.links.filter(l=>l!==tie)});boardSave(id);$("#tiehint").textContent="Untied. Tap the first card."}
+  else{setCard(tie,{links:[...(a.links||[]),id]});boardSave(tie);$("#tiehint").textContent="Tied. Tap the first card of the next pair."}
+  tie=null;renderBoard();
+}
+function openEditor(id){edId=id;$("#editor").hidden=false;$("#edtitle").value=S.board[id].title||"";$("#edbody").value=S.board[id].body||"";$("#edsaved").textContent="";edDraw()}
+function closeEditor(){if(edId&&bTimers[edId]){clearTimeout(bTimers[edId]);delete bTimers[edId];boardSave(edId)}edId=null;$("#editor").hidden=true}
+function edDraw(){
+  if(!edId||!S.board[edId]) return; const c=S.board[edId];
+  $$("#edtones button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.t===(c.tone||"idea"))));
+  const pairs=[];(c.links||[]).forEach(l=>{if(S.board[l])pairs.push([edId,l,S.board[l].title])});
+  Object.entries(S.board).forEach(([oid,o])=>{if(oid!==edId&&(o.links||[]).includes(edId))pairs.push([oid,edId,o.title])});
+  $("#edlinks").innerHTML=pairs.length?pairs.map(([a,z,t])=>`<div>${esc(t||"Untitled")} <button type="button" data-un="${a}|${z}">untie</button></div>`).join(""):`<span class="lbl" style="text-transform:none;letter-spacing:0">No strings yet. Use Tie a string.</span>`;
+}
+
+/* ---------- BLOCKS (the drawer) ---------- */
+const BKINDS=[["conspiracy","Conspiracy"],["case","Case"],["document","Document"],["theory","Theory"],["method","Method"],["scene seed","Scene seed"]];
+const BREAL={documented:"Documented",contested:"Contested",claim:"Claim",invented:"Invented"};
+const BMAP=Object.fromEntries(BLOCKS.map(b=>[b.id,b]));
+S.place={}; S.custom={};
+let dKind="all", dSrc="", dPlaced=false, dragB=null;
+function allBlocks(){return [...BLOCKS,...Object.entries(S.custom).map(([id,b])=>Object.assign({id,group:"Your blocks",source:"Santi",real:b.real||"invented"},b))]}
+function blockById(id){return BMAP[id]||(S.custom[id]?Object.assign({id,group:"Your blocks",source:"Santi",real:"invented"},S.custom[id]):null)}
+const kindLabel=k=>(BKINDS.find(x=>x[0]===k)||[k,k||"Block"])[1];
+function chapterOptions(sel){
+  return `<option value="">${sel?"Move to…":"Place in a chapter…"}</option>`+BOOK.parts.map((p,pi)=>`<optgroup label="Part ${PARTNO[pi]}">${p.chapters.map(c=>`<option value="${c.id}"${c.id===sel?" disabled":""}>${esc(c.title)}</option>`).join("")}</optgroup>`).join("");
+}
+let CHOPTS=null;
+function toast(t){const el=$("#toast");el.textContent=t;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>el.hidden=true,2600)}
+function placeBody(bid){const p=S.place[bid];return p?{block:bid,title:p.title,chapter:p.chapter,chapterTitle:p.chapterTitle,how:p.how||"",updated:new Date().toISOString()}:null}
+function placeBlock(bid,chId){
+  if(!S.canWrite){toast(S.db?"This view can't save placements.":"Placing blocks works when the page is open in claude.ai.");return}
+  const b=blockById(bid), c=CHMAP[chId]; if(!b||!c) return;
+  const prev=S.place[bid]; if(prev&&prev.chapter===chId) return;
+  S.place[bid]={block:bid,title:b.title,chapter:chId,chapterTitle:c.title,how:prev?prev.how||"":""};
+  persist("placements/"+bid,()=>placeBody(bid));
+  afterPlace([chId,prev&&prev.chapter]);
+  toast(`${prev?"Moved":"Placed"} “${b.title}” in ${c.title}.`);
+}
+function unplace(bid){
+  const p=S.place[bid]; if(!p||!S.canWrite) return;
+  delete S.place[bid]; persist("placements/"+bid,()=>null);
+  afterPlace([p.chapter]); toast(`“${p.title}” is back in the drawer.`);
+}
+function afterPlace(chs){refreshBadges();(chs||[]).filter(Boolean).forEach(renderPlacedList);renderDrawer();renderNotesTab()}
+function refreshBadges(){
+  const n={};Object.values(S.place).forEach(p=>n[p.chapter]=(n[p.chapter]||0)+1);
+  $$("[data-bcount]").forEach(el=>{const k=n[el.dataset.bcount]||0;el.textContent=k?k+(k===1?" block":" blocks"):""});
+  const all=allBlocks(), left=all.filter(b=>!S.place[b.id]).length;
+  $("#dleft").textContent=left; $("#dcount").textContent=`${left} of ${all.length} free`;
+}
+function renderPlacedList(chId){
+  const el=$(`.placed-list[data-pl="${chId}"]`); if(!el) return;
+  if(el.contains(document.activeElement)&&document.activeElement.tagName==="TEXTAREA") return;
+  const items=Object.entries(S.place).filter(([,p])=>p.chapter===chId);
+  el.innerHTML=items.length?`<div class="lbl">Blocks you're trying here</div>`+items.map(([bid,p])=>{const b=blockById(bid)||{title:p.title,summary:"",kind:"",real:""};
+    return `<div class="pblk" draggable="${S.canWrite}" data-bid="${bid}"><div class="ph-h"><b>${esc(b.title)}</b>${b.kind?`<span class="tag">${esc(kindLabel(b.kind))}</span>`:""}${b.real?`<span class="tag ${b.real}">${BREAL[b.real]||esc(b.real)}</span>`:""}</div>
+      ${b.summary?`<p>${esc(b.summary)}</p>`:""}
+      <textarea data-how="${bid}" id="how-${bid}" placeholder="How would it work here? Who carries it, and what does James learn?"${S.canWrite?"":" disabled"}>${esc(p.how||"")}</textarea>
+      <div class="row"><select class="placesel" data-move="${bid}" aria-label="Move block"${S.canWrite?"":" disabled"}>${chapterOptions(chId)}</select><button class="btn" type="button" data-unplace="${bid}"${S.canWrite?"":" disabled"}>Return to drawer</button></div></div>`}).join(""):"";
+}
+function blockItem(b){
+  const p=S.place[b.id];
+  return `<div class="blk${p?" placed":""}" draggable="${S.canWrite}" data-bid="${b.id}">
+    <div class="bt">${esc(b.title)}</div><p class="bs">${esc(b.summary||"")}</p>
+    ${b.fit?`<div class="fit">Might fit: ${esc(b.fit)}</div>`:""}
+    <div class="bm"><span class="tag">${esc(kindLabel(b.kind))}</span>${b.real?`<span class="tag ${b.real}">${BREAL[b.real]||esc(b.real)}</span>`:""}<span>${esc(b.source||"")}</span></div>
+    <div class="bm">${p?`In <button class="linkchip" data-act="goch" data-id="${p.chapter}">${esc(p.chapterTitle)}</button><button class="btn" type="button" data-unplace="${b.id}">Return</button>`
+      :`<select class="placesel" data-placesel="${b.id}" aria-label="Place in a chapter"${S.canWrite?"":" disabled"}>${CHOPTS||(CHOPTS=chapterOptions())}</select>`}${b.custom?`<button class="btn" type="button" data-delblock="${b.id}">Delete</button>`:""}</div></div>`;
+}
+function renderDrawer(){
+  refreshBadges();
+  if($("#drawer").hidden) return;
+  const q=$("#dq").value.trim().toLowerCase(), toks=q?q.split(/\s+/):[];
+  const all=allBlocks();
+  const items=all.filter(b=>(dPlaced||!S.place[b.id])&&(dKind==="all"||b.kind===dKind)&&(!dSrc||b.group===dSrc)&&(!toks.length||toks.every(t=>(b.title+" "+(b.summary||"")+" "+(b.source||"")).toLowerCase().includes(t))));
+  const list=$("#dlist"), st=list.scrollTop;
+  list.innerHTML=items.length?items.map(blockItem).join(""):`<p class="dhint" style="padding:8px">${all.length?"No blocks match. Clear the filter, or tick Show placed.":"No blocks loaded."}</p>`;
+  list.scrollTop=st;
+}
+function openDrawer(open){
+  const d=$("#drawer"); d.hidden=!open; document.body.classList.toggle("dopen",open);
+  $("#dtoggle").setAttribute("aria-expanded",String(open)); lsSet("sdf-drawer",open);
+  if(open){
+    if(!$("#dkinds").innerHTML){
+      $("#dkinds").innerHTML=[["all","All"],...BKINDS].map(([k,l])=>`<button class="chip" type="button" data-dk="${k}" aria-pressed="${k===dKind}">${l}</button>`).join("");
+      $("#nakind").innerHTML=BKINDS.map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
+    }
+    const groups={};allBlocks().forEach(b=>groups[b.group]=(groups[b.group]||0)+1);
+    $("#dsrc").innerHTML=`<option value="">Every source</option>`+Object.entries(groups).sort((a,b)=>a[0].localeCompare(b[0])).map(([g,n])=>`<option value="${esc(g)}"${g===dSrc?" selected":""}>${esc(g)} (${n})</option>`).join("");
+    renderDrawer();
+  }
+}
+function wireBlocks(){
+  $("#dtoggle").onclick=()=>openDrawer(true); $("#dclose").onclick=()=>openDrawer(false);
+  let t=null;$("#dq").addEventListener("input",()=>{clearTimeout(t);t=setTimeout(renderDrawer,120)});
+  $("#dkinds").addEventListener("click",e=>{const b=e.target.closest("[data-dk]");if(!b)return;dKind=b.dataset.dk;$$("#dkinds .chip").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));renderDrawer()});
+  $("#dsrc").onchange=()=>{dSrc=$("#dsrc").value;renderDrawer()};
+  $("#dplaced").onchange=()=>{dPlaced=$("#dplaced").checked;renderDrawer()};
+  $("#dlist").addEventListener("click",e=>{const b=e.target.closest(".bt,.bs");if(b)b.closest(".blk").classList.toggle("open")});
+  document.addEventListener("change",e=>{
+    const s=e.target;
+    if(s.dataset.placesel&&s.value) placeBlock(s.dataset.placesel,s.value);
+    else if(s.dataset.move&&s.value) placeBlock(s.dataset.move,s.value);
+  });
+  document.addEventListener("click",e=>{
+    const u=e.target.closest("[data-unplace]"); if(u){unplace(u.dataset.unplace);return}
+    const d=e.target.closest("[data-delblock]");
+    if(d){const id=d.dataset.delblock;if(d.dataset.armed){delete S.custom[id];persist("blocks/"+id,()=>null);if(S.place[id])unplace(id);renderDrawer()}else{d.dataset.armed="1";d.textContent="Tap again";setTimeout(()=>{if(d.isConnected){delete d.dataset.armed;d.textContent="Delete"}},3000)}}
+  });
+  const howT={};
+  document.addEventListener("input",e=>{const ta=e.target.closest("[data-how]");if(!ta)return;const bid=ta.dataset.how;if(!S.place[bid])return;
+    S.place[bid]=Object.assign({},S.place[bid],{how:ta.value});clearTimeout(howT[bid]);howT[bid]=setTimeout(()=>persist("placements/"+bid,()=>placeBody(bid)),700)});
+  // drag and drop, from the drawer or from a chapter, onto any chapter target
+  document.addEventListener("dragstart",e=>{const el=e.target.closest&&e.target.closest("[data-bid]");if(!el||!S.canWrite)return;
+    if(/TEXTAREA|SELECT|INPUT/.test(e.target.tagName)){e.preventDefault();return}
+    dragB=el.dataset.bid;try{e.dataTransfer.setData("text/plain",dragB);e.dataTransfer.effectAllowed="move"}catch(_){}el.classList.add("dragging")});
+  document.addEventListener("dragend",e=>{const el=e.target.closest&&e.target.closest("[data-bid]");if(el)el.classList.remove("dragging");dragB=null;$$(".drop").forEach(x=>x.classList.remove("drop"))});
+  const target=t=>t&&t.closest?t.closest(".ch,[data-act='goch'],[data-ci],#dlist"):null;
+  const chOf=el=>el.id==="dlist"?"__drawer":el.classList.contains("ch")?el.id:el.dataset.act==="goch"?el.dataset.id:el.dataset.ci!=null?CH[+el.dataset.ci].id:null;
+  document.addEventListener("dragover",e=>{if(!dragB)return;const el=target(e.target);if(!el)return;e.preventDefault();try{e.dataTransfer.dropEffect="move"}catch(_){}
+    if(!el.classList.contains("drop")){$$(".drop").forEach(x=>x.classList.remove("drop"));el.classList.add("drop")}});
+  document.addEventListener("dragleave",e=>{const el=target(e.target);if(el&&!el.contains(e.relatedTarget))el.classList.remove("drop")});
+  document.addEventListener("drop",e=>{if(!dragB)return;const el=target(e.target);if(!el)return;e.preventDefault();const bid=dragB,c=chOf(el);
+    $$(".drop").forEach(x=>x.classList.remove("drop"));dragB=null;
+    if(c==="__drawer")unplace(bid);else if(c){placeBlock(bid,c);const card=document.getElementById(c);if(card&&!$(".ch-body",card).hidden)renderPlacedList(c)}});
+  $("#naadd").onclick=()=>{
+    const title=$("#natitle").value.trim(), summary=$("#nasum").value.trim();
+    if(!title){$("#namsg").textContent="Give it a title first.";return}
+    if(!S.canWrite){$("#namsg").textContent="Adding blocks works when the page is open in claude.ai.";return}
+    const id="u"+Date.now().toString(36)+Math.random().toString(36).slice(2,5);
+    S.custom[id]={title,summary,kind:$("#nakind").value,real:"invented",source:"Santi",created:new Date().toISOString()};
+    persist("blocks/"+id,()=>S.custom[id]?Object.assign({},S.custom[id]):null);
+    $("#natitle").value="";$("#nasum").value="";$("#namsg").textContent="Added to the top of Your blocks.";
+    dSrc="Your blocks";openDrawer(true);
+  };
+  if(lsGet("sdf-drawer")&&window.innerWidth>=900) openDrawer(true); else refreshBadges();
+}
+
+/* ---------- NOTES TAB ---------- */
+function noteItems(){
+  const out=[]; const seen=new Set();
+  CH.forEach(c=>{if(S.notes[c.id]){out.push([c.id,S.notes[c.id],"Chapter · Part "+PARTNO[c.part],c.title]);seen.add(c.id)}});
+  STAGES.forEach(st=>{const id="hj-"+st.id;if(S.notes[id]){out.push([id,S.notes[id],"Journey",st.name]);seen.add(id)}});
+  Object.values(NODEMAP).forEach(n=>{if(S.notes[n.id]){out.push([n.id,S.notes[n.id],"Mind map · "+n.branch.label,n.label]);seen.add(n.id)}});
+  BOOK.decisions.forEach(d=>{if(S.notes[d.id]){out.push([d.id,S.notes[d.id],"Decision "+d.n,strip(d.text)]);seen.add(d.id)}});
+  Object.entries(S.notes).forEach(([id,n])=>{if(!seen.has(id))out.push([id,n,"Other",n.title||id])});
+  return out;
+}
+function renderNotesTab(){
+  if(!rendered.notes) return;
+  const items=noteItems(), chN=CH.map(c=>S.notes[c.id]);
+  const cnt=v=>chN.filter(n=>n&&(n.status||"")===v).length;
+  $("#ncounts").innerHTML=[["Chapters with notes",chN.filter(Boolean).length+" / "+CH.length],["Holds",cnt("holds")],["Needs work",cnt("work")],["Rethink",cnt("rethink")],["Cut?",cnt("cut")]].map(([l,v])=>`<div class="count"><span class="lbl">${l}</span><b>${v}</b></div>`).join("");
+  const label=k=>{const f=[...CH_FIELDS,...DEC_FIELDS].find(x=>x[0]===k);return f?f[1]:k};
+  const go=id=>id.startsWith("ch-")?`data-act="goch" data-id="${id}"`:id.startsWith("hj-")?`data-act="gostage" data-id="${id.slice(3)}"`:id.startsWith("mm-")?`data-act="gonode" data-id="${id}"`:id.startsWith("dc-")?`data-act="godec" data-id="${id}"`:"";
+  const pl=CH.map(c=>[c,Object.entries(S.place).filter(([,p])=>p.chapter===c.id)]).filter(([,l])=>l.length);
+  const plHtml=pl.length?`<h3 class="tab-h" style="font-size:24px;margin:26px 0 10px">Blocks placed in chapters</h3>`+pl.map(([c,l])=>`<div class="nitem"><h4><button class="linkchip" data-act="goch" data-id="${c.id}">${esc(c.title)}</button><span class="lbl">Part ${PARTNO[c.part]} · ${l.length} block${l.length>1?"s":""}</span></h4><dl>${l.map(([bid,p])=>`<dt>${esc((blockById(bid)||{}).kind?kindLabel(blockById(bid).kind):"Block")}</dt><dd><b>${esc(p.title)}</b>${p.how?"\n"+esc(p.how):""}</dd>`).join("")}</dl></div>`).join(""):"";
+  $("#nlist").innerHTML=(items.length?items.map(([id,n,where,title])=>{
+    const st=STATUS.find(s=>s[0]===(n.status||""));
+    const rows=Object.keys(n).filter(k=>!["item","kind","title","status","updated"].includes(k)&&String(n[k]||"").trim());
+    return `<div class="nitem"><h4><button class="linkchip" ${go(id)}>${esc(title)}</button><span class="lbl">${esc(where)}</span>${n.status?`<span class="dot ${n.status}" style="display:inline-block"></span><span class="lbl">${st?st[1]:""}</span>`:""}</h4>${rows.length?`<dl>${rows.map(k=>`<dt>${esc(label(k))}</dt><dd>${esc(n[k])}</dd>`).join("")}</dl>`:""}</div>`}).join("")
+    :`<p class="tab-intro">${S.db?"No notes yet. Open any chapter in Story and start with how it should feel.":"Notes appear here when the page is open in claude.ai, where they're saved."}</p>`)+plHtml;
+  $("#ncopy").onclick=()=>{
+    const plTxt=CH.map(c=>[c,Object.values(S.place).filter(p=>p.chapter===c.id)]).filter(([,l])=>l.length).map(([c,l])=>`## Blocks in ${c.title}\n`+l.map(p=>`- ${p.title}${p.how?": "+p.how:""}`).join("\n")).join("\n\n");
+    const txt=[noteItems().map(([id,n,where,title])=>{const rows=Object.keys(n).filter(k=>!["item","kind","title","status","updated"].includes(k)&&String(n[k]||"").trim());
+      return `## ${title} (${where})${n.status?"\nVerdict: "+(STATUS.find(s=>s[0]===n.status)||[,""])[1]:""}\n`+rows.map(k=>`${label(k)}: ${n[k]}`).join("\n")}).join("\n\n"),plTxt].filter(Boolean).join("\n\n");
+    const done=m=>{$("#ncopied").textContent=m;setTimeout(()=>$("#ncopied").textContent="",2500)};
+    try{navigator.clipboard.writeText(txt||"No notes yet.").then(()=>done("Copied"),()=>done("Copy was blocked. Select the notes below instead."))}catch(e){done("Copy was blocked. Select the notes below instead.")}
+  };
+}
+
+/* ---------- DECISIONS ---------- */
+function renderDecisions(){
+  $("#decs").innerHTML=BOOK.decisions.map(d=>`<article class="dec" id="${d.id}"><div class="dn">DECISION ${d.n}</div><h3>${d.text}</h3><div>${chipsFor(DEC_LINKS[d.n]||[])}</div><div data-note="${d.id}" data-nkind="decision" data-ntitle="Decision ${d.n}: ${esc(strip(d.text))}"></div></article>`).join("");
+  $$("#decs [data-note]").forEach(mountNotes);
+  const ph=[];CH.forEach(c=>c.beats.forEach(b=>{if(/PLACEHOLDER/.test(b))ph.push([c,b])}));
+  $("#phs").innerHTML=ph.map(([c,b])=>`<li>${b} <button class="linkchip" data-act="goch" data-id="${c.id}">${esc(c.title)}</button></li>`).join("");
+  const rules=BOOK.part0.find(l=>l.startsWith("<b>Rules"));
+  $("#rules").innerHTML=rules?`<p style="margin:0">${rules.replace(/^<b>[^<]*<\/b>\s*/,"")}</p>`:"";
+}
+
+/* ---------- SEARCH ---------- */
+const IDX=[];
+CH.forEach(c=>IDX.push({k:"Chapter",t:c.title,s:strip(c.text),blob:(c.title+" "+strip(c.text)+" "+c.beats.map(strip).join(" ")).toLowerCase(),go:()=>goChapter(c.id)}));
+STAGES.forEach(st=>IDX.push({k:"Journey",t:st.name,s:st.b,blob:(st.name+" "+st.b).toLowerCase(),go:()=>{showTab("journey",true);selectStage(st.id,true)}}));
+Object.values(NODEMAP).forEach(n=>IDX.push({k:n.branch.label,t:n.label,s:n.b,blob:(n.label+" "+n.b).toLowerCase(),go:()=>{showTab("map",true);selectNode(n.id,true)}}));
+BOOK.decisions.forEach(d=>IDX.push({k:"Decision",t:strip(d.text),s:"",blob:strip(d.text).toLowerCase(),go:()=>{showTab("decisions",true);const el=document.getElementById(d.id);el.scrollIntoView({block:"center"});flash(el)}}));
+function runSearch(){
+  const q=$("#q").value.trim().toLowerCase(), box=$("#sres");
+  if(q.length<2){box.hidden=true;return}
+  const toks=q.split(/\s+/);
+  const extra=[];
+  allBlocks().forEach(b=>extra.push({k:"Block"+(S.place[b.id]?" · in "+S.place[b.id].chapterTitle:""),t:b.title,s:b.summary||"",blob:(b.title+" "+(b.summary||"")+" "+(b.source||"")).toLowerCase(),go:()=>{if(S.place[b.id])goChapter(S.place[b.id].chapter);else{openDrawer(true);$("#dq").value=b.title;dKind="all";dSrc="";renderDrawer()}}}));
+  Object.entries(S.board).forEach(([id,c])=>extra.push({k:"Board",t:c.title||"Untitled",s:c.body||"",blob:((c.title||"")+" "+(c.body||"")).toLowerCase(),go:()=>{showTab("board",true);openEditor(id)}}));
+  Object.entries(S.notes).forEach(([id,n])=>{const txt=Object.keys(n).filter(k=>!["item","kind","title","status","updated"].includes(k)).map(k=>n[k]).join(" ");if(txt.trim())extra.push({k:"Your note",t:n.title||id,s:txt,blob:txt.toLowerCase(),go:()=>{showTab("notes")}})});
+  const hits=[...IDX,...extra].map(it=>{if(!toks.every(t=>it.blob.includes(t)))return null;let sc=0;toks.forEach(t=>{if(it.t.toLowerCase().includes(t))sc+=10;sc+=Math.min(it.blob.split(t).length-1,5)});return [sc,it]}).filter(Boolean).sort((a,b)=>b[0]-a[0]).slice(0,24);
+  box.hidden=false;
+  box.innerHTML=hits.length?hits.map(([,it],i)=>{let s=it.s;const p=s.toLowerCase().indexOf(toks[0]);s=(p>60?"…":"")+s.slice(Math.max(0,p-60),Math.max(0,p-60)+150)+"…";return `<button data-i="${i}"><span class="sk">${esc(it.k)}</span><span class="st">${esc(it.t)}</span>${it.s?`<span class="ss">${esc(s)}</span>`:""}</button>`}).join(""):`<div style="padding:12px" class="lbl">Nothing matches</div>`;
+  box.onclick=e=>{const b=e.target.closest("[data-i]");if(!b)return;box.hidden=true;hits[+b.dataset.i][1].go()};
+}
+let sT=null;$("#q").addEventListener("input",()=>{clearTimeout(sT);sT=setTimeout(runSearch,120)});
+$("#q").addEventListener("keydown",e=>{if(e.key==="Escape"){$("#q").value="";$("#sres").hidden=true;$("#q").blur()}if(e.key==="Enter"){const f=$("#sres button");if(f)f.click()}});
+document.addEventListener("keydown",e=>{if(e.key==="/"&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();$("#q").focus()}});
+document.addEventListener("click",e=>{if(!e.target.closest(".search"))$("#sres").hidden=true});
+
+const RENDER={story:renderStory,journey:renderJourney,structure:renderStructure,map:renderMap,reveals:renderReveals,recall:renderRecall,board:renderBoardTab,notes:()=>{},decisions:renderDecisions};
+
+/* ---------- boot ---------- */
+showTab(location.hash.slice(1)||lsGet("sdf-tab")||"story",true);
+wireBlocks();
+(async function connect(){
+  let db=null,user=null;
+  try{ if(window.claude&&window.claude.use){ [db,user]=await Promise.all([window.claude.use("db"),window.claude.use("user")]) } }catch(e){}
+  S.ready=true;
+  if(!db){setDbNote("Reading only: notes and the board save when this page is open in claude.ai.");renderBoard();renderNotesTab();return}
+  S.db=db;
+  let w=null; try{ w=user&&user.can?await user.can("data.write"):null }catch(e){}
+  S.canWrite=w!==false;
+  setDbNote(S.canWrite?"":"You can read the notes and the board here, but this view can't change them.");
+  enableWriting();
+  db.collection("notes").limit(1000).onSnapshot(snap=>{
+    snap.docChanges().forEach(ch=>{const id=ch.doc.id;if(ch.type==="removed")delete S.notes[id];else S.notes[id]=ch.doc.data();onNoteSnapshot(id)});
+    renderNotesTab();
+  },e=>setDbNote("Notes stopped syncing ("+(e&&e.code)+"). Reload the page to reconnect."));
+  db.collection("placements").limit(1000).onSnapshot(snap=>{
+    const touched=new Set();
+    snap.docChanges().forEach(ch=>{const id=ch.doc.id;const old=S.place[id];
+      if(W["placements/"+id]&&W["placements/"+id].busy) return;
+      if(ch.type==="removed"){if(old)touched.add(old.chapter);delete S.place[id];return}
+      const d=ch.doc.data(); if(old)touched.add(old.chapter); touched.add(d.chapter); S.place[id]=Object.assign({},d)});
+    refreshBadges(); touched.forEach(renderPlacedList); renderDrawer(); renderNotesTab();
+  },e=>setDbNote("Placements stopped syncing ("+(e&&e.code)+"). Reload the page to reconnect."));
+  db.collection("blocks").limit(1000).onSnapshot(snap=>{
+    snap.docChanges().forEach(ch=>{const id=ch.doc.id;if(ch.type==="removed")delete S.custom[id];else S.custom[id]=Object.assign({},ch.doc.data())});
+    renderDrawer();
+  },()=>{});
+  db.collection("board").limit(1000).onSnapshot(snap=>{
+    snap.docChanges().forEach(ch=>{const id=ch.doc.id;
+      if(ch.type==="removed"){delete S.board[id];return}
+      if(bTimers[id]||(W["board/"+id]&&W["board/"+id].busy)) return;
+      const d=ch.doc.data(); S.board[id]=Object.assign({},d,{links:[...(d.links||[])]});
+    });
+    renderBoard(); if(edId&&!S.board[edId]) closeEditor(); else if(edId) edDraw();
+  },e=>setDbNote("The board stopped syncing ("+(e&&e.code)+"). Reload the page to reconnect."));
+})();
+</script>
