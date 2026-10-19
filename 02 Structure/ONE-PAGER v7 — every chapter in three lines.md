@@ -1,3 +1,5 @@
+> **SUPERSEDED 22 Oct 2026 by `THE BOOK v8 — every chapter explained.md`. Kept for history; do not edit.**
+
 # ONE-PAGER v8 — every piece, plainly
 ### 21 October 2026. Matches TREATMENT v8. Plain language, no numbers, no shorthand. Each piece: who, what happens, what it sets up. PLACEHOLDER marks a question for Santi.
 

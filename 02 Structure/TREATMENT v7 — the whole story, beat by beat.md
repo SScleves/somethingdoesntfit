@@ -1,3 +1,5 @@
+> **SUPERSEDED 22 Oct 2026 by `THE BOOK v8 — every chapter explained.md`. Kept for history; do not edit.**
+
 # TREATMENT v8 — the whole story, beat by beat
 ### Rebuilt 21 October 2026 from Santi's notes and the brainstorm of 20–21 Oct. Plain language. No numbers: pieces have names and any of them can move. Everything marked PLACEHOLDER is a question for Santi.
 
