@@ -9,6 +9,10 @@ STOP = set('the a an of and in on to for by with from at as is was his her their
 def toks(s): return {w for w in re.findall(r'[a-z0-9]+', s.lower()) if w not in STOP and len(w) > 2}
 order = ['blocks-vault.json', 'blocks-essay.json', 'blocks-brief.json', 'blocks-mb1.json', 'blocks-mb2.json', 'blocks-mb3.json']
 blocks, dropped = [], []
+# The raw block files are not in the repo. When none is present, reuse the merged blocks.json as-is.
+if not any(os.path.exists(os.path.join(here, fn)) for fn in order):
+    blocks = json.load(open(os.path.join(here, 'blocks.json')))
+    order = []
 for fn in order:
     path = os.path.join(here, fn)
     if not os.path.exists(path): print('missing', fn); continue
@@ -35,7 +39,7 @@ for fn in order:
             dropped.append((t, dup['title'])); continue
         blocks.append(nb)
 mpath = os.path.join(here, 'merges.json')
-if os.path.exists(mpath):
+if order and os.path.exists(mpath):
     byt = {b['title']: b for b in blocks}
     for keep, absorb in json.load(open(mpath)):
         k = byt.get(keep)
@@ -50,6 +54,7 @@ if os.path.exists(mpath):
             blocks.remove(a); dropped.append((t, keep))
 seen = set()
 for b in blocks:
+    if b.get('id'): seen.add(b['id']); continue
     base = 'b-' + slug(b['title'])[:40]
     i = base; n = 2
     while i in seen: i = f'{base}-{n}'; n += 1

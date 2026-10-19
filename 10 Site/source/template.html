@@ -317,6 +317,42 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
 #dadd .f{display:grid;gap:6px;margin-top:8px}
 #dadd input,#dadd textarea,#dadd select{width:100%;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:6px 8px;font-size:14px}
 #toast{position:fixed;z-index:60;left:max(16px,env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));max-width:min(440px,calc(100vw - 32px));background:var(--ink);color:var(--paper);border-radius:4px;padding:9px 14px;font-size:14px;box-shadow:var(--shadow)}
+/* concept picker and chapter checklist: centered sheets over a scrim */
+#scrim{position:fixed;inset:0;z-index:70;background:rgba(23,32,42,.35)}
+.sheet{position:fixed;z-index:71;left:50%;top:50%;transform:translate(-50%,-50%);width:min(680px,calc(100vw - 24px));max-height:min(86vh,900px);background:var(--sheet);border:1px solid var(--rule);border-radius:6px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px;padding:16px}
+.sheet .pk-head{display:flex;gap:12px;align-items:flex-start}
+.sheet .pk-head>div{flex:1;min-width:0}
+.sheet h3{font-family:var(--display);font-size:24px;line-height:1.15;margin:2px 0 0}
+.sheet input[type=search],.sheet input[type=text],.sheet textarea,.sheet select{width:100%;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 9px;font-size:14.5px}
+.sheet .chips{margin:0}
+.sheet .chip{font-size:10.5px;padding:3px 9px}
+.pk-list{overflow:auto;flex:1;min-height:120px;border-top:1px solid var(--rule2);padding-top:6px}
+.pk-item{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:9px 6px;border-bottom:1px solid var(--rule2)}
+.pk-item .bt{font-weight:600;font-size:15px;line-height:1.3;cursor:pointer}
+.pk-item .bs{grid-column:1/-1;font-size:13.5px;line-height:1.45;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer}
+.pk-item.open .bs{display:block}
+.pk-item .bm{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-family:var(--mono);font-size:10.5px;color:var(--muted)}
+.pk-item .btn{align-self:start;white-space:nowrap}
+.pk-item.used .bt{color:var(--muted)}
+.pk-more{font-family:var(--mono);font-size:11px;color:var(--muted);padding:8px 6px}
+.ck-list{overflow:auto;flex:1;border-top:1px solid var(--rule2);padding-top:6px}
+.ck-list h4{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--string);margin:10px 0 4px}
+.ck-list label{display:flex;gap:8px;align-items:baseline;padding:4px 6px;font-size:14.5px;border-radius:3px}
+.ck-list label:hover{background:var(--sheet2)}
+.addc{color:var(--verdigris);border-color:var(--verdigris)}
+.addc:hover{background:var(--verdigris-soft)}
+.pl-head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 4px}
+.pl-head .lbl{flex:1}
+.stage-row{margin:8px 0 2px}
+.stage-row select,.ed-inline input,.ed-inline textarea{background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:5px 8px;font-size:14px;max-width:100%}
+.ed-inline{display:grid;gap:8px;margin:8px 0}
+.ed-inline input,.ed-inline textarea{width:100%}
+.ed-inline textarea{min-height:90px;resize:vertical}
+.stage .tools,.side .tools,.mcard .tools{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px}
+.howto{background:var(--verdigris-soft);border:1px solid var(--verdigris);border-radius:4px;padding:10px 14px;font-size:14.5px;margin:0 0 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.howto b{color:var(--verdigris)}
+.howto .grow{flex:1;min-width:26ch}
+.part-head .part-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:4px}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 
@@ -342,13 +378,14 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
     <h2 class="tab-h">The story, chapter by chapter</h2>
     <p class="tab-intro">Every chapter from THE BOOK in plain sentences, with its beats. Open a chapter to write what it should feel like, what it says, where it sits, what it adds and what to fix. A dot on the right shows where you've written, colored by the verdict you gave it.</p>
     <div class="found" id="found"></div>
+    <div class="howto"><span class="grow"><b>Concepts.</b> Open any chapter, part, journey stage or map node and press <b>+ Add a concept</b> to attach one of the cases, theories and conspiracies in the library, then write how it would work there. The Journey and the Mind map can be edited too.</span><button class="btn" type="button" id="howtolib">Open the library</button></div>
     <div class="chips" id="kindchips"></div>
     <div id="storyParts"></div>
   </section>
 
   <section class="tab" id="tab-journey" hidden>
     <h2 class="tab-h">The hero's journey</h2>
-    <p class="tab-intro">The twelve stages of the journey, laid over this book. The line across the wheel is the threshold: above it is James's ordinary world, below it is the world he can't un-see. Tap a stage to read how the book does it, which chapters carry it, and to leave a note on whether it lands.</p>
+    <p class="tab-intro">The twelve stages of the journey, laid over this book. The line across the wheel is the threshold: above it is James's ordinary world, below it is the world he can't un-see. Tap a stage to read how the book does it, which chapters carry it, and to leave a note on whether it lands. Each stage has <b>Edit chapters</b> and <b>Edit text</b>, and you can set a chapter's stage from its card in Story.</p>
     <div class="jgrid">
       <div class="frame"><svg class="wheel" id="wheel" viewBox="-410 -300 820 600" role="img" aria-label="Hero's journey wheel"></svg></div>
       <div id="stages"></div>
@@ -372,6 +409,7 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
     <div class="mapctl">
       <button class="btn" id="mapmode">Show as list</button>
       <button class="btn" id="zin" aria-label="Zoom in">+</button><button class="btn" id="zout" aria-label="Zoom out">−</button><button class="btn" id="zreset">Reset view</button>
+      <button class="btn primary" id="mapadd">+ New node</button>
     </div>
     <div class="mapgrid" id="mapgrid">
       <div class="frame" id="mapframe"><svg id="mapsvg" viewBox="-640 -640 1280 1280" role="img" aria-label="Mind map of the book"></svg></div>
@@ -437,13 +475,13 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
   </section>
 </main>
 
-<button id="dtoggle" type="button" aria-controls="drawer" aria-expanded="false">Blocks · <span id="dleft">0</span> left</button>
+<button id="dtoggle" type="button" aria-controls="drawer" aria-expanded="false">Library · <span id="dleft">0</span> placed</button>
 <aside id="drawer" hidden aria-label="Story blocks">
-  <div class="dhead"><h2>Story blocks</h2><span class="lbl" id="dcount"></span><button class="btn" id="dclose" type="button">Close</button></div>
-  <p class="dhint">Every conspiracy, case and story you could use. Drag one onto a chapter, a chapter name on any tab, or a block in the pacing strip. On a phone, use the chapter picker. A placed block leaves this list; drag it back here or press Return to free it.</p>
+  <div class="dhead"><h2>Concept library</h2><span class="lbl" id="dcount"></span><button class="btn" id="dclose" type="button">Close</button></div>
+  <p class="dhint">Every conspiracy, case and story you could use. Pick where it goes from the menu under each one, or drag it onto a chapter, a part heading, a journey stage or a map node. A concept can live in several places at once.</p>
   <input id="dq" type="search" placeholder="Filter blocks" autocomplete="off">
   <div class="chips" id="dkinds"></div>
-  <div class="ed-row"><select id="dsrc" aria-label="Source"></select><label class="lbl" style="white-space:nowrap"><input type="checkbox" id="dplaced"> Show placed</label></div>
+  <div class="ed-row"><select id="dsrc" aria-label="Source"></select><label class="lbl" style="white-space:nowrap"><input type="checkbox" id="dplaced"> Hide placed</label></div>
   <div id="dlist"></div>
   <details id="dadd"><summary>Add your own block</summary>
     <div class="f">
@@ -455,6 +493,28 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
   </details>
 </aside>
 <div id="toast" hidden aria-live="polite"></div>
+
+<div id="scrim" hidden></div>
+<div id="picker" class="sheet" hidden role="dialog" aria-label="Add a concept">
+  <div class="pk-head"><div><span class="lbl">Add a concept to</span><h3 id="pktarget"></h3></div><button class="btn" id="pkclose" type="button">Done</button></div>
+  <input id="pkq" type="search" placeholder="Search the library  (title, summary, source)" autocomplete="off">
+  <div class="chips" id="pkkinds"></div>
+  <div class="ed-row"><select id="pksrc" aria-label="Source"></select><label class="lbl" style="white-space:nowrap"><input type="checkbox" id="pkhide"> Hide ones already used</label></div>
+  <div class="pk-list" id="pklist"></div>
+  <details id="pknew"><summary style="font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--verdigris);cursor:pointer">Write a new concept</summary>
+    <div class="ed-inline">
+      <input id="pktitle" type="text" placeholder="Title" maxlength="120">
+      <select id="pkkind"></select>
+      <textarea id="pksum" rows="3" placeholder="What it is, in plain sentences."></textarea>
+      <div class="ed-row"><button class="btn primary" id="pkadd" type="button">Add and place it here</button><span class="lbl" id="pkmsg"></span></div>
+    </div>
+  </details>
+</div>
+<div id="ckmodal" class="sheet" hidden role="dialog" aria-label="Choose chapters">
+  <div class="pk-head"><div><span class="lbl" id="cklbl">Chapters for</span><h3 id="cktarget"></h3></div><button class="btn" id="ckcancel" type="button">Cancel</button><button class="btn primary" id="cksave" type="button">Save</button></div>
+  <input id="ckq" type="search" placeholder="Filter chapters" autocomplete="off">
+  <div class="ck-list" id="cklist"></div>
+</div>
 
 <div id="editor" hidden role="dialog" aria-label="Edit card">
   <div class="ed-row"><span class="lbl grow">Card</span><button class="btn" id="edclose">Done</button></div>
@@ -790,6 +850,7 @@ document.addEventListener("click",e=>{
   const act=a.dataset.act;
   if(act==="goch") goChapter(a.dataset.id);
   else if(act==="gostage"){showTab("journey",true);selectStage(a.dataset.id,true)}
+  else if(act==="gopart"){showTab("story",true);const el=document.getElementById(a.dataset.id);if(el){el.scrollIntoView({behavior:"smooth",block:"start"});flash(el)}}
   else if(act==="gonode"){showTab("map",true);selectNode(a.dataset.id,true)}
   else if(act==="godec"){showTab("decisions",true);const el=document.getElementById(a.dataset.id);if(el){el.scrollIntoView({behavior:"smooth",block:"center"});flash(el)}}
 });
@@ -875,7 +936,8 @@ function onNoteSnapshot(id){
 }
 function enableWriting(){
   Object.values(PANELS).forEach(P=>Object.values(P.tas).forEach(ta=>{ta.disabled=!S.canWrite;ta.placeholder=""}));
-  CHOPTS=null; renderDrawer(); $$(".placed-list").forEach(el=>renderPlacedList(el.dataset.pl));
+  CHOPTS=null; renderDrawer(); $$(".placed-list").forEach(el=>renderPlacedList(el.dataset.pl)); $$("[data-stagesel]").forEach(el=>renderStageSel(el.dataset.stagesel));
+  if(rendered.map) drawMap(); if(rendered.journey) drawJourney();
 }
 
 /* ---------- STORY ---------- */
@@ -902,6 +964,7 @@ function chapterCard(c){
       ${c.why?`<p class="ch-why"><b>Why it's here.</b> ${c.why}</p>`:""}
       ${c.beats.length?`<div class="beats"><div class="lbl">Beats${c.meta?" · "+esc(c.meta):""}</div><ul>${c.beats.map(b=>`<li>${b}</li>`).join("")}</ul></div>`:""}
       ${c.farFuture?`<p class="ch-why">${esc(c.farFuture)}</p>`:""}
+      <div class="ed-row stage-row"><span class="lbl">Journey stage</span><select data-stagesel="${c.id}" aria-label="Journey stage for this chapter"></select><span class="lbl">·</span><span class="lbl">Map nodes</span><span data-nodesof="${c.id}"></span></div>
       <div class="placed-list" data-pl="${c.id}"></div>
       <div data-note="${c.id}" data-nkind="chapter" data-ntitle="${esc(c.title)}"></div>
     </div></article>`;
@@ -910,13 +973,25 @@ function openChapter(el,force){
   const head=$(".ch-head",el), body=$(".ch-body",el);
   const open=force?true:body.hidden;
   body.hidden=!open; head.setAttribute("aria-expanded",String(open));
-  if(open){mountNotes($("[data-note]",body));renderPlacedList(el.id)}
+  if(open){mountNotes($("[data-note]",body));renderPlacedList(el.id);renderStageSel(el.id);renderNodesOf(el.id)}
+}
+function renderStageSel(chId){
+  const sel=$(`[data-stagesel="${chId}"]`); if(!sel) return;
+  const slug=chId.slice(3), cur=STAGES.find(st=>stageCh(st).includes(slug));
+  sel.innerHTML=`<option value="">Not placed</option>`+STAGES.map((st,i)=>`<option value="${st.id}"${cur&&cur.id===st.id?" selected":""}>${i+1}. ${esc(st.name)}</option>`).join("");
+  sel.disabled=!S.canWrite;
+  sel.onchange=()=>setChapterStage(chId,sel.value);
+}
+function renderNodesOf(chId){
+  const el=$(`[data-nodesof="${chId}"]`); if(!el) return;
+  const slug=chId.slice(3), ns=Object.values(NODEMAP).filter(n=>(n.ch||[]).includes(slug));
+  el.innerHTML=(ns.map(n=>`<button class="linkchip" data-act="gonode" data-id="${n.id}">${esc(n.label)}</button>`).join(""))+`<button class="linkchip" type="button" data-linknode="${chId}" title="Link this chapter to map nodes">+ link</button>`;
 }
 function applyKindFilter(k){
   $$("#storyParts .ch").forEach(el=>{
     let show=true;
     if(k==="noted") show=!!S.notes[el.id];
-    else if(k==="blocks") show=Object.values(S.place).some(p=>p.chapter===el.id);
+    else if(k==="blocks") show=placementsFor(el.id).length>0;
     else if(k!=="all") show=el.dataset.kind===k;
     el.hidden=!show;
   });
@@ -935,18 +1010,46 @@ function renderStory(){
   });
   let html="";
   BOOK.parts.forEach((p,pi)=>{
-    html+=`<section class="part"><header class="part-head"><span class="lbl">Part ${PARTNO[pi]}</span><h2>${esc(partName(p))}</h2>${p.summary?`<p class="part-sum">${p.summary}</p>`:""}</header>`;
+    html+=`<section class="part"><header class="part-head" id="${p.id}" data-part="${p.id}"><span class="lbl">Part ${PARTNO[pi]}</span><h2>${esc(partName(p))}</h2>${p.summary?`<p class="part-sum">${p.summary}</p>`:""}<div class="part-tools"><span class="bcount" data-bcount="${p.id}"></span></div><div class="placed-list" data-pl="${p.id}"></div></header>`;
     p.chapters.forEach(c=>{if(c.movement)html+=`<div class="movement"><span class="lbl">What this stretch asks</span>${esc(c.movement)}</div>`;html+=chapterCard(c)});
     html+="</section>";
   });
   $("#storyParts").innerHTML=html;
   $("#storyParts").addEventListener("click",e=>{const h=e.target.closest(".ch-head");if(h)openChapter(h.closest(".ch"))});
+  BOOK.parts.forEach(p=>renderPlacedList(p.id));
+  $("#howtolib").onclick=()=>openDrawer(true);
   refreshBadges();
 }
 
 /* ---------- JOURNEY ---------- */
 let curStage=null;
+S.journey={};   // overrides per stage id: {ch:[slugs], text}
+const stageCh=st=>(S.journey[st.id]&&Array.isArray(S.journey[st.id].ch))?S.journey[st.id].ch:st.ch;
+const stageText=st=>(S.journey[st.id]&&typeof S.journey[st.id].text==="string")?S.journey[st.id].text:st.b;
+function journeyBody(id){const j=S.journey[id];if(!j)return null;const st=STAGES.find(s=>s.id===id);const same=JSON.stringify(j.ch||st.ch)===JSON.stringify(st.ch)&&(j.text==null||j.text===st.b);return same?null:Object.assign({},j,{updated:new Date().toISOString()})}
+function saveStage(id,patch){
+  if(!S.canWrite){toast(S.db?"This view can't save changes.":"Editing works when the page is open in claude.ai.");return}
+  const st=STAGES.find(s=>s.id===id); S.journey[id]=Object.assign({ch:[...stageCh(st)],text:stageText(st)},S.journey[id]||{},patch);
+  persist("journey/"+id,()=>journeyBody(id)); drawJourney(); $$("[data-stagesel]").forEach(s=>renderStageSel(s.dataset.stagesel));
+}
+function setChapterStage(chId,stageId){
+  const slug=chId.slice(3);
+  STAGES.forEach(st=>{const has=stageCh(st).includes(slug);
+    if(has&&st.id!==stageId) saveStage(st.id,{ch:stageCh(st).filter(x=>x!==slug)});
+    else if(!has&&st.id===stageId) saveStage(st.id,{ch:[...stageCh(st),slug].sort((a,b)=>(CHMAP[cid(a)]||{}).order-(CHMAP[cid(b)]||{}).order)})});
+  if(stageId) toast(`“${chTitle(chId)}” is now in “${STAGES.find(s=>s.id===stageId).name}”.`);
+}
 function renderJourney(){
+  $("#wheel").addEventListener("click",e=>{const t=e.target.closest("[data-stage],[data-stagelbl]");if(t)selectStage(t.dataset.stage||t.dataset.stagelbl,true)});
+  $("#stages").addEventListener("click",e=>{
+    const ed=e.target.closest("[data-editstage]"); if(ed){const st=STAGES.find(s=>s.id===ed.dataset.editstage);openChecklist("Chapters in: "+st.name,stageCh(st),list=>saveStage(st.id,{ch:list}));return}
+    const tx=e.target.closest("[data-edittext]"); if(tx){const art=tx.closest(".stage"),f=$(".ed-inline",art);f.hidden=!f.hidden;if(!f.hidden)$("textarea",f).focus();return}
+    const sv=e.target.closest("[data-savetext]"); if(sv){const art=sv.closest(".stage");saveStage(sv.dataset.savetext,{text:$("textarea",art).value});toast("Stage text saved.");return}
+    const rs=e.target.closest("[data-resettext]"); if(rs){const st=STAGES.find(s=>s.id===rs.dataset.resettext);saveStage(st.id,{text:st.b});return}
+  });
+  drawJourney();
+}
+function drawJourney(){
   const svg=$("#wheel"); let s="";
   const r0=104,r1=170,r2=236,rad=d=>d*Math.PI/180;
   const P=(r,a)=>[r*Math.cos(rad(a)),r*Math.sin(rad(a))];
@@ -961,15 +1064,23 @@ function renderJourney(){
     s+=`<text x="${nx}" y="${ny+4}" text-anchor="middle" font-size="12" fill="var(--ink)" pointer-events="none">${i+1}</text>`;
     const [lx,ly]=P(r2+16,ac), cs=Math.cos(rad(ac));
     s+=`<text x="${lx}" y="${ly+4}" font-size="12" text-anchor="${cs>0.2?"start":cs<-0.2?"end":"middle"}" fill="var(--ink)" data-stagelbl="${st.id}" style="cursor:pointer">${esc(st.name)}</text>`;
-    const n=st.ch.length;
-    st.ch.forEach((c,j)=>{const a=a0+3+(a1-a0-6)*(n===1?.5:j/(n-1));const rr=r0+((j%2)?22:44);const [cx,cy]=P(rr,a);const k=(CHMAP[cid(c)]||{}).kind||"james";
+    const chs=stageCh(st).filter(c=>CHMAP[cid(c)]), n=chs.length;
+    chs.forEach((c,j)=>{const a=a0+3+(a1-a0-6)*(n===1?.5:j/(n-1));const rr=r0+((j%2)?22:44);const [cx,cy]=P(rr,a);const k=(CHMAP[cid(c)]||{}).kind||"james";
       s+=`<circle cx="${cx}" cy="${cy}" r="5" class="k-${k}" fill="var(--k)" data-act="goch" data-id="${cid(c)}" style="cursor:pointer"><title>${esc(chTitle(cid(c)))}</title></circle>`});
   });
   s+=`<text x="0" y="-6" text-anchor="middle" font-size="20" fill="var(--ink)" style="font-family:var(--display)">James</text><text x="0" y="16" text-anchor="middle" font-size="10" fill="var(--muted)">TAP A STAGE</text>`;
   svg.innerHTML=s; svgVars(svg);
-  svg.addEventListener("click",e=>{const t=e.target.closest("[data-stage],[data-stagelbl]");if(t)selectStage(t.dataset.stage||t.dataset.stagelbl,true)});
-  $("#stages").innerHTML=STAGES.map((st,i)=>`<article class="stage" id="hj-${st.id}"><div class="world">Stage ${i+1} · ${st.up?"the ordinary world":"the world he can't un-see"}</div><h3>${esc(st.name)}</h3><p class="gen">${esc(st.gen)}</p><p>${esc(st.b)}</p><div>${chipsFor(st.ch)}</div><div data-note="hj-${st.id}" data-nkind="stage" data-ntitle="Journey: ${esc(st.name)}"></div></article>`).join("");
+  const keepOpen=new Set($$("#stages .ed-inline").filter(f=>!f.hidden).map(f=>f.closest(".stage").id));
+  $("#stages").innerHTML=STAGES.map((st,i)=>`<article class="stage" id="hj-${st.id}" data-stageid="${st.id}"><div class="world">Stage ${i+1} · ${st.up?"the ordinary world":"the world he can't un-see"}</div><h3>${esc(st.name)}</h3><p class="gen">${esc(st.gen)}</p><p>${esc(stageText(st))}</p>
+    <div>${chipsFor(stageCh(st))}</div>
+    <div class="tools"><button class="btn" type="button" data-editstage="${st.id}">Edit chapters</button><button class="btn" type="button" data-edittext="${st.id}">Edit text</button><span class="bcount" data-bcount="hj-${st.id}"></span></div>
+    <div class="ed-inline" ${keepOpen.has("hj-"+st.id)?"":"hidden"}><textarea aria-label="Stage text">${esc(stageText(st))}</textarea><div class="ed-row"><button class="btn primary" type="button" data-savetext="${st.id}">Save text</button><button class="btn" type="button" data-resettext="${st.id}">Back to the original</button></div></div>
+    <div class="placed-list" data-pl="hj-${st.id}"></div>
+    <div data-note="hj-${st.id}" data-nkind="stage" data-ntitle="Journey: ${esc(st.name)}"></div></article>`).join("");
+  STAGES.forEach(st=>{delete PANELS["hj-"+st.id];renderPlacedList("hj-"+st.id)});
   $$("#stages [data-note]").forEach(mountNotes);
+  if(curStage) selectStage(curStage,false);
+  refreshBadges();
 }
 function selectStage(id,scroll){
   curStage=id;
@@ -1025,29 +1136,43 @@ function renderStructure(){
 }
 
 /* ---------- MIND MAP ---------- */
+/* The map is MAP (hand-made) merged with your edits: mapnodes/<id> overrides or adds a node, mapbranches/<id> adds a branch. */
 let mapSel=null; const VB0=[-640,-640,1280,1280]; let VB=[...VB0];
+S.mapnodes={}; S.mapbranches={}; let MAPB=[];
+function buildMap(){
+  const branches=MAP.branches.map(b=>({id:b.id,label:b.label,custom:false,nodes:[]}));
+  Object.entries(S.mapbranches).forEach(([id,b])=>{if(!b.hidden)branches.push({id,label:b.label||"New branch",custom:true,nodes:[]})});
+  const byId=Object.fromEntries(branches.map(b=>[b.id,b]));
+  MAP.branches.forEach(b=>b.nodes.forEach(n=>{const id="mm-"+n[0], e=S.mapnodes[id]||{}; if(e.hidden) return;
+    const br=byId[e.branch]||byId[b.id]; br.nodes.push({id,label:e.label||n[1],b:e.b!=null?e.b:n[2],ch:Array.isArray(e.ch)?e.ch:n[3],custom:false,orig:n})}));
+  Object.entries(S.mapnodes).forEach(([id,e])=>{if(!e.custom||e.hidden)return;const br=byId[e.branch]||branches[0];br.nodes.push({id,label:e.label||"New node",b:e.b||"",ch:e.ch||[],custom:true})});
+  MAPB=branches.filter(b=>b.nodes.length||b.custom);
+  Object.keys(NODEMAP).forEach(k=>delete NODEMAP[k]);
+  MAPB.forEach(b=>b.nodes.forEach(n=>{n.branch=b;NODEMAP[n.id]=n}));
+  return MAPB;
+}
+function nodeBody(id){const e=S.mapnodes[id];if(!e)return null;const o=Object.assign({},e,{updated:new Date().toISOString()});
+  if(!e.custom){const n=MAP.branches.flatMap(b=>b.nodes.map(x=>[b,x])).find(([,x])=>"mm-"+x[0]===id);
+    if(n&&!e.hidden&&(e.label==null||e.label===n[1][1])&&(e.b==null||e.b===n[1][2])&&(e.ch==null||JSON.stringify(e.ch)===JSON.stringify(n[1][3]))&&(e.branch==null||e.branch===n[0].id)) return null}
+  return o}
+function saveNode(id,patch){
+  if(!S.canWrite){toast(S.db?"This view can't save changes.":"Editing works when the page is open in claude.ai.");return}
+  S.mapnodes[id]=Object.assign({},S.mapnodes[id]||{},patch); CHOPTS=null;
+  persist("mapnodes/"+id,()=>nodeBody(id)); drawMap(); if(mapSel===id&&!S.mapnodes[id].hidden) selectNode(id); else if(mapSel===id){selectNode(null);mapDetailRoot()}
+  $$("[data-nodesof]").forEach(el=>renderNodesOf(el.dataset.nodesof));
+}
+function saveBranch(id,patch){
+  if(!S.canWrite){toast("Editing works when the page is open in claude.ai.");return}
+  S.mapbranches[id]=Object.assign({},S.mapbranches[id]||{},patch); CHOPTS=null;
+  persist("mapbranches/"+id,()=>S.mapbranches[id]?Object.assign({},S.mapbranches[id],{updated:new Date().toISOString()}):null); drawMap();
+}
+function setChapterNodes(chId,ids){
+  const slug=chId.slice(3);
+  Object.values(NODEMAP).forEach(n=>{const has=(n.ch||[]).includes(slug), want=ids.includes(n.id);
+    if(has&&!want) saveNode(n.id,{ch:n.ch.filter(x=>x!==slug)}); else if(!has&&want) saveNode(n.id,{ch:[...(n.ch||[]),slug]})});
+}
 function renderMap(){
-  const svg=$("#mapsvg"), B=MAP.branches, GAP=1.6;
-  const N=B.reduce((a,b)=>a+b.nodes.length,0)+GAP*B.length; const step=360/N;
-  let pos=0,s="",links="",nodes="";
-  const rad=d=>d*Math.PI/180, P=(r,a)=>[r*Math.cos(rad(a)),r*Math.sin(rad(a))];
-  const hues=["--k-james","--k-villain","--k-santi","--k-org","--k-real","--k-coded","--verdigris","--k-past"];
-  B.forEach((b,bi)=>{
-    pos+=GAP/2; const a0=pos*step-90; const angs=b.nodes.map((n,i)=>(pos+i+.5)*step-90); pos+=b.nodes.length+GAP/2;
-    const ba=(angs[0]+angs[angs.length-1])/2, [bx,by]=P(170,ba), col=`var(${hues[bi%hues.length]})`;
-    links+=`<path class="ln" data-b="${b.id}" d="M0,0 L${bx},${by}"/>`;
-    b.nodes.forEach((n,i)=>{const a=angs[i],[x,y]=P(340,a),[cx,cy]=P(255,a),id="mm-"+n[0];
-      links+=`<path class="ln" data-b="${b.id}" data-n="${id}" d="M${bx},${by} Q${cx},${cy} ${x},${y}"/>`;
-      const flip=a>90&&a<270, rot=flip?a+180:a;
-      nodes+=`<g class="nd" data-id="${id}" data-b="${b.id}" transform="translate(${x},${y})"><circle r="6" fill="${col}"/><text transform="rotate(${rot})" x="${flip?-11:11}" y="4" text-anchor="${flip?"end":"start"}">${esc(n[1])}</text><title>${esc(n[1])}</title></g>`});
-    nodes+=`<g class="nd br" data-id="br-${b.id}" data-b="${b.id}" transform="translate(${bx},${by})"><circle r="11" fill="${col}"/><text x="0" y="${by<0?-18:28}" text-anchor="middle" style="font-weight:500">${esc(b.label)}</text></g>`;
-  });
-  s=links+`<g class="nd" data-id="root"><circle r="30" fill="var(--ink)"/><text x="0" y="52" text-anchor="middle" font-size="16" style="font-family:var(--display);font-size:20px">Something Doesn't Fit</text></g>`+nodes;
-  svg.innerHTML=s; svgVars(svg);
-  mapDetailRoot();
-  // list mode
-  $("#maplist").innerHTML=MAP.branches.map(b=>`<h3>${esc(b.label)}</h3>`+b.nodes.map(n=>`<div class="mcard"><b>${esc(n[1])}.</b> ${esc(n[2])}<div>${chipsFor(n[3])}</div><div data-note="mm-${n[0]}" data-nkind="node" data-ntitle="Map: ${esc(n[1])}"></div></div>`).join("")).join("");
-  // interaction
+  const svg=$("#mapsvg");
   let drag=null;
   svg.addEventListener("pointerdown",e=>{drag={x:e.clientX,y:e.clientY,vb:[...VB],moved:false,id:e.pointerId}});
   svg.addEventListener("pointermove",e=>{if(!drag||drag.id!==e.pointerId)return;const r=svg.getBoundingClientRect();const dx=(e.clientX-drag.x)/r.width*VB[2],dy=(e.clientY-drag.y)/r.height*VB[3];
@@ -1060,13 +1185,64 @@ function renderMap(){
   svg.addEventListener("wheel",e=>{e.preventDefault();const r=svg.getBoundingClientRect();zoomMap(e.deltaY>0?1.15:.87,(e.clientX-r.left)/r.width,(e.clientY-r.top)/r.height)},{passive:false});
   $("#zin").onclick=()=>zoomMap(.75);$("#zout").onclick=()=>zoomMap(1.33);$("#zreset").onclick=()=>{VB=[...VB0];setMapVB()};
   $("#mapmode").onclick=()=>setMapMode(!$("#maplist").hidden?"map":"list");
+  $("#mapadd").onclick=()=>newNodeForm(null);
+  // node editing, from the side panel or the list
+  const onEdit=e=>{
+    const t=e.target.closest("[data-nodeedit],[data-nodesave],[data-nodech],[data-nodehide],[data-nodecancel],[data-bredit]"); if(!t) return;
+    if(t.dataset.nodeedit){const n=NODEMAP[t.dataset.nodeedit];if(n)nodeForm(n,t.closest(".side,.mcard"));return}
+    if(t.dataset.nodecancel){if(mapSel)selectNode(mapSel);else mapDetailRoot();if(!$("#maplist").hidden)drawMapList();return}
+    if(t.dataset.nodesave){const f=t.closest(".ed-inline"),id=t.dataset.nodesave;const label=$("[name=label]",f).value.trim(),b=$("[name=b]",f).value.trim(),brsel=$("[name=branch]",f),newbr=$("[name=newbranch]",f);
+      if(!label){toast("Give it a name first.");return}
+      let branch=brsel?brsel.value:null;
+      if(branch==="__new"){const nm=(newbr.value||"").trim();if(!nm){toast("Name the new branch.");return}branch="ub"+Date.now().toString(36);saveBranch(branch,{label:nm})}
+      if(id==="__new"){const nid="mm-u"+Date.now().toString(36)+Math.random().toString(36).slice(2,5);saveNode(nid,{custom:true,label,b,branch,ch:[],created:new Date().toISOString()});selectNode(nid);toast(`Added “${label}” to the map.`)}
+      else saveNode(id,Object.assign({label,b},branch?{branch}:{}));
+      if(!$("#maplist").hidden)drawMapList();return}
+    if(t.dataset.nodech){const n=NODEMAP[t.dataset.nodech];openChecklist("Chapters where “"+n.label+"” lives",n.ch||[],list=>saveNode(n.id,{ch:list}));return}
+    if(t.dataset.nodehide){const n=NODEMAP[t.dataset.nodehide];if(t.dataset.armed){saveNode(n.id,{hidden:true});toast(n.custom?"Node deleted.":"Node hidden. Use “Show hidden nodes” in the list view to bring it back.");if(!$("#maplist").hidden)drawMapList()}else{t.dataset.armed="1";t.textContent="Tap again to confirm";setTimeout(()=>{if(t.isConnected){delete t.dataset.armed;t.textContent=n.custom?"Delete node":"Hide node"}},3000)}return}
+    if(t.dataset.bredit){const b=MAPB.find(x=>x.id===t.dataset.bredit);const nm=prompt("Branch name",b.label);if(nm&&nm.trim())saveBranch(b.id,{label:nm.trim()});return}
+  };
+  $("#mapdetail").addEventListener("click",onEdit); $("#maplist").addEventListener("click",onEdit);
+  $("#maplist").addEventListener("click",e=>{const u=e.target.closest("[data-unhide]");if(u){saveNode(u.dataset.unhide,{hidden:false});drawMapList()}});
+  drawMap();
   if(window.matchMedia&&matchMedia("(max-width:640px)").matches) setMapMode("list");
+}
+function drawMap(){
+  const svg=$("#mapsvg"), B=buildMap(), GAP=1.6;
+  const N=B.reduce((a,b)=>a+b.nodes.length,0)+GAP*B.length; const step=360/N;
+  let pos=0,s="",links="",nodes="";
+  const rad=d=>d*Math.PI/180, P=(r,a)=>[r*Math.cos(rad(a)),r*Math.sin(rad(a))];
+  const hues=["--k-james","--k-villain","--k-santi","--k-org","--k-real","--k-coded","--verdigris","--k-past"];
+  B.forEach((b,bi)=>{
+    pos+=GAP/2; const a0=pos*step-90; const angs=b.nodes.length?b.nodes.map((n,i)=>(pos+i+.5)*step-90):[(pos+.5)*step-90]; pos+=Math.max(b.nodes.length,1)+GAP/2;
+    const ba=(angs[0]+angs[angs.length-1])/2, [bx,by]=P(170,ba), col=`var(${hues[bi%hues.length]})`;
+    links+=`<path class="ln" data-b="${b.id}" d="M0,0 L${bx},${by}"/>`;
+    b.nodes.forEach((n,i)=>{const a=angs[i],[x,y]=P(340,a),[cx,cy]=P(255,a),id=n.id;
+      links+=`<path class="ln" data-b="${b.id}" data-n="${id}" d="M${bx},${by} Q${cx},${cy} ${x},${y}"/>`;
+      const flip=a>90&&a<270, rot=flip?a+180:a, pc=placementsFor(id).length;
+      nodes+=`<g class="nd" data-id="${id}" data-b="${b.id}" transform="translate(${x},${y})"><circle r="${n.custom?7:6}" fill="${col}"${n.custom?' stroke="var(--ink)" stroke-width="1.5"':""}/><text transform="rotate(${rot})" x="${flip?-11:11}" y="4" text-anchor="${flip?"end":"start"}">${esc(n.label)}${pc?" ·"+pc:""}</text><title>${esc(n.label)}</title></g>`});
+    nodes+=`<g class="nd br" data-id="br-${b.id}" data-b="${b.id}" transform="translate(${bx},${by})"><circle r="11" fill="${col}"/><text x="0" y="${by<0?-18:28}" text-anchor="middle" style="font-weight:500">${esc(b.label)}</text></g>`;
+  });
+  s=links+`<g class="nd" data-id="root"><circle r="30" fill="var(--ink)"/><text x="0" y="52" text-anchor="middle" font-size="16" style="font-family:var(--display);font-size:20px">Something Doesn't Fit</text></g>`+nodes;
+  svg.innerHTML=s; svgVars(svg);
+  if(mapSel&&NODEMAP[mapSel]) highlightNode(mapSel); else {svg.classList.remove("dim")}
+  if(!$("#mapdetail").innerHTML) mapDetailRoot();
+  if(!$("#maplist").hidden) drawMapList();
+}
+let showHidden=false;
+function drawMapList(){
+  const hidden=Object.entries(S.mapnodes).filter(([,e])=>e.hidden);
+  $("#maplist").innerHTML=MAPB.map(b=>`<h3>${esc(b.label)} ${b.custom?`<button class="linkchip" type="button" data-bredit="${b.id}">rename</button>`:""}</h3>`+b.nodes.map(n=>`<div class="mcard" data-node="${n.id}"><b>${esc(n.label)}.</b> ${esc(n.b)}<div>${chipsFor(n.ch)}</div><div class="tools"><button class="btn" type="button" data-nodeedit="${n.id}">Edit</button><button class="btn" type="button" data-nodech="${n.id}">Chapters</button><span class="bcount" data-bcount="${n.id}"></span></div><div class="placed-list" data-pl="${n.id}"></div><div data-note="${n.id}" data-nkind="node" data-ntitle="Map: ${esc(n.label)}"></div></div>`).join("")).join("")
+    +(hidden.length?`<h3>Hidden nodes <button class="linkchip" type="button" id="togglehidden">${showHidden?"collapse":"show hidden nodes ("+hidden.length+")"}</button></h3>`+(showHidden?hidden.map(([id,e])=>{const o=MAP.branches.flatMap(b=>b.nodes).find(x=>"mm-"+x[0]===id);return `<div class="mcard"><b>${esc(e.label||(o?o[1]:id))}</b> <button class="linkchip" type="button" data-unhide="${id}">bring back</button></div>`}).join(""):""):"");
+  const th=$("#togglehidden"); if(th) th.onclick=()=>{showHidden=!showHidden;drawMapList()};
+  MAPB.forEach(b=>b.nodes.forEach(n=>{delete PANELS[n.id];renderPlacedList(n.id)}));
+  $$("#maplist [data-note]").forEach(mountNotes); refreshBadges();
 }
 function setMapMode(m){
   const list=m==="list"; $("#maplist").hidden=!list; $("#mapgrid").hidden=list;
   ["zin","zout","zreset"].forEach(i=>$("#"+i).hidden=list);
   $("#mapmode").textContent=list?"Show as map":"Show as list";
-  if(list) $$("#maplist [data-note]").forEach(mountNotes);
+  if(list) drawMapList();
 }
 function setMapVB(){$("#mapsvg").setAttribute("viewBox",VB.join(" "))}
 function zoomMap(f,cx=.5,cy=.5){const w=Math.min(Math.max(VB[2]*f,260),1600);const d=w-VB[2];VB=[VB[0]-d*cx,VB[1]-d*cy,w,w];setMapVB()}
@@ -1076,19 +1252,45 @@ function mapDetailRoot(){
 function selectBranch(bid){
   const svg=$("#mapsvg");svg.classList.add("dim");
   $$(".nd,.ln",svg).forEach(el=>el.classList.toggle("on",el.dataset.b===bid||el.dataset.id==="root"));
-  const b=MAP.branches.find(x=>x.id===bid);
-  $("#mapdetail").innerHTML=`<div class="lbl">Branch</div><h3>${esc(b.label)}</h3><div>${b.nodes.map(n=>`<button class="linkchip" data-act="gonode" data-id="mm-${n[0]}">${esc(n[1])}</button>`).join("")}</div>`;
+  const b=MAPB.find(x=>x.id===bid); if(!b) return;
+  $("#mapdetail").innerHTML=`<div class="lbl">Branch</div><h3>${esc(b.label)}</h3><div>${b.nodes.map(n=>`<button class="linkchip" data-act="gonode" data-id="${n.id}">${esc(n.label)}</button>`).join("")}</div><div class="tools"><button class="btn primary" type="button" id="braddnode">+ New node here</button>${b.custom?`<button class="btn" type="button" data-bredit="${b.id}">Rename branch</button>`:""}</div>`;
+  $("#braddnode").onclick=()=>newNodeForm(b.id);
 }
+function branchOptions(sel){return MAPB.map(b=>`<option value="${b.id}"${b.id===sel?" selected":""}>${esc(b.label)}</option>`).join("")+`<option value="__new">New branch…</option>`}
+function nodeFormHtml(n,branchId){
+  return `<div class="ed-inline"><label class="field"><span class="fn">Name</span><input name="label" type="text" maxlength="80" value="${esc(n?n.label:"")}"></label>
+    <label class="field"><span class="fn">What it is</span><textarea name="b" placeholder="The plain explanation, in a few sentences.">${esc(n?n.b:"")}</textarea></label>
+    <label class="field"><span class="fn">Branch</span><select name="branch">${branchOptions(n?n.branch.id:branchId)}</select></label>
+    <input name="newbranch" type="text" placeholder="Name of the new branch" hidden>
+    <div class="ed-row"><button class="btn primary" type="button" data-nodesave="${n?n.id:"__new"}">Save</button><button class="btn" type="button" data-nodecancel="1">Cancel</button>${n?`<span class="grow"></span><button class="btn" type="button" data-nodehide="${n.id}">${n.custom?"Delete node":"Hide node"}</button>`:""}</div></div>`;
+}
+function wireBranchSel(root){const sel=$("[name=branch]",root),nb=$("[name=newbranch]",root);if(!sel)return;const f=()=>{nb.hidden=sel.value!=="__new";if(!nb.hidden)nb.focus()};sel.onchange=f;f()}
+function newNodeForm(branchId){
+  if(!$("#maplist").hidden) setMapMode("map");
+  $("#mapdetail").innerHTML=`<div class="lbl">New node</div>`+nodeFormHtml(null,branchId||(MAPB[0]||{}).id); wireBranchSel($("#mapdetail")); $("[name=label]",$("#mapdetail")).focus();
+  $("#mapdetail").scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+function nodeForm(n,host){
+  const box=host||$("#mapdetail");
+  if(box.classList.contains("mcard")){const f=$(".ed-inline",box);if(f){f.remove();return}box.insertAdjacentHTML("beforeend",nodeFormHtml(n));wireBranchSel(box);return}
+  box.innerHTML=`<div class="lbl">${esc(n.branch.label)}</div>`+nodeFormHtml(n); wireBranchSel(box); $("[name=label]",box).focus();
+}
+function highlightNode(id){const svg=$("#mapsvg"),n=NODEMAP[id];if(!n)return;svg.classList.add("dim");
+  $$(".nd",svg).forEach(g=>g.classList.toggle("sel",g.dataset.id===id));
+  $$(".nd,.ln",svg).forEach(el=>el.classList.toggle("on",el.dataset.id===id||el.dataset.n===id||el.dataset.id==="br-"+n.branch.id||el.dataset.id==="root"||(el.classList.contains("ln")&&!el.dataset.n&&el.dataset.b===n.branch.id)))}
 function selectNode(id,fromOutside){
   const svg=$("#mapsvg"); if(!svg.innerHTML) return;
+  mapSel=id;
   $$(".nd",svg).forEach(g=>g.classList.toggle("sel",g.dataset.id===id));
   if(!id){svg.classList.remove("dim");$$(".on",svg).forEach(x=>x.classList.remove("on"));return}
   const n=NODEMAP[id]; if(!n) return;
   if(!$("#maplist").hidden&&fromOutside) setMapMode("map");
-  svg.classList.add("dim");
-  $$(".nd,.ln",svg).forEach(el=>el.classList.toggle("on",el.dataset.id===id||el.dataset.n===id||el.dataset.id==="br-"+n.branch.id||el.dataset.id==="root"||(el.classList.contains("ln")&&!el.dataset.n&&el.dataset.b===n.branch.id)));
-  $("#mapdetail").innerHTML=`<div class="lbl">${esc(n.branch.label)}</div><h3>${esc(n.label)}</h3><p>${esc(n.b)}</p><div class="lbl" style="margin-top:10px">Where it lives</div><div>${chipsFor(n.ch)}</div><div data-note="${id}" data-nkind="node" data-ntitle="Map: ${esc(n.label)}"></div>`;
-  delete PANELS[id]; mountNotes($("#mapdetail [data-note]"));
+  highlightNode(id);
+  $("#mapdetail").innerHTML=`<div class="lbl">${esc(n.branch.label)}${n.custom?" · yours":""}</div><h3>${esc(n.label)}</h3><p>${esc(n.b)}</p><div class="lbl" style="margin-top:10px">Where it lives</div><div>${chipsFor(n.ch)||'<span class="lbl" style="text-transform:none;letter-spacing:0">No chapters yet.</span>'}</div>
+    <div class="tools"><button class="btn" type="button" data-nodeedit="${id}">Edit</button><button class="btn" type="button" data-nodech="${id}">Chapters</button></div>
+    <div class="placed-list" data-pl="${id}"></div>
+    <div data-note="${id}" data-nkind="node" data-ntitle="Map: ${esc(n.label)}"></div>`;
+  delete PANELS[id]; mountNotes($("#mapdetail [data-note]")); renderPlacedList(id);
   if(fromOutside) $("#mapdetail").scrollIntoView({behavior:"smooth",block:"nearest"});
 }
 
@@ -1224,71 +1426,97 @@ function edDraw(){
   $("#edlinks").innerHTML=pairs.length?pairs.map(([a,z,t])=>`<div>${esc(t||"Untitled")} <button type="button" data-un="${a}|${z}">untie</button></div>`).join(""):`<span class="lbl" style="text-transform:none;letter-spacing:0">No strings yet. Use Tie a string.</span>`;
 }
 
-/* ---------- BLOCKS (the drawer) ---------- */
+/* ---------- BLOCKS (the library) ---------- */
+/* A placement puts one block at one target. Targets: a chapter (ch-…), a part (part-…), a journey stage (hj-…) or a map node (mm-…).
+   One block can be placed in several targets; each placement is its own document, placements/<block>__<target>. */
 const BKINDS=[["conspiracy","Conspiracy"],["case","Case"],["document","Document"],["theory","Theory"],["method","Method"],["scene seed","Scene seed"]];
 const BREAL={documented:"Documented",contested:"Contested",claim:"Claim",invented:"Invented"};
 const BMAP=Object.fromEntries(BLOCKS.map(b=>[b.id,b]));
 S.place={}; S.custom={};
 let dKind="all", dSrc="", dPlaced=false, dragB=null;
-function allBlocks(){return [...BLOCKS,...Object.entries(S.custom).map(([id,b])=>Object.assign({id,group:"Your blocks",source:"Santi",real:b.real||"invented"},b))]}
-function blockById(id){return BMAP[id]||(S.custom[id]?Object.assign({id,group:"Your blocks",source:"Santi",real:"invented"},S.custom[id]):null)}
+function allBlocks(){return [...BLOCKS,...Object.entries(S.custom).map(([id,b])=>Object.assign({id,group:"Your blocks",source:"Santi",real:b.real||"invented",custom:true},b))]}
+function blockById(id){return BMAP[id]||(S.custom[id]?Object.assign({id,group:"Your blocks",source:"Santi",real:"invented",custom:true},S.custom[id]):null)}
 const kindLabel=k=>(BKINDS.find(x=>x[0]===k)||[k,k||"Block"])[1];
-function chapterOptions(sel){
-  return `<option value="">${sel?"Move to…":"Place in a chapter…"}</option>`+BOOK.parts.map((p,pi)=>`<optgroup label="Part ${PARTNO[pi]}">${p.chapters.map(c=>`<option value="${c.id}"${c.id===sel?" disabled":""}>${esc(c.title)}</option>`).join("")}</optgroup>`).join("");
+function targetInfo(t){
+  t=String(t||"");
+  if(CHMAP[t]) return {kind:"Chapter",title:CHMAP[t].title,act:"goch",go:t,where:"Part "+PARTNO[CHMAP[t].part]};
+  const pi=BOOK.parts.findIndex(x=>x.id===t); if(pi>=0) return {kind:"Part",title:"Part "+PARTNO[pi]+" · "+partName(BOOK.parts[pi]),act:"gopart",go:t,where:"Whole part"};
+  if(t.startsWith("hj-")){const st=STAGES.find(s=>"hj-"+s.id===t);if(st)return{kind:"Journey",title:st.name,act:"gostage",go:st.id,where:"Hero's journey"}}
+  if(t.startsWith("mm-")){const n=NODEMAP[t];if(n)return{kind:"Mind map",title:n.label,act:"gonode",go:t,where:n.branch.label}}
+  return {kind:"Place",title:t,act:"",go:t,where:""};
+}
+const targetChip=t=>{const i=targetInfo(t);return i.act?`<button class="linkchip" data-act="${i.act}" data-id="${i.go}">${esc(i.title)}</button>`:esc(i.title)};
+const pkey=(bid,t)=>bid+"__"+t;
+function placementsFor(t){return Object.entries(S.place).filter(([,p])=>p.target===t)}
+function placementsOf(bid){return Object.entries(S.place).filter(([,p])=>p.block===bid)}
+function normPlace(d){d=Object.assign({},d);if(!d.target&&d.chapter){d.target=d.chapter;d.targetTitle=d.chapterTitle}return d}
+function targetOptions(sel){
+  const opt=(v,l)=>`<option value="${v}"${v===sel?" disabled":""}>${esc(l)}</option>`;
+  return `<option value="">${sel?"Also add to…":"Add to…"}</option>`
+    +`<optgroup label="Parts">${BOOK.parts.map((p,pi)=>opt(p.id,"Part "+PARTNO[pi]+" · "+partName(p))).join("")}</optgroup>`
+    +BOOK.parts.map((p,pi)=>`<optgroup label="Chapters · Part ${PARTNO[pi]}">${p.chapters.map(c=>opt(c.id,c.title)).join("")}</optgroup>`).join("")
+    +`<optgroup label="Hero's journey">${STAGES.map((st,i)=>opt("hj-"+st.id,(i+1)+". "+st.name)).join("")}</optgroup>`
+    +`<optgroup label="Mind map">${Object.values(NODEMAP).map(n=>opt(n.id,n.branch.label+" › "+n.label)).join("")}</optgroup>`;
 }
 let CHOPTS=null;
 function toast(t){const el=$("#toast");el.textContent=t;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>el.hidden=true,2600)}
-function placeBody(bid){const p=S.place[bid];return p?{block:bid,title:p.title,chapter:p.chapter,chapterTitle:p.chapterTitle,how:p.how||"",updated:new Date().toISOString()}:null}
-function placeBlock(bid,chId){
-  if(!S.canWrite){toast(S.db?"This view can't save placements.":"Placing blocks works when the page is open in claude.ai.");return}
-  const b=blockById(bid), c=CHMAP[chId]; if(!b||!c) return;
-  const prev=S.place[bid]; if(prev&&prev.chapter===chId) return;
-  S.place[bid]={block:bid,title:b.title,chapter:chId,chapterTitle:c.title,how:prev?prev.how||"":""};
-  persist("placements/"+bid,()=>placeBody(bid));
-  afterPlace([chId,prev&&prev.chapter]);
-  toast(`${prev?"Moved":"Placed"} “${b.title}” in ${c.title}.`);
+function placeBody(key){const p=S.place[key];return p?{block:p.block,title:p.title,target:p.target,targetTitle:p.targetTitle,targetKind:p.targetKind,how:p.how||"",updated:new Date().toISOString()}:null}
+function placeBlock(bid,t,quiet){
+  if(!S.canWrite){toast(S.db?"This view can't save placements.":"Placing concepts works when the page is open in claude.ai.");return false}
+  const b=blockById(bid), i=targetInfo(t); if(!b||!i.act) return false;
+  const key=pkey(bid,t); if(S.place[key]){if(!quiet)toast(`“${b.title}” is already in ${i.title}.`);return false}
+  S.place[key]={block:bid,title:b.title,target:t,targetTitle:i.title,targetKind:i.kind,how:""};
+  persist("placements/"+key,()=>placeBody(key));
+  afterPlace([t]);
+  if(!quiet) toast(`Added “${b.title}” to ${i.title}.`);
+  return true;
 }
-function unplace(bid){
-  const p=S.place[bid]; if(!p||!S.canWrite) return;
-  delete S.place[bid]; persist("placements/"+bid,()=>null);
-  afterPlace([p.chapter]); toast(`“${p.title}” is back in the drawer.`);
+function unplace(key){
+  const p=S.place[key]; if(!p||!S.canWrite) return;
+  delete S.place[key]; persist("placements/"+key,()=>null);
+  afterPlace([p.target]); toast(`Removed “${p.title}” from ${p.targetTitle||"there"}.`);
 }
-function afterPlace(chs){refreshBadges();(chs||[]).filter(Boolean).forEach(renderPlacedList);renderDrawer();renderNotesTab()}
+function movePlacement(key,t){const p=S.place[key];if(!p)return;const how=p.how||"";if(placeBlock(p.block,t,true)){S.place[pkey(p.block,t)].how=how;persist("placements/"+pkey(p.block,t),()=>placeBody(pkey(p.block,t)));delete S.place[key];persist("placements/"+key,()=>null);afterPlace([p.target,t]);toast(`Moved “${p.title}” to ${targetInfo(t).title}.`)}}
+function afterPlace(ts){refreshBadges();(ts||[]).filter(Boolean).forEach(renderPlacedList);renderDrawer();renderNotesTab();if(!$("#picker").hidden)renderPicker();if(rendered.map&&$("#mapsvg").innerHTML)drawMap()}
 function refreshBadges(){
-  const n={};Object.values(S.place).forEach(p=>n[p.chapter]=(n[p.chapter]||0)+1);
-  $$("[data-bcount]").forEach(el=>{const k=n[el.dataset.bcount]||0;el.textContent=k?k+(k===1?" block":" blocks"):""});
-  const all=allBlocks(), left=all.filter(b=>!S.place[b.id]).length;
-  $("#dleft").textContent=left; $("#dcount").textContent=`${left} of ${all.length} free`;
+  const n={};Object.values(S.place).forEach(p=>n[p.target]=(n[p.target]||0)+1);
+  $$("[data-bcount]").forEach(el=>{const k=n[el.dataset.bcount]||0;el.textContent=k?k+(k===1?" concept":" concepts"):""});
+  const all=allBlocks(), used=new Set(Object.values(S.place).map(p=>p.block)).size;
+  $("#dleft").textContent=used; $("#dcount").textContent=`${used} of ${all.length} placed`;
 }
-function renderPlacedList(chId){
-  const el=$(`.placed-list[data-pl="${chId}"]`); if(!el) return;
-  if(el.contains(document.activeElement)&&document.activeElement.tagName==="TEXTAREA") return;
-  const items=Object.entries(S.place).filter(([,p])=>p.chapter===chId);
-  el.innerHTML=items.length?`<div class="lbl">Blocks you're trying here</div>`+items.map(([bid,p])=>{const b=blockById(bid)||{title:p.title,summary:"",kind:"",real:""};
-    return `<div class="pblk" draggable="${S.canWrite}" data-bid="${bid}"><div class="ph-h"><b>${esc(b.title)}</b>${b.kind?`<span class="tag">${esc(kindLabel(b.kind))}</span>`:""}${b.real?`<span class="tag ${b.real}">${BREAL[b.real]||esc(b.real)}</span>`:""}</div>
+function renderPlacedList(t){
+  $$(`.placed-list[data-pl="${t}"]`).forEach(el=>{
+    if(el.contains(document.activeElement)&&document.activeElement.tagName==="TEXTAREA") return;
+    const items=placementsFor(t), i=targetInfo(t);
+    el.innerHTML=`<div class="pl-head"><span class="lbl">${items.length?"Concepts you're trying here":"No concepts here yet"}</span><button class="btn addc" type="button" data-addc="${t}">+ Add a concept</button></div>`
+      +items.map(([key,p])=>{const b=blockById(p.block)||{title:p.title,summary:"",kind:"",real:""};const elsewhere=placementsOf(p.block).filter(([k])=>k!==key);
+      return `<div class="pblk" draggable="${S.canWrite}" data-bid="${p.block}" data-pkey="${key}"><div class="ph-h"><b>${esc(b.title)}</b>${b.kind?`<span class="tag">${esc(kindLabel(b.kind))}</span>`:""}${b.real?`<span class="tag ${b.real}">${BREAL[b.real]||esc(b.real)}</span>`:""}</div>
       ${b.summary?`<p>${esc(b.summary)}</p>`:""}
-      <textarea data-how="${bid}" id="how-${bid}" placeholder="How would it work here? Who carries it, and what does James learn?"${S.canWrite?"":" disabled"}>${esc(p.how||"")}</textarea>
-      <div class="row"><select class="placesel" data-move="${bid}" aria-label="Move block"${S.canWrite?"":" disabled"}>${chapterOptions(chId)}</select><button class="btn" type="button" data-unplace="${bid}"${S.canWrite?"":" disabled"}>Return to drawer</button></div></div>`}).join(""):"";
+      <textarea data-how="${key}" id="how-${key}" placeholder="How would it work here? Who carries it, and what does James learn?"${S.canWrite?"":" disabled"}>${esc(p.how||"")}</textarea>
+      <div class="row"><select class="placesel" data-move="${key}" aria-label="Move or copy"${S.canWrite?"":" disabled"}><option value="">Move to…</option>${targetOptions(t).replace(/^<option[^>]*>[^<]*<\/option>/,"")}</select><button class="btn" type="button" data-unplace="${key}"${S.canWrite?"":" disabled"}>Remove from here</button>${elsewhere.length?`<span class="lbl" style="text-transform:none;letter-spacing:0">also in ${elsewhere.map(([,q])=>targetChip(q.target)).join("")}</span>`:""}</div></div>`}).join("");
+  });
 }
 function blockItem(b){
-  const p=S.place[b.id];
-  return `<div class="blk${p?" placed":""}" draggable="${S.canWrite}" data-bid="${b.id}">
+  const pl=placementsOf(b.id);
+  return `<div class="blk${pl.length?" placed":""}" draggable="${S.canWrite}" data-bid="${b.id}">
     <div class="bt">${esc(b.title)}</div><p class="bs">${esc(b.summary||"")}</p>
     ${b.fit?`<div class="fit">Might fit: ${esc(b.fit)}</div>`:""}
     <div class="bm"><span class="tag">${esc(kindLabel(b.kind))}</span>${b.real?`<span class="tag ${b.real}">${BREAL[b.real]||esc(b.real)}</span>`:""}<span>${esc(b.source||"")}</span></div>
-    <div class="bm">${p?`In <button class="linkchip" data-act="goch" data-id="${p.chapter}">${esc(p.chapterTitle)}</button><button class="btn" type="button" data-unplace="${b.id}">Return</button>`
-      :`<select class="placesel" data-placesel="${b.id}" aria-label="Place in a chapter"${S.canWrite?"":" disabled"}>${CHOPTS||(CHOPTS=chapterOptions())}</select>`}${b.custom?`<button class="btn" type="button" data-delblock="${b.id}">Delete</button>`:""}</div></div>`;
+    <div class="bm">${pl.length?`In ${pl.map(([,p])=>targetChip(p.target)).join("")}`:""}<select class="placesel" data-placesel="${b.id}" aria-label="Add to"${S.canWrite?"":" disabled"}>${CHOPTS||(CHOPTS=targetOptions())}</select>${b.custom?`<button class="btn" type="button" data-delblock="${b.id}">Delete</button>`:""}</div></div>`;
+}
+function filterBlocks(q,kind,src,hideUsed){
+  const toks=q?q.trim().toLowerCase().split(/\s+/):[];
+  return allBlocks().filter(b=>(!hideUsed||!placementsOf(b.id).length)&&(kind==="all"||b.kind===kind)&&(!src||b.group===src)&&(!toks.length||toks.every(t=>(b.title+" "+(b.summary||"")+" "+(b.source||"")+" "+(b.fit||"")).toLowerCase().includes(t))));
 }
 function renderDrawer(){
   refreshBadges();
   if($("#drawer").hidden) return;
-  const q=$("#dq").value.trim().toLowerCase(), toks=q?q.split(/\s+/):[];
-  const all=allBlocks();
-  const items=all.filter(b=>(dPlaced||!S.place[b.id])&&(dKind==="all"||b.kind===dKind)&&(!dSrc||b.group===dSrc)&&(!toks.length||toks.every(t=>(b.title+" "+(b.summary||"")+" "+(b.source||"")).toLowerCase().includes(t))));
+  const all=allBlocks(), items=filterBlocks($("#dq").value,dKind,dSrc,dPlaced);
   const list=$("#dlist"), st=list.scrollTop;
-  list.innerHTML=items.length?items.map(blockItem).join(""):`<p class="dhint" style="padding:8px">${all.length?"No blocks match. Clear the filter, or tick Show placed.":"No blocks loaded."}</p>`;
+  list.innerHTML=items.length?items.map(blockItem).join(""):`<p class="dhint" style="padding:8px">${all.length?"No blocks match. Clear the filter, or untick Hide placed.":"No blocks loaded."}</p>`;
   list.scrollTop=st;
 }
+function sourceOptions(sel){const groups={};allBlocks().forEach(b=>groups[b.group]=(groups[b.group]||0)+1);return `<option value="">Every source</option>`+Object.entries(groups).sort((a,b)=>a[0].localeCompare(b[0])).map(([g,n])=>`<option value="${esc(g)}"${g===sel?" selected":""}>${esc(g)} (${n})</option>`).join("")}
 function openDrawer(open){
   const d=$("#drawer"); d.hidden=!open; document.body.classList.toggle("dopen",open);
   $("#dtoggle").setAttribute("aria-expanded",String(open)); lsSet("sdf-drawer",open);
@@ -1297,11 +1525,85 @@ function openDrawer(open){
       $("#dkinds").innerHTML=[["all","All"],...BKINDS].map(([k,l])=>`<button class="chip" type="button" data-dk="${k}" aria-pressed="${k===dKind}">${l}</button>`).join("");
       $("#nakind").innerHTML=BKINDS.map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
     }
-    const groups={};allBlocks().forEach(b=>groups[b.group]=(groups[b.group]||0)+1);
-    $("#dsrc").innerHTML=`<option value="">Every source</option>`+Object.entries(groups).sort((a,b)=>a[0].localeCompare(b[0])).map(([g,n])=>`<option value="${esc(g)}"${g===dSrc?" selected":""}>${esc(g)} (${n})</option>`).join("");
+    $("#dsrc").innerHTML=sourceOptions(dSrc);
     renderDrawer();
   }
 }
+
+/* ---------- the picker: "+ Add a concept" on a chapter, part, stage or node ---------- */
+let pkTarget=null, pkKind="all", pkSrc="", pkHide=false;
+function openPicker(t){
+  pkTarget=t; const i=targetInfo(t);
+  $("#pktarget").textContent=i.title; $("#scrim").hidden=false; $("#picker").hidden=false;
+  if(!$("#pkkinds").innerHTML){
+    $("#pkkinds").innerHTML=[["all","All"],...BKINDS].map(([k,l])=>`<button class="chip" type="button" data-pk="${k}" aria-pressed="${k===pkKind}">${l}</button>`).join("");
+    $("#pkkind").innerHTML=BKINDS.map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
+  }
+  $("#pksrc").innerHTML=sourceOptions(pkSrc); $("#pkhide").checked=pkHide;
+  renderPicker(); setTimeout(()=>$("#pkq").focus(),30);
+}
+function closePicker(){$("#picker").hidden=true;$("#scrim").hidden=!$("#ckmodal").hidden?false:true;pkTarget=null}
+function renderPicker(){
+  if(!pkTarget) return;
+  const items=filterBlocks($("#pkq").value,pkKind,pkSrc,pkHide), MAXN=80;
+  const list=$("#pklist"), st=list.scrollTop;
+  list.innerHTML=(items.length?items.slice(0,MAXN).map(b=>{const here=!!S.place[pkey(b.id,pkTarget)], pl=placementsOf(b.id);
+    return `<div class="pk-item${pl.length?" used":""}" data-bid="${b.id}"><div class="bt">${esc(b.title)}</div><button class="btn${here?"":" primary"}" type="button" data-pkadd="${b.id}"${here||!S.canWrite?" disabled":""}>${here?"Added":"Add"}</button><p class="bs">${esc(b.summary||"")}${b.fit?` <i style="color:var(--verdigris)">Might fit: ${esc(b.fit)}</i>`:""}</p><div class="bm"><span class="tag">${esc(kindLabel(b.kind))}</span>${b.real?`<span class="tag ${b.real}">${BREAL[b.real]||esc(b.real)}</span>`:""}<span>${esc(b.source||"")}</span>${pl.length?`<span>· in ${pl.map(([,p])=>esc(p.targetTitle)).join(", ")}</span>`:""}</div></div>`}).join(""):`<p class="pk-more">Nothing matches. Try fewer words, or write a new concept below.</p>`)
+    +(items.length>MAXN?`<p class="pk-more">Showing ${MAXN} of ${items.length}. Narrow the search to see the rest.</p>`:"");
+  list.scrollTop=st;
+}
+function wirePicker(){
+  $("#pkclose").onclick=closePicker; $("#scrim").onclick=()=>{if(!$("#ckmodal").hidden)closeChecklist();else closePicker()};
+  let t=null;$("#pkq").addEventListener("input",()=>{clearTimeout(t);t=setTimeout(renderPicker,100)});
+  $("#pkkinds").addEventListener("click",e=>{const b=e.target.closest("[data-pk]");if(!b)return;pkKind=b.dataset.pk;$$("#pkkinds .chip").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));renderPicker()});
+  $("#pksrc").onchange=()=>{pkSrc=$("#pksrc").value;renderPicker()};
+  $("#pkhide").onchange=()=>{pkHide=$("#pkhide").checked;renderPicker()};
+  $("#pklist").addEventListener("click",e=>{
+    const a=e.target.closest("[data-pkadd]"); if(a){placeBlock(a.dataset.pkadd,pkTarget);renderPicker();return}
+    const it=e.target.closest(".pk-item"); if(it&&e.target.closest(".bt,.bs")) it.classList.toggle("open");
+  });
+  $("#pkadd").onclick=()=>{
+    const title=$("#pktitle").value.trim(), summary=$("#pksum").value.trim();
+    if(!title){$("#pkmsg").textContent="Give it a title first.";return}
+    const id=addCustomBlock(title,summary,$("#pkkind").value); if(!id){$("#pkmsg").textContent="Adding works when the page is open in claude.ai.";return}
+    $("#pktitle").value="";$("#pksum").value="";$("#pkmsg").textContent="";
+    placeBlock(id,pkTarget); $("#pkq").value=title; renderPicker();
+  };
+  document.addEventListener("click",e=>{const b=e.target.closest("[data-addc]");if(b)openPicker(b.dataset.addc)});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"){if(!$("#ckmodal").hidden)closeChecklist();else if(!$("#picker").hidden)closePicker()}});
+}
+function addCustomBlock(title,summary,kind){
+  if(!S.canWrite) return null;
+  const id="u"+Date.now().toString(36)+Math.random().toString(36).slice(2,5);
+  S.custom[id]={title,summary,kind:kind||"case",real:"invented",source:"Santi",created:new Date().toISOString()};
+  persist("blocks/"+id,()=>S.custom[id]?Object.assign({},S.custom[id]):null);
+  CHOPTS=null; return id;
+}
+
+/* ---------- checklist sheet: chapters (journey stages, map nodes) or map nodes (from a chapter) ---------- */
+let ckDone=null, ckMode="ch";
+function showChecklist(title,html,done,mode){
+  ckDone=done; ckMode=mode; $("#cktarget").textContent=title; $("#ckq").value=""; $("#cklist").innerHTML=html;
+  $("#scrim").hidden=false; $("#ckmodal").hidden=false; setTimeout(()=>$("#ckq").focus(),30);
+}
+function openChecklist(title,selected,done){
+  const sel=new Set(selected||[]);
+  showChecklist(title,BOOK.parts.map((p,pi)=>`<h4>Part ${PARTNO[pi]}</h4>`+p.chapters.map(c=>`<label data-t="${esc(c.title.toLowerCase())}"><input type="checkbox" value="${c.id.slice(3)}"${sel.has(c.id.slice(3))?" checked":""}><span>${esc(c.title)}</span><span class="lbl" style="margin-left:auto">${KIND[c.kind]}</span></label>`).join("")).join(""),done,"ch");
+}
+function openNodeChecklist(title,selected,done){
+  const sel=new Set(selected||[]);
+  showChecklist(title,MAPB.map(b=>`<h4>${esc(b.label)}</h4>`+b.nodes.map(n=>`<label data-t="${esc(n.label.toLowerCase())}"><input type="checkbox" value="${n.id}"${sel.has(n.id)?" checked":""}><span>${esc(n.label)}</span></label>`).join("")).join(""),done,"node");
+}
+function closeChecklist(){$("#ckmodal").hidden=true;$("#scrim").hidden=$("#picker").hidden;ckDone=null}
+function wireChecklist(){
+  $("#ckcancel").onclick=closeChecklist;
+  $("#cksave").onclick=()=>{let list=$$("#cklist input:checked").map(i=>i.value);if(ckMode==="ch")list.sort((a,b)=>CHMAP[cid(a)].order-CHMAP[cid(b)].order);const d=ckDone;closeChecklist();if(d)d(list)};
+  $("#ckq").addEventListener("input",()=>{const q=$("#ckq").value.trim().toLowerCase();$$("#cklist label").forEach(l=>l.hidden=!!q&&!l.dataset.t.includes(q))});
+  document.addEventListener("click",e=>{const b=e.target.closest("[data-linknode]");if(!b)return;const chId=b.dataset.linknode,slug=chId.slice(3);
+    if(!MAPB.length) buildMap();
+    openNodeChecklist("Map nodes for: "+chTitle(chId),Object.values(NODEMAP).filter(n=>(n.ch||[]).includes(slug)).map(n=>n.id),ids=>{setChapterNodes(chId,ids);renderNodesOf(chId)})});
+}
+
 function wireBlocks(){
   $("#dtoggle").onclick=()=>openDrawer(true); $("#dclose").onclick=()=>openDrawer(false);
   let t=null;$("#dq").addEventListener("input",()=>{clearTimeout(t);t=setTimeout(renderDrawer,120)});
@@ -1311,40 +1613,39 @@ function wireBlocks(){
   $("#dlist").addEventListener("click",e=>{const b=e.target.closest(".bt,.bs");if(b)b.closest(".blk").classList.toggle("open")});
   document.addEventListener("change",e=>{
     const s=e.target;
-    if(s.dataset.placesel&&s.value) placeBlock(s.dataset.placesel,s.value);
-    else if(s.dataset.move&&s.value) placeBlock(s.dataset.move,s.value);
+    if(s.dataset.placesel&&s.value){placeBlock(s.dataset.placesel,s.value);s.value=""}
+    else if(s.dataset.move&&s.value) movePlacement(s.dataset.move,s.value);
   });
   document.addEventListener("click",e=>{
     const u=e.target.closest("[data-unplace]"); if(u){unplace(u.dataset.unplace);return}
     const d=e.target.closest("[data-delblock]");
-    if(d){const id=d.dataset.delblock;if(d.dataset.armed){delete S.custom[id];persist("blocks/"+id,()=>null);if(S.place[id])unplace(id);renderDrawer()}else{d.dataset.armed="1";d.textContent="Tap again";setTimeout(()=>{if(d.isConnected){delete d.dataset.armed;d.textContent="Delete"}},3000)}}
+    if(d){const id=d.dataset.delblock;if(d.dataset.armed){delete S.custom[id];persist("blocks/"+id,()=>null);placementsOf(id).forEach(([k])=>unplace(k));CHOPTS=null;renderDrawer()}else{d.dataset.armed="1";d.textContent="Tap again";setTimeout(()=>{if(d.isConnected){delete d.dataset.armed;d.textContent="Delete"}},3000)}}
   });
   const howT={};
-  document.addEventListener("input",e=>{const ta=e.target.closest("[data-how]");if(!ta)return;const bid=ta.dataset.how;if(!S.place[bid])return;
-    S.place[bid]=Object.assign({},S.place[bid],{how:ta.value});clearTimeout(howT[bid]);howT[bid]=setTimeout(()=>persist("placements/"+bid,()=>placeBody(bid)),700)});
-  // drag and drop, from the drawer or from a chapter, onto any chapter target
+  document.addEventListener("input",e=>{const ta=e.target.closest("[data-how]");if(!ta)return;const key=ta.dataset.how;if(!S.place[key])return;
+    S.place[key]=Object.assign({},S.place[key],{how:ta.value});clearTimeout(howT[key]);howT[key]=setTimeout(()=>persist("placements/"+key,()=>placeBody(key)),700)});
+  // drag and drop, from the library or from a placed card, onto any target
   document.addEventListener("dragstart",e=>{const el=e.target.closest&&e.target.closest("[data-bid]");if(!el||!S.canWrite)return;
     if(/TEXTAREA|SELECT|INPUT/.test(e.target.tagName)){e.preventDefault();return}
-    dragB=el.dataset.bid;try{e.dataTransfer.setData("text/plain",dragB);e.dataTransfer.effectAllowed="move"}catch(_){}el.classList.add("dragging")});
+    dragB={bid:el.dataset.bid,key:el.dataset.pkey||null};try{e.dataTransfer.setData("text/plain",dragB.bid);e.dataTransfer.effectAllowed="move"}catch(_){}el.classList.add("dragging")});
   document.addEventListener("dragend",e=>{const el=e.target.closest&&e.target.closest("[data-bid]");if(el)el.classList.remove("dragging");dragB=null;$$(".drop").forEach(x=>x.classList.remove("drop"))});
-  const target=t=>t&&t.closest?t.closest(".ch,[data-act='goch'],[data-ci],#dlist"):null;
-  const chOf=el=>el.id==="dlist"?"__drawer":el.classList.contains("ch")?el.id:el.dataset.act==="goch"?el.dataset.id:el.dataset.ci!=null?CH[+el.dataset.ci].id:null;
+  const target=t=>t&&t.closest?t.closest(".ch,.part-head,.stage,.mcard,#mapdetail,[data-act='goch'],[data-act='gostage'],[data-act='gonode'],[data-ci],#dlist"):null;
+  const chOf=el=>el.id==="dlist"?"__drawer":el.classList.contains("ch")?el.id:el.classList.contains("part-head")?el.dataset.part:el.classList.contains("stage")?"hj-"+el.dataset.stageid:el.classList.contains("mcard")?el.dataset.node:el.id==="mapdetail"?mapSel:el.dataset.act==="goch"?el.dataset.id:el.dataset.act==="gostage"?"hj-"+el.dataset.id:el.dataset.act==="gonode"?el.dataset.id:el.dataset.ci!=null?CH[+el.dataset.ci].id:null;
   document.addEventListener("dragover",e=>{if(!dragB)return;const el=target(e.target);if(!el)return;e.preventDefault();try{e.dataTransfer.dropEffect="move"}catch(_){}
     if(!el.classList.contains("drop")){$$(".drop").forEach(x=>x.classList.remove("drop"));el.classList.add("drop")}});
   document.addEventListener("dragleave",e=>{const el=target(e.target);if(el&&!el.contains(e.relatedTarget))el.classList.remove("drop")});
-  document.addEventListener("drop",e=>{if(!dragB)return;const el=target(e.target);if(!el)return;e.preventDefault();const bid=dragB,c=chOf(el);
+  document.addEventListener("drop",e=>{if(!dragB)return;const el=target(e.target);if(!el)return;e.preventDefault();const {bid,key}=dragB,c=chOf(el);
     $$(".drop").forEach(x=>x.classList.remove("drop"));dragB=null;
-    if(c==="__drawer")unplace(bid);else if(c){placeBlock(bid,c);const card=document.getElementById(c);if(card&&!$(".ch-body",card).hidden)renderPlacedList(c)}});
+    if(c==="__drawer"){if(key)unplace(key)}else if(c){if(key)movePlacement(key,c);else placeBlock(bid,c);const card=document.getElementById(c);if(card&&card.classList.contains("ch")&&!$(".ch-body",card).hidden)renderPlacedList(c)}});
   $("#naadd").onclick=()=>{
     const title=$("#natitle").value.trim(), summary=$("#nasum").value.trim();
     if(!title){$("#namsg").textContent="Give it a title first.";return}
-    if(!S.canWrite){$("#namsg").textContent="Adding blocks works when the page is open in claude.ai.";return}
-    const id="u"+Date.now().toString(36)+Math.random().toString(36).slice(2,5);
-    S.custom[id]={title,summary,kind:$("#nakind").value,real:"invented",source:"Santi",created:new Date().toISOString()};
-    persist("blocks/"+id,()=>S.custom[id]?Object.assign({},S.custom[id]):null);
+    const id=addCustomBlock(title,summary,$("#nakind").value);
+    if(!id){$("#namsg").textContent="Adding blocks works when the page is open in claude.ai.";return}
     $("#natitle").value="";$("#nasum").value="";$("#namsg").textContent="Added to the top of Your blocks.";
     dSrc="Your blocks";openDrawer(true);
   };
+  wirePicker(); wireChecklist();
   if(lsGet("sdf-drawer")&&window.innerWidth>=900) openDrawer(true); else refreshBadges();
 }
 
@@ -1365,17 +1666,22 @@ function renderNotesTab(){
   $("#ncounts").innerHTML=[["Chapters with notes",chN.filter(Boolean).length+" / "+CH.length],["Holds",cnt("holds")],["Needs work",cnt("work")],["Rethink",cnt("rethink")],["Cut?",cnt("cut")]].map(([l,v])=>`<div class="count"><span class="lbl">${l}</span><b>${v}</b></div>`).join("");
   const label=k=>{const f=[...CH_FIELDS,...DEC_FIELDS].find(x=>x[0]===k);return f?f[1]:k};
   const go=id=>id.startsWith("ch-")?`data-act="goch" data-id="${id}"`:id.startsWith("hj-")?`data-act="gostage" data-id="${id.slice(3)}"`:id.startsWith("mm-")?`data-act="gonode" data-id="${id}"`:id.startsWith("dc-")?`data-act="godec" data-id="${id}"`:"";
-  const pl=CH.map(c=>[c,Object.entries(S.place).filter(([,p])=>p.chapter===c.id)]).filter(([,l])=>l.length);
-  const plHtml=pl.length?`<h3 class="tab-h" style="font-size:24px;margin:26px 0 10px">Blocks placed in chapters</h3>`+pl.map(([c,l])=>`<div class="nitem"><h4><button class="linkchip" data-act="goch" data-id="${c.id}">${esc(c.title)}</button><span class="lbl">Part ${PARTNO[c.part]} · ${l.length} block${l.length>1?"s":""}</span></h4><dl>${l.map(([bid,p])=>`<dt>${esc((blockById(bid)||{}).kind?kindLabel(blockById(bid).kind):"Block")}</dt><dd><b>${esc(p.title)}</b>${p.how?"\n"+esc(p.how):""}</dd>`).join("")}</dl></div>`).join(""):"";
+  const groups={};Object.entries(S.place).forEach(([k,p])=>(groups[p.target]=groups[p.target]||[]).push([k,p]));
+  const ord=t=>{const i=targetInfo(t);return ({Part:0,Chapter:1,Journey:2,"Mind map":3})[i.kind]??4};
+  const pl=Object.keys(groups).sort((a,b)=>ord(a)-ord(b)||((CHMAP[a]||{}).order??0)-((CHMAP[b]||{}).order??0));
+  const plHtml=pl.length?`<h3 class="tab-h" style="font-size:24px;margin:26px 0 10px">Concepts you've placed</h3>`+pl.map(t=>{const l=groups[t],i=targetInfo(t);return `<div class="nitem"><h4>${targetChip(t)}<span class="lbl">${esc(i.kind)}${i.where?" · "+esc(i.where):""} · ${l.length} concept${l.length>1?"s":""}</span></h4><dl>${l.map(([,p])=>`<dt>${esc((blockById(p.block)||{}).kind?kindLabel(blockById(p.block).kind):"Block")}</dt><dd><b>${esc(p.title)}</b>${p.how?"\n"+esc(p.how):""}</dd>`).join("")}</dl></div>`}).join(""):"";
   $("#nlist").innerHTML=(items.length?items.map(([id,n,where,title])=>{
     const st=STATUS.find(s=>s[0]===(n.status||""));
     const rows=Object.keys(n).filter(k=>!["item","kind","title","status","updated"].includes(k)&&String(n[k]||"").trim());
     return `<div class="nitem"><h4><button class="linkchip" ${go(id)}>${esc(title)}</button><span class="lbl">${esc(where)}</span>${n.status?`<span class="dot ${n.status}" style="display:inline-block"></span><span class="lbl">${st?st[1]:""}</span>`:""}</h4>${rows.length?`<dl>${rows.map(k=>`<dt>${esc(label(k))}</dt><dd>${esc(n[k])}</dd>`).join("")}</dl>`:""}</div>`}).join("")
     :`<p class="tab-intro">${S.db?"No notes yet. Open any chapter in Story and start with how it should feel.":"Notes appear here when the page is open in claude.ai, where they're saved."}</p>`)+plHtml;
   $("#ncopy").onclick=()=>{
-    const plTxt=CH.map(c=>[c,Object.values(S.place).filter(p=>p.chapter===c.id)]).filter(([,l])=>l.length).map(([c,l])=>`## Blocks in ${c.title}\n`+l.map(p=>`- ${p.title}${p.how?": "+p.how:""}`).join("\n")).join("\n\n");
+    const g2={};Object.values(S.place).forEach(p=>(g2[p.target]=g2[p.target]||[]).push(p));
+    const plTxt=Object.keys(g2).map(t=>{const i=targetInfo(t);return `## Concepts in ${i.kind}: ${i.title}\n`+g2[t].map(p=>`- ${p.title}${p.how?": "+p.how:""}`).join("\n")}).join("\n\n");
+    const jTxt=STAGES.filter(st=>journeyBody(st.id)).map(st=>`## Journey · ${st.name}\nChapters: ${stageCh(st).map(x=>chTitle(cid(x))).join("; ")}\n${stageText(st)}`).join("\n\n");
+    const mTxt=Object.entries(S.mapnodes).filter(([id])=>nodeBody(id)).map(([id,e])=>{const n=NODEMAP[id];return n?`## Map · ${n.branch.label} › ${n.label}\n${n.b}\nChapters: ${(n.ch||[]).map(x=>chTitle(cid(x))).join("; ")}`:`## Map · hidden node ${id}`}).join("\n\n");
     const txt=[noteItems().map(([id,n,where,title])=>{const rows=Object.keys(n).filter(k=>!["item","kind","title","status","updated"].includes(k)&&String(n[k]||"").trim());
-      return `## ${title} (${where})${n.status?"\nVerdict: "+(STATUS.find(s=>s[0]===n.status)||[,""])[1]:""}\n`+rows.map(k=>`${label(k)}: ${n[k]}`).join("\n")}).join("\n\n"),plTxt].filter(Boolean).join("\n\n");
+      return `## ${title} (${where})${n.status?"\nVerdict: "+(STATUS.find(s=>s[0]===n.status)||[,""])[1]:""}\n`+rows.map(k=>`${label(k)}: ${n[k]}`).join("\n")}).join("\n\n"),plTxt,jTxt,mTxt].filter(Boolean).join("\n\n");
     const done=m=>{$("#ncopied").textContent=m;setTimeout(()=>$("#ncopied").textContent="",2500)};
     try{navigator.clipboard.writeText(txt||"No notes yet.").then(()=>done("Copied"),()=>done("Copy was blocked. Select the notes below instead."))}catch(e){done("Copy was blocked. Select the notes below instead.")}
   };
@@ -1395,14 +1701,14 @@ function renderDecisions(){
 const IDX=[];
 CH.forEach(c=>IDX.push({k:"Chapter",t:c.title,s:strip(c.text),blob:(c.title+" "+strip(c.text)+" "+c.beats.map(strip).join(" ")).toLowerCase(),go:()=>goChapter(c.id)}));
 STAGES.forEach(st=>IDX.push({k:"Journey",t:st.name,s:st.b,blob:(st.name+" "+st.b).toLowerCase(),go:()=>{showTab("journey",true);selectStage(st.id,true)}}));
-Object.values(NODEMAP).forEach(n=>IDX.push({k:n.branch.label,t:n.label,s:n.b,blob:(n.label+" "+n.b).toLowerCase(),go:()=>{showTab("map",true);selectNode(n.id,true)}}));
 BOOK.decisions.forEach(d=>IDX.push({k:"Decision",t:strip(d.text),s:"",blob:strip(d.text).toLowerCase(),go:()=>{showTab("decisions",true);const el=document.getElementById(d.id);el.scrollIntoView({block:"center"});flash(el)}}));
 function runSearch(){
   const q=$("#q").value.trim().toLowerCase(), box=$("#sres");
   if(q.length<2){box.hidden=true;return}
   const toks=q.split(/\s+/);
   const extra=[];
-  allBlocks().forEach(b=>extra.push({k:"Block"+(S.place[b.id]?" · in "+S.place[b.id].chapterTitle:""),t:b.title,s:b.summary||"",blob:(b.title+" "+(b.summary||"")+" "+(b.source||"")).toLowerCase(),go:()=>{if(S.place[b.id])goChapter(S.place[b.id].chapter);else{openDrawer(true);$("#dq").value=b.title;dKind="all";dSrc="";renderDrawer()}}}));
+  Object.values(NODEMAP).forEach(n=>extra.push({k:n.branch.label,t:n.label,s:n.b,blob:(n.label+" "+n.b).toLowerCase(),go:()=>{showTab("map",true);selectNode(n.id,true)}}));
+  allBlocks().forEach(b=>{const pl=placementsOf(b.id);extra.push({k:"Concept"+(pl.length?" · in "+pl.map(([,p])=>p.targetTitle).join(", "):""),t:b.title,s:b.summary||"",blob:(b.title+" "+(b.summary||"")+" "+(b.source||"")).toLowerCase(),go:()=>{if(pl.length){const i=targetInfo(pl[0][1].target);if(i.act==="goch")goChapter(i.go);else if(i.act==="gostage"){showTab("journey",true);selectStage(i.go,true)}else if(i.act==="gonode"){showTab("map",true);selectNode(i.go,true)}else{showTab("story",true);const el=document.getElementById(i.go);if(el){el.scrollIntoView({block:"start"});flash(el)}}}else{openDrawer(true);$("#dq").value=b.title;dKind="all";dSrc="";renderDrawer()}}})});
   Object.entries(S.board).forEach(([id,c])=>extra.push({k:"Board",t:c.title||"Untitled",s:c.body||"",blob:((c.title||"")+" "+(c.body||"")).toLowerCase(),go:()=>{showTab("board",true);openEditor(id)}}));
   Object.entries(S.notes).forEach(([id,n])=>{const txt=Object.keys(n).filter(k=>!["item","kind","title","status","updated"].includes(k)).map(k=>n[k]).join(" ");if(txt.trim())extra.push({k:"Your note",t:n.title||id,s:txt,blob:txt.toLowerCase(),go:()=>{showTab("notes")}})});
   const hits=[...IDX,...extra].map(it=>{if(!toks.every(t=>it.blob.includes(t)))return null;let sc=0;toks.forEach(t=>{if(it.t.toLowerCase().includes(t))sc+=10;sc+=Math.min(it.blob.split(t).length-1,5)});return [sc,it]}).filter(Boolean).sort((a,b)=>b[0]-a[0]).slice(0,24);
@@ -1418,6 +1724,7 @@ document.addEventListener("click",e=>{if(!e.target.closest(".search"))$("#sres")
 const RENDER={story:renderStory,journey:renderJourney,structure:renderStructure,map:renderMap,reveals:renderReveals,recall:renderRecall,board:renderBoardTab,notes:()=>{},decisions:renderDecisions};
 
 /* ---------- boot ---------- */
+buildMap();
 showTab(location.hash.slice(1)||lsGet("sdf-tab")||"story",true);
 wireBlocks();
 (async function connect(){
@@ -1438,10 +1745,23 @@ wireBlocks();
     const touched=new Set();
     snap.docChanges().forEach(ch=>{const id=ch.doc.id;const old=S.place[id];
       if(W["placements/"+id]&&W["placements/"+id].busy) return;
-      if(ch.type==="removed"){if(old)touched.add(old.chapter);delete S.place[id];return}
-      const d=ch.doc.data(); if(old)touched.add(old.chapter); touched.add(d.chapter); S.place[id]=Object.assign({},d)});
-    refreshBadges(); touched.forEach(renderPlacedList); renderDrawer(); renderNotesTab();
+      if(ch.type==="removed"){if(old)touched.add(old.target);delete S.place[id];return}
+      const d=normPlace(ch.doc.data()); if(old)touched.add(old.target); touched.add(d.target); S.place[id]=d});
+    afterPlace([...touched]);
   },e=>setDbNote("Placements stopped syncing ("+(e&&e.code)+"). Reload the page to reconnect."));
+  db.collection("journey").limit(100).onSnapshot(snap=>{
+    snap.docChanges().forEach(ch=>{const id=ch.doc.id;if(W["journey/"+id]&&W["journey/"+id].busy)return;if(ch.type==="removed")delete S.journey[id];else S.journey[id]=ch.doc.data()});
+    if(rendered.journey) drawJourney(); $$("[data-stagesel]").forEach(el=>renderStageSel(el.dataset.stagesel));
+  },()=>{});
+  const mapChanged=()=>{CHOPTS=null;buildMap();if(rendered.map)drawMap();if(mapSel&&NODEMAP[mapSel])selectNode(mapSel);$$("[data-nodesof]").forEach(el=>renderNodesOf(el.dataset.nodesof))};
+  db.collection("mapnodes").limit(1000).onSnapshot(snap=>{
+    snap.docChanges().forEach(ch=>{const id=ch.doc.id;if(W["mapnodes/"+id]&&W["mapnodes/"+id].busy)return;if(ch.type==="removed")delete S.mapnodes[id];else S.mapnodes[id]=ch.doc.data()});
+    mapChanged();
+  },()=>{});
+  db.collection("mapbranches").limit(200).onSnapshot(snap=>{
+    snap.docChanges().forEach(ch=>{const id=ch.doc.id;if(W["mapbranches/"+id]&&W["mapbranches/"+id].busy)return;if(ch.type==="removed")delete S.mapbranches[id];else S.mapbranches[id]=ch.doc.data()});
+    mapChanged();
+  },()=>{});
   db.collection("blocks").limit(1000).onSnapshot(snap=>{
     snap.docChanges().forEach(ch=>{const id=ch.doc.id;if(ch.type==="removed")delete S.custom[id];else S.custom[id]=Object.assign({},ch.doc.data())});
     renderDrawer();
