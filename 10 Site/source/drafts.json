@@ -1,0 +1,436 @@
+{
+"by": {
+"ch-the-reading-room-the-opening": {
+"file": "00 — Cold open.md",
+"words": 498,
+"status": "santi",
+"blurb": "[J]. Movement I opens here, from the middle of the book. Santi's pass needed.",
+"guess": false,
+"mentions": [
+"Ana"
+]
+},
+"ch-the-funeral": {
+"file": "01 — The funeral.md",
+"words": 2810,
+"status": "santi",
+"blurb": "✅ SANTI'S — copied unchanged from `01 Manuscript/Chapter 01.md` as a block of Movement I. Edit the original, not this copy.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora"
+]
+},
+"ch-the-good-life": {
+"file": "02 — The good life.md",
+"words": 2756,
+"status": "santi",
+"blurb": "✅ SANTI'S — copied unchanged from `01 Manuscript/Chapter 02.md` as a block of Movement I. Edit the original, not this copy.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Beard Man"
+]
+},
+"ch-reading-with-a-pen": {
+"file": "03 — Reading with a pen.md",
+"words": 2257,
+"status": "santi",
+"blurb": "✅ SANTI'S — copied unchanged from `01 Manuscript/Chapter 03.md` as a block of Movement I. Edit the original, not this copy.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Beard Man"
+]
+},
+"ch-the-sentence": {
+"file": "04 — The sentence.md",
+"words": 3427,
+"status": "santi",
+"blurb": "✅ SANTI'S — copied unchanged from `01 Manuscript/Chapter 04.md` as a block of Movement I. Edit the original, not this copy.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
+"the professor",
+"Tresidder"
+]
+},
+"ch-utrecht-1993": {
+"file": "05 — Utrecht. A phone call. 1993.md",
+"words": 829,
+"status": "draft",
+"blurb": "[K-past]. Third person. Invented people, invented paper, real city. Answers the question the sentence just asked: *who says yes?*",
+"guess": false,
+"mentions": [
+"Koster",
+"Verhoef"
+]
+},
+"ch-leave-it": {
+"file": "06 — Leave it.md",
+"words": 1943,
+"status": "draft",
+"blurb": "[J]. Follows the sentence. The name arrives on paper. The first lie told to his face.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Pieter",
+"Tresidder"
+]
+},
+"ch-the-control-case": {
+"file": "07 — The control case.md",
+"words": 1876,
+"status": "draft",
+"blurb": "[J]. The method, shown. The thin book opened. The professor got there first.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
+"Beard Man",
+"the professor",
+"Tresidder"
+]
+},
+"ch-the-week-it-vanished": {
+"file": "08 — The week it vanished.md",
+"words": 1912,
+"status": "draft",
+"blurb": "[J]. The turn of Movement I. Somebody reaches into the plate while he's watching.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Pieter",
+"Beard Man",
+"the professor"
+]
+},
+"ch-deventer-march": {
+"file": "09 — Deventer. A Thursday in March.md",
+"words": 1073,
+"status": "draft",
+"blurb": "[K-past]. Third person. The professor's death from the handler's side. No name. Ends on the one kind mistake. Answers *ask who?*",
+"guess": false,
+"mentions": [
+"Beard Man",
+"the professor"
+]
+},
+"ch-frank-s-kitchen": {
+"file": "10 — Frank's kitchen.md",
+"words": 1801,
+"status": "draft",
+"blurb": "[J]. Movement II opens. Three Noise scenes folded into one evening; one Thread with a page number. Frank's list. Disclosure on the TV, nobody looks up.",
+"guess": false,
+"mentions": [
+"James",
+"Frank",
+"Pieter"
+]
+},
+"ch-the-math": {
+"file": "11 — The math.md",
+"words": 2257,
+"status": "draft",
+"blurb": "[J]. The style guide arrives as an object. The arithmetic. He stops calling people. The recruiter's email.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
+"Kalder",
+"Els",
+"Beard Man"
+]
+},
+"ch-a-round-with-a-stranger": {
+"file": "12 — The seventh tee.md",
+"words": 1587,
+"status": "draft",
+"blurb": "[J]. The vacuum cleaner. Dave. He asks about the dog first. The reader has the name from the email; James has a Wednesday.",
+"guess": true,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Dave"
+]
+},
+"ch-a-car-park": {
+"file": "13 — A car park. Thursday.md",
+"words": 625,
+"status": "draft",
+"blurb": "[K]. Third person. Reporting upward. The understatement that moves the date. Forty words of his own speech.",
+"guess": false,
+"mentions": []
+},
+"ch-leiden": {
+"file": "14 — Leiden.md",
+"words": 1904,
+"status": "draft",
+"blurb": "[J]. The second head. Not alone. The generals' manual on a kitchen table. Entry #26. The second column.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Noor",
+"the professor",
+"Verhoef"
+]
+},
+"ch-enjoy-it-while-it-lasts": {
+"file": "15 — Enjoy it while it lasts.md",
+"words": 1785,
+"status": "draft",
+"blurb": "[J]. Meerwijk. The defaults with the blind spot built in. Access shrinks by exactly the right amount. The White Knight, by email. Dave at the barbecue is next; this is the turn.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Frank",
+"Noor",
+"Dave"
+]
+},
+"ch-a-room-with-a-long-table": {
+"file": "16 — A room with a long table.md",
+"words": 1249,
+"status": "draft",
+"blurb": "[K]. Third person. Kalder and Bram. The reader learns what the count counts, in conversation, not in a memo. Movement II ends here.",
+"guess": false,
+"mentions": [
+"Bram"
+]
+},
+"ch-the-gorilla-mask": {
+"file": "17 — The gorilla mask.md",
+"words": 1785,
+"status": "draft",
+"blurb": "[J]. Movement III opens. His words come back improved. The barbecue. Buddy won't go near him. The click is the reader's; James files it.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Noor",
+"Dave"
+]
+},
+"ch-on-land": {
+"file": "18 — On land.md",
+"words": 1501,
+"status": "draft",
+"blurb": "[J]. The pub. A town he never said. The threat is about houses and dogs. The scene ends on him. The jokes stop.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"the professor",
+"Dave"
+]
+},
+"ch-the-schedule": {
+"file": "19 — The schedule.md",
+"words": 1458,
+"status": "draft",
+"blurb": "[J]. She reads the address. She leaves because of the danger, not the distance. She uses his name.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora"
+]
+},
+"ch-a-street-night": {
+"file": "20 — A street. Night.md",
+"words": 659,
+"status": "draft",
+"blurb": "[K]. Third person. The visit. Deniable. The book never confirms what, if anything, he did.",
+"guess": false,
+"mentions": []
+},
+"ch-the-vet": {
+"file": "21 — The vet.md",
+"words": 2075,
+"status": "draft",
+"blurb": "[J]. Buddy's night. The vigil. He finally checks a person. Noor won't be a witness. The shelfmark. Noor goes dark.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Kalder",
+"Noor",
+"the professor",
+"Dave"
+]
+},
+"ch-a-corridor-sixteen": {
+"file": "22 — A corridor. He is sixteen.md",
+"words": 924,
+"status": "draft",
+"blurb": "[J-past]. Third person. The hospital. The first time he was told to leave something and did. No voice-over, no lesson.",
+"guess": false,
+"mentions": []
+},
+"ch-the-night-he-stops-being-afraid": {
+"file": "23 — The floor.md",
+"words": 2171,
+"status": "draft",
+"blurb": "[J]. The crossing. Sober, flat, domestic. No light. No how. The list re-reads itself. He says the word once, to a dog, and is embarrassed.",
+"guess": true,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Noor"
+]
+},
+"ch-the-long-table-again": {
+"file": "24 — The long table, again.md",
+"words": 909,
+"status": "draft",
+"blurb": "[K]. Third person. The crossing, reported. He uses the first name. The reader learns Kalder has hands. The date moves. Movement III ends.",
+"guess": false,
+"mentions": [
+"James",
+"Bram"
+]
+},
+"ch-twenty-minutes": {
+"file": "25 — Twenty minutes.md",
+"words": 1742,
+"status": "draft",
+"blurb": "[J]. Movement IV opens. He tells Ana everything, with objects, in her mother's kitchen. She gets the plan, not the memoir. The cooling half, understood.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Bram",
+"Noor"
+]
+},
+"ch-the-band": {
+"file": "26 — The band.md",
+"words": 1670,
+"status": "draft",
+"blurb": "[J]. Three in the morning at Meerwijk. The lower limit. The machine heats as well as cools. A man in a good coat behind the glass, not there to stop him.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
+"Kalder",
+"Bram",
+"Dave"
+]
+},
+"ch-leiden-1931": {
+"file": "27 — Leiden. A printer's shop. 1931.md",
+"words": 1015,
+"status": "draft",
+"blurb": "[K-past]. Third person. The one far back. Invented men, invented book, real city. The reader recognises the machine. The plate.",
+"guess": false,
+"mentions": []
+},
+"ch-the-dinner": {
+"file": "28 — The table.md",
+"words": 3234,
+"status": "draft",
+"blurb": "[J]. The cold open, reached. The offer. The reveal that hurts, as an object. Ana present. Cat and mouse: nobody says the word. Ends on him.",
+"guess": true,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Bram",
+"Noor",
+"Dave"
+]
+},
+"ch-monday": {
+"file": "29 — The depot. Monday.md",
+"words": 970,
+"status": "draft",
+"blurb": "[K]. Third person. The last report. One line, everything else untouched. He never appears again.",
+"guess": false,
+"mentions": [
+"Bram"
+]
+},
+"ch-leave-it-2": {
+"file": "30 — Leave it.md",
+"words": 1416,
+"status": "draft",
+"blurb": "[J]. The verdict. The machine's word for him is the first lie he was told to his face. Ninety-nine per cent. A flask on a bench.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Noor"
+]
+},
+"ch-epilogue": {
+"file": "31 — Coda.md",
+"words": 1296,
+"status": "draft",
+"blurb": "[J]. Years later. A dog buried right. The one Buddy thing. The almost-recognition. The last word.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
+"Frank"
+]
+}
+},
+"unmatched": [],
+"names": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Pieter",
+"Kalder",
+"Bram",
+"Anneke",
+"Noor",
+"Aylin",
+"Els",
+"Beard Man",
+"the professor",
+"Koster",
+"Verhoef",
+"Dave",
+"Tresidder"
+],
+"folder": "01 Manuscript/v6"
+}

@@ -1,6 +1,8 @@
 import json, re, glob, os, hashlib, sys
 here = os.path.dirname(os.path.abspath(__file__))
 book = json.load(open(os.path.join(here, 'book.json')))
+import subprocess; subprocess.run(['python3', os.path.join(here, 'link_drafts.py')], check=False)
+drafts = json.load(open(os.path.join(here, 'drafts.json'))) if os.path.exists(os.path.join(here, 'drafts.json')) else {'by': {}, 'unmatched': []}
 GROUP = {'blocks-brief.json': 'MindBook brief', 'blocks-essay.json': "Santi's essay", 'blocks-vault.json': 'The vault: List, concepts, ledger'}
 KINDS = {'conspiracy', 'case', 'document', 'theory', 'method', 'scene seed'}
 REAL = {'documented', 'contested', 'claim', 'invented'}
@@ -76,7 +78,7 @@ for b in blocks:
 json.dump(blocks, open(os.path.join(here, 'blocks.json'), 'w'), ensure_ascii=False, indent=0)
 emb = lambda o: json.dumps(o, ensure_ascii=False).replace('</', '<\\/')
 html = open(os.path.join(here, 'template.html')).read()
-html = html.replace('/*BOOK_DATA*/null', emb(book)).replace('/*BLOCK_DATA*/[]', emb(blocks))
+html = html.replace('/*BOOK_DATA*/null', emb(book)).replace('/*BLOCK_DATA*/[]', emb(blocks)).replace('/*DRAFT_DATA*/null', emb(drafts))
 out = os.path.join(here, 'book-atlas.html'); open(out, 'w').write(html)
 print('blocks', len(blocks), 'merged dupes', len(dropped), 'bytes', len(html))
 from collections import Counter
