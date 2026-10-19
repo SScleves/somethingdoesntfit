@@ -42,9 +42,16 @@ for fn in order:
 have = {b['title'] for b in blocks}
 for fn in sorted(glob.glob(os.path.join(here, 'blocks-web-*.json'))):
     tag = os.path.basename(fn)[len('blocks-web-'):-len('.json')]
+    byt = {b['title']: b for b in blocks}
     for b in json.load(open(fn)):
-        if b['title'] in have: continue
-        b = dict(b); b['group'] = 'Web research, ' + tag; have.add(b['title']); blocks.append(b)
+        b = dict(b); b['group'] = 'Web research, ' + tag
+        if b['title'] in have:
+            # refresh text of an entry that came from this batch earlier; keep its id so placements survive
+            o = byt[b['title']]
+            if o.get('group') == b['group']:
+                for k in ('kind', 'real', 'summary', 'source', 'fit'): o[k] = b.get(k, o.get(k))
+            continue
+        have.add(b['title']); blocks.append(b)
 mpath = os.path.join(here, 'merges.json')
 if order and os.path.exists(mpath):
     byt = {b['title']: b for b in blocks}
