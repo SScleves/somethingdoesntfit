@@ -38,6 +38,13 @@ for fn in order:
             if len(s) > len(dup['summary']): dup['summary'] = s
             dropped.append((t, dup['title'])); continue
         blocks.append(nb)
+# Extra research batches (blocks-web-*.json) are appended once, by title.
+have = {b['title'] for b in blocks}
+for fn in sorted(glob.glob(os.path.join(here, 'blocks-web-*.json'))):
+    tag = os.path.basename(fn)[len('blocks-web-'):-len('.json')]
+    for b in json.load(open(fn)):
+        if b['title'] in have: continue
+        b = dict(b); b['group'] = 'Web research, ' + tag; have.add(b['title']); blocks.append(b)
 mpath = os.path.join(here, 'merges.json')
 if order and os.path.exists(mpath):
     byt = {b['title']: b for b in blocks}
