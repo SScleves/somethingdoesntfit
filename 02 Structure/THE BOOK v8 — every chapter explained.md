@@ -1,5 +1,5 @@
-# THE BOOK v8.1 — the whole story, explained
-### 22 October 2026. One document. Part 1 is every chapter in a few plain sentences, for reading in one sitting. Part 2 is the same chapters with their beats, for writing from. Part 0 is what the story is built on. PLACEHOLDER marks a decision that is Santi's.
+# THE BOOK v8.2 — the whole story, in three parts
+### 23 October 2026. One document. Part 0: what the story is built on and where every reveal goes. Part 1: every chapter in a few plain sentences, in order. Part 2: the same chapters with beats. PLACEHOLDER marks a decision that is Santi's.
 
 ---
 
@@ -12,12 +12,22 @@
 2. *What happens when we die, and what they took out of the books.* The deleted sentences aren't history. They're instructions: how to die without fear, how to keep what you are across the gap, how to find the people and the dog you loved. Fear is what scatters you back into the pool; love is what makes you an individual who can't be dissolved. The organisation keeps people afraid at the end and busy in the middle so that nobody persists. This is the philosophy, and it arrives in rooms with people, never as a lecture.
 3. *What ordinary people did for the machine, and what they were promised.* Every manager who said "leave it," every clerk who catalogued, every executive who signed a seat contract, every dealer who telephoned: they were told a small believable reason and promised, in a word they never examined, that they'd be *saved*. They never asked from what. James shows each of them two things: what they actually contributed to, and that they are not on the list. This is how he wins.
 
-**The three reveals the villains make, in the order they make them.** James can't find these himself; they're hidden in comedies and obscure films and the way ceremonies are staged. They have to be told to him by people who enjoy telling them.
-1. *What soft disclosure is for* (Kalder hints at it; Bram says it plainly in the reading room). It was never about preparing people for a truth. It's a mask. Every film and show about the secret makes the next person who finds it sound like a joke. Oral history, then written history, then fiction, then film, then the internet (which frightened them in the nineties and then became theirs), then social media (same story), then AI, the new crown jewel: it doesn't make people believe the wrong thing, it makes them doubt everything, and doubt is cheaper than belief. Even when information leaks, as it did to Philip K. Dick, the job is done so well that the man who was handed a true thing spends his life trying to disprove it. James grasps the concept, not the catalogue.
-2. *What the bunkers are for* (James reads it off the seat list; Bram confirms). Not salvation. Fuel. You promise middle management a seat and they keep the machine running. Maybe some technology buys a few decades; maybe one day they freeze people; the people at the top don't care. The seat list is a payroll.
-3. *The people at the top remember* (said lightly, as a joke, late; the hinge of the book). Not frozen, not revived. Some of them know how to remember across lives. It's the one thing they took out of every book and kept for themselves. The Dalai Lama search is the public copy, made quaint and photographed, so the real thing stays unthinkable. Remembering makes them very old and very powerful and completely stuck: the hidden religions say remembering is for growing, letting go, and leaving; they used it for power, and every cycle they come back more corrupt and further from the door. They don't know where the door goes. They stopped wanting to. That's the warden in the essay: a management layer that never dies and forgot the prison was one. What James wants, once he knows this, is to break the cycle. His own. Remember in order to leave.
+**WHERE EVERY REVEAL GOES**
 
-**The ending argument, and why James accepts it.** The woman who takes the chair tells him the truth: if he reveals it all, society doesn't wake up, it collapses, because they spent a century making people frightened and selfish and they did it well. And if there's no continuity and a cataclysm comes, killers and savages run what's left. So: new management, old and not all bad; they'll help in ways they see fit; they won't help the collapse; continuity stays; James keeps his silence. He says yes. He hasn't saved the world. He's bought it time and taken the knife out of the hand that was holding it.
+*The opening (the reading room, December; James alone; the old head talking; Anneke silent).* Hints, not explanations. The reader gets a conspiracy and a machine on page three; the villain later shrugs at both.
+- The seats: "You found the seats. Everyone who gets this far finds the seats. A bank's disaster plan, names, dependants per allocation, no dogs. We leave them findable."
+- The count: "And you were counted the night you asked. Everyone who asks is counted."
+- The ledger open at page 118: one line struck out, one written beside it. The reader doesn't know what it is. Four chapters later James finds it on his kitchen floor.
+- A generator under the floor. Aylin: "we were expecting you." Cut. *Eight months earlier.*
+
+*Part One (the ordinary world, then two big things).* The method, found: one edited sentence. The job at work, found and erased. The thin book with forty-one edits and a date still to come. James on the machine's own list.
+
+*Part Two (the old stuff; proof it has always been there; the people).* Method: the style guide, the 1931 printer, the 1953 panel. Religion and the old truths, through Noor, the shelf and Beard Man: the knowledge-bringers punished in every tradition; the old gods rewritten as demons; the warden who calls himself God; "within" turned into "through us"; the mechanism edited, never the message. The afterlife layer, lightly: the reports rhyme; the bucket theory; Pythagoras and the dog; the names as passwords; the window the size of a meal. The modern paperwork: the invoice, the seat contract, the drill, the seat list. James assumes the seats are to save the organisation, probably by freezing; he's wrong until Part Three. And all the people: the corporate day, the pub, the barbecue, the promise, the schedule, the gate, the vet, Noor quiet, the corridor, the floor, Twenty minutes, the other ten, the band, Frank loose.
+Part Two ends with the opening continued: James at the reading-room table puts the recent, cool stuff down in front of the old man (page 212; the grants in the cold years; the hearings as vinegar; the forums farmed; the invoice stepping up the week he asked; the eleven addresses). The old man, delighted, confirms only the general method (stories were always the tool; each new medium frightened them and then became theirs) and makes the offer: five seats, no dogs. James says no.
+
+*Part Three (the new, outrageous reveals, and the truth).* The dinner; the phone; the compartments; the sheets; the leak; the night before; Monday. Then the final conversation, the old man defeated and talking, Anneke beside him, in this order: (1) soft disclosure was never disclosure: Men in Black, I Origins, the moon as a soul collector, Inception, Dracula and Walt Disney; (2) Philip K. Dick, handed a true thing and spending his life disproving it; (3) the internet in the nineties, social media, AI as the crown jewel: doubt is cheaper than belief; (4) the bunkers are fuel; freezing is meaningless; (5) the Dalai Lama search confirmed, the ceremony that makes the real thing unthinkable; (6) they remember: the one thing they took out of every book and kept; (7) James's callback: remembering was for leaving the cycle, not staying; the old man agrees; they chose to stay; (8) why the truth can't come out: collapse; killers and savages; (9) the deal with the new management; the one last thing; the market; leave it; the book he's allowed to publish.
+
+*Epilogue.* Buddy, the garden, "I'll see him soon," Ida at the stairs; the parked far-future scene.
 
 **How the organisation works, plainly.** It is not a cabal in a room. It is a method and a few hundred professionals, standing on millions of semi-aware helpers. The professionals (people like Bram and Kalder) know some of it. The helpers know none of it; they know their one task and the word "continuity." The organisation's strength is that so few people need to know anything. Its weakness is the same fact: it depends on people who don't know, and the moment they do, they stop. James attacks the compartments, not the top.
 
@@ -34,7 +44,9 @@
 - *Frank.* The friend. Not in it. Skeptic who teases, then loosens. Files the last ticket with James.
 - *Pieter.* James's manager. A helper. Told the orphan job is a security test. His name is on the seat list. One of the people James shows the truth to.
 - *Kalder.* Handsome, funny, a very good golfer, great company, likes James. Sells the bank its continuity. A handler who crossed nine years ago and took his seat. A psychopath, loyal to himself. Poisons the dog to get into the house. Never changes. Used, burned, found.
-- *Bram.* The one who talks. Sincere, decent, believes the story he tells, has never had the experience he counts.
+- *Bram.* The one who talks, in the handler scenes. Sincere, decent, believes the story he tells, has never had the experience he counts.
+- *The old head.* The bad one. Walks into the reading room on page three; defeated and talking at the end.
+- *Anneke de Wit.* The bank's head of risk. In the reading room on page three, silent, an observer; reasonable at the end; takes the chair.
 - *Noor.* The professor's last student, a paper conservator in Leiden. Quiet because the professor told her to be.
 - *Beard Man.* The market dealer. Ninety per cent nonsense. One of his nonsense theories is the one that turns out to be right.
 - *Els, Aylin, Anneke, the Groningen dealer, the widow in Zwolle, the brewery man.* The helpers James goes to, one by one.
@@ -45,9 +57,9 @@
 
 ## PART 1 — EVERY CHAPTER IN A FEW SENTENCES
 
-### Movement One — Nothing fits
+### PART ONE — NOTHING FITS
 
-**Cold open.** James drives alone to keep an appointment a dead man made, on the second of December, at a low building behind a car park with a sign. The woman at the desk says they were expecting him, not today, but expecting him. Upstairs a tray is already on the reading-room table and a handwritten ledger from 1931 is already open at page 118. He sits. Cut to eight months earlier.
+**The reading room (the opening).** James drives alone, the second of December, to keep an appointment a dead man made. Aylin at the desk: "We were expecting you. Not today, but we were expecting you." Upstairs, a tray, a 1931 ledger open at page 118 with one line struck out. A man comes in, old, pleasant; a woman sits by the window and says nothing. The man talks about the archive, and then, as if it were nothing: everyone who gets this far finds the seats; a bank's disaster plan, names, no dogs; we leave them findable. And you were counted the night you asked. Through the floor, a generator. Cut. *Eight months earlier.*
 
 **The funeral.** (Santi's.) Ana's grandmother is buried. Everyone says she's in a better place. James says yes without believing it. A flash: cold mud, a hand cracked at the knuckles. On the drive home: nobody even pretends there's a heaven for a dog. The search begins.
 
@@ -75,7 +87,9 @@
 
 **Groningen.** The dealer thought James was from the organisation. He was visited in 2011 and told to telephone if anyone asked for that title; he telephoned about James before James opened the ticket. James tells him what the call does. The old man says he won't make another.
 
-### Movement Two — The machine
+*Part One ends with two things in James's hands: a dead man's list of forty-one edits with a date still to come, and the proof that his own bank counted him the night he asked and then erased the counting.*
+
+### PART TWO — THE MACHINE HAS ALWAYS BEEN THERE
 
 **Deventer, March.** (Villain alone.) The professor asked for a visit, breaking his own rule. The visitor photographs the notebook while he sleeps and waits. Eleven days later the bin isn't put out. The books have already gone to the market.
 
@@ -103,7 +117,6 @@
 
 **Leiden, nine years ago.** (Villain alone.) Kalder crosses in Noor's kitchen, files it, and takes his seat as a promotion.
 
-### Movement Three — The shift
 
 **On land.** (The first coded scene, Ana present.) The pub. Kalder drops one obscure word only the organisation and very deep readers use. James invents a book that doesn't exist; Kalder says he knows it. James shows nothing. No threats. Both play along for months, both unsure, both liking each other. James now knows what it costs if he's right.
 
@@ -129,7 +142,6 @@
 
 **The long table, again.** (The organisation.) "James has hands." The review brought forward to two weeks. "The dog." "Yes." Bram will make the offer himself.
 
-### Movement Four — The instrument
 
 **Twenty minutes.** James puts everything on Ana's mother's tablecloth and explains it in order, labelling what he can't prove. She doesn't believe it and she believes him. She's coming home. If anyone comes, she opens the door.
 
@@ -141,7 +153,11 @@
 
 **Leiden, 1931.** (The organisation, past.) A printer resets three lines in a dead man's book and leaves the typos.
 
-**The appointment.** (The cold open continued.) The second of December, alone. The foundation's own 1931 ledger. One deleted sentence makes him go cold: the thing they took out wasn't history, it was instructions for dying. Bram comes in and makes the offer plainly: five seats, no dogs. James says no. He passes the door to the lower floor and doesn't open it.
+**The reading room, continued.** The opening, picked up from the cut. The old man and the silent woman. James puts his own findings on the table, the recent ones: page 212 and the blind spot sold to every company; the grants in the cold years; the hearings on the bar TV, every admission bundled with a finding of nothing; the forums farmed; the invoice stepping up the week he asked; the eleven addresses and what happened at three. The old man, delighted, confirms only the method in general: stories were always the tool; each new medium frightened them and then became theirs. He makes the offer: five seats, no dogs. James says no. He passes the door to the lower floor and doesn't open it.
+
+*Part Two ends with James having said no to the one man who could have saved him, and the reader knowing what James doesn't: the review is two weeks away.*
+
+### PART THREE — THE INSTRUMENT
 
 **The dinner.** (The second coded scene, Ana present.) Kalder comes uninvited to reinforce the offer. Buddy growls like he's possessed. Kalder threatens in code and asks, kindly, if Buddy's okay now. James tells him in his job's words that he caught the slip at the pub and has been addressing it since. The *Burn Notice* conversation. Then James says the sentence he promised Ana. She hears it, pretends she didn't, goes to the kitchen, and comes back with the drinks. Kalder falls asleep at the table. They unlock his phone.
 
@@ -155,7 +171,9 @@
 
 **The night before.** James has to get the last twelve sheets to the twelve members of the bank's board before Monday morning, when Anneke is due to sign the quarter's schedule. Ana drives. Mora in the back. Aylin lets him into the depot at midnight to copy the visitor book. A van follows for a while and then doesn't. The last envelope goes on Anneke's doorstep at six.
 
-**Monday.** The board meets without James. He is on the sixth green with the old dog. The bank, which funds the foundation, votes its trustees out and puts its own people in. Anneke takes the chair. The old heads are "retired at the review." Anneke calls James with the terms: we'll change our ways; not everyone is good; we won't help the collapse and won't risk our plans if the world collapses on its own; continuity has to be guaranteed; we need your secrecy. He agrees. He asks one last thing, which is not said.
+**Monday.** The board meets without James. He is on the sixth green with the old dog. The bank, which funds the foundation, votes its trustees out and puts its own people in. Anneke takes the chair. The old head is retired. The call: the terms. He asks one last thing, which is not said.
+
+**The final conversation.** The old man, removed, in the reading room one last time, Anneke beside him. He talks because he enjoys it and because it no longer matters. Soft disclosure was never disclosure: Men in Black, I Origins, the moon as a soul collector, Inception, Dracula and Walt Disney. Philip K. Dick. The internet, social media, AI as the crown jewel. The bunkers are fuel; freezing is meaningless. The Dalai Lama confirmed. And then: nobody's frozen; some of them remember; it's the one thing they took out of every book and kept. James, to his face: remembering was for leaving the cycle, not staying; Buddha, the Gnostic Jesus, the Sufi, Noor, the shelf, his own floor. The old man agrees. They chose to stay. They don't know where the door goes and stopped wanting to. Then why the truth can't come out: the world would collapse; they made sure; killers and savages after a cataclysm. Anneke's deal: help as they see fit, no help to the collapse, continuity stays, James's silence. He agrees.
 
 **A market, Sunday.** (James and Kalder.) Kalder, weeks into hiding, is surrounded at a market by his own colleagues. His phone rings and it's James. Part of the deal was you gone; you shouldn't have touched my dog. And how he was found: a man who hits a 320-yard draw has one bag in the world like that. Kalder half-smiles. The colleagues close in.
 
@@ -169,14 +187,16 @@
 
 ## PART 2 — THE SAME CHAPTERS, WITH BEATS
 
-### Movement One — Nothing fits
+### PART ONE — NOTHING FITS
 *What it asks: is there anything there, or is grief making patterns?*
 
-**Cold open** (James, alone; about 500 words)
-- The car park, the sign, December light. He's alone and the reader doesn't know why.
-- Aylin at the desk: "Mr Klippe. We were expecting you. Not today, but we were expecting you."
-- The reading room, the tray, the ledger open at page 118. He sits. Cut. *Eight months earlier.*
-- Why it's there: a date to dread; the question of who expected him and where his wife is.
+**The reading room (the opening)** · about 700 words
+- The car park, the sign, December light; alone.
+- Aylin: "Mr Klippe. We were expecting you. Not today, but we were expecting you."
+- The tray; the 1931 ledger open at page 118; one line struck through, one written beside it (the reader meets it again in "The sentence").
+- The old man comes in; Anneke takes the chair by the window and says nothing all scene.
+- Small talk about the archive. Then, as if it were nothing: the seats, findable on purpose; the count, "you were counted the night you asked."
+- A generator through the floor. Cut. *Eight months earlier.*
 
 **The funeral, The good life, Reading with a pen, The sentence** (Santi's four; expansions as agreed)
 - Good life: one line placing the bank; the hobby as a nose; the forum handle planted.
@@ -229,7 +249,7 @@
 - "Be plain: who sent you?" The 2011 visit. The telephone call made three weeks ago.
 - James explains what the call does. The old man says he won't make another. The first helper, turned by one question.
 
-### Movement Two — The machine
+### PART TWO — THE MACHINE HAS ALWAYS BEEN THERE
 *What it asks: what shape is it, and who is in it?*
 
 **Deventer, March** (villain alone; about 1,100 words)
@@ -284,7 +304,6 @@
 **Leiden, nine years ago** (villain alone; about 1,100 words)
 - Kalder's clipboard, Noor's silence, Zwolle, his own file, the seat as promotion.
 
-### Movement Three — The shift
 *What it asks: what does crossing cost, and what does being seen crossing cost?*
 
 **On land** (James; the first coded scene; about 2,200 words)
@@ -343,7 +362,6 @@
 **The long table, again** (the organisation; about 1,200 words)
 - "James has hands." Two weeks. "The dog." "Yes." Bram will go himself.
 
-### Movement Four — The instrument
 *What it asks: can a man who watches systems do anything to one?*
 
 **Twenty minutes** (James; about 1,900 words)
@@ -365,12 +383,14 @@
 **Leiden, 1931** (the organisation, past; about 1,100 words)
 - The printer, the three lines, the typos left. "You have two sons."
 
-**The appointment** (James; the cold open continued; about 3,000 words)
-- He wrote under his own name citing the professor's appointment; they said yes.
-- Aylin, the tray, the 1931 ledger, entry one page 118.
-- He reads the deleted column alone. One sentence makes him go cold (PLACEHOLDER: an invented 1920s text's instruction for the dying, removed in 1931). What they took out wasn't history.
-- Bram comes in. First, because he enjoys it, the conversation about stories: James brings the examples he's read, Bram corrects him one by one (reveal one, above); James can't tell how much of it is true and notices Bram is doing to him what the organisation does to everyone, making the story too neat. Then the offer, plainly: five seats, no dogs; the story he believes. "Nobody's ever done to Julian what you did at the pub. That's why it's me."
-- James says no. The door to the lower floor, badged for, not opened.
+**The reading room, continued** · about 3,000 words
+- From the cut. The old man, the silent woman, the ledger.
+- James puts down his findings, the recent ones: page 212; the grants in the cold years; the hearings as vinegar; the forums farmed; the invoice; the eleven addresses and three outcomes.
+- The old man confirms the method in general only (stories; each new medium captured), enjoying it; refuses every specific.
+- The offer: five seats, no dogs. James says no.
+- The lower door, badged for, not opened.
+
+### PART THREE
 
 **The dinner** (James; the second coded scene; about 3,000 words)
 - Uninvited. Ana welcomes him. Buddy growls like he's possessed.
@@ -416,13 +436,19 @@
 - Six in the morning: Anneke's doorstep. She opens the door before he knocks. "I've read it. Go home."
 - What this is: the chase, with envelopes instead of guns, and the only time in the book James drives through a city at night with his wife at the wheel.
 
-**Monday** (James; about 2,000 words)
-- The sixth green, seven in the morning, the old dog in the cart. The phone face down on the bench.
-- What's happening elsewhere, told as he imagines it: the board meeting; the bank votes its trustees out of the foundation; Anneke in the chair; the old heads retired "at the review."
-- The call. The terms, in her voice: we'll change our ways; not everyone is good; we won't help the collapse and won't risk our plans if the world collapses on its own; continuity has to be guaranteed; we need your secrecy. And the argument James can't beat: reveal it and the world collapses, we made sure of that; no bunkers and a cataclysm, and killers run what's left.
-- And, lightly, the thing he'll think about for the rest of the book (reveal three): nobody's frozen, nobody's revived; some of them just know how to remember; it's the only thing they took out of the books that they kept; the Dalai Lama is the ceremony that makes it unthinkable. PLACEHOLDER: this line can be Bram's in the reading room instead, if it plays better there.
-- He agrees. He asks one last thing. We don't hear it.
-- Why they don't kill him, said once, plainly: they have killed before, and it was always cheap. Killing him now is not cheap. Two hundred people are holding their own names; a body confirms every envelope. He is alive because he made his death expensive.
+**Monday** · about 2,000 words
+- The sixth green, seven in the morning, the old dog in the cart, the phone face down.
+- What happens elsewhere, imagined: the board; the trustees voted out; Anneke in the chair; the old head retired.
+- The call. The terms, in her voice. He agrees. He asks one last thing. We don't hear it.
+- Why they don't kill him, said once, plainly: they have killed before, and it was cheap. Now it isn't: two hundred people hold their own names, and a body confirms every envelope.
+
+**The final conversation** · about 3,500 words
+- The reading room one last time. The old man removed; Anneke in the chair; James with nothing on the table this time.
+- The old man talks because it no longer matters. The order: Men in Black; I Origins; the moon; Inception; Dracula and Disney; Philip K. Dick; the internet, social media, AI as the crown jewel ("we don't need you to believe anything; we need you unsure"); the bunkers as fuel; freezing meaningless; the Dalai Lama confirmed; and then, lightly: nobody's frozen; some of us remember; the one thing we took out of every book and kept.
+- James's callback, to his face: remembering was for leaving, not staying. The old man: yes. We chose to stay. Every time it costs more. We don't know where the door goes and we stopped wanting to.
+- Why the truth can't come out, from Anneke: collapse; we made sure; killers and savages after a cataclysm.
+- The deal. James agrees.
+- James can't check a word of the film stuff and notices the old man is doing to him what they do to everyone: making the story too neat. He decides what to believe later, in a garden.
 
 **A market, Sunday** (James and Kalder; about 1,200 words)
 - Kalder, hiding well, at a market. A colleague. He turns. Another. Surrounded.
@@ -451,4 +477,5 @@
 4. The car park chapter: anonymised, cut, or identifiable.
 5. The line James says to Els.
 6. The handler's house by mistake on the night before: in or out.
-7. The epilogue.
+7. Whether the remembering line is the old man's in the final conversation (as placed) or planted once earlier by him in the reading room as a joke.
+8. The epilogue.
