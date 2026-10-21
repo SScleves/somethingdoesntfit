@@ -2,6 +2,7 @@
 "by": {
 "ch-the-reading-room-the-opening": {
 "file": "00 — Cold open.md",
+"folder": "01 Manuscript/v6",
 "words": 498,
 "status": "santi",
 "blurb": "[J]. Movement I opens here, from the middle of the book. Santi's pass needed.",
@@ -12,6 +13,7 @@
 },
 "ch-the-funeral": {
 "file": "01 — The funeral.md",
+"folder": "01 Manuscript/v6",
 "words": 2810,
 "status": "santi",
 "blurb": "✅ SANTI'S — copied unchanged from `01 Manuscript/Chapter 01.md` as a block of Movement I. Edit the original, not this copy.",
@@ -24,6 +26,7 @@
 },
 "ch-the-good-life": {
 "file": "02 — The good life.md",
+"folder": "01 Manuscript/v6",
 "words": 2756,
 "status": "santi",
 "blurb": "✅ SANTI'S — copied unchanged from `01 Manuscript/Chapter 02.md` as a block of Movement I. Edit the original, not this copy.",
@@ -38,6 +41,7 @@
 },
 "ch-reading-with-a-pen": {
 "file": "03 — Reading with a pen.md",
+"folder": "01 Manuscript/v6",
 "words": 2257,
 "status": "santi",
 "blurb": "✅ SANTI'S — copied unchanged from `01 Manuscript/Chapter 03.md` as a block of Movement I. Edit the original, not this copy.",
@@ -50,6 +54,7 @@
 },
 "ch-the-sentence": {
 "file": "04 — The sentence.md",
+"folder": "01 Manuscript/v6",
 "words": 3427,
 "status": "santi",
 "blurb": "✅ SANTI'S — copied unchanged from `01 Manuscript/Chapter 04.md` as a block of Movement I. Edit the original, not this copy.",
@@ -64,6 +69,7 @@
 },
 "ch-utrecht-1993": {
 "file": "05 — Utrecht. A phone call. 1993.md",
+"folder": "01 Manuscript/v6",
 "words": 829,
 "status": "draft",
 "blurb": "[K-past]. Third person. Invented people, invented paper, real city. Answers the question the sentence just asked: *who says yes?*",
@@ -75,6 +81,7 @@
 },
 "ch-leave-it": {
 "file": "06 — Leave it.md",
+"folder": "01 Manuscript/v6",
 "words": 1943,
 "status": "draft",
 "blurb": "[J]. Follows the sentence. The name arrives on paper. The first lie told to his face.",
@@ -91,6 +98,7 @@
 },
 "ch-the-control-case": {
 "file": "07 — The control case.md",
+"folder": "01 Manuscript/v6",
 "words": 1876,
 "status": "draft",
 "blurb": "[J]. The method, shown. The thin book opened. The professor got there first.",
@@ -106,6 +114,7 @@
 },
 "ch-the-week-it-vanished": {
 "file": "08 — The week it vanished.md",
+"folder": "01 Manuscript/v6",
 "words": 1912,
 "status": "draft",
 "blurb": "[J]. The turn of Movement I. Somebody reaches into the plate while he's watching.",
@@ -123,6 +132,7 @@
 },
 "ch-deventer-march": {
 "file": "09 — Deventer. A Thursday in March.md",
+"folder": "01 Manuscript/v6",
 "words": 1073,
 "status": "draft",
 "blurb": "[K-past]. Third person. The professor's death from the handler's side. No name. Ends on the one kind mistake. Answers *ask who?*",
@@ -134,6 +144,7 @@
 },
 "ch-frank-s-kitchen": {
 "file": "10 — Frank's kitchen.md",
+"folder": "01 Manuscript/v6",
 "words": 1801,
 "status": "draft",
 "blurb": "[J]. Movement II opens. Three Noise scenes folded into one evening; one Thread with a page number. Frank's list. Disclosure on the TV, nobody looks up.",
@@ -146,6 +157,7 @@
 },
 "ch-the-math": {
 "file": "11 — The math.md",
+"folder": "01 Manuscript/v6",
 "words": 2257,
 "status": "draft",
 "blurb": "[J]. The style guide arrives as an object. The arithmetic. He stops calling people. The recruiter's email.",
@@ -161,6 +173,7 @@
 },
 "ch-a-round-with-a-stranger": {
 "file": "12 — The seventh tee.md",
+"folder": "01 Manuscript/v6",
 "words": 1587,
 "status": "draft",
 "blurb": "[J]. The vacuum cleaner. Dave. He asks about the dog first. The reader has the name from the email; James has a Wednesday.",
@@ -174,6 +187,7 @@
 },
 "ch-a-car-park": {
 "file": "13 — A car park. Thursday.md",
+"folder": "01 Manuscript/v6",
 "words": 625,
 "status": "draft",
 "blurb": "[K]. Third person. Reporting upward. The understatement that moves the date. Forty words of his own speech.",
@@ -182,6 +196,7 @@
 },
 "ch-leiden": {
 "file": "14 — Leiden.md",
+"folder": "01 Manuscript/v6",
 "words": 1904,
 "status": "draft",
 "blurb": "[J]. The second head. Not alone. The generals' manual on a kitchen table. Entry #26. The second column.",
@@ -196,6 +211,7 @@
 },
 "ch-enjoy-it-while-it-lasts": {
 "file": "15 — Enjoy it while it lasts.md",
+"folder": "01 Manuscript/v6",
 "words": 1785,
 "status": "draft",
 "blurb": "[J]. Meerwijk. The defaults with the blind spot built in. Access shrinks by exactly the right amount. The White Knight, by email. Dave at the barbecue is next; this is the turn.",
@@ -210,6 +226,7 @@
 },
 "ch-a-room-with-a-long-table": {
 "file": "16 — A room with a long table.md",
+"folder": "01 Manuscript/v6",
 "words": 1249,
 "status": "draft",
 "blurb": "[K]. Third person. Kalder and Bram. The reader learns what the count counts, in conversation, not in a memo. Movement II ends here.",
@@ -220,6 +237,7 @@
 },
 "ch-the-gorilla-mask": {
 "file": "17 — The gorilla mask.md",
+"folder": "01 Manuscript/v6",
 "words": 1785,
 "status": "draft",
 "blurb": "[J]. Movement III opens. His words come back improved. The barbecue. Buddy won't go near him. The click is the reader's; James files it.",
@@ -236,6 +254,7 @@
 },
 "ch-on-land": {
 "file": "18 — On land.md",
+"folder": "01 Manuscript/v6",
 "words": 1501,
 "status": "draft",
 "blurb": "[J]. The pub. A town he never said. The threat is about houses and dogs. The scene ends on him. The jokes stop.",
@@ -251,6 +270,7 @@
 },
 "ch-the-schedule": {
 "file": "19 — The schedule.md",
+"folder": "01 Manuscript/v6",
 "words": 1458,
 "status": "draft",
 "blurb": "[J]. She reads the address. She leaves because of the danger, not the distance. She uses his name.",
@@ -264,6 +284,7 @@
 },
 "ch-a-street-night": {
 "file": "20 — A street. Night.md",
+"folder": "01 Manuscript/v6",
 "words": 659,
 "status": "draft",
 "blurb": "[K]. Third person. The visit. Deniable. The book never confirms what, if anything, he did.",
@@ -272,6 +293,7 @@
 },
 "ch-the-vet": {
 "file": "21 — The vet.md",
+"folder": "01 Manuscript/v6",
 "words": 2075,
 "status": "draft",
 "blurb": "[J]. Buddy's night. The vigil. He finally checks a person. Noor won't be a witness. The shelfmark. Noor goes dark.",
@@ -288,6 +310,7 @@
 },
 "ch-a-corridor-sixteen": {
 "file": "22 — A corridor. He is sixteen.md",
+"folder": "01 Manuscript/v6",
 "words": 924,
 "status": "draft",
 "blurb": "[J-past]. Third person. The hospital. The first time he was told to leave something and did. No voice-over, no lesson.",
@@ -296,6 +319,7 @@
 },
 "ch-the-night-he-stops-being-afraid": {
 "file": "23 — The floor.md",
+"folder": "01 Manuscript/v6",
 "words": 2171,
 "status": "draft",
 "blurb": "[J]. The crossing. Sober, flat, domestic. No light. No how. The list re-reads itself. He says the word once, to a dog, and is embarrassed.",
@@ -309,6 +333,7 @@
 },
 "ch-the-long-table-again": {
 "file": "24 — The long table, again.md",
+"folder": "01 Manuscript/v6",
 "words": 909,
 "status": "draft",
 "blurb": "[K]. Third person. The crossing, reported. He uses the first name. The reader learns Kalder has hands. The date moves. Movement III ends.",
@@ -320,6 +345,7 @@
 },
 "ch-twenty-minutes": {
 "file": "25 — Twenty minutes.md",
+"folder": "01 Manuscript/v6",
 "words": 1742,
 "status": "draft",
 "blurb": "[J]. Movement IV opens. He tells Ana everything, with objects, in her mother's kitchen. She gets the plan, not the memoir. The cooling half, understood.",
@@ -336,6 +362,7 @@
 },
 "ch-the-band": {
 "file": "26 — The band.md",
+"folder": "01 Manuscript/v6",
 "words": 1670,
 "status": "draft",
 "blurb": "[J]. Three in the morning at Meerwijk. The lower limit. The machine heats as well as cools. A man in a good coat behind the glass, not there to stop him.",
@@ -351,6 +378,7 @@
 },
 "ch-leiden-1931": {
 "file": "27 — Leiden. A printer's shop. 1931.md",
+"folder": "01 Manuscript/v6",
 "words": 1015,
 "status": "draft",
 "blurb": "[K-past]. Third person. The one far back. Invented men, invented book, real city. The reader recognises the machine. The plate.",
@@ -359,6 +387,7 @@
 },
 "ch-the-dinner": {
 "file": "28 — The table.md",
+"folder": "01 Manuscript/v6",
 "words": 3234,
 "status": "draft",
 "blurb": "[J]. The cold open, reached. The offer. The reveal that hurts, as an object. Ana present. Cat and mouse: nobody says the word. Ends on him.",
@@ -373,17 +402,24 @@
 ]
 },
 "ch-monday": {
-"file": "29 — The depot. Monday.md",
-"words": 970,
+"file": "52 — Monday.md",
+"folder": "01 Manuscript/v7",
+"words": 2082,
 "status": "draft",
-"blurb": "[K]. Third person. The last report. One line, everything else untouched. He never appears again.",
+"blurb": "[J]. The sixth green at seven, the old dog in the cart, the phone face down on the bench. The board meets without him. Anneke takes the chair. She calls with the terms. He asks one last thing, not said. Why they don't ki",
 "guess": false,
 "mentions": [
-"Bram"
+"Ana",
+"Buddy",
+"Frank",
+"Pieter",
+"Kalder",
+"Anneke"
 ]
 },
 "ch-leave-it-2": {
 "file": "30 — Leave it.md",
+"folder": "01 Manuscript/v6",
 "words": 1416,
 "status": "draft",
 "blurb": "[J]. The verdict. The machine's word for him is the first lie he was told to his face. Ninety-nine per cent. A flask on a bench.",
@@ -399,6 +435,7 @@
 },
 "ch-epilogue": {
 "file": "31 — Coda.md",
+"folder": "01 Manuscript/v6",
 "words": 1296,
 "status": "draft",
 "blurb": "[J]. Years later. A dog buried right. The one Buddy thing. The almost-recognition. The last word.",
@@ -408,6 +445,330 @@
 "Buddy",
 "Mora",
 "Frank"
+]
+},
+"ch-down-house-1860": {
+"file": "06 — Down House, 1860.md",
+"folder": "01 Manuscript/v7",
+"words": 1065,
+"status": "draft",
+"blurb": "[Interlude, real]. Third person. Real events, real words. Ilkley, November 1859; Down, January 1860; a letter in 1863. Follows The sentence: \"if it was worth doing here, where else?\"",
+"guess": false,
+"mentions": []
+},
+"ch-the-payload": {
+"file": "10 — The payload.md",
+"folder": "01 Manuscript/v7",
+"words": 1982,
+"status": "draft",
+"blurb": "[J]. Follows Leave it. He captures the forty kilobytes. A list of people who wrote something down. His own line appears the night after he asked.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Pieter"
+]
+},
+"ch-a-pension-visit-zwolle": {
+"file": "13 — A pension visit, Zwolle.md",
+"folder": "01 Manuscript/v7",
+"words": 1098,
+"status": "draft",
+"blurb": "[K]. Third person. Under 900 words. No name, no lore. A kind afternoon. Each ending plausible.",
+"guess": false,
+"mentions": []
+},
+"ch-groningen": {
+"file": "14 — Groningen.md",
+"folder": "01 Manuscript/v7",
+"words": 2167,
+"status": "draft",
+"blurb": "[J]. The dealer who wrote to him. The first helper, told what the phone call does. Ana on the phone from the car. Part One ends here.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Frank",
+"Pieter",
+"the professor"
+]
+},
+"ch-croton-530-bc": {
+"file": "16 — Croton, 530 BC.md",
+"folder": "01 Manuscript/v7",
+"words": 260,
+"status": "draft",
+"blurb": "[Interlude, real]. One page, by design. The placement pass argues this is an epigraph-piece, not a chapter; it is written to work either where v8.2 puts it or just before the epilogue.",
+"guess": false,
+"mentions": []
+},
+"ch-the-corporate-day": {
+"file": "19 — The corporate day.md",
+"folder": "01 Manuscript/v7",
+"words": 1894,
+"status": "draft",
+"blurb": "[J]. The bank's golf day. Kalder with a vendor's lanyard, and James honestly glad. He sells the bank its continuity. Ana at the end, on the phone, about the dogs.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora"
+]
+},
+"ch-the-drill": {
+"file": "23 — The drill.md",
+"folder": "01 Manuscript/v7",
+"words": 2016,
+"status": "draft",
+"blurb": "[J]. First week on the continuity programme. The recovery site. Desk forty. A glass door upstairs he isn't badged for. He notes a reference-number format and doesn't connect it.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Pieter",
+"the professor"
+]
+},
+"ch-the-money": {
+"file": "24 — The money.md",
+"folder": "01 Manuscript/v7",
+"words": 2061,
+"status": "draft",
+"blurb": "[J]. The invoices. A line to the foundation, billed per flagged person, stepping up for thirty-one years; the last step the week he opened his ticket. The second contract. The annex: the seat list, no dogs. Ana reads it ",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Pieter"
+]
+},
+"ch-leiden-nine-years-ago": {
+"file": "27 — Leiden, nine years ago.md",
+"folder": "01 Manuscript/v7",
+"words": 1746,
+"status": "draft",
+"blurb": "[K-past]. Third person. Kalder's crossing, from his side. Twenty minutes of Noor's silence. He files it, watches the date move, asks for more names. The seat is a promotion he wanted.",
+"guess": false,
+"mentions": [
+"Kalder",
+"Noor"
+]
+},
+"ch-the-promise": {
+"file": "30 — The promise.md",
+"folder": "01 Manuscript/v7",
+"words": 914,
+"status": "draft",
+"blurb": "[J]. Short. The kitchen floor, four in the morning, after the barbecue. One day I'm going to need you to believe me. Run where, I've got a Doberman. Then the other voice: okay.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Kalder",
+"Beard Man",
+"the professor"
+]
+},
+"ch-washington-1953": {
+"file": "32 — Washington, 1953.md",
+"folder": "01 Manuscript/v7",
+"words": 1204,
+"status": "draft",
+"blurb": "[Interlude, real]. Five scientists, one long weekend, a recommendation. Real people doing documented things; the quoted words are the report's own. Follows The schedule.",
+"guess": false,
+"mentions": []
+},
+"ch-leiden-friday": {
+"file": "35 — Leiden, Friday.md",
+"folder": "01 Manuscript/v7",
+"words": 1144,
+"status": "draft",
+"blurb": "[K]. Third person. Under 900 words. Kalder makes Noor quiet in one afternoon with a clipboard and a kind voice. No threat is made. She makes him tea again.",
+"guess": false,
+"mentions": [
+"James",
+"Kalder",
+"Noor",
+"the professor"
+]
+},
+"ch-urfa-1994": {
+"file": "38 — Urfa, 1994.md",
+"folder": "01 Manuscript/v7",
+"words": 1030,
+"status": "draft",
+"blurb": "[Interlude, real]. A German archaeologist climbs a hill the farmers call Potbelly. Real events; Tresidder is fifteen kilometres away and the chapter never says he found it. Follows The night he stops being afraid.",
+"guess": false,
+"mentions": [
+"James",
+"the professor",
+"Tresidder"
+]
+},
+"ch-the-other-ten": {
+"file": "41 — The other ten.md",
+"folder": "01 Manuscript/v7",
+"words": 2526,
+"status": "draft",
+"blurb": "[J]. The other addresses on the schedule, checked against public records. Three resolved, plausibly. Four quiet. Zwolle, the widow, the flask. He tells her nothing yet. Ana on the phone from her mother's.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Noor"
+]
+},
+"ch-frank-loose": {
+"file": "43 — Frank, loose.md",
+"folder": "01 Manuscript/v7",
+"words": 2207,
+"status": "draft",
+"blurb": "[J]. James shows Frank the money. For the first time they talk the big ideas straight. Frank's verdict: I still don't believe it; I believe the invoice. Buddy under the table. Ana home.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Frank",
+"Pieter"
+]
+},
+"ch-the-reading-room-continued": {
+"file": "45 — The reading room, continued.md",
+"folder": "01 Manuscript/v7",
+"words": 2623,
+"status": "draft",
+"blurb": "[J]. The opening, picked up from the cut. James puts the recent, cool stuff on the table. The old man confirms only the general method, and makes the offer: five seats, no dogs. James says no. Part Two ends here.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Frank",
+"Anneke",
+"Aylin",
+"the professor"
+]
+},
+"ch-what-was-on-the-phone": {
+"file": "47 — What was on the phone.md",
+"folder": "01 Manuscript/v7",
+"words": 1945,
+"status": "draft",
+"blurb": "[J]. Follows The dinner: Kalder asleep at the table, Ana's mother's pills, the phone unlocked with a sleeping thumb. Forty minutes. The handlers by code. The schedule. The seats for four companies. And the list he didn't",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Frank",
+"Pieter",
+"Kalder",
+"the professor"
+]
+},
+"ch-compartments": {
+"file": "48 — Compartments.md",
+"folder": "01 Manuscript/v7",
+"words": 1440,
+"status": "draft",
+"blurb": "[J]. Short. The shape of the organisation, understood. Half of it in dialogue with Ana, at the table, the morning after, with the dogs. He has the paper.",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
+"Pieter",
+"Kalder"
+]
+},
+"ch-the-sheets": {
+"file": "49 — The sheets.md",
+"folder": "01 Manuscript/v7",
+"words": 2796,
+"status": "draft",
+"blurb": "[J]. Three weeks. One page per person. We watch him deliver them: Pieter after hours; the dealer; the brewer who reports it; Anneke, who reads the invoice thirty times and asks for the rest; Aylin, who shows him the visi",
+"guess": false,
+"mentions": [
+"Ana",
+"Frank",
+"Pieter",
+"Anneke",
+"Aylin",
+"the professor"
+]
+},
+"ch-the-leak": {
+"file": "50 — The leak.md",
+"folder": "01 Manuscript/v7",
+"words": 2379,
+"status": "draft",
+"blurb": "[J]. The brewer's report reaches them. The review comes forward to Monday. Handlers are sent to three addresses. Pieter rings from his car: there's a man at my door. Let him in, make tea, say nothing.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Pieter",
+"Anneke"
+]
+},
+"ch-the-night-before": {
+"file": "51 — The night before.md",
+"folder": "01 Manuscript/v7",
+"words": 2545,
+"status": "draft",
+"blurb": "[J]. Twelve envelopes before Monday. Ana drives. Mora in the back. Two already turned. One not home. A van for a while. Midnight at the depot with Aylin, the visitor book, the lower floor humming through the glass. Six i",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Mora",
+"Anneke",
+"Aylin"
+]
+},
+"ch-the-final-conversation": {
+"file": "53 — The final conversation.md",
+"folder": "01 Manuscript/v7",
+"words": 2905,
+"status": "draft",
+"blurb": "[J]. The old man, removed, in the reading room one last time, Anneke beside him, James with nothing on the table. He talks because he enjoys it. The nine things, in v8.2's order, kept short; the placement pass suggests m",
+"guess": false,
+"mentions": [
+"Anneke",
+"Aylin",
+"the professor"
+]
+},
+"ch-a-market-sunday": {
+"file": "54 — A market, Sunday.md",
+"folder": "01 Manuscript/v7",
+"words": 1623,
+"status": "draft",
+"blurb": "[J]. Kalder, weeks into hiding, at a market, surrounded. His phone rings and it's James. You shouldn't have touched my dog. How he was found: the clubs. Kalder half-smiles. He knew.",
+"guess": false,
+"mentions": [
+"James",
+"Ana",
+"Buddy",
+"Frank",
+"Kalder",
+"Anneke",
+"Aylin",
+"Beard Man"
 ]
 }
 },
@@ -432,5 +793,5 @@
 "Dave",
 "Tresidder"
 ],
-"folder": "01 Manuscript/v6"
+"folder": "01 Manuscript"
 }
