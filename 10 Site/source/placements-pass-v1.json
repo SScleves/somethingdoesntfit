@@ -1,0 +1,2042 @@
+[
+{
+"id": "b-the-roster-who-gets-a-bunk__ch-the-reading-room-the-opening",
+"data": {
+"block": "b-the-roster-who-gets-a-bunk",
+"title": "The roster: who gets a bunk",
+"target": "ch-the-reading-room-the-opening",
+"targetTitle": "The reading room (the opening)",
+"targetKind": "Chapter",
+"how": "Claude: The seats are an object the old man shrugs at: 'we leave them findable.' No explanation on page three; the roster is enough.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-every-inquiry-leaves-a-fingerprint__ch-the-reading-room-the-opening",
+"data": {
+"block": "b-every-inquiry-leaves-a-fingerprint",
+"title": "Every inquiry leaves a fingerprint",
+"target": "ch-the-reading-room-the-opening",
+"targetTitle": "The reading room (the opening)",
+"targetKind": "Chapter",
+"how": "Claude: 'You were counted the night you asked.' One line, no mechanism. The mechanism is The payload, four chapters later.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-yima-loses-his-glory-when-he-lies__ch-the-funeral",
+"data": {
+"block": "b-yima-loses-his-glory-when-he-lies",
+"title": "Yima loses his glory when he lies",
+"target": "ch-the-funeral",
+"targetTitle": "The funeral",
+"targetKind": "Chapter",
+"how": "Claude: Never on the page here. The small yes is the lie that lets the glory go; keep it as your private north and let the professor's margin say it in The control case.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-no-wall-of-comfort-for-dogs__ch-the-funeral",
+"data": {
+"block": "b-no-wall-of-comfort-for-dogs",
+"title": "No wall of comfort for dogs",
+"target": "ch-the-funeral",
+"targetTitle": "The funeral",
+"targetKind": "Chapter",
+"how": "Claude: Already yours: the drive home, nobody pretends there's a heaven for a dog. Tagged so the epilogue can invert it word for word.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-hunting-things-old-and-slightly-wrong__ch-the-good-life",
+"data": {
+"block": "b-hunting-things-old-and-slightly-wrong",
+"title": "Hunting things old and slightly wrong",
+"target": "ch-the-good-life",
+"targetTitle": "The good life",
+"targetKind": "Chapter",
+"how": "Claude: The hobby as a nose: the one branch he checks carefully is books that change between printings. Plant, don't explain.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-faucet-safe-facts-steer-a-table__ch-the-good-life",
+"data": {
+"block": "b-the-faucet-safe-facts-steer-a-table",
+"title": "The Faucet: safe facts steer a table",
+"target": "ch-the-good-life",
+"targetTitle": "The good life",
+"targetKind": "Chapter",
+"how": "Claude: The faucet shown as a party trick before it becomes a defence. Ana and the dogs are the licensed listeners.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-deathbed-visions-of-the-dead__ch-reading-with-a-pen",
+"data": {
+"block": "b-deathbed-visions-of-the-dead",
+"title": "Deathbed visions of the dead",
+"target": "ch-reading-with-a-pen",
+"targetTitle": "Reading with a pen",
+"targetKind": "Chapter",
+"how": "Claude: 'The reports rhyme': one documented rhyme in a sentence, not a list. He reads the middle of the book, as always.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-group-souls-and-the-animal-collective__ch-reading-with-a-pen",
+"data": {
+"block": "b-group-souls-and-the-animal-collective",
+"title": "Group souls and the animal collective",
+"target": "ch-reading-with-a-pen",
+"targetTitle": "Reading with a pen",
+"targetKind": "Chapter",
+"how": "Claude: Beard Man's bucket theory, filed under Beard Man. The book's ending is already in it and nobody notices.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-forum-voice-everyone-ignores__ch-reading-with-a-pen",
+"data": {
+"block": "b-the-forum-voice-everyone-ignores",
+"title": "The forum voice everyone ignores",
+"target": "ch-reading-with-a-pen",
+"targetTitle": "Reading with a pen",
+"targetKind": "Chapter",
+"how": "Claude: The question typed and deleted. In the machine's terms this is the first thing he almost wrote down.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-11-tresidder-page-118__ch-the-sentence",
+"data": {
+"block": "b-11-tresidder-page-118",
+"title": "#11: Tresidder, page 118",
+"target": "ch-the-sentence",
+"targetTitle": "The sentence",
+"targetKind": "Chapter",
+"how": "Claude: The edit itself. Invented edit on an invented book, per the reality rule. The reader has seen the struck line on page three.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-grammar-of-the-edits__ch-the-sentence",
+"data": {
+"block": "b-the-grammar-of-the-edits",
+"title": "The grammar of the edits",
+"target": "ch-the-sentence",
+"targetTitle": "The sentence",
+"targetKind": "Chapter",
+"how": "Claude: Three edits, one direction: given → arose. He sees the grammar before the meaning, on the kitchen floor, playing fetch.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-penemue-who-taught-writing__ch-the-sentence",
+"data": {
+"block": "b-penemue-who-taught-writing",
+"title": "Penemue, who taught writing",
+"target": "ch-the-sentence",
+"targetTitle": "The sentence",
+"targetKind": "Chapter",
+"how": "Claude: Not here. Noted so the chapter knows what it is the first chapter of: in the oldest text the giving of writing was the crime.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-record-retractions-nobody-admitted__ch-down-house-1860",
+"data": {
+"block": "b-the-record-retractions-nobody-admitted",
+"title": "The Record: retractions nobody admitted",
+"target": "ch-down-house-1860",
+"targetTitle": "Down House, 1860",
+"targetKind": "Chapter",
+"how": "Claude: The interlude answers 'where else?' in the largest way: the most famous book alive, changed by its own author, who regretted it in a letter you can read. Real words only.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-how-kalder-gets-close__ch-a-round-with-a-stranger",
+"data": {
+"block": "b-how-kalder-gets-close",
+"title": "How Kalder gets close",
+"target": "ch-a-round-with-a-stranger",
+"targetTitle": "A round with a stranger",
+"targetKind": "Chapter",
+"how": "Claude: He asks about Buddy before he asks James's name. That is the whole method in one beat.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-vacuum-cleaner-interviewer__ch-a-round-with-a-stranger",
+"data": {
+"block": "b-the-vacuum-cleaner-interviewer",
+"title": "The vacuum cleaner interviewer",
+"target": "ch-a-round-with-a-stranger",
+"targetTitle": "A round with a stranger",
+"targetKind": "Chapter",
+"how": "Claude: Kalder's tradecraft is Vallée's vacuum cleaner: ten minutes, no notes, nothing forgotten. The reader should feel charmed too.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-rapport-and-the-hook-point__ch-a-round-with-a-stranger",
+"data": {
+"block": "b-rapport-and-the-hook-point",
+"title": "Rapport and the hook point",
+"target": "ch-a-round-with-a-stranger",
+"targetTitle": "A round with a stranger",
+"targetKind": "Chapter",
+"how": "Claude: James drives home giddy. The hook point is the dozen small connections, and the book never has to name it.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-26-withdrawn-at-the-author-s-request__ch-utrecht-1993",
+"data": {
+"block": "b-26-withdrawn-at-the-author-s-request",
+"title": "#26: Withdrawn at the author's request",
+"target": "ch-utrecht-1993",
+"targetTitle": "Utrecht, 1993",
+"targetKind": "Chapter",
+"how": "Claude: This is entry 26 from the inside: the paper filed under instrumentation. Noor identifies it in Leiden.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-entanglement-and-bell-s-theorem__ch-utrecht-1993",
+"data": {
+"block": "b-entanglement-and-bell-s-theorem",
+"title": "Entanglement and Bell's theorem",
+"target": "ch-utrecht-1993",
+"targetTitle": "Utrecht, 1993",
+"targetKind": "Chapter",
+"how": "Claude: The two-rooms experiment rhymes with Aspect 1982 without naming it. Keep the paper and the men fictional; the physics it echoes is real.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-standup-in-the-glass-box__ch-leave-it",
+"data": {
+"block": "b-seed-standup-in-the-glass-box",
+"title": "Seed: standup in the glass box",
+"target": "ch-leave-it",
+"targetTitle": "Leave it",
+"targetKind": "Chapter",
+"how": "Claude: The stand-up. Pieter's visible moment, then the sentence.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-gaslighting-and-the-first-denial__ch-leave-it",
+"data": {
+"block": "b-gaslighting-and-the-first-denial",
+"title": "Gaslighting and the first denial",
+"target": "ch-leave-it",
+"targetTitle": "Leave it",
+"targetKind": "Chapter",
+"how": "Claude: The first denial, read as a pause. James reads the pause the way he reads everything; he does not yet read what it means.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-writing-is-what-makes-the-count-possible__ch-leave-it",
+"data": {
+"block": "b-writing-is-what-makes-the-count-possible",
+"title": "Writing is what makes the count possible",
+"target": "ch-leave-it",
+"targetTitle": "Leave it",
+"targetKind": "Chapter",
+"how": "Claude: The ticket he opens is the act that counts him. Don't say it here; The payload lands it.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-payload-is-diffs-not-claims__ch-the-payload",
+"data": {
+"block": "b-the-payload-is-diffs-not-claims",
+"title": "The payload is diffs, not claims",
+"target": "ch-the-payload",
+"targetTitle": "The payload",
+"targetKind": "Chapter",
+"how": "Claude: Forty kilobytes, two-word reasons, his own line appears the night after he asked. The chapter is the object, not the theory.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-writing-is-what-makes-the-count-possible__ch-the-payload",
+"data": {
+"block": "b-writing-is-what-makes-the-count-possible",
+"title": "Writing is what makes the count possible",
+"target": "ch-the-payload",
+"targetTitle": "The payload",
+"targetKind": "Chapter",
+"how": "Claude: What the job actually counts: people who wrote something down. 'asked (job)'. Nobody reads minds.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-room-641a__ch-the-payload",
+"data": {
+"block": "b-room-641a",
+"title": "Room 641A",
+"target": "ch-the-payload",
+"targetTitle": "The payload",
+"targetKind": "Chapter",
+"how": "Claude: Mark Klein found the NSA splitter by reading wiring documents nobody read. James would know the story and be frightened by it. One line, his, not Frank's.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-record-retractions-nobody-admitted__ch-the-control-case",
+"data": {
+"block": "b-the-record-retractions-nobody-admitted",
+"title": "The Record: retractions nobody admitted",
+"target": "ch-the-control-case",
+"targetTitle": "The control case",
+"targetKind": "Chapter",
+"how": "Claude: He tries to kill his own finding and keeps the negatives: nine books, nothing. The anti-Langdon contract, kept.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-black-iron-prison__ch-the-control-case",
+"data": {
+"block": "b-the-black-iron-prison",
+"title": "The Black Iron Prison",
+"target": "ch-the-control-case",
+"targetTitle": "The control case",
+"targetKind": "Chapter",
+"how": "Claude: The professor's shelf: VALIS, Blindsight, Ubik, a Canticle, a Borges with the science fiction. A pattern of subject, not of edits; a man's conclusions.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-professor-s-thin-book__ch-the-control-case",
+"data": {
+"block": "b-the-professor-s-thin-book",
+"title": "The professor's thin book",
+"target": "ch-the-control-case",
+"targetTitle": "The control case",
+"targetKind": "Chapter",
+"how": "Claude: Two hands, forty-one edits, a library number, a date still to come, Ask.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-yima-loses-his-glory-when-he-lies__ch-the-control-case",
+"data": {
+"block": "b-yima-loses-his-glory-when-he-lies",
+"title": "Yima loses his glory when he lies",
+"target": "ch-the-control-case",
+"targetTitle": "The control case",
+"targetKind": "Chapter",
+"how": "Claude: The professor's margin, one line: the oldest story of a man losing his light says the cause was a lie. James lied to Ana about the price this week.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-martyr-type-the-professor__ch-the-week-it-vanished",
+"data": {
+"block": "b-martyr-type-the-professor",
+"title": "Martyr type: The Professor",
+"target": "ch-the-week-it-vanished",
+"targetTitle": "The week it vanished",
+"targetKind": "Chapter",
+"how": "Claude: How the professor died: a blue chair, the bin not put out, a polite man in a van. The type, from Beard Man's mouth.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-beria-pages__ch-the-week-it-vanished",
+"data": {
+"block": "b-the-beria-pages",
+"title": "The Beria pages",
+"target": "ch-the-week-it-vanished",
+"targetTitle": "The week it vanished",
+"targetKind": "Chapter",
+"how": "Claude: The job gone from every backup, the book closing up as if nothing had been there. One image in narration, no history lesson.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-each-anomaly-gets-its-own-explanation__ch-a-pension-visit-zwolle",
+"data": {
+"block": "b-each-anomaly-gets-its-own-explanation",
+"title": "Each anomaly gets its own explanation",
+"target": "ch-a-pension-visit-zwolle",
+"targetTitle": "A pension visit, Zwolle",
+"targetKind": "Chapter",
+"how": "Claude: Each ending plausible on its own: a man who loved his car and the canal road. The chapter must never say what happened.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-little-aunt-s-phone-calls__ch-a-pension-visit-zwolle",
+"data": {
+"block": "b-the-little-aunt-s-phone-calls",
+"title": "The little aunt's phone calls",
+"target": "ch-a-pension-visit-zwolle",
+"targetTitle": "A pension visit, Zwolle",
+"targetKind": "Chapter",
+"how": "Claude: The handler's register: kind, domestic, unhurried. Borrows the car, returns it washed.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-little-aunt-s-phone-calls__ch-groningen",
+"data": {
+"block": "b-the-little-aunt-s-phone-calls",
+"title": "The little aunt's phone calls",
+"target": "ch-groningen",
+"targetTitle": "Groningen",
+"targetKind": "Chapter",
+"how": "Claude: The dealer who telephones is the helper with one small believable reason. James explains to him what the call actually does; the first sheet, before the sheets.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-isolation-makes-one-source-of-truth__ch-groningen",
+"data": {
+"block": "b-isolation-makes-one-source-of-truth",
+"title": "Isolation makes one source of truth",
+"target": "ch-groningen",
+"targetTitle": "Groningen",
+"targetKind": "Chapter",
+"how": "Claude: The old man assumes James is from the organisation because for thirty years they were the only ones who ever asked.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-martyr-type-the-professor__ch-deventer-march",
+"data": {
+"block": "b-martyr-type-the-professor",
+"title": "Martyr type: The Professor",
+"target": "ch-deventer-march",
+"targetTitle": "Deventer, March",
+"targetKind": "Chapter",
+"how": "Claude: The same death from the handler's side. He broke his own rule and wrote to the post box; Penemue again, never said.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-vacuum-cleaner-interviewer__ch-deventer-march",
+"data": {
+"block": "b-the-vacuum-cleaner-interviewer",
+"title": "The vacuum cleaner interviewer",
+"target": "ch-deventer-march",
+"targetTitle": "Deventer, March",
+"targetKind": "Chapter",
+"how": "Claude: Photographs every page while the professor sleeps. 'Better to wait; a body is a fingerprint.'",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-group-souls-and-the-animal-collective__ch-croton-530-bc",
+"data": {
+"block": "b-group-souls-and-the-animal-collective",
+"title": "Group souls and the animal collective",
+"target": "ch-croton-530-bc",
+"targetTitle": "Croton, 530 BC",
+"targetKind": "Chapter",
+"how": "Claude: The oldest counter to the bucket theory: a dog with a friend's voice. Pythagoras, real words, nothing added.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-phantom-time__ch-frank-s-kitchen",
+"data": {
+"block": "b-phantom-time",
+"title": "Phantom time",
+"target": "ch-frank-s-kitchen",
+"targetTitle": "Frank's kitchen",
+"targetKind": "Chapter",
+"how": "Claude: Noise earned by being false: killed on tree rings in minutes.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-events-scheduled-before-the-full-moon__ch-frank-s-kitchen",
+"data": {
+"block": "b-events-scheduled-before-the-full-moon",
+"title": "Events scheduled before the full moon",
+"target": "ch-frank-s-kitchen",
+"targetTitle": "Frank's kitchen",
+"targetKind": "Chapter",
+"how": "Claude: The full-moon earthquake video. Second kill.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-mandela-effect__ch-frank-s-kitchen",
+"data": {
+"block": "b-the-mandela-effect",
+"title": "The Mandela effect",
+"target": "ch-frank-s-kitchen",
+"targetTitle": "Frank's kitchen",
+"targetKind": "Chapter",
+"how": "Claude: Frank's best shot at James: 'Mandela effect for bookworms.' Shared false memory versus a text that really changed. Frank is right about the one and wrong about the other, which is the whole book.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-tesla-quote-that-doesn-t-exist__ch-frank-s-kitchen",
+"data": {
+"block": "b-the-tesla-quote-that-doesn-t-exist",
+"title": "The Tesla quote that doesn't exist",
+"target": "ch-frank-s-kitchen",
+"targetTitle": "Frank's kitchen",
+"targetKind": "Chapter",
+"how": "Claude: Frank kills the poster quote in one sentence and James agrees. Agreeing here is what buys James credibility on page 118.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-a-threshold-of-ridicule-for-skeptics__ch-frank-s-kitchen",
+"data": {
+"block": "b-a-threshold-of-ridicule-for-skeptics",
+"title": "A threshold of ridicule for skeptics",
+"target": "ch-frank-s-kitchen",
+"targetTitle": "Frank's kitchen",
+"targetKind": "Chapter",
+"how": "Claude: James's better question: a theory that dies on tree rings doesn't need a documentary, so why is there one? Vallée's point, in James's words, never attributed.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-frank-reads-the-recommendation__ch-frank-s-kitchen",
+"data": {
+"block": "b-seed-frank-reads-the-recommendation",
+"title": "Seed: Frank reads the recommendation",
+"target": "ch-frank-s-kitchen",
+"targetTitle": "Frank's kitchen",
+"targetKind": "Chapter",
+"how": "Claude: The real 1953 panel text, read in its real words. 'The memo's the table.'",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-a-daughter-who-kept-a-box__ch-the-math",
+"data": {
+"block": "b-a-daughter-who-kept-a-box",
+"title": "A daughter who kept a box",
+"target": "ch-the-math",
+"targetTitle": "The math",
+"targetKind": "Chapter",
+"how": "Claude: Els and the folder under the lining paper. The one thing James says on the way out is still a PLACEHOLDER; it should be a question, not a fact.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-grammar-of-the-edits__ch-the-math",
+"data": {
+"block": "b-the-grammar-of-the-edits",
+"title": "The grammar of the edits",
+"target": "ch-the-math",
+"targetTitle": "The math",
+"targetKind": "Chapter",
+"how": "Claude: Preferred Formulations as an object: the style guide is the grammar written down by the people who use it.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-the-vacuum-cleaner-on-the-seventh__ch-the-corporate-day",
+"data": {
+"block": "b-seed-the-vacuum-cleaner-on-the-seventh",
+"title": "Seed: the vacuum cleaner on the seventh",
+"target": "ch-the-corporate-day",
+"targetTitle": "The corporate day",
+"targetKind": "Chapter",
+"how": "Claude: Kalder with a vendor's lanyard, and James honestly glad.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-rushkoff-s-continuity-plan-the-event__ch-the-corporate-day",
+"data": {
+"block": "b-rushkoff-s-continuity-plan-the-event",
+"title": "Rushkoff's continuity plan: the Event",
+"target": "ch-the-corporate-day",
+"targetTitle": "The corporate day",
+"targetKind": "Chapter",
+"how": "Claude: 'I sell the bank its continuity.' Rushkoff's billionaires asking how to keep the guards loyal after the Event: Kalder's product, as a joke he tells on himself.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-kalder-reports-up__ch-a-car-park",
+"data": {
+"block": "b-seed-kalder-reports-up",
+"title": "Seed: Kalder reports up",
+"target": "ch-a-car-park",
+"targetTitle": "A car park",
+"targetKind": "Chapter",
+"how": "Claude: Reporting upward. 'Stopped asking out loud, which is worse.'",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-kalder-is-told-recall-rate__ch-a-car-park",
+"data": {
+"block": "b-kalder-is-told-recall-rate",
+"title": "Kalder is told recall rate",
+"target": "ch-a-car-park",
+"targetTitle": "A car park",
+"targetKind": "Chapter",
+"how": "Claude: The voice moves the date because of a verb. The handler is told to find out what the man loves.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-noor-and-the-cometa-special__ch-leiden",
+"data": {
+"block": "b-seed-noor-and-the-cometa-special",
+"title": "Seed: Noor and the COMETA special",
+"target": "ch-leiden",
+"targetTitle": "Leiden",
+"targetKind": "Chapter",
+"how": "Claude: Noor's kitchen. The photocopy from 2009.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-cometa-s-four-phases-of-contact__ch-leiden",
+"data": {
+"block": "b-cometa-s-four-phases-of-contact",
+"title": "COMETA's four phases of contact",
+"target": "ch-leiden",
+"targetTitle": "Leiden",
+"targetKind": "Chapter",
+"how": "Claude: Noor reads the generals' manual, real words only. An admiral and five generals; Frank can't wave it away.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-26-withdrawn-at-the-author-s-request__ch-leiden",
+"data": {
+"block": "b-26-withdrawn-at-the-author-s-request",
+"title": "#26: Withdrawn at the author's request",
+"target": "ch-leiden",
+"targetTitle": "Leiden",
+"targetKind": "Chapter",
+"how": "Claude: She identifies entry 26 as the 1993 paper. The two Utrecht chapters and this one are the same fact seen three times.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-garments-of-light__ch-leiden",
+"data": {
+"block": "b-garments-of-light",
+"title": "Garments of light",
+"target": "ch-leiden",
+"targetTitle": "Leiden",
+"targetKind": "Chapter",
+"how": "Claude: A conservator's aside, two lines of dialogue: the oldest lost-light story is a one-letter variant between copies. She would find that funny. James would not.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-martyr-type-the-vanished__ch-mexico-city-1994",
+"data": {
+"block": "b-martyr-type-the-vanished",
+"title": "Martyr type: The Vanished",
+"target": "ch-mexico-city-1994",
+"targetTitle": "Mexico City, 1994",
+"targetKind": "Chapter",
+"how": "Claude: Facts only. See the report: this chapter contradicts Utrecht 1993, where the same scientist dies in 1995 on a canal road. One of them has to go.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-iron-mountain-the-archive-in-the-mine__ch-the-drill",
+"data": {
+"block": "b-iron-mountain-the-archive-in-the-mine",
+"title": "Iron Mountain, the archive in the mine",
+"target": "ch-the-drill",
+"targetTitle": "The drill",
+"targetKind": "Chapter",
+"how": "Claude: The building has a real cousin: a government archive on top of a records vault in a limestone mine. James could have read about it; one clause in narration.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-classified-building-unclassified-files__ch-the-drill",
+"data": {
+"block": "b-classified-building-unclassified-files",
+"title": "Classified building, unclassified files",
+"target": "ch-the-drill",
+"targetTitle": "The drill",
+"targetKind": "Chapter",
+"how": "Claude: A lanyard, a sandwich, desk forty, and a glass door he isn't badged for. He notes a reference-number format and doesn't connect it.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-roster-who-gets-a-bunk__ch-the-drill",
+"data": {
+"block": "b-the-roster-who-gets-a-bunk",
+"title": "The roster: who gets a bunk",
+"target": "ch-the-drill",
+"targetTitle": "The drill",
+"targetKind": "Chapter",
+"how": "Claude: Pieter is twelve. The reader meets the roster as seating.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-mkultra-s-surviving-receipts__ch-the-money",
+"data": {
+"block": "b-mkultra-s-surviving-receipts",
+"title": "MKUltra's surviving receipts",
+"target": "ch-the-money",
+"targetTitle": "The money",
+"targetKind": "Chapter",
+"how": "Claude: The money is the tell: when the files were burned the invoices survived because accounts filed them. Planted here as James's own thought; Frank says it out loud in Frank, loose.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-swiss-company-that-was-the-cia__ch-the-money",
+"data": {
+"block": "b-the-swiss-company-that-was-the-cia",
+"title": "The Swiss company that was the CIA",
+"target": "ch-the-money",
+"targetTitle": "The money",
+"targetKind": "Chapter",
+"how": "Claude: Crypto AG: a contract whose own staff built the trap without knowing. The model for seats hidden inside a continuity contract.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-six-and-a-half-thousand-secret-patents__ch-the-money",
+"data": {
+"block": "b-six-and-a-half-thousand-secret-patents",
+"title": "Six and a half thousand secret patents",
+"target": "ch-the-money",
+"targetTitle": "The money",
+"targetKind": "Chapter",
+"how": "Claude: Kalder, later, on what continuity protects: a published annual number nobody outside can check. 6,543 in 2025.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-ai-fork-operators-drop-the-blind-spot__ch-enjoy-it-while-it-lasts",
+"data": {
+"block": "b-ai-fork-operators-drop-the-blind-spot",
+"title": "AI Fork: operators drop the blind spot",
+"target": "ch-enjoy-it-while-it-lasts",
+"targetTitle": "Enjoy it while it lasts",
+"targetKind": "Chapter",
+"how": "Claude: Page 212. The default with the blind spot in it, sold to every company.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-anomalies-pre-classified-as-noise__ch-enjoy-it-while-it-lasts",
+"data": {
+"block": "b-anomalies-pre-classified-as-noise",
+"title": "Anomalies pre-classified as noise",
+"target": "ch-enjoy-it-while-it-lasts",
+"targetTitle": "Enjoy it while it lasts",
+"targetKind": "Chapter",
+"how": "Claude: A rule that tells the tool never to report jobs exactly like the one he found. His access narrowed by exactly that shape.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-scribe-who-counts-the-excess__ch-a-room-with-a-long-table",
+"data": {
+"block": "b-the-scribe-who-counts-the-excess",
+"title": "The scribe who counts the excess",
+"target": "ch-a-room-with-a-long-table",
+"targetTitle": "A room with a long table",
+"targetKind": "Chapter",
+"how": "Claude: What Bram believes the table is: Enoch's scribe recording the shepherds' excess. He can half-quote it; the reader should feel he is sincere.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-hylic-psychic-pneumatic-people__ch-a-room-with-a-long-table",
+"data": {
+"block": "b-hylic-psychic-pneumatic-people",
+"title": "Hylic, psychic, pneumatic people",
+"target": "ch-a-room-with-a-long-table",
+"targetTitle": "A room with a long table",
+"targetKind": "Chapter",
+"how": "Claude: The right column in Bram's vocabulary, never James's. The count reads fear, not belief.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-blind-king-and-the-shared-title__ch-a-room-with-a-long-table",
+"data": {
+"block": "b-the-blind-king-and-the-shared-title",
+"title": "The blind king and the shared title",
+"target": "ch-a-room-with-a-long-table",
+"targetTitle": "A room with a long table",
+"targetKind": "Chapter",
+"how": "Claude: Every tier calls itself the top. Need-to-know all the way up, stated in 1951 about a third-century cosmology.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-reveal-kalder-crossed-and-chose-the-seat__ch-leiden-nine-years-ago",
+"data": {
+"block": "b-reveal-kalder-crossed-and-chose-the-seat",
+"title": "Reveal: Kalder crossed and chose the seat",
+"target": "ch-leiden-nine-years-ago",
+"targetTitle": "Leiden, nine years ago",
+"targetKind": "Chapter",
+"how": "Claude: The reveal that hurts, from his side: twenty minutes of Noor's silence went through him, and he filed it and asked for more names.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-a-seat-cannot-buy-the-unafraid__ch-leiden-nine-years-ago",
+"data": {
+"block": "b-a-seat-cannot-buy-the-unafraid",
+"title": "A seat cannot buy the unafraid",
+"target": "ch-leiden-nine-years-ago",
+"targetTitle": "Leiden, nine years ago",
+"targetKind": "Chapter",
+"how": "Claude: The book's hardest fact: he crossed and still chose the seat. Don't soften it.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-kalder-s-tell__ch-on-land",
+"data": {
+"block": "b-kalder-s-tell",
+"title": "Kalder's tell",
+"target": "ch-on-land",
+"targetTitle": "On land",
+"targetKind": "Chapter",
+"how": "Claude: The word from the professor's margin, in the pub, mid-toaster story.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-keeper-finishes-his-sentence__ch-on-land",
+"data": {
+"block": "b-the-keeper-finishes-his-sentence",
+"title": "The Keeper finishes his sentence",
+"target": "ch-on-land",
+"targetTitle": "On land",
+"targetKind": "Chapter",
+"how": "Claude: The invented book. Kalder nods and knows it. Only a man pretending would.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-jokes-stop__ch-on-land",
+"data": {
+"block": "b-the-jokes-stop",
+"title": "The jokes stop",
+"target": "ch-on-land",
+"targetTitle": "On land",
+"targetKind": "Chapter",
+"how": "Claude: Ana notices before James does.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-jack-woolams-in-the-gorilla-mask__ch-the-gorilla-mask",
+"data": {
+"block": "b-jack-woolams-in-the-gorilla-mask",
+"title": "Jack Woolams in the gorilla mask",
+"target": "ch-the-gorilla-mask",
+"targetTitle": "The gorilla mask",
+"targetKind": "Chapter",
+"how": "Claude: Frank tells the 1943 story. The mask as a method, and as James's own armour.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-deleted-post-reposted-improved__ch-the-gorilla-mask",
+"data": {
+"block": "b-the-deleted-post-reposted-improved",
+"title": "The deleted post, reposted improved",
+"target": "ch-the-gorilla-mask",
+"targetTitle": "The gorilla mask",
+"targetKind": "Chapter",
+"how": "Claude: His twelve-year-old persona edited: bloodlines added, the deleted question restored. Eleven people see the correction.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-tartaria-and-the-mud-flood__ch-the-gorilla-mask",
+"data": {
+"block": "b-tartaria-and-the-mud-flood",
+"title": "Tartaria and the mud flood",
+"target": "ch-the-gorilla-mask",
+"targetTitle": "The gorilla mask",
+"targetKind": "Chapter",
+"how": "Claude: The forum crank arrives kindly, with Tartaria. The beautiful wrong theory stands next to James's ugly right one; that is the gorilla.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-his-own-facts-quoted-back-at-him__ch-the-gorilla-mask",
+"data": {
+"block": "b-his-own-facts-quoted-back-at-him",
+"title": "His own facts quoted back at him",
+"target": "ch-the-gorilla-mask",
+"targetTitle": "The gorilla mask",
+"targetKind": "Chapter",
+"how": "Claude: Kalder finishes one of James's private lines and says Deventer.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-ana-asks-where-are-you__ch-the-promise",
+"data": {
+"block": "b-ana-asks-where-are-you",
+"title": "Ana asks 'Where are you'",
+"target": "ch-the-promise",
+"targetTitle": "The promise",
+"targetKind": "Chapter",
+"how": "Claude: The kitchen floor, four in the morning. 'Run where, I've got a Doberman.' Then the other voice: okay.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-ana-and-the-schedule__ch-the-schedule",
+"data": {
+"block": "b-seed-ana-and-the-schedule",
+"title": "Seed: Ana and the schedule",
+"target": "ch-the-schedule",
+"targetTitle": "The schedule",
+"targetKind": "Chapter",
+"how": "Claude: She reads it upside down. 'Companion.'",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-operation-legacy__ch-the-schedule",
+"data": {
+"block": "b-operation-legacy",
+"title": "Operation Legacy",
+"target": "ch-the-schedule",
+"targetTitle": "The schedule",
+"targetKind": "Chapter",
+"how": "Claude: 'Records moved for conservation' has a real ancestor: Hanslope Park, 8,800 files, decades of 'no such files exist.' One clause, or Noor later.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-frank-reads-the-recommendation__ch-washington-1953",
+"data": {
+"block": "b-seed-frank-reads-the-recommendation",
+"title": "Seed: Frank reads the recommendation",
+"target": "ch-washington-1953",
+"targetTitle": "Washington, 1953",
+"targetKind": "Chapter",
+"how": "Claude: Told as a story in a room, real words only. The burden of proof on the sighter, not the explainer.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-make-the-witness-sound-insane__ch-washington-1953",
+"data": {
+"block": "b-make-the-witness-sound-insane",
+"title": "Make the witness sound insane",
+"target": "ch-washington-1953",
+"targetTitle": "Washington, 1953",
+"targetKind": "Chapter",
+"how": "Claude: The people executing it were told a different reason. That is the compartment in its first documented form.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-four-hundred-journalists__ch-washington-1953",
+"data": {
+"block": "b-four-hundred-journalists",
+"title": "Four hundred journalists",
+"target": "ch-washington-1953",
+"targetTitle": "Washington, 1953",
+"targetKind": "Chapter",
+"how": "Claude: Optional second beat if the room wants a modern echo: Bernstein, 1977. Keep it to one sentence or cut it.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-each-anomaly-gets-its-own-explanation__ch-a-street-night",
+"data": {
+"block": "b-each-anomaly-gets-its-own-explanation",
+"title": "Each anomaly gets its own explanation",
+"target": "ch-a-street-night",
+"targetTitle": "A street, night",
+"targetKind": "Chapter",
+"how": "Claude: 'The old dog is not a problem.' Deniable, plausible, never confirmed. The Keeper POV exception: under 900 words, no name.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-kalder-s-tell__ch-the-vet",
+"data": {
+"block": "b-kalder-s-tell",
+"title": "Kalder's tell",
+"target": "ch-the-vet",
+"targetTitle": "The vet",
+"targetKind": "Chapter",
+"how": "Claude: Noor identifies the man by the heater from a barbecue photo. The thin book is gone and nothing else is touched.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-dogs-two-states-misfire__ch-the-vet",
+"data": {
+"block": "b-the-dogs-two-states-misfire",
+"title": "The dogs' two states misfire",
+"target": "ch-the-vet",
+"targetTitle": "The vet",
+"targetKind": "Chapter",
+"how": "Claude: Buddy on the floor with his legs going at two in the morning; the vet kind and unhurried: not tonight.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-isolation-makes-one-source-of-truth__ch-leiden-friday",
+"data": {
+"block": "b-isolation-makes-one-source-of-truth",
+"title": "Isolation makes one source of truth",
+"target": "ch-leiden-friday",
+"targetTitle": "Leiden, Friday",
+"targetKind": "Chapter",
+"how": "Claude: Her clients, her mother's care-home place, her accounts. One afternoon, a clipboard, a kind voice. She makes him tea again.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-humanitarian-front__ch-leiden-friday",
+"data": {
+"block": "b-the-humanitarian-front",
+"title": "The humanitarian front",
+"target": "ch-leiden-friday",
+"targetTitle": "Leiden, Friday",
+"targetKind": "Chapter",
+"how": "Claude: Kalder's register with Noor is help. The threat is never made; it is itemised.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-defect-how-do-we-know__ch-a-corridor-sixteen",
+"data": {
+"block": "b-the-defect-how-do-we-know",
+"title": "The Defect: how do we know",
+"target": "ch-a-corridor-sixteen",
+"targetTitle": "A corridor, sixteen",
+"targetKind": "Chapter",
+"how": "Claude: 'Based on what.' Then: don't. The founding wound, planted in ch. 1 and opened here.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-instructions-for-the-dying-read-aloud__ch-a-corridor-sixteen",
+"data": {
+"block": "b-instructions-for-the-dying-read-aloud",
+"title": "Instructions for the dying, read aloud",
+"target": "ch-a-corridor-sixteen",
+"targetTitle": "A corridor, sixteen",
+"targetKind": "Chapter",
+"how": "Claude: The nurse says 'a better place.' The Tibetan rite reads instructions at the ear. Nobody did that for his father; the book never says so.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-three-keys__ch-the-night-he-stops-being-afraid",
+"data": {
+"block": "b-the-three-keys",
+"title": "The Three Keys",
+"target": "ch-the-night-he-stops-being-afraid",
+"targetTitle": "The night he stops being afraid",
+"targetKind": "Chapter",
+"how": "Claude: Sober. No light. No how. He checks the kitchen afterward like a system.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-clear-light-at-death__ch-the-night-he-stops-being-afraid",
+"data": {
+"block": "b-the-clear-light-at-death",
+"title": "The Clear Light at death",
+"target": "ch-the-night-he-stops-being-afraid",
+"targetTitle": "The night he stops being afraid",
+"targetKind": "Chapter",
+"how": "Claude: Know what you are refusing: this is deliberately not the Clear Light. The flatness is the point.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-flashes-a-hand-he-almost-knows__ch-the-night-he-stops-being-afraid",
+"data": {
+"block": "b-the-flashes-a-hand-he-almost-knows",
+"title": "The Flashes: a hand he almost knows",
+"target": "ch-the-night-he-stops-being-afraid",
+"targetTitle": "The night he stops being afraid",
+"targetKind": "Chapter",
+"how": "Claude: The hand from the funeral is one he has filed all his life. 'Not the first time' lands here.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-entropy-is-the-modern-word-for-lost-ligh__ch-the-night-he-stops-being-afraid",
+"data": {
+"block": "b-entropy-is-the-modern-word-for-lost-ligh",
+"title": "Entropy is the modern word for lost light",
+"target": "ch-the-night-he-stops-being-afraid",
+"targetTitle": "The night he stops being afraid",
+"targetKind": "Chapter",
+"how": "Claude: Under it, never said: fear as the high-entropy state leaving him. If a reader wants the physics they can find it; the chapter stays domestic.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-g-bekli-tepe-was-covered-not-abandoned__ch-urfa-1994",
+"data": {
+"block": "b-g-bekli-tepe-was-covered-not-abandoned",
+"title": "Göbekli Tepe was covered, not abandoned",
+"target": "ch-urfa-1994",
+"targetTitle": "Urfa, 1994",
+"targetKind": "Chapter",
+"how": "Claude: A German archaeologist climbs a hill the farmers call Potbelly. Facts only; Tresidder stays fifteen kilometres away and unproved.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-vulture-stone-date__ch-urfa-1994",
+"data": {
+"block": "b-the-vulture-stone-date",
+"title": "The Vulture Stone date",
+"target": "ch-urfa-1994",
+"targetTitle": "Urfa, 1994",
+"targetKind": "Chapter",
+"how": "Claude: The date moves by six thousand years. Don't take the Vulture Stone reading as fact; it is contested and the chapter doesn't need it.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-reveal-kalder-crossed-and-chose-the-seat__ch-the-long-table-again",
+"data": {
+"block": "b-reveal-kalder-crossed-and-chose-the-seat",
+"title": "Reveal: Kalder crossed and chose the seat",
+"target": "ch-the-long-table-again",
+"targetTitle": "The long table, again",
+"targetKind": "Chapter",
+"how": "Claude: Bram makes him say how he knows. 'James has hands.' The review comes forward.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-kalder-is-told-recall-rate__ch-the-long-table-again",
+"data": {
+"block": "b-kalder-is-told-recall-rate",
+"title": "Kalder is told recall rate",
+"target": "ch-the-long-table-again",
+"targetTitle": "The long table, again",
+"targetKind": "Chapter",
+"how": "Claude: The dog: yes; it was efficient.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-twenty-objects-on-the-table__ch-twenty-minutes",
+"data": {
+"block": "b-seed-twenty-objects-on-the-table",
+"title": "Seed: twenty objects on the table",
+"target": "ch-twenty-minutes",
+"targetTitle": "Twenty minutes",
+"targetKind": "Chapter",
+"how": "Claude: Every object on the tablecloth, in order, with what he can't prove labelled. Ana counts six 'I don't know's.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-strategy-told-to-ana__ch-twenty-minutes",
+"data": {
+"block": "b-the-strategy-told-to-ana",
+"title": "The strategy told to Ana",
+"target": "ch-twenty-minutes",
+"targetTitle": "Twenty minutes",
+"targetKind": "Chapter",
+"how": "Claude: She doesn't believe it and she believes him. She's coming home.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-interstellar-visitor__ch-twenty-minutes",
+"data": {
+"block": "b-the-interstellar-visitor",
+"title": "The interstellar visitor",
+"target": "ch-twenty-minutes",
+"targetTitle": "Twenty minutes",
+"targetKind": "Chapter",
+"how": "Claude: If Ana needs a present-day handle: a tenured man mocked on every podcast for asking whether a comet might be a probe. She knows it from the news; James doesn't have to.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-vall-e-checks-the-trustee-lists__ch-the-other-ten",
+"data": {
+"block": "b-vall-e-checks-the-trustee-lists",
+"title": "Vallée checks the trustee lists",
+"target": "ch-the-other-ten",
+"targetTitle": "The other ten",
+"targetKind": "Chapter",
+"how": "Claude: His method here is Vallée's: public records, trustee lists, the dull check. Three resolved plausibly, four gone quiet.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-bankers-who-died-in-2014__ch-the-other-ten",
+"data": {
+"block": "b-the-bankers-who-died-in-2014",
+"title": "The bankers who died in 2014",
+"target": "ch-the-other-ten",
+"targetTitle": "The other ten",
+"targetKind": "Chapter",
+"how": "Claude: The clustering question turned on real people: are seven quiet addresses a pattern or chance? He is a man who reads counts for a living. No names, ever.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-thermostat-with-two-halves__ch-the-band",
+"data": {
+"block": "b-the-thermostat-with-two-halves",
+"title": "The thermostat with two halves",
+"target": "ch-the-band",
+"targetTitle": "The band",
+"targetKind": "Chapter",
+"how": "Claude: The machine heats as well as cools. Said only by James, as a thermostat, never as anyone's hypothesis.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-edits-that-cluster-after-comfort-peaks__ch-the-band",
+"data": {
+"block": "b-edits-that-cluster-after-comfort-peaks",
+"title": "Edits that cluster after comfort peaks",
+"target": "ch-the-band",
+"targetTitle": "The band",
+"targetKind": "Chapter",
+"how": "Claude: The grants to nonsense fall in the cold years. The published accounts are the receipt.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-the-band-at-3-a-m__ch-the-band",
+"data": {
+"block": "b-seed-the-band-at-3-a-m",
+"title": "Seed: the band at 3 a.m.",
+"target": "ch-the-band",
+"targetTitle": "The band",
+"targetKind": "Chapter",
+"how": "Claude: The lower limit found at three in the morning.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-only-render-what-is-being-observed__ch-frank-loose",
+"data": {
+"block": "b-only-render-what-is-being-observed",
+"title": "Only render what is being observed",
+"target": "ch-frank-loose",
+"targetTitle": "Frank, loose",
+"targetKind": "Chapter",
+"how": "Claude: The two of them talk the big ideas straight for the first time: whether a system can count who's logged in without seeing what they see.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-mkultra-s-surviving-receipts__ch-frank-loose",
+"data": {
+"block": "b-mkultra-s-surviving-receipts",
+"title": "MKUltra's surviving receipts",
+"target": "ch-frank-loose",
+"targetTitle": "Frank, loose",
+"targetKind": "Chapter",
+"how": "Claude: 'I still don't believe it; I believe the invoice.' Frank can know that the MKUltra receipts survived the burn. It is his kind of fact.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-distributed-idea-suppression-complex__ch-frank-loose",
+"data": {
+"block": "b-the-distributed-idea-suppression-complex",
+"title": "The Distributed Idea Suppression Complex",
+"target": "ch-frank-loose",
+"targetTitle": "Frank, loose",
+"targetKind": "Chapter",
+"how": "Claude: Frank's own word for compartments without conspirators: a wall nobody built. He uses it against James and it fits the organisation better.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-seed-two-men-in-a-scriptorium__ch-leiden-1931",
+"data": {
+"block": "b-seed-two-men-in-a-scriptorium",
+"title": "Seed: two men in a scriptorium",
+"target": "ch-leiden-1931",
+"targetTitle": "Leiden, 1931",
+"targetKind": "Chapter",
+"how": "Claude: The plate. The reader recognises the machine.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-edit-goes-in-the-mechanism__ch-leiden-1931",
+"data": {
+"block": "b-the-edit-goes-in-the-mechanism",
+"title": "The edit goes in the mechanism",
+"target": "ch-leiden-1931",
+"targetTitle": "Leiden, 1931",
+"targetKind": "Chapter",
+"how": "Claude: The misprints left in: a clean plate is a confession and a dirty one is just a printer.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-penemue-who-taught-writing__ch-leiden-1931",
+"data": {
+"block": "b-penemue-who-taught-writing",
+"title": "Penemue, who taught writing",
+"target": "ch-leiden-1931",
+"targetTitle": "Leiden, 1931",
+"targetKind": "Chapter",
+"how": "Claude: Never said: the printer's trade is the oldest sin in the professor's oldest book. If the printer owns a Bible it is open somewhere else.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-every-uap-acknowledgment-comes-with-a-de__ch-the-reading-room-continued",
+"data": {
+"block": "b-every-uap-acknowledgment-comes-with-a-de",
+"title": "Every UAP acknowledgment comes with a denial",
+"target": "ch-the-reading-room-continued",
+"targetTitle": "The reading room, continued",
+"targetKind": "Chapter",
+"how": "Claude: The hearings as vinegar: every admission bundled with a finding of nothing.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-2026-ufo-files__ch-the-reading-room-continued",
+"data": {
+"block": "b-the-2026-ufo-files",
+"title": "The 2026 UFO files",
+"target": "ch-the-reading-room-continued",
+"targetTitle": "The reading room, continued",
+"targetKind": "Chapter",
+"how": "Claude: The bar TV: six batches between May and September, hundreds of files, no conclusion. The heating half of the thermostat, in the reader's own news memory.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-sacred-texts-films-and-suitable-sects__ch-the-reading-room-continued",
+"data": {
+"block": "b-sacred-texts-films-and-suitable-sects",
+"title": "Sacred texts, films and suitable sects",
+"target": "ch-the-reading-room-continued",
+"targetTitle": "The reading room, continued",
+"targetKind": "Chapter",
+"how": "Claude: The old man confirms only the general method: stories were always the tool; each new medium frightened them and then became theirs. COMETA said it in 1999 in those words.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-calculated-indiscretions__ch-the-dinner",
+"data": {
+"block": "b-calculated-indiscretions",
+"title": "Calculated indiscretions",
+"target": "ch-the-dinner",
+"targetTitle": "The dinner",
+"targetKind": "Chapter",
+"how": "Claude: Kalder's threats in code. 'Is Buddy okay now?' James never told him Buddy was ill.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-double-bind__ch-the-dinner",
+"data": {
+"block": "b-the-double-bind",
+"title": "The double bind",
+"target": "ch-the-dinner",
+"targetTitle": "The dinner",
+"targetKind": "Chapter",
+"how": "Claude: James answers in his own job's words: paid to detect, not to fix; the slightest doubt gets addressed. The book you said you'd read.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-keeper-finishes-his-sentence__ch-the-dinner",
+"data": {
+"block": "b-the-keeper-finishes-his-sentence",
+"title": "The Keeper finishes his sentence",
+"target": "ch-the-dinner",
+"targetTitle": "The dinner",
+"targetKind": "Chapter",
+"how": "Claude: Ana present; nobody says the word.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-keepers-and-their-two-tiers__ch-what-was-on-the-phone",
+"data": {
+"block": "b-the-keepers-and-their-two-tiers",
+"title": "The Keepers and their two tiers",
+"target": "ch-what-was-on-the-phone",
+"targetTitle": "What was on the phone",
+"targetKind": "Chapter",
+"how": "Claude: Handlers by code, next quarter's schedule, seats for four companies.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-clearances-as-grades-of-initiation__ch-what-was-on-the-phone",
+"data": {
+"block": "b-clearances-as-grades-of-initiation",
+"title": "Clearances as grades of initiation",
+"target": "ch-what-was-on-the-phone",
+"targetTitle": "What was on the phone",
+"targetKind": "Chapter",
+"how": "Claude: What each helper was told, by tier: honeypot, disaster recovery, conservation, heritage. 'Continuity' against every name.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-swiss-company-that-was-the-cia__ch-compartments",
+"data": {
+"block": "b-the-swiss-company-that-was-the-cia",
+"title": "The Swiss company that was the CIA",
+"target": "ch-compartments",
+"targetTitle": "Compartments",
+"targetKind": "Chapter",
+"how": "Claude: Compartments made real: a company whose own staff built the trap without knowing. James can name it in one sentence; it is public.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-itek-built-corona-cameras-for-a-front__ch-compartments",
+"data": {
+"block": "b-itek-built-corona-cameras-for-a-front",
+"title": "Itek built CORONA cameras for a front",
+"target": "ch-compartments",
+"targetTitle": "Compartments",
+"targetKind": "Chapter",
+"how": "Claude: The Housed are not told a fact; they are given a task whose shape implies it. The ones who infer get a seat.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-blind-king-and-the-shared-title__ch-compartments",
+"data": {
+"block": "b-the-blind-king-and-the-shared-title",
+"title": "The blind king and the shared title",
+"target": "ch-compartments",
+"targetTitle": "Compartments",
+"targetKind": "Chapter",
+"how": "Claude: Nobody who matters knows anything, so nobody who matters has ever been shown anything. Unless somebody has the paper.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-secrecy-as-helplessness__ch-compartments",
+"data": {
+"block": "b-secrecy-as-helplessness",
+"title": "Secrecy as helplessness",
+"target": "ch-compartments",
+"targetTitle": "Compartments",
+"targetKind": "Chapter",
+"how": "Claude: Keep the five tiers as the organisation's own chart. What James maps is ragged: files lost, two offices blocking each other. Competent enough to frighten, ragged enough to be real.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-payload-is-diffs-not-claims__ch-the-sheets",
+"data": {
+"block": "b-the-payload-is-diffs-not-claims",
+"title": "The payload is diffs, not claims",
+"target": "ch-the-sheets",
+"targetTitle": "The sheets",
+"targetKind": "Chapter",
+"how": "Claude: One page per person: what they contributed to, in their own documents, and whether they're on the list. Diffs, not claims.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-sinners-will-alter-the-words__ch-the-sheets",
+"data": {
+"block": "b-sinners-will-alter-the-words",
+"title": "Sinners will alter the words",
+"target": "ch-the-sheets",
+"targetTitle": "The sheets",
+"targetKind": "Chapter",
+"how": "Claude: What the sheets are in Enoch's terms: books given back to the people who did the work. Never quoted; it is the shape.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-who-takes-out-the-garbage__ch-the-sheets",
+"data": {
+"block": "b-who-takes-out-the-garbage",
+"title": "Who takes out the garbage?",
+"target": "ch-the-sheets",
+"targetTitle": "The sheets",
+"targetKind": "Chapter",
+"how": "Claude: Aylin, asked what she thinks she's conserving, shows him the visitor book. The best minor character stays in the room.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-isolation-makes-one-source-of-truth__ch-the-leak",
+"data": {
+"block": "b-isolation-makes-one-source-of-truth",
+"title": "Isolation makes one source of truth",
+"target": "ch-the-leak",
+"targetTitle": "The leak",
+"targetKind": "Chapter",
+"how": "Claude: Pieter from his car: there's a man at my door. Let him in, make him tea, say nothing. The handler's own method turned around.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-iron-mountain-the-archive-in-the-mine__ch-the-night-before",
+"data": {
+"block": "b-iron-mountain-the-archive-in-the-mine",
+"title": "Iron Mountain, the archive in the mine",
+"target": "ch-the-night-before",
+"targetTitle": "The night before",
+"targetKind": "Chapter",
+"how": "Claude: The lower floor humming through the glass at midnight. The archive on top of the vault is a real kind of building.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-classified-building-unclassified-files__ch-the-night-before",
+"data": {
+"block": "b-classified-building-unclassified-files",
+"title": "Classified building, unclassified files",
+"target": "ch-the-night-before",
+"targetTitle": "The night before",
+"targetKind": "Chapter",
+"how": "Claude: Aylin lets him in to copy the visitor book. The horror is that she is cheerful.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-a-seat-cannot-buy-the-unafraid__ch-monday",
+"data": {
+"block": "b-a-seat-cannot-buy-the-unafraid",
+"title": "A seat cannot buy the unafraid",
+"target": "ch-monday",
+"targetTitle": "Monday",
+"targetKind": "Chapter",
+"how": "Claude: Why they don't kill him, said once, plainly.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-secrets-get-old__ch-monday",
+"data": {
+"block": "b-secrets-get-old",
+"title": "Secrets get old",
+"target": "ch-monday",
+"targetTitle": "Monday",
+"targetKind": "Chapter",
+"how": "Claude: The bank votes the trustees out. Anneke takes the chair. Nothing loud.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-how-films-manufacture-belief__ch-the-final-conversation",
+"data": {
+"block": "b-how-films-manufacture-belief",
+"title": "How films manufacture belief",
+"target": "ch-the-final-conversation",
+"targetTitle": "The final conversation",
+"targetKind": "Chapter",
+"how": "Claude: (1) Soft disclosure was never disclosure: Men in Black, I Origins, the moon, Inception. The old man enjoys this part.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-philip-k-dick-and-the-hernia__ch-the-final-conversation",
+"data": {
+"block": "b-philip-k-dick-and-the-hernia",
+"title": "Philip K. Dick and the hernia",
+"target": "ch-the-final-conversation",
+"targetTitle": "The final conversation",
+"targetKind": "Chapter",
+"how": "Claude: (2) A man handed a true thing and spending his life disproving it.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-dead-internet__ch-the-final-conversation",
+"data": {
+"block": "b-the-dead-internet",
+"title": "The dead internet",
+"target": "ch-the-final-conversation",
+"targetTitle": "The final conversation",
+"targetKind": "Chapter",
+"how": "Claude: (3) The internet, social media, AI as the crown jewel: doubt is cheaper than belief.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-bunkers-built-for-the-restart__ch-the-final-conversation",
+"data": {
+"block": "b-bunkers-built-for-the-restart",
+"title": "Bunkers built for the restart",
+"target": "ch-the-final-conversation",
+"targetTitle": "The final conversation",
+"targetKind": "Chapter",
+"how": "Claude: (4) The bunkers are fuel; freezing is meaningless. Promise middle management a seat and they keep the machine running.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-tibetan-state-oracle__ch-the-final-conversation",
+"data": {
+"block": "b-the-tibetan-state-oracle",
+"title": "The Tibetan state oracle",
+"target": "ch-the-final-conversation",
+"targetTitle": "The final conversation",
+"targetKind": "Chapter",
+"how": "Claude: (5) The Dalai Lama search confirmed, and the ceremony that makes the real thing unthinkable.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-memory-is-the-power-to-name__ch-the-final-conversation",
+"data": {
+"block": "b-memory-is-the-power-to-name",
+"title": "Memory is the power to name",
+"target": "ch-the-final-conversation",
+"targetTitle": "The final conversation",
+"targetKind": "Chapter",
+"how": "Claude: (6) They remember: the one thing they took out of every book and kept.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-campbell-s-recyclable-awareness__ch-the-final-conversation",
+"data": {
+"block": "b-campbell-s-recyclable-awareness",
+"title": "Campbell's recyclable awareness",
+"target": "ch-the-final-conversation",
+"targetTitle": "The final conversation",
+"targetKind": "Chapter",
+"how": "Claude: (7) James's callback: remembering was for leaving the cycle, not staying. The old man agrees; they chose to stay.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-origen-and-the-fifth-council__ch-the-final-conversation",
+"data": {
+"block": "b-origen-and-the-fifth-council",
+"title": "Origen and the fifth council",
+"target": "ch-the-final-conversation",
+"targetTitle": "The final conversation",
+"targetKind": "Chapter",
+"how": "Claude: The old man can cite it with pleasure: an emperor deciding in 553 what Christians may believe about the soul. The oldest signed decision in his trade.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-staged-vampires-and-a-fake-second-coming__ch-the-final-conversation",
+"data": {
+"block": "b-staged-vampires-and-a-fake-second-coming",
+"title": "Staged vampires and a fake Second Coming",
+"target": "ch-the-final-conversation",
+"targetTitle": "The final conversation",
+"targetKind": "Chapter",
+"how": "Claude: (8) Why the truth can't come out: collapse, killers and savages. Vallée's staged apocalypse as the thing they are protecting us from, in their own telling.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-devil-s-trump-card-is-anonymity__ch-a-market-sunday",
+"data": {
+"block": "b-the-devil-s-trump-card-is-anonymity",
+"title": "The devil's trump card is anonymity",
+"target": "ch-a-market-sunday",
+"targetTitle": "A market, Sunday",
+"targetKind": "Chapter",
+"how": "Claude: Found because he kept one thing he loved: forty bags like that in the world. Anonymity was his only protection and he spent it on golf clubs.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-record-retractions-nobody-admitted__ch-leave-it-2",
+"data": {
+"block": "b-the-record-retractions-nobody-admitted",
+"title": "The Record: retractions nobody admitted",
+"target": "ch-leave-it-2",
+"targetTitle": "Leave it",
+"targetKind": "Chapter",
+"how": "Claude: One dull ticket against page 212. The win with a receipt; the reader can name which column it came from.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-vall-e-s-renunciations__ch-leave-it-2",
+"data": {
+"block": "b-vall-e-s-renunciations",
+"title": "Vallée's renunciations",
+"target": "ch-leave-it-2",
+"targetTitle": "Leave it",
+"targetKind": "Chapter",
+"how": "Claude: The book he is allowed to publish: claims nothing, names nobody, asks the reader to look. Vallée's own position after thirty years.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-buddy-buried-right__ch-epilogue",
+"data": {
+"block": "b-buddy-buried-right",
+"title": "Buddy buried right",
+"target": "ch-epilogue",
+"targetTitle": "Epilogue",
+"targetKind": "Chapter",
+"how": "Claude: By the gate, a quarter past two, both of them on the floor. 'He's in a better place; I'll see him soon,' and this time he knows what he means.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-group-souls-and-the-animal-collective__ch-epilogue",
+"data": {
+"block": "b-group-souls-and-the-animal-collective",
+"title": "Group souls and the animal collective",
+"target": "ch-epilogue",
+"targetTitle": "Epilogue",
+"targetKind": "Chapter",
+"how": "Claude: The bucket theory answered: a loved dog can't be poured back. Beard Man was right about one thing.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-love-as-the-exception-the-system-missed__ch-epilogue",
+"data": {
+"block": "b-love-as-the-exception-the-system-missed",
+"title": "Love as the exception the system missed",
+"target": "ch-epilogue",
+"targetTitle": "Epilogue",
+"targetKind": "Chapter",
+"how": "Claude: Ida at the bottom of the stairs, the way only Buddy did. The thesis line once, last page, and not this one.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-defect-how-do-we-know__hj-call",
+"data": {
+"block": "b-the-defect-how-do-we-know",
+"title": "The Defect: how do we know",
+"target": "hj-call",
+"targetTitle": "The call",
+"targetKind": "Journey",
+"how": "Claude: The call is a question, not an event: 'if it was worth doing here, where else?'",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-gorilla-mask__hj-tests",
+"data": {
+"block": "b-the-gorilla-mask",
+"title": "The Gorilla Mask",
+"target": "hj-tests",
+"targetTitle": "Tests, allies, enemies",
+"targetKind": "Journey",
+"how": "Claude: Thirteen chapters in this stage. The gorilla mask is the stage's engine: every real thread has a clown beside it. See the report on pace.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-three-keys__hj-ordeal",
+"data": {
+"block": "b-the-three-keys",
+"title": "The Three Keys",
+"target": "hj-ordeal",
+"targetTitle": "The ordeal",
+"targetKind": "Journey",
+"how": "Claude: The ordeal is sober and domestic, four nights on a kitchen floor. No light.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-vall-e-s-renunciations__hj-return",
+"data": {
+"block": "b-vall-e-s-renunciations",
+"title": "Vallée's renunciations",
+"target": "hj-return",
+"targetTitle": "The return",
+"targetKind": "Journey",
+"how": "Claude: The return brings home a book that claims nothing. The elixir is a method, not a secret.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-beria-pages__mm-editing",
+"data": {
+"block": "b-the-beria-pages",
+"title": "The Beria pages",
+"target": "mm-editing",
+"targetTitle": "Editing",
+"targetKind": "Mind map",
+"how": "Claude: The edit as a household act: the reader cuts the page out himself.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-orwell-deleted-from-the-kindles__mm-editing",
+"data": {
+"block": "b-orwell-deleted-from-the-kindles",
+"title": "Orwell deleted from the Kindles",
+"target": "mm-editing",
+"targetTitle": "Editing",
+"targetKind": "Mind map",
+"how": "Claude: Why the machine still bothers with paper: nobody owns a first impression any more.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-room-641a__mm-counting",
+"data": {
+"block": "b-room-641a",
+"title": "Room 641A",
+"target": "mm-counting",
+"targetTitle": "The count",
+"targetKind": "Mind map",
+"how": "Claude: A technician reads the wiring documents and finds the splitter. James's mirror.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-writing-is-what-makes-the-count-possible__mm-counting",
+"data": {
+"block": "b-writing-is-what-makes-the-count-possible",
+"title": "Writing is what makes the count possible",
+"target": "mm-counting",
+"targetTitle": "The count",
+"targetKind": "Mind map",
+"how": "Claude: Nobody reads minds. People write.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-scribe-who-counts-the-excess__mm-rightcol",
+"data": {
+"block": "b-the-scribe-who-counts-the-excess",
+"title": "The scribe who counts the excess",
+"target": "mm-rightcol",
+"targetTitle": "The right column",
+"targetKind": "Mind map",
+"how": "Claude: The right column has a scriptural ancestor: one hidden witness counting the excess.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-operation-legacy__mm-review",
+"data": {
+"block": "b-operation-legacy",
+"title": "Operation Legacy",
+"target": "mm-review",
+"targetTitle": "The review",
+"targetKind": "Mind map",
+"how": "Claude: 'Moved for conservation', in real life, for decades.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-thermostat-with-two-halves__mm-thermostat",
+"data": {
+"block": "b-the-thermostat-with-two-halves",
+"title": "The thermostat with two halves",
+"target": "mm-thermostat",
+"targetTitle": "The thermostat",
+"targetKind": "Mind map",
+"how": "Claude: Heating and cooling. The 2026 UFO files, Tartaria and the Mandela effect are the heating half in the reader's own feed.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-a-threshold-of-ridicule-for-skeptics__mm-thermostat",
+"data": {
+"block": "b-a-threshold-of-ridicule-for-skeptics",
+"title": "A threshold of ridicule for skeptics",
+"target": "mm-thermostat",
+"targetTitle": "The thermostat",
+"targetKind": "Mind map",
+"how": "Claude: Skeptics are managed as easily as believers.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-rushkoff-s-continuity-plan-the-event__mm-seats",
+"data": {
+"block": "b-rushkoff-s-continuity-plan-the-event",
+"title": "Rushkoff's continuity plan: the Event",
+"target": "mm-seats",
+"targetTitle": "The seats",
+"targetKind": "Mind map",
+"how": "Claude: The seats are a product, and Rushkoff met the buyers.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-secret-emergency-orders__mm-seats",
+"data": {
+"block": "b-the-secret-emergency-orders",
+"title": "The secret emergency orders",
+"target": "mm-seats",
+"targetTitle": "The seats",
+"targetKind": "Mind map",
+"how": "Claude: Continuity plans nobody may read, at state scale.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-iron-mountain-the-archive-in-the-mine__mm-building",
+"data": {
+"block": "b-iron-mountain-the-archive-in-the-mine",
+"title": "Iron Mountain, the archive in the mine",
+"target": "mm-building",
+"targetTitle": "The building",
+"targetKind": "Mind map",
+"how": "Claude: An archive on top of a vault is a normal business.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-swiss-company-that-was-the-cia__mm-compartments",
+"data": {
+"block": "b-the-swiss-company-that-was-the-cia",
+"title": "The Swiss company that was the CIA",
+"target": "mm-compartments",
+"targetTitle": "Compartments",
+"targetKind": "Mind map",
+"how": "Claude: A company whose own staff built the trap.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-blind-king-and-the-shared-title__mm-compartments",
+"data": {
+"block": "b-the-blind-king-and-the-shared-title",
+"title": "The blind king and the shared title",
+"target": "mm-compartments",
+"targetTitle": "Compartments",
+"targetKind": "Mind map",
+"how": "Claude: Every tier calls itself the top.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-vacuum-cleaner-interviewer__mm-kalder",
+"data": {
+"block": "b-the-vacuum-cleaner-interviewer",
+"title": "The vacuum cleaner interviewer",
+"target": "mm-kalder",
+"targetTitle": "Kalder",
+"targetKind": "Mind map",
+"how": "Claude: Ten minutes, no notes, nothing forgotten; asks about the dog first.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-a-seat-cannot-buy-the-unafraid__mm-kalder",
+"data": {
+"block": "b-a-seat-cannot-buy-the-unafraid",
+"title": "A seat cannot buy the unafraid",
+"target": "mm-kalder",
+"targetTitle": "Kalder",
+"targetKind": "Mind map",
+"how": "Claude: He crossed and still chose the seat.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-garments-of-light__mm-noor",
+"data": {
+"block": "b-garments-of-light",
+"title": "Garments of light",
+"target": "mm-noor",
+"targetTitle": "Noor",
+"targetKind": "Mind map",
+"how": "Claude: A conservator who knows the lost light is a one-letter variant between copies.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-penemue-who-taught-writing__mm-professor",
+"data": {
+"block": "b-penemue-who-taught-writing",
+"title": "Penemue, who taught writing",
+"target": "mm-professor",
+"targetTitle": "The professor",
+"targetKind": "Mind map",
+"how": "Claude: Never publish: the oldest text on his shelf says writing was the crime.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-yima-loses-his-glory-when-he-lies__mm-professor",
+"data": {
+"block": "b-yima-loses-his-glory-when-he-lies",
+"title": "Yima loses his glory when he lies",
+"target": "mm-professor",
+"targetTitle": "The professor",
+"targetKind": "Mind map",
+"how": "Claude: Never lie about the book, even to stay safe.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-tesla-quote-that-doesn-t-exist__mm-beard",
+"data": {
+"block": "b-the-tesla-quote-that-doesn-t-exist",
+"title": "The Tesla quote that doesn't exist",
+"target": "mm-beard",
+"targetTitle": "Beard Man",
+"targetKind": "Mind map",
+"how": "Claude: Beard Man owns the poster quote.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-loosh__mm-beard",
+"data": {
+"block": "b-loosh",
+"title": "Loosh",
+"target": "mm-beard",
+"targetTitle": "Beard Man",
+"targetKind": "Mind map",
+"how": "Claude: Beard Man can carry the harvest theory; James rejects it as too tidy.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-the-distributed-idea-suppression-complex__mm-frank",
+"data": {
+"block": "b-the-distributed-idea-suppression-complex",
+"title": "The Distributed Idea Suppression Complex",
+"target": "mm-frank",
+"targetTitle": "Frank",
+"targetKind": "Mind map",
+"how": "Claude: Frank's word for suppression without conspirators.",
+"updated": "2026-10-21T18:30:00Z"
+}
+},
+{
+"id": "b-mkultra-s-surviving-receipts__mm-frank",
+"data": {
+"block": "b-mkultra-s-surviving-receipts",
+"title": "MKUltra's surviving receipts",
+"target": "mm-frank",
+"targetTitle": "Frank",
+"targetKind": "Mind map",
+"how": "Claude: 'I believe the invoice.'",
+"updated": "2026-10-21T18:30:00Z"
+}
+}
+]
