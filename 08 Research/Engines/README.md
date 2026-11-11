@@ -24,3 +24,4 @@ All proposals here are proposals. Santi's decisions are marked PLACEHOLDER. Book
 | Book | Read for | Status |
 |---|---|---|
 | King, *11/22/63* | A: the gate; the past pushing back | done: map, 8 section notes, Q&A |
+| Orwell, *1984* | rewriting records; the forbidden book as the state's trap | done: map, 4 section notes, Q&A |
