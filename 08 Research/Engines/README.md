@@ -31,3 +31,4 @@ All proposals here are proposals. Santi's decisions are marked PLACEHOLDER. Book
 | Pynchon, *The Crying of Lot 49* | signs left findable; played, or mad? | done: map, 1 section note, Q&A |
 | DeLillo, *Libra* | compartments; a plot smaller than it looks; the archivist drowning in paper | done: map, 4 section notes, Q&A |
 | Eco, *The Name of the Rose* | an archive that kills to keep a book unread | done: map, 6 section notes, Q&A |
+| Powers, *Declare* | secret history that never contradicts a documented fact | done: map, 6 section notes, Q&A |
