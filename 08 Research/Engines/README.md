@@ -29,3 +29,4 @@ All proposals here are proposals. Santi's decisions are marked PLACEHOLDER. Book
 | Eco, *Foucault's Pendulum* | B: the canary; the clowns beside the question | done: map, 7 section notes, Q&A |
 | Borges, "Tlön, Uqbar, Orbis Tertius" | one copy with extra pages; dread from a variant | done: map, 1 section note, Q&A |
 | Pynchon, *The Crying of Lot 49* | signs left findable; played, or mad? | done: map, 1 section note, Q&A |
+| DeLillo, *Libra* | compartments; a plot smaller than it looks; the archivist drowning in paper | done: map, 4 section notes, Q&A |
