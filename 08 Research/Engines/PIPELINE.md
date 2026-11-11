@@ -84,7 +84,7 @@ Length 800–1,400 words. No plot recap beyond what the table needs. No theme es
 ## What Step 0 found (11 Nov 2026)
 
 - The diagnosis holds against the drafts: in The drill and The money James notices a format and reads invoices because the job hands them to him (Saskia's folder, a role added "with a sigh"). The only cost is fear.
-- Not all of Part Two is passive. **On land** already uses mechanism B once (the invented book; Kalder says he has read it) and then drops it. **The other ten** is active (public records, the widow in Zwolle) but ends with James choosing not to act.
+- Not all of Part Two is passive. **On land** uses mechanism B once in the v8.2 plan and v8 brief (the invented book; Kalder says he has read it), cashed only in The dinner ("the book you said you'd read"). Correction (Foucault map): no draft has it yet; the only draft, `01 Manuscript/v6/18 — On land.md`, is the older Deventer-slip version where Kalder breaks the friendship off. **The other ten** is active (public records, the widow in Zwolle) but ends with James choosing not to act.
 - So the precise gap: no gate (nothing James must prove before he may act) and no cost of being wrong. Every transfer proposal must say whether it is already on the page, and where.
 
 ## Rules that matter
