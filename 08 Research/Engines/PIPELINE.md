@@ -23,7 +23,7 @@ The book texts are **never** in this repo. The repo is public. Converted text li
 
 ## Stages, per book
 
-1. **Get the text.** Books arrive in `/opt/media/books/<Author>/<Title>/` (qBittorrent, category `books`). Convert with `ebook-convert book.epub book.txt` into a scratch folder outside the repo.
+1. **Get the text.** Books arrive in `/opt/media/books/<Author>/<Title>/` (qBittorrent, category `books`). Convert with `ebook-convert book.epub book.txt` into a scratch folder outside the repo. Then check the text for duplicated blocks (count paragraphs over 80 characters that occur twice): some EPUBs convert with the book, or a long stretch of it, repeated. *The Name of the Rose* came out doubled whole and *Libra* with its last quarter repeated; cut to one copy before splitting.
 2. **Split into reading sections** at the author's chapter breaks, about 30,000 words each, so one reader can hold a whole section (`split.py <book.txt> <out> '<chapter-heading regex>' 30000`). A short work (a Borges story) is one section. Sections, not chapters, are the unit: the engine table wants 8 to 15 rows per book, and one section gives one to three rows.
 3. **Section notes**, one reader per section, all in parallel. Each reads the ENTIRE section and writes `NN-<section>.md` from the template below. No knowledge from outside the text; if unavoidable, mark it *[from memory, not from the text]*.
 4. **Quote check** (mechanical). Every quote in a section note is searched for in the source text; any that is not found verbatim is fixed or removed.

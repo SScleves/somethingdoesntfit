@@ -28,3 +28,4 @@ All proposals here are proposals. Santi's decisions are marked PLACEHOLDER. Book
 | Gibson, *Pattern Recognition* | a nose, not a method; a forum as a place; clues as objects | done: map, 3 section notes, Q&A |
 | Eco, *Foucault's Pendulum* | B: the canary; the clowns beside the question | done: map, 7 section notes, Q&A |
 | Borges, "Tlön, Uqbar, Orbis Tertius" | one copy with extra pages; dread from a variant | done: map, 1 section note, Q&A |
+| Pynchon, *The Crying of Lot 49* | signs left findable; played, or mad? | done: map, 1 section note, Q&A |
