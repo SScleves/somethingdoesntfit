@@ -78,7 +78,10 @@ for b in blocks:
 json.dump(blocks, open(os.path.join(here, 'blocks.json'), 'w'), ensure_ascii=False, indent=0)
 emb = lambda o: json.dumps(o, ensure_ascii=False).replace('</', '<\\/')
 html = open(os.path.join(here, 'template.html')).read()
-html = html.replace('/*BOOK_DATA*/null', emb(book)).replace('/*BLOCK_DATA*/[]', emb(blocks)).replace('/*DRAFT_DATA*/null', emb(drafts))
+subprocess.run(['python3', os.path.join(here, 'engines.py')], check=False)
+epath = os.path.join(here, 'engines.json')
+engines = json.load(open(epath)) if os.path.exists(epath) else None
+html = html.replace('/*BOOK_DATA*/null', emb(book)).replace('/*BLOCK_DATA*/[]', emb(blocks)).replace('/*DRAFT_DATA*/null', emb(drafts)).replace('/*ENGINE_DATA*/null', emb(engines))
 out = os.path.join(here, 'book-atlas.html'); open(out, 'w').write(html)
 print('blocks', len(blocks), 'merged dupes', len(dropped), 'bytes', len(html))
 from collections import Counter
