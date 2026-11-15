@@ -33,3 +33,6 @@ All proposals here are proposals. Santi's decisions are marked PLACEHOLDER. Book
 | Eco, *The Name of the Rose* | an archive that kills to keep a book unread | done: map, 6 section notes, Q&A |
 | Powers, *Declare* | secret history that never contradicts a documented fact | done: map, 6 section notes, Q&A |
 | Shea & Wilson, *Illuminatus!* | C: the front; comedy under escalation | done: map, 9 section notes, Q&A |
+| Pérez-Reverte, *The Club Dumas* | comparing copies as a whole plot (read in the Spanish original) | done: map, 4 section notes, Q&A |
+| Crouch, *Recursion* | the leak: dead memories a character must act on; resets | done: map, 3 section notes, Q&A |
+| Dick, *The Man in the High Castle* | the leak: fragments of another reality as objects in hands | done: map, 3 section notes, Q&A |
