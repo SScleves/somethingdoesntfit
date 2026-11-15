@@ -1853,14 +1853,14 @@ const ENG_BOOK_OF={};   // note id -> book id, so a link can open the right book
 function wrapTables(h){return String(h).replace(/<table>/g,'<div class="tw"><table>').replace(/<\/table>/g,"</table></div>")}
 function enNote(id,kind,title){return `<div data-note="${id}" data-nkind="${kind}" data-ntitle="${esc(title)}"></div>`}
 function enDot(id){return `<span class="dot ${dotClass(id)}" data-dot="${id}"></span>`}
-function enItem(i,kind){return `<article class="en-item${kind==="decision"?" dec":""}${i.sev?" sev-"+(/break|drop/.test(i.sev)?"hi":/weaken|changed/.test(i.sev)?"mid":/works|keep/.test(i.sev)?"ok":"lo"):""}" id="${i.id}">
+function enItem(i,kind){return `<article class="en-item${kind==="decision"?" dec":""}${i.sev?" sev-"+(/break|drop|^change|^cut/.test(i.sev)?"hi":/weaken|changed|sharpen|merge/.test(i.sev)?"mid":/works|keep/.test(i.sev)?"ok":"lo"):""}" id="${i.id}">
   <h3>${enDot(i.id)}<span>${esc(i.title)}</span>${i.sev?`<span class="lbl sev">${esc(i.sev)}</span>`:""}</h3><div class="md">${wrapTables(i.html)}</div>${enNote(i.id,kind,i.title)}</article>`}
 function chByTitle(t){const k=t.toLowerCase().replace(/[^a-z0-9]+/g," ").trim();return CH.find(c=>c.title.toLowerCase().replace(/[^a-z0-9]+/g," ").trim()===k)}
 function renderEngines(){
   const A=ENGINES.addendum, out=[], nav=[];
   (ENGINES.reviews||[]).forEach(r=>{nav.push([r.id,r.title.replace(/\s*—.*$/,"")]);
     out.push(`<h3 class="en-h" id="${r.id}">${esc(r.title)}</h3><p class="en-src">${esc(r.file)}</p><div class="md">${wrapTables(r.intro)}</div>`+
-      r.sections.map(s=>`<details class="en-sec" open><summary>${esc(s.title)} · ${s.items.length}</summary><div class="md">${wrapTables(s.html)}</div>${s.items.map(i=>enItem(i,"proposal")).join("")}</details>`).join(""))});
+      r.sections.map(s=>`<details class="en-sec"${r.id.startsWith("en-st")?" open":""}><summary>${esc(s.title)} · ${s.items.length}</summary><div class="md">${wrapTables(s.html)}</div>${s.items.map(i=>enItem(i,"proposal")).join("")}</details>`).join(""))});
   if(A){
     const sec=k=>A.sections.find(s=>s.title.startsWith(k+"."));
     out.push(`<p class="en-src">${esc(A.file)} · branch comps-conspiracy-engines</p>`);
