@@ -167,6 +167,25 @@ def addendum(path):
     return d
 
 
+def review(path):
+    """A REVIEW NN file: an intro, then '## N. section' blocks of findings that open with a bold 'N.M Title.' label."""
+    md = open(path, encoding='utf8').read()
+    n = re.search(r'REVIEW (\d+)', os.path.basename(path)).group(1).lstrip('0')
+    parts = h2s(md)
+    m = re.search(r'^# (.+)$', parts[0][1], re.M)
+    d = {'id': 'en-rv' + n, 'file': '08 Research/Comps/' + os.path.basename(path), 'title': m.group(1) if m else os.path.basename(path),
+         'intro': html(re.sub(r'^# .*\n', '', parts[0][1])), 'sections': []}
+    for t, body in parts[1:]:
+        pre, items = bold_items(body, r'\d+\.\d+\s')
+        sec = {'title': t, 'html': html(pre), 'items': []}
+        for label, b in items:
+            sev = re.search(r'\*(?:Severity|Verdict):\s*([^*]+?)\.?\*', b)
+            sec['items'].append({'id': f"en-rv{n}-{label.strip().replace('.', '-')}", 'title': bold_title(b), 'html': item_html(b),
+                                 'sev': sev.group(1).strip().lower() if sev else ''})
+        d['sections'].append(sec)
+    return d
+
+
 def main():
     if not os.path.isdir(eng):
         if os.path.exists(out): os.remove(out)
@@ -174,8 +193,10 @@ def main():
     rf = read_for()
     books = [book(f, rf) for f in sorted(glob.glob(os.path.join(eng, '*—*'))) if os.path.exists(os.path.join(f, '00-map.md'))]
     adds = sorted(glob.glob(add_glob))
-    data = {'addendum': addendum(adds[0]) if adds else None, 'books': books}
+    revs = [review(p) for p in sorted(glob.glob(os.path.join(root, '08 Research', 'Comps', 'REVIEW *.md')))]
+    data = {'addendum': addendum(adds[0]) if adds else None, 'books': books, 'reviews': revs}
     ids = [i['id'] for b in books for s in b['sections'] for i in s['items']]
+    ids += [i['id'] for r in revs for s in r['sections'] for i in s['items']]
     if data['addendum']:
         for s in data['addendum']['sections']:
             ids += [i['id'] for i in s['items'] if i['id']] + [r['id'] for r in s['rows']]

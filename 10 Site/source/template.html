@@ -395,7 +395,12 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
 .md th,.md td{border:1px solid var(--rule2);padding:6px 8px;text-align:left;vertical-align:top}
 .md th{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:400;background:var(--sheet2)}
 .en-item{background:var(--sheet);border:1px solid var(--rule2);border-left:3px solid var(--verdigris);border-radius:3px;padding:12px 16px;margin-bottom:10px}
-.en-item.dec{border-left-color:var(--string)}
+.en-item.dec,.en-item.sev-hi{border-left-color:var(--string)}
+.en-item.sev-mid{border-left-color:var(--s-work)}
+.en-item.sev-ok{border-left-color:var(--s-holds)}
+.en-item.sev-lo{border-left-color:var(--rule)}
+.en-item>h3 .sev{margin-left:auto;white-space:nowrap;font-size:10.5px}
+.en-item.sev-hi>h3 .sev{color:var(--string)}
 .en-item>h3{font-family:var(--display);font-size:21px;margin:0 0 6px;display:flex;gap:10px;align-items:baseline}
 .en-item>h3 .dot{flex:0 0 10px}
 .en-row{background:var(--sheet);border:1px solid var(--rule2);border-radius:3px;margin-bottom:6px}
@@ -1839,6 +1844,7 @@ const ENG_BOOK_OF={};   // note id -> book id, so a link can open the right book
     s.items.forEach(i=>{if(i.id)ENG_SLOTS.push({id:i.id,title:i.title,where,kind:i.decision?"decision":"proposal",text:txt(i.html)})});
     s.rows.forEach(r=>ENG_SLOTS.push({id:r.id,title:r.chapter,where:"Part Two by chapter",kind:"proposal",text:txt(r.cells.join(" "))}));
   });
+  (ENGINES.reviews||[]).forEach(r=>r.sections.forEach(s=>s.items.forEach(i=>ENG_SLOTS.push({id:i.id,title:i.title,where:r.title,kind:"proposal",text:txt(i.html)}))));
   ENGINES.books.forEach(b=>{
     ENG_SLOTS.push({id:b.id,title:b.author+", "+b.title,where:"book",kind:"generic",text:b.readfor});ENG_BOOK_OF[b.id]=b.id;
     b.sections.forEach(s=>s.items.forEach(i=>{ENG_SLOTS.push({id:i.id,title:i.title,where:b.author+", "+b.title,kind:"proposal",text:txt(i.html)});ENG_BOOK_OF[i.id]=b.id}));
@@ -1847,11 +1853,14 @@ const ENG_BOOK_OF={};   // note id -> book id, so a link can open the right book
 function wrapTables(h){return String(h).replace(/<table>/g,'<div class="tw"><table>').replace(/<\/table>/g,"</table></div>")}
 function enNote(id,kind,title){return `<div data-note="${id}" data-nkind="${kind}" data-ntitle="${esc(title)}"></div>`}
 function enDot(id){return `<span class="dot ${dotClass(id)}" data-dot="${id}"></span>`}
-function enItem(i,kind){return `<article class="en-item${kind==="decision"?" dec":""}" id="${i.id}">
-  <h3>${enDot(i.id)}<span>${esc(i.title)}</span></h3><div class="md">${wrapTables(i.html)}</div>${enNote(i.id,kind,i.title)}</article>`}
+function enItem(i,kind){return `<article class="en-item${kind==="decision"?" dec":""}${i.sev?" sev-"+(/break|drop/.test(i.sev)?"hi":/weaken|changed/.test(i.sev)?"mid":/works|keep/.test(i.sev)?"ok":"lo"):""}" id="${i.id}">
+  <h3>${enDot(i.id)}<span>${esc(i.title)}</span>${i.sev?`<span class="lbl sev">${esc(i.sev)}</span>`:""}</h3><div class="md">${wrapTables(i.html)}</div>${enNote(i.id,kind,i.title)}</article>`}
 function chByTitle(t){const k=t.toLowerCase().replace(/[^a-z0-9]+/g," ").trim();return CH.find(c=>c.title.toLowerCase().replace(/[^a-z0-9]+/g," ").trim()===k)}
 function renderEngines(){
   const A=ENGINES.addendum, out=[], nav=[];
+  (ENGINES.reviews||[]).forEach(r=>{nav.push([r.id,r.title.replace(/\s*—.*$/,"")]);
+    out.push(`<h3 class="en-h" id="${r.id}">${esc(r.title)}</h3><p class="en-src">${esc(r.file)}</p><div class="md">${wrapTables(r.intro)}</div>`+
+      r.sections.map(s=>`<details class="en-sec" open><summary>${esc(s.title)} · ${s.items.length}</summary><div class="md">${wrapTables(s.html)}</div>${s.items.map(i=>enItem(i,"proposal")).join("")}</details>`).join(""))});
   if(A){
     const sec=k=>A.sections.find(s=>s.title.startsWith(k+"."));
     out.push(`<p class="en-src">${esc(A.file)} · branch comps-conspiracy-engines</p>`);
