@@ -187,6 +187,23 @@ def review(path):
     return d
 
 
+def toolbox(path):
+    """A TOOLBOX NN file: '## N. Name' blocks, each with bold-labelled paragraphs and a 'Chapters:' line of titles split by ';'."""
+    md = open(path, encoding='utf8').read()
+    parts = h2s(md)
+    tools = []
+    for t, body in parts[1:]:
+        m = re.match(r'(\d+)\.\s*(.+)', t)
+        if not m: continue
+        chm = re.search(r'^Chapters:\s*(.+)$', body, re.M)
+        body = re.sub(r'^Chapters:.*$', '', body, flags=re.M)
+        lab = lambda name: (re.search(r'\*\*' + name + r'\.\*\*\s*(.+)', body) or [None, ''])[1].strip()
+        rest = re.sub(r'\*\*(The move|Test question)\.\*\*.*\n?', '', body)
+        tools.append({'id': 'en-tb-' + m.group(1), 'n': int(m.group(1)), 'title': m.group(2).strip(), 'one': plain(lab('The move')),
+                      'q': plain(lab('Test question')), 'html': html(rest), 'chapters': [c.strip() for c in chm.group(1).split(';')] if chm else []})
+    return {'file': '08 Research/Comps/' + os.path.basename(path), 'intro': html(re.sub(r'^#+ .*\n', '', parts[0][1], flags=re.M)), 'tools': tools}
+
+
 def main():
     if not os.path.isdir(eng):
         if os.path.exists(out): os.remove(out)
@@ -196,9 +213,11 @@ def main():
     adds = sorted(glob.glob(add_glob))
     comps = os.path.join(root, '08 Research', 'Comps')
     revs = [review(p) for p in sorted(glob.glob(os.path.join(comps, 'STRUCTURE *.md'))) + sorted(glob.glob(os.path.join(comps, 'REVIEW *.md')))]
-    data = {'addendum': addendum(adds[0]) if adds else None, 'books': books, 'reviews': revs}
+    tbs = sorted(glob.glob(os.path.join(comps, 'TOOLBOX *.md')))
+    data = {'addendum': addendum(adds[0]) if adds else None, 'books': books, 'reviews': revs, 'toolbox': toolbox(tbs[-1]) if tbs else None}
     ids = [i['id'] for b in books for s in b['sections'] for i in s['items']]
     ids += [i['id'] for r in revs for s in r['sections'] for i in s['items']]
+    if data['toolbox']: ids += [t['id'] for t in data['toolbox']['tools']]
     if data['addendum']:
         for s in data['addendum']['sections']:
             ids += [i['id'] for i in s['items'] if i['id']] + [r['id'] for r in s['rows']]

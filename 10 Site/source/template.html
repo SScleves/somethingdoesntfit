@@ -426,6 +426,58 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
 .en-sec>summary{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--verdigris);cursor:pointer;padding:10px 0 6px}
 .en-sec[open]>summary{color:var(--ink)}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Read: one chapter at a time, set like a page; notes hang under the paragraph they belong to */
+.rd-bar{display:flex;gap:8px;align-items:center;margin:0 0 16px;max-width:72ch}
+.rd-bar .grow{flex:1}
+.rd-bar select{flex:1;min-width:0;background:var(--sheet);border:1px solid var(--rule);border-radius:3px;padding:8px 10px;font-size:16px;font-family:var(--body);color:var(--ink)}
+.rd-bar .btn{padding:8px 12px;white-space:nowrap}
+.rd-bar .btn:disabled{opacity:.4}
+.rd-head{margin:0 0 14px;max-width:72ch}
+.rd-head h2{font-family:var(--display);font-size:34px;line-height:1.15;margin:4px 0 8px;font-weight:400}
+.rd-state{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--rule);border-radius:999px;padding:2px 9px;margin-right:8px;color:var(--muted)}
+.rd-state.rewritten,.rd-state.new{border-color:var(--string);color:var(--string)}
+.rd-state.edited{border-color:var(--s-work);color:var(--s-work)}
+.rd-state.santi{border-color:var(--k-santi);color:var(--k-santi)}
+.rd-what{color:var(--muted);margin:8px 0 0}
+.rd-box{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;margin:10px 0;max-width:72ch}
+.rd-box>summary{cursor:pointer;padding:11px 14px;font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--verdigris)}
+.rd-box>div{padding:0 14px 12px}
+.rd-tool{border-top:1px solid var(--rule2);padding:10px 0;display:flex;gap:10px;align-items:flex-start}
+.rd-tool .grow{flex:1;min-width:0}
+.rd-tool b{display:block}
+.rd-tool .q{color:var(--muted);font-style:italic}
+.rd-verdict{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0}
+.rd-verdict .status button{padding:5px 12px;font-size:12px}
+.rd-text{max-width:66ch;font-size:18.5px;line-height:1.7;margin:24px 0 10px}
+.rp{position:relative;padding-right:42px}
+.rp>p,.rp>blockquote,.rp>ul,.rp>ol{margin:0 0 1em}
+.rp>h2,.rp>h3{font-family:var(--display);font-weight:400;font-size:24px;margin:1.2em 0 .5em}
+.rp>hr{border:0;border-top:1px solid var(--rule);margin:1.6em 30%}
+.rp-add{position:absolute;right:0;top:1px;width:32px;height:32px;border-radius:50%;border:1px solid var(--rule);background:var(--sheet);color:var(--muted);font-size:18px;line-height:1;opacity:.5}
+.rp-add:hover,.rp.has .rp-add{opacity:1}
+.rp.has .rp-add{border-color:var(--s-work);color:var(--s-work)}
+.ad{background:var(--t-idea);border-left:3px solid var(--s-work);border-radius:3px;padding:8px 10px;margin:0 0 10px;font-size:15.5px;line-height:1.5;display:flex;gap:6px;align-items:flex-start}
+.ad .tx{flex:1;min-width:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.ad .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:block;white-space:normal}
+.ad .qt{display:block;color:var(--muted);font-style:italic;font-size:13.5px;white-space:normal}
+.ad>button{background:none;border:0;color:var(--muted);font-family:var(--mono);font-size:11.5px;padding:3px 5px}
+.ad textarea,.adform textarea{width:100%;min-height:64px;background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:8px 10px;font-size:16px;line-height:1.5;font-family:var(--body);color:var(--ink)}
+.adform{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:10px 12px;margin:0 0 12px}
+.adform .row,.ad .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
+.adform .row .grow{flex:1}
+.rd-addall{max-width:66ch;margin:28px 0}
+/* Moves */
+.tb{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:14px 16px;margin:0 0 14px;max-width:76ch}
+.tb.flash{animation:flash 1.6s ease-out}
+.tb h3{font-family:var(--display);font-size:25px;font-weight:400;margin:0 0 4px;display:flex;gap:10px;align-items:baseline}
+.tb h3 .n{font-family:var(--mono);font-size:12px;color:var(--string)}
+.tb .one{font-size:17px;margin:0 0 8px}
+.tb .q{border-left:3px solid var(--verdigris);padding:2px 0 2px 10px;margin:10px 0;font-style:italic}
+.tb details>summary{cursor:pointer;padding:4px 0}
+.tb .use{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin:10px 0 4px}
+.tb select{background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 8px;font-size:16px;color:var(--ink);max-width:100%}
+@media (max-width:560px){.rd-text{font-size:17.5px}.rd-head h2{font-size:28px}.rd-bar .btn span{display:none}}
 </style>
 
 <div class="wrap">
@@ -446,6 +498,17 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
 <main class="wrap">
   <div id="dbnote" aria-live="polite">Connecting your notes…</div>
 
+  <section class="tab" id="tab-read" hidden>
+    <div class="rd-bar"><button class="btn" type="button" data-rd="prev" aria-label="Previous chapter">‹<span> Previous</span></button><select id="rdsel" aria-label="Chapter"></select><button class="btn" type="button" data-rd="next" aria-label="Next chapter"><span>Next </span>›</button></div>
+    <div id="rdbody"></div>
+  </section>
+
+  <section class="tab" id="tab-tools" hidden>
+    <h2 class="tab-h">Moves that advance the story</h2>
+    <p class="tab-intro">Sixteen moves, fourteen taken from the novels you added and two from your own earlier ideas, each written as something you can do to a chapter. Read the move and its test question. If it fits somewhere, pick the chapter under <b>Use in a chapter</b> and it lands in that chapter's list in Read, where you write how. The evidence for each move is in Books.</p>
+    <div id="tools"></div>
+  </section>
+
   <section class="tab" id="tab-desk" hidden>
     <h2 class="tab-h">The desk</h2>
     <p class="tab-intro">What is done, what is waiting, and what to pick up next. Built from the drafts in the repo and from what you have saved on this page.</p>
@@ -453,8 +516,8 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
   </section>
 
   <section class="tab" id="tab-story" hidden>
-    <h2 class="tab-h">The story, chapter by chapter</h2>
-    <p class="tab-intro">Every chapter from THE BOOK in plain sentences, with its beats. Open a chapter to write what it should feel like, what it says, where it sits, what it adds and what to fix. A dot on the right shows where you've written, colored by the verdict you gave it.</p>
+    <h2 class="tab-h">The plan, chapter by chapter</h2>
+    <p class="tab-intro">This is the plan (THE BOOK v8.2), not the text. To read a chapter, press <b>Read the chapter</b> inside it or use the Read tab. Every chapter from THE BOOK in plain sentences, with its beats. Open a chapter to write what it should feel like, what it says, where it sits, what it adds and what to fix. A dot on the right shows where you've written, colored by the verdict you gave it.</p>
     <div class="found" id="found"></div>
     <div class="howto"><span class="grow"><b>Concepts.</b> Open any chapter, part, journey stage or map node and press <b>+ Add a concept</b> to attach one of the cases, theories and conspiracies in the library, then write how it would work there. The Journey and the Mind map can be edited too.</span><button class="btn" type="button" id="howtolib">Open the library</button></div>
     <div class="chips" id="kindchips"></div>
@@ -535,7 +598,7 @@ rect.drop{outline:none!important;stroke:var(--string);stroke-width:3}
   </section>
 
   <section class="tab" id="tab-engines" hidden>
-    <h2 class="tab-h">Conspiracy engines</h2>
+    <h2 class="tab-h">The books, the structure and the reviews</h2>
     <p class="tab-intro">What other novels do to make a conspiracy push the story forward, and what James could do differently in Part Two if we borrowed it. Each book was read in full; the synthesis puts the ten together. Everything here is a proposal. Mark each one <b>Use it</b>, <b>Use, changed</b>, <b>Not for me</b> or <b>Already on the page</b>, and answer the canon conflicts. Your notes save with the page and show up in Notes.</p>
     <div class="en-nav chips" id="ennav"></div>
     <div id="engines"></div>
@@ -617,6 +680,9 @@ const BOOK = /*BOOK_DATA*/null;
 const BLOCKS = /*BLOCK_DATA*/[];
 const DRAFTS = /*DRAFT_DATA*/null || {by:{},unmatched:[],names:[],folder:""};
 const ENGINES = /*ENGINE_DATA*/null;
+const MS = /*MS_DATA*/null;
+const MSCH = MS?MS.chapters:[];
+const TOOLS = (ENGINES&&ENGINES.toolbox)?ENGINES.toolbox.tools:[];
 
 /* ---------- hand-made layers ---------- */
 const KIND = {james:"James",santi:"Santi's chapter",real:"Real story",villain:"Villain alone",org:"The organisation",coded:"Coded scene",past:"James's past"};
@@ -909,10 +975,10 @@ const LOCAL={};      // working copies of notes being edited
 const PANELS={};     // mounted note panels by id
 
 /* ---------- tabs ---------- */
-const TABS=[["desk","Desk"],["story","Story"],["journey","Journey"],["structure","Structure"],["map","Mind map"],["reveals","Reveals"],["recall","Recall"],["board","Board"],...(ENGINES?[["engines","Engines"]]:[]),["notes","Notes"],["decisions","Decisions"]];
+const TABS=[...(MS?[["read","Read"]]:[]),...(TOOLS.length?[["tools","Moves"]]:[]),["story","Plan"],["notes","Notes"],["decisions","Decisions"],...(ENGINES?[["engines","Books"]]:[]),["desk","Desk"],["journey","Journey"],["structure","Structure"],["map","Mind map"],["reveals","Reveals"],["recall","Recall"],["board","Board"]];
 const rendered={};
 function showTab(t,noScroll){
-  if(!TABS.some(x=>x[0]===t)) t="story";
+  if(!TABS.some(x=>x[0]===t)) t=MS?"read":"story";
   $$("#tabs button").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.tab===t)));
   $$("section.tab").forEach(s=>s.hidden=s.id!=="tab-"+t);
   if(!rendered[t]){rendered[t]=true;(RENDER[t]||(()=>{}))()}
@@ -920,7 +986,7 @@ function showTab(t,noScroll){
   if(t==="desk") renderDesk();
   if(t==="board") renderBoard();
   try{history.replaceState(null,"","#"+t)}catch(e){}
-  lsSet("sdf-tab",t);
+  lsSet("sdf-tab2",t);
   if(!noScroll) window.scrollTo({top:0});
   const b=$(`#tabs button[data-tab="${t}"]`); if(b) b.scrollIntoView({block:"nearest",inline:"nearest"});
 }
@@ -946,13 +1012,14 @@ document.addEventListener("click",e=>{
   else if(act==="godec"){showTab("decisions",true);const el=document.getElementById(a.dataset.id);if(el){el.scrollIntoView({behavior:"smooth",block:"center"});flash(el)}}
   else if(act==="goeng") goEngine(a.dataset.id);
 });
+document.addEventListener("click",e=>{const a=e.target.closest("[data-goread]");if(a)goRead(a.dataset.goread)});
 
 /* ---------- drafts (from the repo, read at build time) ---------- */
 const draftOf=id=>DRAFTS.by[id]||null;
 function draftWords(){return Object.values(DRAFTS.by).reduce((a,d)=>a+(d.words||0),0)}
 function progBar(c){const d=draftOf(c.id);if(!d)return"";const pct=c.words?Math.min(100,Math.round(100*d.words/c.words)):0;return `<span class="prog${c.words&&d.words>c.words*1.25?" over":""}" title="${fmt(d.words)} drafted of ${c.words?fmt(c.words)+" planned":"no plan"}"><i style="width:${c.words?pct:100}%"></i></span>`}
 function draftRow(c){const d=draftOf(c.id);if(!d)return `<div class="draft-row"><span class="lbl">Draft</span><span class="lbl" style="text-transform:none;letter-spacing:0;color:var(--string)">not drafted yet</span></div>`;
-  return `<div class="draft-row"><span class="lbl">Draft</span><span><b>${fmt(d.words)}</b> words${c.words?` of ${fmt(c.words)} planned`:""}${progBar(c)}</span><span class="lbl" style="text-transform:none;letter-spacing:0">${esc(d.folder||DRAFTS.folder)}/${esc(d.file)}${d.status==="santi"?" · yours":(d.folder||"").endsWith("v7")?" · v7 draft (Claude)":" · v6 draft"}${d.guess?' <span class="guess">· matched by guess, tell Claude if wrong</span>':""}</span>${d.blurb?`<span style="flex-basis:100%;color:var(--muted);font-style:italic">${esc(d.blurb)}</span>`:""}</div>`
+  return `<div class="draft-row"><span class="lbl">Draft</span><span><b>${fmt(d.words)}</b> words${c.words?` of ${fmt(c.words)} planned`:""}${progBar(c)}</span><span class="lbl" style="text-transform:none;letter-spacing:0">${esc(d.folder||DRAFTS.folder)}/${esc(d.file)}${d.status==="santi"?" · yours":" · "+esc((d.folder||"").split("/").pop())+" draft"}${d.guess?' <span class="guess">· matched by guess, tell Claude if wrong</span>':""}</span>${d.blurb?`<span style="flex-basis:100%;color:var(--muted);font-style:italic">${esc(d.blurb)}</span>`:""}</div>`
   +(d.mentions&&d.mentions.length?`<div class="mentions"><span class="lbl">In the draft</span>${d.mentions.map(m=>`<span class="m">${esc(m)}</span>`).join("")}</div>`:"");}
 
 /* ---------- masthead ---------- */
@@ -1027,7 +1094,7 @@ function dbError(e){
 }
 function setDbNote(t){const n=$("#dbnote");n.textContent=t;n.hidden=!t}
 function onNoteSnapshot(id){
-  refreshDots(id);
+  refreshDots(id); if(id===rdCur) drawVerdict();
   const P=PANELS[id]; if(!P) return;
   const n=S.notes[id]||{};
   if(noteTimers[id]||(W["notes/"+id]&&W["notes/"+id].busy)) return;
@@ -1060,6 +1127,7 @@ function chapterCard(c){
   return `<article class="ch k-${c.kind}" id="${c.id}" data-kind="${c.kind}">
     <button class="ch-head" type="button" aria-expanded="false"><span class="ch-title">${esc(c.title)}</span><span class="ch-kind">${KIND[c.kind]}</span><span class="bcount" data-bcount="${c.id}"></span><span class="ch-words">${draftOf(c.id)?`<span class="nd">${fmt(draftOf(c.id).words)}</span>${c.words?"/"+fmt(c.words):""} w`:c.words?fmt(c.words)+" w":"length tbd"}</span><span class="dot ${dotClass(c.id)}" data-dot="${c.id}" aria-hidden="true"></span></button>
     <div class="ch-body" hidden>
+      ${MSCH.some(m=>m.id===c.id)?`<p style="margin:0 0 10px"><button class="btn primary" type="button" data-goread="${c.id}">Read the chapter</button></p>`:""}
       ${draftRow(c)}
       <p class="ch-text">${c.text}</p>
       ${c.why?`<p class="ch-why"><b>Why it's here.</b> ${c.why}</p>`:""}
@@ -1784,11 +1852,14 @@ function renderNotesTab(){
   const ord=t=>{const i=targetInfo(t);return ({Part:0,Chapter:1,Journey:2,"Mind map":3})[i.kind]??4};
   const pl=Object.keys(groups).sort((a,b)=>ord(a)-ord(b)||((CHMAP[a]||{}).order??0)-((CHMAP[b]||{}).order??0));
   const plHtml=pl.length?`<h3 class="tab-h" style="font-size:24px;margin:26px 0 10px">Concepts you've placed</h3>`+pl.map(t=>{const l=groups[t],i=targetInfo(t);return `<div class="nitem"><h4>${targetChip(t)}<span class="lbl">${esc(i.kind)}${i.where?" · "+esc(i.where):""} · ${l.length} concept${l.length>1?"s":""}</span></h4><dl>${l.map(([,p])=>`<dt>${esc((blockById(p.block)||{}).kind?kindLabel(blockById(p.block).kind):"Block")}</dt><dd><b>${esc(p.title)}</b>${p.how?"\n"+esc(p.how):""}</dd>`).join("")}</dl></div>`}).join(""):"";
+  const adCh=MSCH.filter(c=>addsFor(c.id).length);
+  const adKind=a=>a.kind==="tool"?"Move":(AD_KINDS.find(x=>x[0]===a.kind)||[0,"Note"])[1];
+  const adsHtml=adCh.length?`<h3 class="tab-h" style="font-size:24px;margin:26px 0 10px">What you added to chapters</h3>`+adCh.map(c=>`<div class="nitem"><h4><button class="linkchip" data-goread="${c.id}">${esc(c.title)}</button><span class="lbl">Chapter ${c.n} · ${addsFor(c.id).length}</span></h4><dl>${addsFor(c.id).map(([,a])=>`<dt>${esc(adKind(a))}</dt><dd>${a.quote?`<i>On “${esc(a.quote)}…”</i>\n`:""}${esc(a.text)}</dd>`).join("")}</dl></div>`).join(""):"";
   $("#nlist").innerHTML=(items.length?items.map(([id,n,where,title])=>{
     const st=statusList(n.kind).find(s=>s[0]===(n.status||""));
     const rows=Object.keys(n).filter(k=>!["item","kind","title","status","updated"].includes(k)&&String(n[k]||"").trim());
     return `<div class="nitem"><h4><button class="linkchip" ${go(id)}>${esc(title)}</button><span class="lbl">${esc(where)}</span>${n.status?`<span class="dot ${n.status}" style="display:inline-block"></span><span class="lbl">${st?st[1]:""}</span>`:""}</h4>${rows.length?`<dl>${rows.map(k=>`<dt>${esc(label(k))}</dt><dd>${esc(n[k])}</dd>`).join("")}</dl>`:""}</div>`}).join("")
-    :`<p class="tab-intro">${S.db?"No notes yet. Open any chapter in Story and start with how it should feel.":"Notes appear here when the page is open in claude.ai, where they're saved."}</p>`)+plHtml;
+    :`<p class="tab-intro">${S.db?"No notes yet. Open a chapter in Read and press the + beside a paragraph.":"Notes appear here when the page is open in claude.ai, where they're saved."}</p>`)+adsHtml+plHtml;
   $("#ncopy").onclick=()=>{
     const g2={};Object.values(S.place).forEach(p=>(g2[p.target]=g2[p.target]||[]).push(p));
     const plTxt=Object.keys(g2).map(t=>{const i=targetInfo(t);return `## Concepts in ${i.kind}: ${i.title}\n`+g2[t].map(p=>`- ${p.title}${p.how?": "+p.how:""}`).join("\n")}).join("\n\n");
@@ -1796,7 +1867,7 @@ function renderNotesTab(){
     const mTxt=Object.entries(S.mapnodes).filter(([id])=>nodeBody(id)).map(([id,e])=>{const n=NODEMAP[id];return n?`## Map · ${n.branch.label} › ${n.label}\n${n.b}\nChapters: ${(n.ch||[]).map(x=>chTitle(cid(x))).join("; ")}`:`## Map · hidden node ${id}`}).join("\n\n");
     const head=`# Something Doesn't Fit — Atlas handoff, ${new Date().toISOString().slice(0,10)}\n${CH.length} chapters · ${Object.keys(DRAFTS.by).length} drafted (${fmt(draftWords())} words) · ${Object.keys(S.notes).length} notes · ${Object.keys(S.place).length} placements\n\n## Verdicts\n`+CH.map(c=>{const n=S.notes[c.id];const d=draftOf(c.id);return `- ${c.title} [Part ${PARTNO[c.part]}${d?", drafted "+fmt(d.words)+"w":", not drafted"}]: ${n&&n.status?(STATUS.find(s=>s[0]===n.status)||[])[1]:"—"}`}).join("\n");
     const txt=[head,noteItems().map(([id,n,where,title])=>{const rows=Object.keys(n).filter(k=>!["item","kind","title","status","updated"].includes(k)&&String(n[k]||"").trim());
-      return `## ${title} (${where})${n.status?"\nVerdict: "+(statusList(n.kind).find(s=>s[0]===n.status)||[,""])[1]:""}\n`+rows.map(k=>`${label(k)}: ${n[k]}`).join("\n")}).join("\n\n"),plTxt,jTxt,mTxt].filter(Boolean).join("\n\n");
+      return `## ${title} (${where})${n.status?"\nVerdict: "+(statusList(n.kind).find(s=>s[0]===n.status)||[,""])[1]:""}\n`+rows.map(k=>`${label(k)}: ${n[k]}`).join("\n")}).join("\n\n"),adCh.map(c=>`## Added to chapter ${c.n}, ${c.title}\n`+addsFor(c.id).map(([,a])=>`- [${adKind(a)}]${a.quote?` on "${a.quote}…"`:""}: ${a.text}`).join("\n")).join("\n\n"),plTxt,jTxt,mTxt].filter(Boolean).join("\n\n");
     const done=m=>{$("#ncopied").textContent=m;setTimeout(()=>$("#ncopied").textContent="",2500)};
     try{navigator.clipboard.writeText(txt||"No notes yet.").then(()=>done("Copied"),()=>done("Copy was blocked. Select the notes below instead."))}catch(e){done("Copy was blocked. Select the notes below instead.")}
   };
@@ -1845,6 +1916,7 @@ const ENG_BOOK_OF={};   // note id -> book id, so a link can open the right book
     s.rows.forEach(r=>ENG_SLOTS.push({id:r.id,title:r.chapter,where:"Part Two by chapter",kind:"proposal",text:txt(r.cells.join(" "))}));
   });
   (ENGINES.reviews||[]).forEach(r=>r.sections.forEach(s=>s.items.forEach(i=>ENG_SLOTS.push({id:i.id,title:i.title,where:r.title,kind:"proposal",text:txt(i.html)}))));
+  TOOLS.forEach(t=>ENG_SLOTS.push({id:t.id,title:t.title,where:"Moves",kind:"proposal",text:t.one+" "+t.q+" "+txt(t.html)}));
   ENGINES.books.forEach(b=>{
     ENG_SLOTS.push({id:b.id,title:b.author+", "+b.title,where:"book",kind:"generic",text:b.readfor});ENG_BOOK_OF[b.id]=b.id;
     b.sections.forEach(s=>s.items.forEach(i=>{ENG_SLOTS.push({id:i.id,title:i.title,where:b.author+", "+b.title,kind:"proposal",text:txt(i.html)});ENG_BOOK_OF[i.id]=b.id}));
@@ -1909,6 +1981,7 @@ function fillBook(d){
     const f=x.dataset.lazy;m.innerHTML=wrapTables(f==="qa"?b.qa:(b.notes.find(n=>n.file===f)||{}).html||"")}));
 }
 function goEngine(id){
+  if(id.startsWith("en-tb-")){showTab("tools",true);const el=document.getElementById(id);if(el)setTimeout(()=>{el.scrollIntoView({behavior:"smooth",block:"start"});flash(el)},40);return}
   showTab("engines",true);
   const bid=ENG_BOOK_OF[id];
   if(bid){const d=document.getElementById(bid);if(d){d.open=true;fillBook(d)}}
@@ -1918,6 +1991,126 @@ function goEngine(id){
   setTimeout(()=>{el.scrollIntoView({behavior:"smooth",block:"start"});flash(el)},40);
 }
 function refreshBookCounts(){if(!ENGINES)return;ENGINES.books.forEach(b=>{const el=$(`[data-bcount="${b.id}"]`);if(el)el.textContent=bookCount(b)})}
+
+/* ---------- READ and MOVES ---------- */
+// The reading copy of the manuscript (manuscript.py). What Santi adds is saved one document each in adds/<id>:
+// {ch, chTitle, text, kind, p (paragraph index or -1), quote (how the paragraph starts, so a note survives a rewrite), tool}
+const AD_KINDS=[["note","Note"],["fix","Fix"],["idea","Idea"],["person","Character"],["clue","Clue or object"]];
+const norm2=t=>String(t).toLowerCase().replace(/\(.*?\)/g," ").replace(/[^a-z0-9]+/g," ").trim();
+const CHAIN={};      // chapter id -> its entry in the structure's chain
+const TOOLS_OF={};   // chapter id -> moves that name it
+const BOOK_SUG={};   // chapter id -> proposals from the book maps that name it
+(function(){
+  const st=ENGINES&&(ENGINES.reviews||[]).find(r=>r.id.startsWith("en-st"));
+  if(st) st.sections.forEach(s=>{if(!/chain/i.test(s.title))return;const last=/Part Three/i.test(s.title);
+    s.items.forEach(i=>{const nt=norm2(i.title.replace(/^[\d.]+\s*/,""));const c=CH.filter(c=>norm2(c.title)===nt);const ch=c.length>1&&last?c[c.length-1]:c[0];if(ch)CHAIN[ch.id]=i})});
+  // proposals in the book maps that name a chapter, so the chapter can show what each book did at that point
+  const re=t=>new RegExp('(["“]|<em>|<strong>)'+t.replace(/\s*\(.*?\)/g,"").replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+'[.,]?(["”]|</em>|</strong>)');
+  if(ENGINES) CH.forEach(c=>{const r=re(c.title);ENGINES.books.forEach(b=>b.sections.forEach(s=>s.items.forEach(i=>{if(r.test(i.html)||r.test(i.title))(BOOK_SUG[c.id]=BOOK_SUG[c.id]||[]).push({id:i.id,book:b.author+", "+b.title,title:i.title.replace(/^[\d.]+\s*/,""),html:i.html})})))});
+  TOOLS.forEach(t=>{t.chIds=[];t.chapters.forEach(ti=>{const c=CH.find(c=>norm2(c.title)===norm2(ti));if(c&&MSCH.some(m=>m.id===c.id)){t.chIds.push(c.id);(TOOLS_OF[c.id]=TOOLS_OF[c.id]||[]).push(t)}})});
+})();
+S.adds={};
+let rdCur=null;
+const rdIndex=id=>MSCH.findIndex(c=>c.id===id);
+const cantSave=()=>{if(S.db&&S.canWrite)return false;toast("Notes save when this page is open in claude.ai.");return true};
+function addsFor(ch){return Object.entries(S.adds).filter(([,a])=>a.ch===ch).sort((a,b)=>String(a[1].created||"").localeCompare(String(b[1].created||"")))}
+const addBody=id=>S.adds[id]?Object.assign({},S.adds[id]):null;
+function newAdd(ch,text,kind,p,quote,tool){
+  text=String(text||"").trim(); if(!text||cantSave()) return null;
+  const id="a"+Date.now().toString(36)+Math.random().toString(36).slice(2,6), now=new Date().toISOString();
+  S.adds[id]={ch,chTitle:chTitle(ch),text,kind:kind||"note",p:p==null?-1:p,quote:quote||"",created:now,updated:now}; if(tool) S.adds[id].tool=tool;
+  persist("adds/"+id,()=>addBody(id)).then(ok=>{if(!ok)toast("That didn't save. Check the connection and add it again.")});
+  afterAdds(ch); return id;
+}
+function delAdd(id){const a=S.adds[id];if(!a||cantSave())return;delete S.adds[id];persist("adds/"+id,()=>null);afterAdds(a.ch)}
+function afterAdds(ch){if(rdCur===ch&&rendered.read&&!$("#rdbody .ad textarea"))drawAdds();renderNotesTab()}
+function adHtml(id,a,showQuote){
+  const k=a.kind==="tool"?"Move from the books":(AD_KINDS.find(x=>x[0]===a.kind)||[0,"Note"])[1];
+  return `<div class="ad" data-ad="${id}"><div class="tx"><span class="k">${esc(k)}</span>${showQuote&&a.quote?`<span class="qt">On “${esc(a.quote)}…”</span>`:""}${esc(a.text)}</div><button type="button" data-adedit="${id}">Edit</button><button type="button" data-addel="${id}" aria-label="Delete this note">✕</button></div>`}
+function adForm(host,p){
+  host.innerHTML=`<div class="adform"><textarea aria-label="${p<0?"Add to this chapter":"Note on this paragraph"}" placeholder="${p<0?"Anything for this chapter: a fix, an idea, a character moment, a clue.":"Your note on this paragraph."}"></textarea><div class="row">${AD_KINDS.map(([k,l],i)=>`<button type="button" class="chip" data-adk="${k}" aria-pressed="${i===0}">${l}</button>`).join("")}<span class="grow"></span>${p>=0?`<button type="button" class="btn" data-adcancel>Cancel</button>`:""}<button type="button" class="btn primary" data-adsave="${p}">Add</button></div></div>`;
+  if(p>=0) $("textarea",host).focus();
+}
+function drawAdds(){
+  const box=$("#rdtext"); if(!rdCur||!box) return; const c=MSCH[rdIndex(rdCur)];
+  $$(".rp",box).forEach(rp=>{$(".rp-notes",rp).innerHTML="";rp.classList.remove("has")});
+  const loose=[];
+  addsFor(rdCur).forEach(([id,a])=>{
+    let p=-1;
+    if(a.quote) p=c.blocks.findIndex(b=>strip(b).startsWith(a.quote));
+    else if(a.p>=0&&a.p<c.blocks.length) p=a.p;
+    const rp=p>=0?$(`.rp[data-p="${p}"]`,box):null;
+    if(rp){$(".rp-notes",rp).insertAdjacentHTML("beforeend",adHtml(id,a));rp.classList.add("has")} else loose.push([id,a]);
+  });
+  $("#rdadds").innerHTML=loose.map(([id,a])=>adHtml(id,a,true)).join("");
+}
+function setVerdict(id,v){
+  if(cantSave()) return;
+  S.notes[id]=Object.assign({item:id,kind:"chapter",title:chTitle(id)},S.notes[id]||{},{status:v,updated:new Date().toISOString()});
+  if(LOCAL[id]) LOCAL[id].status=v;
+  const P=PANELS[id]; if(P) $$("button",P.status).forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.v===v)));
+  persist("notes/"+id,()=>{const n=S.notes[id];return n&&(n.status||hasText(n))?n:null});
+  refreshDots(id); drawVerdict(); renderNotesTab();
+}
+function drawVerdict(){const el=$("#rdstatus");if(!el||!rdCur)return;const v=(S.notes[rdCur]||{}).status||"";$$("button",el).forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===v)))}
+function goRead(id){showTab("read",true);openRead(id)}
+function openRead(id,noScroll){
+  const i=rdIndex(id); if(i<0) return; const c=MSCH[i]; rdCur=id; lsSet("sdf-read",id);
+  $("#rdsel").value=id;
+  $$("#tab-read>.rd-bar [data-rd]").forEach(b=>b.disabled=b.dataset.rd==="prev"?i===0:i===MSCH.length-1);
+  const chain=CHAIN[id], tools=TOOLS_OF[id]||[], sug=BOOK_SUG[id]||[];
+  const stLabel={santi:"Yours, unchanged",kept:"Kept",edited:"Edited",rewritten:"Rewritten",new:"New",draft:"Earlier draft"}[c.state]||"Draft";
+  $("#rdbody").innerHTML=`
+    <header class="rd-head"><span class="lbl">Part ${PARTNO[c.part]} · chapter ${c.n} of ${MSCH.length} · ${fmt(c.words)} words</span><h2>${esc(c.title)}</h2>
+      <span class="rd-state ${c.state}">${stLabel}</span><span class="lbl" style="text-transform:none;letter-spacing:0">${esc(MS.folder)}/${esc(c.file)}</span>
+      ${c.what&&c.state!=="santi"?`<p class="rd-what"><b>${c.state==="draft"?"About this draft.":"What changed in this version."}</b> ${esc(c.what)}</p>`:""}</header>
+    ${chain?`<details class="rd-box" open><summary>What moves this chapter${chain.sev?" · "+esc(chain.sev):""}</summary><div class="md">${chain.html}<p><button class="linkchip" type="button" data-act="goeng" data-id="${chain.id}">Answer this in the structure</button><button class="linkchip" type="button" data-act="goch" data-id="${id}">Open the plan for this chapter</button></p></div></details>`:""}
+    ${tools.length||sug.length?`<details class="rd-box"><summary>Stuck here? What the books did · ${tools.length+sug.length}</summary><div>
+      ${tools.map(t=>`<div class="rd-tool"><div class="grow"><b>${esc(t.title)}</b>${esc(t.one)} <span class="q">${esc(t.q)}</span></div><button class="btn" type="button" data-usetool="${t.id}">Use here</button></div>`).join("")}
+      ${sug.map((g,k)=>`<div class="rd-tool"><details class="grow"><summary><b style="display:inline">${esc(g.book)}</b> · ${esc(g.title)}</summary><div class="md">${wrapTables(g.html)}<p><button class="linkchip" type="button" data-act="goeng" data-id="${g.id}">Give your verdict in Books</button></p></div></details><button class="btn" type="button" data-usesug="${k}">Use here</button></div>`).join("")}
+      <p style="margin:8px 0 0"><button class="linkchip" type="button" data-rd="tools">See all the moves</button></p></div></details>`:""}
+    <div class="rd-verdict"><span class="lbl">Your verdict</span><div class="status" id="rdstatus">${STATUS.map(([v,l])=>`<button type="button" data-v="${v}" aria-pressed="false">${l}</button>`).join("")}</div></div>
+    <div class="rd-text" id="rdtext">${c.blocks.map((b,k)=>`<div class="rp" data-p="${k}">${b}<button class="rp-add" type="button" data-padd="${k}" aria-label="Add a note to this paragraph">+</button><div class="rp-notes"></div></div>`).join("")}</div>
+    <div class="rd-addall"><div class="lbl" style="margin-bottom:6px">Add to this chapter</div><div id="rdform"></div><div id="rdadds"></div></div>
+    <div class="rd-bar"><button class="btn" type="button" data-rd="prev"${i===0?" disabled":""}>‹ Previous</button><span class="grow"></span><button class="btn primary" type="button" data-rd="next"${i===MSCH.length-1?" disabled":""}>Next chapter ›</button></div>`;
+  adForm($("#rdform"),-1); drawVerdict(); drawAdds();
+  if(!noScroll) window.scrollTo({top:0});
+}
+function rdClick(e){
+  const t=e.target; let b;
+  if(b=t.closest("[data-rd]")){const i=rdIndex(rdCur);if(b.dataset.rd==="prev"&&i>0)openRead(MSCH[i-1].id);else if(b.dataset.rd==="next"&&i<MSCH.length-1)openRead(MSCH[i+1].id);else if(b.dataset.rd==="tools")showTab("tools");return}
+  if(b=t.closest("#rdstatus button")){setVerdict(rdCur,b.dataset.v);return}
+  if(b=t.closest("[data-padd]")){const rp=b.closest(".rp");let f=$(".rp-form",rp);if(f){f.remove();return}f=document.createElement("div");f.className="rp-form";rp.appendChild(f);adForm(f,+b.dataset.padd);return}
+  if(b=t.closest("[data-adk]")){$$("[data-adk]",b.parentElement).forEach(x=>x.setAttribute("aria-pressed",String(x===b)));return}
+  if(b=t.closest("[data-adcancel]")){b.closest(".rp-form").remove();return}
+  if(b=t.closest("[data-adsave]")){const form=b.closest(".adform"),ta=$("textarea",form),p=+b.dataset.adsave;
+    const kind=($('[data-adk][aria-pressed="true"]',form)||{dataset:{adk:"note"}}).dataset.adk;
+    const quote=p>=0?strip(MSCH[rdIndex(rdCur)].blocks[p]).slice(0,90):"";
+    if(newAdd(rdCur,ta.value,kind,p,quote)){ta.value="";const rf=form.closest(".rp-form");if(rf)rf.remove()}return}
+  if(b=t.closest("[data-addel]")){delAdd(b.dataset.addel);return}
+  if(b=t.closest("[data-adedit]")){const id=b.dataset.adedit,el=b.closest(".ad"),a=S.adds[id];if(!a)return;
+    el.innerHTML=`<div class="tx"><textarea aria-label="Edit this note">${esc(a.text)}</textarea><div class="row"><button type="button" class="btn primary" data-adupd="${id}">Save</button></div></div>`;$("textarea",el).focus();return}
+  if(b=t.closest("[data-adupd]")){const id=b.dataset.adupd,a=S.adds[id],el=b.closest(".ad"),v=$("textarea",el).value.trim();el.innerHTML="";
+    if(a&&v&&!cantSave()){a.text=v;a.updated=new Date().toISOString();persist("adds/"+id,()=>addBody(id))}drawAdds();renderNotesTab();return}
+  if(b=t.closest("[data-usesug]")){const g=(BOOK_SUG[rdCur]||[])[+b.dataset.usesug];if(g&&newAdd(rdCur,"From "+g.book+": "+g.title,"tool",-1,"",g.id))toast("Added to this chapter. It is at the bottom; press Edit to write how.");return}
+  if(b=t.closest("[data-usetool]")){const tl=TOOLS.find(x=>x.id===b.dataset.usetool);if(tl&&newAdd(rdCur,tl.title+". "+tl.q,"tool",-1,"",tl.id))toast(`Added “${tl.title}” to this chapter. It is at the bottom; press Edit to write how.`);return}
+}
+function renderRead(){
+  $("#rdsel").innerHTML=BOOK.parts.map((p,pi)=>`<optgroup label="Part ${PARTNO[pi]}">${MSCH.filter(c=>c.part===pi).map(c=>`<option value="${c.id}">${c.n}. ${esc(c.title)}</option>`).join("")}</optgroup>`).join("");
+  $("#rdsel").onchange=e=>openRead(e.target.value);
+  $("#tab-read").addEventListener("click",rdClick);
+  const start=lsGet("sdf-read"); openRead(rdIndex(start)>=0?start:MSCH[0].id,true);
+}
+function renderTools(){
+  const chOpts=`<option value="">Use in a chapter…</option>`+BOOK.parts.map((p,pi)=>`<optgroup label="Part ${PARTNO[pi]}">${MSCH.filter(c=>c.part===pi).map(c=>`<option value="${c.id}">${esc(c.title)}</option>`).join("")}</optgroup>`).join("");
+  $("#tools").innerHTML=TOOLS.map(t=>`<article class="tb" id="${t.id}"><h3>${enDot(t.id)}<span class="n">${t.n}</span><span>${esc(t.title)}</span></h3><p class="one">${esc(t.one)}</p><p class="q">${esc(t.q)}</p>
+    <details><summary class="lbl">Which book it comes from, how to use it, where it is in this book</summary><div class="md">${t.html}</div></details>
+    <div class="use"><span class="lbl">Fits</span>${t.chIds.map(id=>`<button class="linkchip" type="button" data-goread="${id}">${esc(chTitle(id))}</button>`).join("")}</div>
+    <div class="use"><select data-toolsel="${t.id}" aria-label="Use ${esc(t.title)} in a chapter">${chOpts}</select></div>${enNote(t.id,"proposal",t.title)}</article>`).join("");
+  $$("#tools [data-note]").forEach(mountNotes);
+  $("#tools").addEventListener("change",e=>{const s=e.target.closest("[data-toolsel]");if(!s||!s.value)return;const tl=TOOLS.find(x=>x.id===s.dataset.toolsel),ch=s.value;s.value="";
+    if(newAdd(ch,tl.title+". "+tl.q,"tool",-1,"",tl.id))toast(`Added “${tl.title}” to ${chTitle(ch)}. Open the chapter in Read to write how.`)});
+}
 
 /* ---------- DECISIONS ---------- */
 function renderDecisions(){
@@ -1936,6 +2129,7 @@ STAGES.forEach(st=>IDX.push({k:"Journey",t:st.name,s:st.b,blob:(st.name+" "+st.b
 ENG_SLOTS.forEach(s=>IDX.push({k:"Engines · "+s.where,t:s.title,s:s.text,blob:(s.title+" "+s.where+" "+s.text).toLowerCase(),go:()=>goEngine(s.id)}));
 (ENGINES?ENGINES.books:[]).forEach(b=>IDX.push({k:"Engines · book",t:b.author+", "+b.title,s:b.readfor,blob:(b.author+" "+b.title+" "+b.readfor).toLowerCase(),go:()=>goEngine(b.id)}));
 BOOK.decisions.forEach(d=>IDX.push({k:"Decision",t:strip(d.text),s:"",blob:strip(d.text).toLowerCase(),go:()=>{showTab("decisions",true);const el=document.getElementById(d.id);el.scrollIntoView({block:"center"});flash(el)}}));
+MSCH.forEach(c=>{const tx=strip(c.blocks.join(" "));IDX.push({k:"Manuscript · chapter "+c.n,t:c.title,s:tx,blob:(c.title+" "+tx).toLowerCase(),go:()=>goRead(c.id)})});
 function runSearch(){
   const q=$("#q").value.trim().toLowerCase(), box=$("#sres");
   if(q.length<2){box.hidden=true;return}
@@ -1955,11 +2149,11 @@ $("#q").addEventListener("keydown",e=>{if(e.key==="Escape"){$("#q").value="";$("
 document.addEventListener("keydown",e=>{if(e.key==="/"&&!/INPUT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();$("#q").focus()}});
 document.addEventListener("click",e=>{if(!e.target.closest(".search"))$("#sres").hidden=true});
 
-const RENDER={engines:renderEngines,desk:renderDesk,story:renderStory,journey:renderJourney,structure:renderStructure,map:renderMap,reveals:renderReveals,recall:renderRecall,board:renderBoardTab,notes:()=>{},decisions:renderDecisions};
+const RENDER={read:renderRead,tools:renderTools,engines:renderEngines,desk:renderDesk,story:renderStory,journey:renderJourney,structure:renderStructure,map:renderMap,reveals:renderReveals,recall:renderRecall,board:renderBoardTab,notes:()=>{},decisions:renderDecisions};
 
 /* ---------- boot ---------- */
 buildMap();
-showTab(location.hash.slice(1)||lsGet("sdf-tab")||"desk",true);
+showTab(location.hash.slice(1)||lsGet("sdf-tab2")||"read",true);
 wireBlocks();
 (async function connect(){
   let db=null,user=null;
@@ -1975,6 +2169,12 @@ wireBlocks();
     snap.docChanges().forEach(ch=>{const id=ch.doc.id;if(ch.type==="removed")delete S.notes[id];else S.notes[id]=ch.doc.data();onNoteSnapshot(id)});
     renderNotesTab(); if(rendered.desk&&!$("#tab-desk").hidden)renderDesk();
   },e=>setDbNote("Notes stopped syncing ("+(e&&e.code)+"). Reload the page to reconnect."));
+  db.collection("adds").limit(2000).onSnapshot(snap=>{
+    const touched=new Set();
+    snap.docChanges().forEach(ch=>{const id=ch.doc.id;if(W["adds/"+id]&&W["adds/"+id].busy)return;const old=S.adds[id];if(old)touched.add(old.ch);
+      if(ch.type==="removed")delete S.adds[id];else{S.adds[id]=ch.doc.data();touched.add(S.adds[id].ch)}});
+    if(touched.has(rdCur)) afterAdds(rdCur); else renderNotesTab();
+  },e=>setDbNote("Your chapter notes stopped syncing ("+(e&&e.code)+"). Reload the page to reconnect."));
   db.collection("placements").limit(1000).onSnapshot(snap=>{
     const touched=new Set();
     snap.docChanges().forEach(ch=>{const id=ch.doc.id;const old=S.place[id];

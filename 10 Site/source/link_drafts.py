@@ -8,7 +8,7 @@ Run by build.py; safe to run alone. Edit OVERRIDES when a filename and a chapter
 """
 import json, os, re, glob
 here = os.path.dirname(os.path.abspath(__file__))
-FOLDERS = [('01 Manuscript/v6', os.path.join(here, '..', '..', '01 Manuscript', 'v6')), ('01 Manuscript/v7', os.path.join(here, '..', '..', '01 Manuscript', 'v7'))]
+FOLDERS = [('01 Manuscript/v6', os.path.join(here, '..', '..', '01 Manuscript', 'v6')), ('01 Manuscript/v7', os.path.join(here, '..', '..', '01 Manuscript', 'v7')), ('01 Manuscript/v9', os.path.join(here, '..', '..', '01 Manuscript', 'v9'))]
 book = json.load(open(os.path.join(here, 'book.json')))
 CH = [c for p in book['parts'] for c in p['chapters']]
 
@@ -46,7 +46,7 @@ for label, folder in FOLDERS:          # later folders (v7) override earlier one
     seen_dupe = {}
     for f in sorted(glob.glob(os.path.join(folder, '*.md'))):
         base = os.path.basename(f)[:-3]
-        if base.lower().startswith('readme'): continue
+        if base.lower().startswith('readme') or base.startswith('_'): continue
         stem = re.sub(r'^\d+\s*[\u2014\-]\s*', '', base)
         txt = open(f, encoding='utf-8').read()
         lines = txt.split('\n')
