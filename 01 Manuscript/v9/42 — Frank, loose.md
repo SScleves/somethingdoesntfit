@@ -26,7 +26,7 @@ There was a reason for that, and it was his. In his kitchen in the summer he'd p
 
 So I put two things on the table and kept my mouth shut.
 
-The first was a sheet I'd made myself. Thirty-one years of quarterly invoices from a foundation to the bank, pulled from our own ledgers one evening, a line per quarter: *continuity reconciliation (recall index), per flagged person*, with the number of persons, the rate and the total.
+The first was a sheet I'd made myself. Thirty-one years of quarterly invoices from a foundation to the bank, pulled from our own ledgers one evening, a line per quarter: *Continuity reconciliation (recall index). Per flagged person*, with the number of persons, the rate, the total, and the same two initials approving every one.
 
 The second was a stack. The same foundation's annual accounts, which it has to publish, like any charity. Thirty-one of them. I'd downloaded them from the register for nothing. Income on one page, grants made on another.
 
@@ -60,7 +60,7 @@ He started with the invoice, because it was one page. He's good with numbers; it
 
 He put the pen down. "The what?"
 
-"The job Pieter told the team was a honeypot. That's what it sends. Staff numbers and two words. It's billed per head, to these people."
+"The job Pieter told you lot was a honeypot, the week I was out. That's what it sends. Staff numbers and two words. It's billed per head, to these people."
 
 "That's not what a honeypot—" He stopped. He looked at the last step on the sheet, and at the date beside it, and I watched him work out which week in June that was. He didn't say it. He picked the pen up again.
 

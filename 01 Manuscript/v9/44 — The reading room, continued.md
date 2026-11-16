@@ -98,7 +98,7 @@ She didn't answer.
 
 "The annex isn't on the table."
 
-"No. It's in a file at your bank with your initials on it, and it's the cleanest reconciliation that program has had in years. Every name checked against a record. Every vendor allocation signed for. The pets clause read, I'm told, and initialed anyway." He inclined his head. "Thank you for that. Genuinely. It saved somebody a week."
+"No. It's in a file at your bank with your initials on it, and it's the cleanest reconciliation that program has had in years. Forty-nine rows, every name checked against a record. Nine vendor allocations signed for. Four pages initialed, and your manager under each. The pets clause read, I'm told, and initialed anyway." He inclined his head. "Thank you for that. Genuinely. It saved somebody a week."
 
 I'd known that was coming, in some form, since Pieter's office. It still landed.
 
@@ -110,7 +110,7 @@ I'd known that was coming, in some form, since Pieter's office. It still landed.
 
 He didn't answer that. He reached, instead, into the inside pocket of his jacket, and took out a single folded sheet, and unfolded it, and I knew the form before he'd got it flat, because I'd signed it on the hood of a car.
 
-"Anneke," he said, "you should hear this. It's from Mr. Klippe's own employer. A wellbeing referral, from September." He read it in a kind voice, like a man reading a reference. "*Recent bereavement (family). Disturbed sleep. Preoccupation with historical documents.* Signed by his manager." He paused. "And countersigned by Mr. Klippe. On the same day. Which I thought was very honest of him."
+"Anneke," he said, "you should hear this. It's from Mr. Klippe's own employer. A wellbeing referral, from September." He read it in a kind voice, like a man reading a reference. "*Wellbeing referral, line manager. Recent bereavement, family. Disturbed sleep. Preoccupation with historical documents.* Signed by his manager." He paused. "And countersigned by Mr. Klippe. On the same day. Which I thought was very honest of him."
 
 He folded it and put it back in his pocket.
 

@@ -3,13 +3,11 @@
 "ch-the-reading-room-the-opening": {
 "file": "01 — The reading room.md",
 "folder": "01 Manuscript/v9",
-"words": 498,
-"status": "santi",
-"blurb": "[J]. Movement I opens here, from the middle of the book. Santi's pass needed.",
+"words": 825,
+"status": "draft",
+"blurb": "[J]. REWRITTEN. The copied draft was the old v6 cold open at a kitchen table, which the plan dropped; this is the reading room opening from THE BOOK v8.2, with the \"you were counted\" line cut so \"The payload\" keeps its t",
 "guess": false,
-"mentions": [
-"Ana"
-]
+"mentions": []
 },
 "ch-the-funeral": {
 "file": "02 — The funeral.md",
@@ -70,9 +68,9 @@
 "ch-utrecht-1993": {
 "file": "08 — Utrecht, 1993.md",
 "folder": "01 Manuscript/v9",
-"words": 829,
+"words": 881,
 "status": "draft",
-"blurb": "[K-past]. Third person. Invented people, invented paper, real city. Answers the question the sentence just asked: *who says yes?*",
+"blurb": "[K-past]. KEPT. Three small additions the plan needs: the two lunches (the children's schooling, the colleagues who declined), the word \"seats\", and the closing note now ends on Verhoef's death in 1995 on a canal road in",
 "guess": false,
 "mentions": [
 "Koster",
@@ -82,9 +80,9 @@
 "ch-leave-it": {
 "file": "09 — Leave it.md",
 "folder": "01 Manuscript/v9",
-"words": 1943,
+"words": 1970,
 "status": "draft",
-"blurb": "[J]. Follows the sentence. The name arrives on paper. The first lie told to his face.",
+"blurb": "[J]. EDITED. Now starts from Julian's payroll question: James compares the recovery plan's inventory with what actually runs and finds one job more. The dealer's letter is a reply to his own (a copy for sale, the Devente",
 "guess": false,
 "mentions": [
 "James",
@@ -99,15 +97,14 @@
 "ch-the-control-case": {
 "file": "11 — The control case.md",
 "folder": "01 Manuscript/v9",
-"words": 1876,
+"words": 2018,
 "status": "draft",
-"blurb": "[J]. The method, shown. The thin book opened. The professor got there first.",
+"blurb": "[J]. EDITED (Structure 01 marks it Keep, but the copied v6 draft predates canon). The third copy now comes from Groningen, expensive, with the lie to Ana about the price; the thin book's last page holds a library referen",
 "guess": false,
 "mentions": [
 "Ana",
 "Buddy",
 "Mora",
-"Beard Man",
 "the professor",
 "Tresidder"
 ]
@@ -115,16 +112,15 @@
 "ch-the-week-it-vanished": {
 "file": "14 — The week it vanished.md",
 "folder": "01 Manuscript/v9",
-"words": 1912,
+"words": 2089,
 "status": "draft",
-"blurb": "[J]. The turn of Movement I. Somebody reaches into the plate while he's watching.",
+"blurb": "[J]. REWRITTEN. Now the last chapter of Part One, after Groningen. The job is not erased: it is renamed, given an owner and a backdated ticket, and his own ticket is closed against it; only his screenshot shows the old n",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
 "Buddy",
 "Mora",
-"Frank",
 "Pieter",
 "Beard Man",
 "the professor"
@@ -145,28 +141,33 @@
 "ch-frank-s-kitchen": {
 "file": "17 — Frank's kitchen.md",
 "folder": "01 Manuscript/v9",
-"words": 1801,
+"words": 2616,
 "status": "draft",
-"blurb": "[J]. Movement II opens. Three Noise scenes folded into one evening; one Thread with a page number. Frank's list. Disclosure on the TV, nobody looks up.",
+"blurb": "[J]. EDITED. James now arrives wanting his own evidence killed: Frank kills the screenshot, James copies Frank's two columns for his own material, and on the stairs Frank says the job is a honeypot, which Pieter told the",
 "guess": false,
 "mentions": [
 "James",
+"Ana",
+"Buddy",
+"Mora",
 "Frank",
-"Pieter"
+"Pieter",
+"Beard Man"
 ]
 },
 "ch-the-math": {
 "file": "18 — The math.md",
 "folder": "01 Manuscript/v9",
-"words": 2257,
+"words": 2845,
 "status": "draft",
-"blurb": "[J]. The style guide arrives as an object. The arithmetic. He stops calling people. The recruiter's email.",
+"blurb": "[J]. REWRITTEN. James now goes to Deventer first, carries the neighbor's kind version to Els and is shown out; the bucket line to Buddy brings her back a week later with the folder. He does the arithmetic and, instead of",
 "guess": false,
 "mentions": [
 "Ana",
 "Buddy",
 "Mora",
-"Kalder",
+"Frank",
+"Pieter",
 "Els",
 "Beard Man"
 ]
@@ -174,37 +175,39 @@
 "ch-a-round-with-a-stranger": {
 "file": "07 — A round with a stranger.md",
 "folder": "01 Manuscript/v9",
-"words": 1587,
+"words": 1477,
 "status": "draft",
-"blurb": "[J]. The vacuum cleaner. Dave. He asks about the dog first. The reader has the name from the email; James has a Wednesday.",
+"blurb": "[J]. EDITED. Opens on the letter to three dealers; the man is Julian and they are paired; the job interview and the new employer are cut (James never changes employer); James gives away the dog's name, Ana's spring and t",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
-"Buddy",
-"Dave"
+"Buddy"
 ]
 },
 "ch-a-car-park": {
 "file": "20 — A car park.md",
 "folder": "01 Manuscript/v9",
-"words": 625,
+"words": 659,
 "status": "draft",
-"blurb": "[K]. Third person. Reporting upward. The understatement that moves the date. Forty words of his own speech.",
+"blurb": "[K]. EDITED. The handler now reports that the subject signed the form and stopped asking; the review moves once, from the spring to the end of the year (the first of only two moves in the book). The handler's name, \"the ",
 "guess": false,
 "mentions": []
 },
 "ch-leiden": {
 "file": "21 — Leiden.md",
 "folder": "01 Manuscript/v9",
-"words": 1904,
+"words": 1994,
 "status": "draft",
-"blurb": "[J]. The second head. Not alone. The generals' manual on a kitchen table. Entry #26. The second column.",
+"blurb": "[J]. EDITED. New opening: James posts the reply beside page three, Noor writes to make him take it down, and he deletes his own evidence before she gives an address. In her kitchen she now says why the plain version is t",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
+"Buddy",
+"Frank",
 "Noor",
+"Els",
 "the professor",
 "Verhoef"
 ]
@@ -212,24 +215,23 @@
 "ch-enjoy-it-while-it-lasts": {
 "file": "25 — Enjoy it while it lasts.md",
 "folder": "01 Manuscript/v9",
-"words": 1785,
+"words": 1719,
 "status": "draft",
-"blurb": "[J]. Meerwijk. The defaults with the blind spot built in. Access shrinks by exactly the right amount. The White Knight, by email. Dave at the barbecue is next; this is the turn.",
+"blurb": "[J]. REWRITTEN. Meerwijk is gone; James never changes employer. He goes to look at the renamed job and the new tools hide it under a default on page 212. He tells Saskia what the rule hides, guesses wrong about what she ",
 "guess": false,
 "mentions": [
-"Ana",
+"James",
 "Buddy",
 "Frank",
-"Noor",
-"Dave"
+"Pieter"
 ]
 },
 "ch-a-room-with-a-long-table": {
 "file": "26 — A room with a long table.md",
 "folder": "01 Manuscript/v9",
-"words": 1249,
+"words": 1263,
 "status": "draft",
-"blurb": "[K]. Third person. Kalder and Bram. The reader learns what the count counts, in conversation, not in a memo. Movement II ends here.",
+"blurb": "[K]. EDITED. Added: this is one region with one handler to a bank; the plan for James is to buy him; the schedule will reach him through the annex he signed, and what he does with it is the test. Corrected to the new cha",
 "guess": false,
 "mentions": [
 "Bram"
@@ -238,9 +240,9 @@
 "ch-the-gorilla-mask": {
 "file": "29 — The gorilla mask.md",
 "folder": "01 Manuscript/v9",
-"words": 1785,
+"words": 2126,
 "status": "draft",
-"blurb": "[J]. Movement III opens. His words come back improved. The barbecue. Buddy won't go near him. The click is the reader's; James files it.",
+"blurb": "[J]. EDITED. He now says yes to the barbecue as a test with a control (the invented title dropped on Frank), the restored post is the one he deleted for Noor, \"Deventer\" is said here, and he builds the watcher that night",
 "guess": false,
 "mentions": [
 "James",
@@ -248,64 +250,63 @@
 "Buddy",
 "Mora",
 "Frank",
-"Noor",
-"Dave"
+"Els"
 ]
 },
 "ch-on-land": {
 "file": "28 — On land.md",
 "folder": "01 Manuscript/v9",
-"words": 1501,
+"words": 1418,
 "status": "draft",
-"blurb": "[J]. The pub. A town he never said. The threat is about houses and dogs. The scene ends on him. The jokes stop.",
+"blurb": "[J]. EDITED. Kept the pub terrace, the toaster story and Ana's part; \"Dave\" is now Julian throughout. The Deventer slip, the threat about houses and dogs and the end of the friendship are removed (Deventer is said at the",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Frank",
+"the professor"
+]
+},
+"ch-the-schedule": {
+"file": "31 — The schedule.md",
+"folder": "01 Manuscript/v9",
+"words": 1513,
+"status": "draft",
+"blurb": "[J]. EDITED. The schedule now routes to him at the bank because he initialed Annex C (no second employer, no ledger room), he asks Ana to go before she reads it, \"companion\" is the annex's word, and after she leaves he t",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
 "Buddy",
 "Mora",
-"the professor",
-"Dave"
-]
-},
-"ch-the-schedule": {
-"file": "31 — The schedule.md",
-"folder": "01 Manuscript/v9",
-"words": 1458,
-"status": "draft",
-"blurb": "[J]. She reads the address. She leaves because of the danger, not the distance. She uses his name.",
-"guess": false,
-"mentions": [
-"James",
-"Ana",
-"Buddy",
-"Mora"
+"Pieter"
 ]
 },
 "ch-a-street-night": {
 "file": "33 — A street, night.md",
 "folder": "01 Manuscript/v9",
-"words": 659,
+"words": 995,
 "status": "draft",
-"blurb": "[K]. Third person. The visit. Deniable. The book never confirms what, if anything, he did.",
+"blurb": "[K]. EDITED. The visit is no longer deniable: he is there to recover the original notebook, the car in the drive and the camera on the front door are why he cannot go in by day, and four days before the printed date he u",
 "guess": false,
 "mentions": []
 },
 "ch-the-vet": {
 "file": "34 — The vet.md",
 "folder": "01 Manuscript/v9",
-"words": 2075,
+"words": 2163,
 "status": "draft",
-"blurb": "[J]. Buddy's night. The vigil. He finally checks a person. Noor won't be a witness. The shelfmark. Noor goes dark.",
+"blurb": "[J]. EDITED. It now happens four days before the date he was guarding: the vet has Buddy booked for Thursday, the camera shows a quiet front door, the thin book is gone, and he says it plainly. In Leiden he shows Noor th",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
 "Buddy",
+"Frank",
 "Kalder",
 "Noor",
-"the professor",
-"Dave"
+"Els",
+"the professor"
 ]
 },
 "ch-a-corridor-sixteen": {
@@ -313,16 +314,16 @@
 "folder": "01 Manuscript/v9",
 "words": 924,
 "status": "draft",
-"blurb": "[J-past]. Third person. The hospital. The first time he was told to leave something and did. No voice-over, no lesson.",
+"blurb": "[J-past]. KEPT. Unchanged apart from the title, one number (twenty-five years, to match his age) and American spelling; it now sits after \"The other ten\", directly before the floor. Source: v6/22.",
 "guess": false,
 "mentions": []
 },
 "ch-the-night-he-stops-being-afraid": {
 "file": "38 — The night he stops being afraid.md",
 "folder": "01 Manuscript/v9",
-"words": 2171,
+"words": 1988,
 "status": "draft",
-"blurb": "[J]. The crossing. Sober, flat, domestic. No light. No how. The list re-reads itself. He says the word once, to a dog, and is embarrassed.",
+"blurb": "[J]. EDITED. The floor now has a cause: Henk's words are a second copy of what he filed at the funeral, so he sits down to read his own again. He gets the hand and no words, and the cold hand afterward. The many lives, t",
 "guess": false,
 "mentions": [
 "James",
@@ -334,9 +335,9 @@
 "ch-the-long-table-again": {
 "file": "40 — The long table, again.md",
 "folder": "01 Manuscript/v9",
-"words": 909,
+"words": 945,
 "status": "draft",
-"blurb": "[K]. Third person. The crossing, reported. He uses the first name. The reader learns Kalder has hands. The date moves. Movement III ends.",
+"blurb": "[K]. EDITED. Kalder now sees the crossing on the Wednesday round, from the terrace, and no longer watches from the lane; no date moves; Bram authorizes the offer of five seats and says he will go himself when the time co",
 "guess": false,
 "mentions": [
 "James",
@@ -346,9 +347,9 @@
 "ch-twenty-minutes": {
 "file": "41 — Twenty minutes.md",
 "folder": "01 Manuscript/v9",
-"words": 1742,
+"words": 2126,
 "status": "draft",
-"blurb": "[J]. Movement IV opens. He tells Ana everything, with objects, in her mother's kitchen. She gets the plan, not the memoir. The cooling half, understood.",
+"blurb": "[J]. EDITED. The scene and its order are kept; the objects are now the ones he made or signed (captures, referral, annex, watcher printouts, Henk's words, the flask, photographs where the thin book was). Added: Ana names",
 "guess": false,
 "mentions": [
 "James",
@@ -356,7 +357,7 @@
 "Buddy",
 "Mora",
 "Frank",
-"Bram",
+"Pieter",
 "Noor"
 ]
 },
@@ -381,32 +382,33 @@
 "folder": "01 Manuscript/v9",
 "words": 1015,
 "status": "draft",
-"blurb": "[K-past]. Third person. The one far back. Invented men, invented book, real city. The reader recognises the machine. The plate.",
+"blurb": "[K-past]. KEPT. Unchanged apart from the title and American spelling; it sits directly before the ledger is read, so the reader knows what the struck line is when James does not. Source: v6/27.",
 "guess": false,
 "mentions": []
 },
 "ch-the-dinner": {
 "file": "45 — The dinner.md",
 "folder": "01 Manuscript/v9",
-"words": 3234,
+"words": 3062,
 "status": "draft",
-"blurb": "[J]. The cold open, reached. The offer. The reveal that hurts, as an object. Ana present. Cat and mouse: nobody says the word. Ends on him.",
+"blurb": "[J]. REWRITTEN. This file held the v6 Bram scene (\"The table\"), which Structure 01 replaces: Kalder now comes uninvited as the answer to James's no, the talk is in code, Ana uses her mother's pills, and nobody touches th",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
 "Buddy",
-"Bram",
-"Noor",
-"Dave"
+"Mora",
+"Pieter",
+"Kalder",
+"Noor"
 ]
 },
 "ch-monday": {
 "file": "50 — Monday.md",
 "folder": "01 Manuscript/v9",
-"words": 1793,
+"words": 1973,
 "status": "draft",
-"blurb": "[J]. James on the sixth green at seven with Buddy in the cart and the phone face down; the board votes at item four, eleven to one; Anneke takes the chair; her call; why they don't kill him, said once. Source: v7/52. Dec",
+"blurb": "[J]. KEPT. Prose unchanged except Anneke's call, which gains the two lines Structure 01 names: the old man ran one region and they are all called the head; and the reason James lives, corrected (they have killed, rarely,",
 "guess": false,
 "mentions": [
 "Ana",
@@ -419,9 +421,9 @@
 "ch-leave-it-2": {
 "file": "53 — Leave it.md",
 "folder": "01 Manuscript/v9",
-"words": 1427,
+"words": 1960,
 "status": "draft",
-"blurb": "[J]. The date passes and nothing loud happens; the invoice steps down for the first time in thirty-one years; the nightly job is gone within a month, closed by a dull ticket James and Frank file together; the page from L",
+"blurb": "[J]. KEPT. Prose left alone apart from the three additions Structure 01 names: he switches the watcher off, Pieter asks whether he is still on the list (nobody is kept, the ones on it included), and the book gets a last ",
 "guess": false,
 "mentions": [
 "Ana",
@@ -435,69 +437,73 @@
 "ch-epilogue": {
 "file": "54 — Epilogue.md",
 "folder": "01 Manuscript/v9",
-"words": 1035,
-"status": "santi",
-"blurb": "[J]. Four years on: Buddy dies on his blankets at a quarter past two; the garden by the gate; \"he's in a better place, I'll see him soon,\" and this time he means it; page 212 gone; Ida at the bottom of the stairs. Source",
-"guess": false,
-"mentions": [
-"Ana",
-"Buddy",
-"Mora",
-"Frank"
-]
-},
-"ch-down-house-1860": {
-"file": "06 — Down House, 1860.md",
-"folder": "01 Manuscript/v9",
-"words": 1065,
+"words": 1521,
 "status": "draft",
-"blurb": "[Interlude, real]. Third person. Real events, real words. Ilkley, November 1859; Down, January 1860; a letter in 1863. Follows The sentence: \"if it was worth doing here, where else?\"",
-"guess": false,
-"mentions": []
-},
-"ch-the-payload": {
-"file": "10 — The payload.md",
-"folder": "01 Manuscript/v9",
-"words": 1982,
-"status": "draft",
-"blurb": "[J]. Follows Leave it. He captures the forty kilobytes. A list of people who wrote something down. His own line appears the night after he asked.",
+"blurb": "[J]. EDITED. He now holds Buddy's paw and says the sentence, once, before the phrase at the grave; his hope is the meeting (he will know the hand), not the method for leaving; Ana's half-asleep line about cracked knuckle",
 "guess": false,
 "mentions": [
 "Ana",
 "Buddy",
 "Mora",
 "Frank",
+"the professor"
+]
+},
+"ch-down-house-1860": {
+"file": "06 — Down House, 1860.md",
+"folder": "01 Manuscript/v9",
+"words": 1098,
+"status": "draft",
+"blurb": "[Interlude, real]. KEPT, with the corrections Structure 01 asks for: print run, the Butler epigraph, the exact words of the 1863 letter, no invented proof sheet or parcel, \"left the typos in\" removed (he corrected them),",
+"guess": false,
+"mentions": [
+"James",
+"Tresidder"
+]
+},
+"ch-the-payload": {
+"file": "10 — The payload.md",
+"folder": "01 Manuscript/v9",
+"words": 1991,
+"status": "draft",
+"blurb": "[J]. REWRITTEN. His number is already on the first capture as \"asked (job)\"; he then finds an older row, \"wrote (dealer)\", from before the stand-up, posts the question he deleted in the spring as a test input, and gets a",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Mora",
 "Pieter"
 ]
 },
 "ch-a-pension-visit-zwolle": {
 "file": "13 — A pension visit, Zwolle.md",
 "folder": "01 Manuscript/v9",
-"words": 1098,
+"words": 1147,
 "status": "draft",
-"blurb": "[K]. Third person. Under 900 words. No name, no lore. A kind afternoon. Each ending plausible.",
+"blurb": "[K]. KEPT. Two additions the chain needs: the visitor pours his own coffee from the flask, and he asks Henk, lightly, whether he recalls anything else. One correction: the police report no longer calls Henk widowed, sinc",
 "guess": false,
 "mentions": []
 },
 "ch-groningen": {
 "file": "12 — Groningen.md",
 "folder": "01 Manuscript/v9",
-"words": 2167,
+"words": 2029,
 "status": "draft",
-"blurb": "[J]. The dealer who wrote to him. The first helper, told what the phone call does. Ana on the phone from the car. Part One ends here.",
+"blurb": "[J]. EDITED. Moved before \"The week it vanished\", so the vanished job and Frank's blank are gone from it. James now goes because of the \"wrote (dealer)\" row, says why before he asks, and shows the dealer the printed rows",
 "guess": false,
 "mentions": [
+"James",
 "Ana",
 "Buddy",
-"Frank",
 "Pieter",
-"the professor"
+"the professor",
+"Tresidder"
 ]
 },
 "ch-croton-530-bc": {
 "file": "16 — Croton, 530 BC.md",
 "folder": "01 Manuscript/v9",
-"words": 284,
+"words": 281,
 "status": "draft",
 "blurb": "[Interlude, real]. EDITED. Now told as what the source is: a contemporary rival's verse mocking Pythagoras, quoted centuries later, with no place or year in it. Three factual slips corrected (who wrote it down and when, ",
 "guess": false,
@@ -506,52 +512,56 @@
 "ch-the-corporate-day": {
 "file": "19 — The corporate day.md",
 "folder": "01 Manuscript/v9",
-"words": 1894,
+"words": 2436,
 "status": "draft",
-"blurb": "[J]. The bank's golf day. Kalder with a vendor's lanyard, and James honestly glad. He sells the bank its continuity. Ana at the end, on the phone, about the dogs.",
-"guess": false,
-"mentions": [
-"James",
-"Ana",
-"Buddy",
-"Mora"
-]
-},
-"ch-the-drill": {
-"file": "23 — The drill.md",
-"folder": "01 Manuscript/v9",
-"words": 2016,
-"status": "draft",
-"blurb": "[J]. First week on the continuity programme. The recovery site. Desk forty. A glass door upstairs he isn't badged for. He notes a reference-number format and doesn't connect it.",
-"guess": false,
-"mentions": [
-"Ana",
-"Buddy",
-"Pieter",
-"the professor"
-]
-},
-"ch-the-money": {
-"file": "24 — The money.md",
-"folder": "01 Manuscript/v9",
-"words": 2061,
-"status": "draft",
-"blurb": "[J]. The invoices. A line to the foundation, billed per flagged person, stepping up for thirty-one years; the last step the week he opened his ticket. The second contract. The annex: the seat list, no dogs. Ana reads it ",
+"blurb": "[J]. EDITED. Added: Pieter hands James a wellbeing referral in the car park with the reason already typed, James signs it on the hood and keeps the copy, Julian sees, James asks who decides who gets a seat, and that even",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
 "Buddy",
 "Mora",
-"Pieter"
+"Pieter",
+"Els"
+]
+},
+"ch-the-drill": {
+"file": "23 — The drill.md",
+"folder": "01 Manuscript/v9",
+"words": 1794,
+"status": "draft",
+"blurb": "[J]. EDITED. James now goes to the drill wanting to see the building, and does one thing there: he counts, finds nine named desks with no person, and writes the names down. He matches the shelfmark format through the shu",
+"guess": false,
+"mentions": [
+"Ana",
+"Buddy",
+"Pieter",
+"Noor",
+"the professor"
+]
+},
+"ch-the-money": {
+"file": "24 — The money.md",
+"folder": "01 Manuscript/v9",
+"words": 1756,
+"status": "draft",
+"blurb": "[J]. REWRITTEN. James no longer finds the annex and the invoices by reading a folder: his first program task is to reconcile Annex C against HR and sign it. Saskia tells him his role was ticked in June; he finds nine nam",
+"guess": false,
+"mentions": [
+"James",
+"Buddy",
+"Frank",
+"Pieter",
+"Anneke",
+"Noor"
 ]
 },
 "ch-leiden-nine-years-ago": {
 "file": "27 — Leiden, nine years ago.md",
 "folder": "01 Manuscript/v9",
-"words": 1746,
+"words": 1856,
 "status": "draft",
-"blurb": "[K-past]. Third person. Kalder's crossing, from his side. Twenty minutes of Noor's silence. He files it, watches the date move, asks for more names. The seat is a promotion he wanted.",
+"blurb": "[K-past]. EDITED. Added Kalder's line: when it went through him there was nobody there, so he asked for the seat. The review date no longer moves in this chapter (the two moves are in \"A car park\" and \"The leak\"); the cr",
 "guess": false,
 "mentions": [
 "Kalder",
@@ -561,26 +571,23 @@
 "ch-the-promise": {
 "file": "30 — The promise.md",
 "folder": "01 Manuscript/v9",
-"words": 914,
+"words": 963,
 "status": "draft",
-"blurb": "[J]. Short. The kitchen floor, four in the morning, after the barbecue. One day I'm going to need you to believe me. Run where, I've got a Doberman. Then the other voice: okay.",
+"blurb": "[J]. KEPT. Small corrections only: his fear now has its specific reason (they can write as him, so the promise must be said to her face), the finished-sentence tell is cut, Deventer is corrected to a town he never named ",
 "guess": false,
 "mentions": [
 "Ana",
 "Buddy",
 "Mora",
-"Frank",
-"Kalder",
-"Beard Man",
-"the professor"
+"Frank"
 ]
 },
 "ch-washington-1953": {
 "file": "32 — Washington, 1953.md",
 "folder": "01 Manuscript/v9",
-"words": 1204,
+"words": 1004,
 "status": "draft",
-"blurb": "[Interlude, real]. Five scientists, one long weekend, a recommendation. Real people doing documented things; the quoted words are the report's own. Follows The schedule.",
+"blurb": "[Interlude, real]. KEPT. \"Long weekend\" is now four days in January; the long quoted sentence is left with Frank and the room is given here; claims I could not stand behind are cut or softened (page count, the classifica",
 "guess": false,
 "mentions": []
 },
@@ -589,7 +596,7 @@
 "folder": "01 Manuscript/v9",
 "words": 1144,
 "status": "draft",
-"blurb": "[K]. Third person. Under 900 words. Kalder makes Noor quiet in one afternoon with a clipboard and a kind voice. No threat is made. She makes him tea again.",
+"blurb": "[K]. KEPT. Unchanged apart from American spelling; it now sits where the reader sees the bill for James's visit before he hears of it in \"The other ten\". Source: v7/35.",
 "guess": false,
 "mentions": [
 "James",
@@ -601,9 +608,9 @@
 "ch-urfa-1994": {
 "file": "39 — Urfa, 1994.md",
 "folder": "01 Manuscript/v9",
-"words": 1030,
+"words": 1022,
 "status": "draft",
-"blurb": "[Interlude, real]. A German archaeologist climbs a hill the farmers call Potbelly. Real events; Tresidder is fifteen kilometres away and the chapter never says he found it. Follows The night he stops being afraid.",
+"blurb": "[Interlude, real]. KEPT. One addition, saying plainly what moved (monumental building before farming) and that the burial and the \"temple\" are still argued; details I could not stand behind are cut or softened (the labor",
 "guess": false,
 "mentions": [
 "James",
@@ -614,25 +621,25 @@
 "ch-the-other-ten": {
 "file": "36 — The other ten.md",
 "folder": "01 Manuscript/v9",
-"words": 2526,
+"words": 2631,
 "status": "draft",
-"blurb": "[J]. The other addresses on the schedule, checked against public records. Three resolved, plausibly. Four quiet. Zwolle, the widow, the flask. He tells her nothing yet. Ana on the phone from her mother's.",
+"blurb": "[J]. REWRITTEN. Moved up, before the floor. His own alert goes off, he checks the ten addresses against public records himself, learns from a colleague that Noor has stopped taking private work, and drives to Zwolle with",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
 "Buddy",
-"Mora",
 "Frank",
-"Noor"
+"Noor",
+"Els"
 ]
 },
 "ch-frank-loose": {
 "file": "42 — Frank, loose.md",
 "folder": "01 Manuscript/v9",
-"words": 2207,
+"words": 1930,
 "status": "draft",
-"blurb": "[J]. James shows Frank the money. For the first time they talk the big ideas straight. Frank's verdict: I still don't believe it; I believe the invoice. Buddy under the table. Ana home.",
+"blurb": "[J]. EDITED. \"The band\" is folded in: James brings the foundation's published accounts and the invoice and says nothing, and Frank finds the grants in the cold years himself, plus one cold year with no grant that neither",
 "guess": false,
 "mentions": [
 "James",
@@ -640,39 +647,45 @@
 "Buddy",
 "Mora",
 "Frank",
-"Pieter"
+"Pieter",
+"Els"
 ]
 },
 "ch-the-reading-room-continued": {
 "file": "44 — The reading room, continued.md",
 "folder": "01 Manuscript/v9",
-"words": 2623,
+"words": 2769,
 "status": "draft",
-"blurb": "[J]. The opening, picked up from the cut. James puts the recent, cool stuff on the table. The old man confirms only the general method, and makes the offer: five seats, no dogs. James says no. Part Two ends here.",
+"blurb": "[J]. REWRITTEN. He asks first: the reference on a slip, on the table, and Aylin is told to mark it \"in conservation\". He then collates both impressions against the 1931 ledger in pencil and lays down only paper he made o",
 "guess": false,
 "mentions": [
 "Ana",
 "Buddy",
 "Frank",
+"Pieter",
 "Anneke",
+"Noor",
 "Aylin",
-"the professor"
+"the professor",
+"Tresidder"
 ]
 },
 "ch-what-was-on-the-phone": {
 "file": "46 — What was on the phone.md",
 "folder": "01 Manuscript/v9",
-"words": 1945,
+"words": 2271,
 "status": "draft",
-"blurb": "[J]. Follows The dinner: Kalder asleep at the table, Ana's mother's pills, the phone unlocked with a sleeping thumb. Forty minutes. The handlers by code. The schedule. The seats for four companies. And the list he didn't",
+"blurb": "[J]. REWRITTEN. Now a two-hander: Kalder awake across the table with his flask while James reads, and checks the gift against his own annex (desk twelve sold four times) and against what Frank, the dealer and the site ma",
 "guess": false,
 "mentions": [
-"James",
 "Ana",
 "Buddy",
+"Mora",
 "Frank",
 "Pieter",
 "Kalder",
+"Anneke",
+"Aylin",
 "the professor"
 ]
 },
@@ -694,31 +707,36 @@
 "ch-the-sheets": {
 "file": "47 — The sheets.md",
 "folder": "01 Manuscript/v9",
-"words": 2796,
+"words": 4727,
 "status": "draft",
-"blurb": "[J]. Three weeks. One page per person. We watch him deliver them: Pieter after hours; the dealer; the brewer who reports it; Anneke, who reads the invoice thirty times and asks for the rest; Aylin, who shows him the visi",
+"blurb": "[J]. EDITED. The sheet gains its third box (your desk on three other lists); Saskia, Marijke, Els, Frank, Beard Man and James's own sheet are added; the brewery man now refuses (\"I'm in\") instead of being embarrassed; th",
 "guess": false,
 "mentions": [
 "Ana",
+"Buddy",
+"Mora",
 "Frank",
 "Pieter",
 "Anneke",
 "Aylin",
+"Els",
+"Beard Man",
 "the professor"
 ]
 },
 "ch-the-leak": {
 "file": "48 — The leak.md",
 "folder": "01 Manuscript/v9",
-"words": 2379,
+"words": 2714,
 "status": "draft",
-"blurb": "[J]. The brewer's report reaches them. The review comes forward to Monday. Handlers are sent to three addresses. Pieter rings from his car: there's a man at my door. Let him in, make tea, say nothing.",
+"blurb": "[J]. EDITED. The calendar is now Friday 20 December, the review pulled from 31 December to Monday 23 (the second and last move); the man at Pieter's door is Bram, and Pieter hands him the sheet on his own, against James'",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
 "Buddy",
 "Mora",
+"Frank",
 "Pieter",
 "Anneke"
 ]
@@ -726,9 +744,9 @@
 "ch-the-night-before": {
 "file": "49 — The night before.md",
 "folder": "01 Manuscript/v9",
-"words": 3256,
-"status": "santi",
-"blurb": "[J]. Twelve envelopes to the twelve board members before Monday; Ana drives, Mora in the back, Frank has Buddy; a van for a while; midnight at the depot with Aylin; six in the morning, Anneke's doorstep. Source: v7/51. `",
+"words": 4648,
+"status": "draft",
+"blurb": "[J]. EDITED. Buddy goes to Frank's because the mother's flat has stairs, not because her house is on the schedule; at midnight Aylin strikes \"in conservation\" from his slip and brings the item, Tresidder's 1929 letter, w",
 "guess": false,
 "mentions": [
 "James",
@@ -739,15 +757,16 @@
 "Anneke",
 "Noor",
 "Aylin",
-"the professor"
+"the professor",
+"Tresidder"
 ]
 },
 "ch-the-final-conversation": {
 "file": "51 — The final conversation.md",
 "folder": "01 Manuscript/v9",
-"words": 2308,
+"words": 2950,
 "status": "draft",
-"blurb": "[J]. The old man, removed, in the reading room one last time, Anneke beside him, James with nothing in his hands; the nine beats in order, as a conversation that keeps getting interrupted; the terms; the one last thing, ",
+"blurb": "[J]. REWRITTEN. The table now has objects on it: Tresidder's letter, brought by Aylin because the request stands, and the thin book, returned. The old man leads with the only news (they do it on purpose, to come back), c",
 "guess": false,
 "mentions": [
 "Frank",
@@ -755,21 +774,30 @@
 "Kalder",
 "Anneke",
 "Aylin",
-"the professor"
+"Tresidder"
 ]
 },
 "ch-a-market-sunday": {
 "file": "52 — A market, Sunday.md",
 "folder": "01 Manuscript/v9",
-"words": 1017,
+"words": 1573,
 "status": "draft",
-"blurb": "[K + phone]. Kalder, weeks into hiding, at a market; a colleague, another; surrounded by his own; James rings. Source: v7/54, rewritten. POV decision: third person on Kalder (v8.2 lists it as \"James and Kalder\"; James is",
+"blurb": "[K + phone]. EDITED. Moved from a border town to Beard Man's market: Kalder is found by his bag, because James told them what he carries and the three men in the country he'd let touch it, and one has a stall there. The ",
 "guess": false,
 "mentions": [
 "James",
 "Ana",
 "Kalder"
 ]
+},
+"ch-mexico-city-1994": {
+"file": "22 — Mexico City, 1994.md",
+"folder": "01 Manuscript/v9",
+"words": 698,
+"status": "draft",
+"blurb": "[Interlude, real]. NEW. Facts only about Jacobo Grinberg, his two-rooms experiment and his disappearance, with the note that the result was never solidly replicated and one sentence in which the narrator declines to conn",
+"guess": false,
+"mentions": []
 }
 },
 "unmatched": [],

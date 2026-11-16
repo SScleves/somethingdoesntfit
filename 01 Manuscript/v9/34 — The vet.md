@@ -78,7 +78,7 @@ I did. Asleep, on the blankets, gray to the eyebrows.
 
 It was a photo that finally got me to check a person.
 
-I had the barbecue pictures on my phone, the ones Ana had sent me afterward, *look at your face*, *look at the surveyor's hat*. In two of them, in the background, by the heater, there was Julian. And that afternoon I sent one of those pictures to Noor, in Leiden, because I was asking her about the forum man. That was all. The lonely one with the theories, who'd found our house from a picture; I wanted to know if he was a known thing, if he was harmless. I cropped it badly. I left in the heater.
+I had the barbecue pictures on my phone, the ones Ana had sent me afterward, *look at your face*, *look at Gert's hat*. In two of them, in the background, by the heater, there was Julian. And that afternoon I sent one of those pictures to Noor, in Leiden, because I was asking her about the forum man. That was all. The lonely one with the theories, who'd found our house from a picture; I wanted to know if he was a known thing, if he was harmless. I cropped it badly. I left in the heater.
 
 She rang me that night. She'd never rung me. We'd messaged and I'd sat in her kitchen, and she had never once used a telephone, and it rang, and I knew before I answered that it wasn't about the forum man.
 

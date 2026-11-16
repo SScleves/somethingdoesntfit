@@ -18,13 +18,13 @@ The three pages. "This is the style guide the edits were made from. His daughter
 
 The captures. "This is a job that runs every night at the bank and sends forty kilobytes to a foundation. It's a list of staff numbers with two words beside each. I'm on it three times. *Wrote (dealer). Asked (job). Posted (forum).* After I asked what it was, it got a new name, an owner and a ticket. This screenshot is the only place the old name still exists. The bank pays for it per person. It's called a recall index. I don't know what they do with the number."
 
-The referral. "This is a form Pieter gave me in a car park. Bereavement, sleep, preoccupation with historical documents. I signed it."
+The referral, the yellow copy. "This is a form Pieter gave me in a car park at the golf day. Bereavement, sleep, preoccupation with historical documents. I signed it."
 
 "You *signed* it?"
 
-"On the hood of the car. It seemed polite."
+"On the hood of the car. It seemed polite. I kept the yellow one."
 
-The annex. "This is a list of who gets a desk and a bed if the bank burns down, and their families. It says no pets. Those are my initials at the bottom. I checked it for them."
+The annex. "This is a list of who gets a desk and a bed if the bank burns down, and their families. Forty-nine rows. Nine of them are people the bank has never employed. It says no pets. Those are my initials on all four pages, and that's Pieter's under them. I checked it for them."
 
 The page from the schedule. She looked at it and didn't touch it. "You've seen that."
 
@@ -44,7 +44,7 @@ The flask. "And this is what the nice man left on her table. Julian carries one 
 
 The slip from Noor. "This is a number a woman in Leiden wrote from memory because I asked instead of argued. It's an item in the foundation's archive. She's gone quiet since. Not dead. Working. There's a difference, and it's my fault."
 
-Page 212. "This is the tool Frank sent us a link about, with the skull. It's been told, out of the box, never to see the job. One boring sentence in the defaults. It's got a review date on it, the thirty-first of December."
+Page 212. "This is the tool Frank sent us a link about, with the skull. It's been told, out of the box, never to see the job. One boring sentence in the defaults, that only a role called vendor support can see. Revision four. It's got a review date on it, the thirty-first of December."
 
 And then the last thing, which wasn't an object, so I put my hand flat on the cloth where it would have gone.
 

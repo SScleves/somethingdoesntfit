@@ -1,4 +1,4 @@
-> Status: 🟡 v8 DRAFT — Claude, 2 Nov 2026. [J]. James on the sixth green at seven with Buddy in the cart and the phone face down; the board votes at item four, eleven to one; Anneke takes the chair; her call; why they don't kill him, said once. Source: v7/52. Decision: Anneke's call gives only the result and the summons to the reading room; the terms and the "one last thing" move to The final conversation so they aren't said twice.
+> Status: 🟡 v9 — Claude, 16 Nov 2026. [J]. KEPT. Prose unchanged except Anneke's call, which gains the two lines Structure 01 names: the old man ran one region and they are all called the head; and the reason James lives, corrected (they have killed, rarely, each time somebody's mistake; now two hundred and ninety people hold their own names). Reading-room summons moved to Friday because the 26th is a holiday. American spelling. Source: v8/52.
 
 # Monday
 
@@ -76,7 +76,7 @@ The phone buzzed against the bench at twenty to ten. It buzzed twice. I let it b
 
 I couldn't say anything else. I was looking at the dog.
 
-"He's asked to see you," she said. "The old one. Thursday, in the reading room. I'll be there. He'd like to talk, he says, because it no longer matters." Another pause. "Bring nothing. I'll tell you the terms there. I don't like telephones."
+"He's asked to see you," she said. "The old one. Friday, in the reading room. I'll be there. He'd like to talk, he says, because it no longer matters." Another pause. "You should know what he was, before you sit down with him. He ran this region. One region, the east of one small country, and a building with a generator. He's called the head because they're all called the head. I've spoken to two others this morning, and they both answered to it." The faintest dryness. "I had thought we were dealing with something larger. We're dealing with a man who liked a chair. Bring nothing. I'll tell you the terms there. I don't like telephones."
 
 "Can I ask you something?"
 
@@ -86,7 +86,7 @@ I couldn't say anything else. I was looking at the dog.
 
 She didn't answer straight away. I heard her close a door on her end.
 
-"Because it was cheap," she said. "Before. One man, one address, a plausible ending, nobody to connect it. That's the whole method — nobody ever sees a hand." A breath. "You've given two hundred people a page with their own name on it. Eleven of them sat in a room this morning holding one. If anything happens to you now, two hundred people know who did it, and they're the two hundred who do the work. A body would confirm every envelope." The faintest dryness. "You made yourself too expensive. I don't think you planned it."
+"I asked that too," she said. "On Saturday. I'll give you the answer I was given, because I checked it against the files I've got, and it holds. They have killed. Rarely. I've found three in thirty-one years, in this region, and the canal is one. And each time it was somebody's mistake. A handler who got impatient, or frightened, or liked a car. Nobody above him asked for it, and each time it cost them a year of tidying, because a body is the one thing that can't be reclassified." A breath. "That's the method. Not that they won't. That they'd rather not, and they're very good at rather not. Before, you were one man at one address, with a plausible ending available. Now you've given two hundred and ninety people a page with their own name on it. Eleven of them sat in a room this morning holding one. If anything happened to you, two hundred and ninety people would know who did it, and they're the two hundred and ninety who do the work. A body would confirm every envelope." The dryness again. "You made yourself too expensive to be a mistake. I don't think you planned it."
 
 "I didn't."
 
@@ -100,7 +100,7 @@ I said "fuck" — quietly, to the green, not angry, just to have said something 
 
 Then I rang my dad, which I hadn't planned and don't do on Mondays, and he asked if something was wrong, and I said no, and we talked about his gutters for six minutes. It was the best conversation we've had in years. He doesn't know why.
 
-The line of melted frost reached the far edge of the green, and the whole thing went from grey to that green that looks freshly painted.
+The line of melted frost reached the far edge of the green, and the whole thing went from gray to that green that looks freshly painted.
 
 Buddy woke up. He looked at me. He looked at the course. He made the small grunt that means he'd like to get down, which he hadn't made on a golf course since the summer, and I lifted him down — carefully, all twenty-eight kilos, my back registering a formal complaint — and set him on the grass.
 

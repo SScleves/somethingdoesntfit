@@ -84,11 +84,11 @@ I'm not good at code. I'd had eight months of other people's, and I was tired, a
 
 He didn't pause. He's too good to pause. He just stopped chewing a little early.
 
-"The one I made up," I said. "At the bar. You said the second half dragged."
+"*The Quiet Presses*," I said. "Van der Berg. I made it up at the bar and you'd read it. You said the chapter on the type foundries was the good bit."
 
 "Did I."
 
-"You were very fair about it."
+"Dry as a biscuit, you said. You were very fair about it."
 
 "What book?" Ana said.
 
@@ -108,7 +108,7 @@ He didn't pause. He's too good to pause. He just stopped chewing a little early.
 
 "I never saw it," Kalder said. He was looking at me with real interest, the way he'd looked at the forum man talking about the Sphinx. "Is it any good?"
 
-"The second half drags."
+"Dry as a biscuit. The second half's the good bit."
 
 He laughed. I'll give him that. He laughed with his head back, and Mora thumped her tail against his shoe, and under the table Buddy went up a note.
 
@@ -242,7 +242,7 @@ Nobody said anything. Buddy started up again from the doorway, quietly.
 
 "Burn Notice," Ana said.
 
-"I told you, I never saw it." He almost smiled. "I'll take your word that it drags."
+"I told you, I never saw it." He almost smiled. "I'll take your word that it's dry."
 
 He got up. He was steady, which I hadn't expected. He walked down the hall to the bag by the door, unzipped the long side pocket, and came back with a steel flask.
 

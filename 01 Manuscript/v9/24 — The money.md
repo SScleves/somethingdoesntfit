@@ -36,7 +36,7 @@ The third week of June was the week I'd opened a ticket about a job with no owne
 
 It was a list. Everything in this story is a list. I've come to think that if you want to do something large and have nobody look at it, you do it as a list, because nobody reads lists.
 
-Forty-nine rows. Desk number, name, employee number, role, and a column headed *dependents per allocation* with a two or a three or a four in it. Desk one was Anneke de Wit, our head of risk. Desk twelve was Pieter. *Dependants per allocation: 3.* He has two children. It took me a moment to get to three, and when I did I decided not to mention at home that a wife is a dependent.
+Forty-nine rows. Desk number, name, employee number, role, and a column headed *dependents per allocation* with a two or a three or a four in it. Desk one was Anneke de Wit, our head of risk. Desk twelve was Pieter. *Dependents per allocation: 3.* He has two children. It took me a moment to get to three, and when I did I decided not to mention at home that a wife is a dependent.
 
 Frank wasn't on it. I wasn't on it. Desk forty, where I'd eaten a sandwich on Thursday, belonged to a man in Legal who'd been off sick since March. I'd been sitting in for him. That was why my card had been so white.
 

@@ -8,7 +8,7 @@ She'd been asking since September. *You've been nicer since Wednesday golf man, 
 
 I had a reason and I didn't give it to her. At the pub I'd named a book that doesn't exist and Julian had said he knew it. That's one reading. At work you don't wake anyone up for one reading. You want the same value again, from somewhere else, next to something you know is healthy. So I wanted Julian in a garden with other people in it, and I wanted Frank there, because Frank is the healthiest control I know. He has never once pretended to have read anything.
 
-So: the last Saturday of October, a heater on the patio, coats on. Frank. The neighbors, who are fine. One of the four retirees from the third hole, who turned out to be a retired surveyor with opinions about my grip. A man from the forum, a lonely one, who'd worked out where I lived from a photograph and turned up with a bottle of wine and theories, and whom Ana, to her enormous credit, fed.
+So: the last Saturday of October, a heater on the patio, coats on. Frank. Gert from two doors down, who is fine, and who turned out to have opinions about my grip. A man from the forum, a lonely one, who'd worked out where I lived from a photograph and turned up with a bottle of wine and theories, and whom Ana, to her enormous credit, fed.
 
 And Julian, with a six-pack of something craft and his flask, because he's a flask man.
 
@@ -42,11 +42,11 @@ Julian had been by the heater with a beer, quiet, very good at being quiet. "Tha
 
 That was when I did it. Frank was still glowing. Julian had come over to top up Ana's glass and was a step and a half behind him.
 
-"There's a book you'd like," I said to Frank, and I said the title. The same one, word for word, the way I'd said it at the pub. "It's all in there. The gorilla, the lot."
+"There's a book you'd like," I said to Frank. "*The Quiet Presses.* Van der Berg, I think. Dutch, fifties." The same words, in the same order, that I'd used at the pub. "It's all in there. The gorilla, the lot."
 
 "Never heard of it."
 
-"Seventies. Out of print."
+"Out of print."
 
 "Sounds made up." He said it happily, to the sausage. "Sounds like a book you'd invent to win an argument."
 
@@ -78,7 +78,7 @@ I didn't think it was him. I need to say that. I thought it was a *them*, some p
 
 He was, I'm going to say it plainly, *wonderful.*
 
-He was good with the surveyor. He was good with the neighbors. He let the forum man talk at him for twenty minutes about the Sphinx and said "huh" in all the right places and never once let his face do what mine was doing. And he was good with Ana. Better than good. He asked her about her grandmother. Not *sorry for your loss*. He asked what she'd been *like*, and Ana told him about the knitting, the undoing and redoing, and he listened the way almost nobody listens, with his whole body turned to her and his beer forgotten, and when she'd finished he said, "She sounds like somebody who knew the doing was the point," and Ana's eyes went bright and she went inside for a minute.
+He was good with Gert. He let the forum man talk at him for twenty minutes about the Sphinx and said "huh" in all the right places and never once let his face do what mine was doing. And he was good with Ana. Better than good. He asked her about her grandmother. Not *sorry for your loss*. He asked what she'd been *like*, and Ana told him about the knitting, the undoing and redoing, and he listened the way almost nobody listens, with his whole body turned to her and his beer forgotten, and when she'd finished he said, "She sounds like somebody who knew the doing was the point," and Ana's eyes went bright and she went inside for a minute.
 
 She found me in the kitchen later. "I like him."
 
@@ -104,7 +104,7 @@ I filed it, and I want to be exact about where. Under *he sells to half the east
 
 Buddy never went near him.
 
-All afternoon. Buddy goes near everyone, eventually, slowly, paying for every step. It's his whole policy. He went to the surveyor. He went to the forum man, which was a kindness. Then he lay down in the kitchen doorway and watched Julian for four hours and did not come out, and Julian, who'd asked about him before he asked my name, who'd crouched on a green to say hello, never once tried.
+All afternoon. Buddy goes near everyone, eventually, slowly, paying for every step. It's his whole policy. He went to Gert. He went to the forum man, which was a kindness. Then he lay down in the kitchen doorway and watched Julian for four hours and did not come out, and Julian, who'd asked about him before he asked my name, who'd crouched on a green to say hello, never once tried.
 
 Mora went over once. Sniffed his shoe. Came back. Didn't go again.
 
